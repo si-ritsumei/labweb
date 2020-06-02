@@ -9,8 +9,8 @@
     //set animation timing
 	var animationDelay = 0,
 		//loading bar effect
-		barAnimationDelay = 3800,
-		barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
+		barAnimationDelay = 0,
+		barWaiting = barAnimationDelay - 0, //3000 is the duration of the transition on the loading bar - set in the scss/css file
 		//letters effect
 		lettersDelay = 100,
 		//type effect
@@ -19,7 +19,7 @@
 		typeAnimationDelay = selectionDuration + 0,
 		//clip effect 
 		revealDuration = 1000,
-		revealAnimationDelay = 3000;
+		revealAnimationDelay = 0;
 
 //      var backgroundImgs = ['DSC09051-highlight.jpg', 'DSC_9363-highlight2.jpg'];
 
