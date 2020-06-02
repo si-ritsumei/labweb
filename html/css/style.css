@@ -37,7 +37,7 @@
     background-image: url("../img/DSC09051-highlight.jpg");
     background-size:cover;
     background-position: center;
-    max-width: 1200px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }</ul>
@@ -297,6 +297,11 @@ nav a.button-collapse {
     margin-top: 20px;
 }
 
+
+.card-avatar {
+	height: 310px;
+}
+
 .card-avatar img {
     height: 150px;
     width: 150px;
@@ -393,6 +398,8 @@ footer.page-footer {
 .normal{
   font-size: 14px;
   color: #434242;
+margin-top: 10px;
+	margin-bottom: 20px;
 }
 	
 .smallheader{
@@ -400,4 +407,92 @@ footer.page-footer {
 		color: #797979;
 		text-align: left
 	}
+
+.thinheader{
+	font-size:200%;
+	color: rgba(84,112,153,1.00);
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.blank{
+	margin-top: 30px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+	align : left;
+}
+
+.leftc {
+  width: 50%
+}
+
+.rightc {
+  width: 50%;
+}
+.ssmallheader{
+	font-size: 110%;
+	color: #797979;
+	text-align: left
+}
+
+.normalimg{
+	
+	all: unset;
+}
+
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+ol li {
+  counter-increment: my-awesome-counter;
+  margin: 10px 0;
+
+}
+ol li::before {
+  content: counter(my-awesome-counter) ". ";
+  color: normal;
+	font-weight: normal}
+
+
+.cardcolumn {
+  float: left;
+  width: 23%;
+margin-left: 2%
+}
+
+/* Clear floats after the columns */
+.cardrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.projectinfo{
+ 	margin-top: 10px;
+	padding-left: 5%;
+	padding-right: 5%
+}
+
+.pcardheader{
+	font-size: 150%;
+		color: #797979;
+		text-align: left
+}
+
+.pcardtext{
+	font-size: 80%;
+	text-align: left
+}
+
+.linkdiv
+{
+
+	position:absolute; 
+	bottom:10px;
+	right: 10px;
+}
 
