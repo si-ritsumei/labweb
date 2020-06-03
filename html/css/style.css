@@ -28,7 +28,7 @@
 #intro, #work, #team {padding-top: 4rem;}
 
 
-<ul>#index-banner {
+#index-banner {
     min-height: 400px;
     max-height: 400px;
     position: relative;
@@ -37,10 +37,10 @@
     background-image: url("../img/DSC09051-highlight.jpg");
     background-size:cover;
     background-position: center;
-    max-width: 1000px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-}</ul>
+}
 
 #nav_f{
     box-shadow: none !important;
