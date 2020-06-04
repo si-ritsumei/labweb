@@ -492,7 +492,7 @@ newscol{
 	
 }
 .
-.newsrow:{
+.newsrow{
 	content: "";
 	display: table;
 	clear: both;
