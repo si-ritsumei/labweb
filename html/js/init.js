@@ -164,7 +164,7 @@
 	      if($word.text()=='Dive into the field'){
 		  $('#index-banner').css('background-image', 'url(img/fieldwork.jpg)');
 	      } else if($word.text()=='Design solutions'){
-		  $('#index-banner').css('background-image', 'url(img/DSC_9637_highlight2.jpg)');
+		  $('#index-banner').css('background-image', 'url(img/design.jpg)');
 	      } else if ($word.text()=='Develop services'){
 		  $('#index-banner').css('background-image', 'url(img/bpel-client.jpg)');
 	      }
