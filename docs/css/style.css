@@ -66,7 +66,11 @@ nav .brand-logo{
     font-style: normal;
     font-weight: 100;
     padding: 0;
-    letter-spacing: 7px;
+    letter-spacing: 3px;
+}
+
+.mission {
+    line-height: 150%;
 }
 
 .side-nav {
