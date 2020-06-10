@@ -7,7 +7,7 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf
       # nginxのログを.nginx/log に出力する
       - ./log:/var/log/nginx
-      - ./html:/usr/share/nginx/html
+      - ./docs:/usr/share/nginx/html
     ports:
       - "4232:80"
     environment:
