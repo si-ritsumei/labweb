@@ -1,3 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="10" viewBox="0 0 14 10">
-  <image id="レイヤー_1" data-name="レイヤー 1" width="14" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAKCAYAAACE2W/HAAAAx0lEQVQokY3RvS6FQRDG8d/xLVEQURClu5AQejqFUtyNizjRqlyPUJwoNGiIb0KeZF8ZySs5/2ST3Z15dp6ZHWycjPaxiDd/mcA9dnCEGZzjOFlTOMOc8VjrsvLq7Zii8NhtUvGjBK7wWhw8YRnr7Tyowu7wgENctn7CCw4w7BN2fOKi2mlcl/1znzBV9jDCbLG6WXJWsZ0iEX63ywWc4guTzdZ7sR12sYW7CJdKYLqtPkchv5CHVhLIJPM/GcRv8/8Qd/O4+QGGSSH9pwrhUwAAAABJRU5ErkJggg=="/>
+  <defs>
+    <image id="image" width="14" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAKCAYAAACE2W/HAAAAkklEQVQokZWQMQ6CQBBFnwSiIUCllTcwhHNwCk7AqWg9j5WxslJKjXYsmYTFQbO78Tf78/PfzmRWxhhCKrr+AmyBK1BKPS66Pkx+tLMuAh5/gG9rYhXegaMDaIBcBxo8A60DrL/BSPm1Z0U94AccPKA94HxI/VMFnBzgXr3SeQmYTuEGOHimihLbEfAGZAFgKXiO8yQXTPDbqNsAAAAASUVORK5CYII="/>
+  </defs>
+  <use id="レイヤー_1" data-name="レイヤー 1" xlink:href="#image"/>
+  <use id="レイヤー_2" data-name="レイヤー 2" xlink:href="#image"/>
+  <use id="レイヤー_3" data-name="レイヤー 3" xlink:href="#image"/>
+  <use id="レイヤー_4" data-name="レイヤー 4" xlink:href="#image"/>
+  <use id="レイヤー_5" data-name="レイヤー 5" xlink:href="#image"/>
 </svg>
