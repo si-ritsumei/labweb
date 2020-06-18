@@ -83,6 +83,14 @@ nav .brand-logo{
     color: var(--main-color);
 }
 
+.sidenav {
+    background-color: var(--main-color);
+}
+
+.sidenav a {
+    color: var(--main-color);
+}
+
 .button-collapse {
     color: var(--main-color);
 }
