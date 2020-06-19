@@ -17,59 +17,64 @@
     <title>Social Intelligence Laboratory, Ritsumeikan University</title>
     <script src="https://kit.fontawesome.com/67160f99e5.js" crossorigin="anonymous"></script>
 
-    <!-- CSS  -->
-    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet"> -->
-    <!-- Compressed -->
+    <!--Import Noto Sans JP Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <!--Import Academicons Font-->
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-    <link href="css/style.css" type="text/css" rel="stylesheet" >
-    <!-- <link href="min/custom-min.css" type="text/css" rel="stylesheet" > -->
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Import customized css-->
+    <link href="css/style.css" type="text/css" rel="stylesheet"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
   </head>
   <body id="top" class="scrollspy">
 
     <!--Navigation-->
     <div class="navbar-fixed">
       <nav id="nav_f" class="default_color" role="navigation">
-        <div class="container">
-          <div class="nav-wrapper">
-            <a href="index.html" id="logo-container" class="brand-logo">Social Intelligence Lab.</a>
-            <!-- <a href="#" id="logo-container" class="brand-logo">社会知能研究室</a> -->
-            <ul class="right hide-on-med-and-down">
-	      <li><a href="#research">Research</a></li>
-              <li><a href="lablife.html">Lab. Life</a></li>
-              <!---<li><a href="#projects">Projects</a></li>--->
-              <li><a href="publications.html">Publications</a></li>
-	      <!--- <li><a href="#members">Members</a></li> --->
-	      <li><a href="joinus.html">Join Us</a></li>
-              <li><a href="contact.html">Contact</a></li>	
-	      <li><span style="color:rgba(84,112,153,1.00)"> <i class="fas fa-globe"></i></span>
-		<ul>
-		  <li ><a href="index-ja.html">Japanese</a></li>
-		  <li><a href="index.html">English</a></li>
-		</ul>
-	      </li>
-            </ul>
-            <ul id="nav-mobile" class="side-nav">
-	      <li><a href="#research">Research</a></li>
-              <li><a href="lablife.html">Lab. Life</a></li>
-	      <!---<li><a href="#projects">Projects</a></li>--->
-	      <li><a href="publications.html">Publications</a></li>
-	      <!--- <li><a href="#members">Members</a></li> --->
-	      <li><a href="joinus.html">Join Us</a></li>
-	      <li><a href="contact.html">Contact</a></li>
-	      <li><span style="color:rgba(84,112,153,1.00)"> <i class="white fas fa-globe" style="padding:0 15px"></i></span>
-		<ul>
-		  <li ><a href="index-ja.html">Japanese</a></li>
-		  <li><a href="index.html">English</a></li>
-		</ul>
-	      </li>
-	    </ul>
-	    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>	
-	  </div>
+        <div class="nav-wrapper container">
+          <a href="index.html" id="logo-container" class="brand-logo">Social Intelligence Lab.</a>
+	  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons text_b">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+	    <li><a href="#research">Research</a></li>
+	    <li><a href="lablife.html">Lab. Life</a></li>
+	    <!---<li><a href="#projects">Projects</a></li>--->
+	    <li><a href="publications.html">Publications</a></li>
+	    <!--- <li><a href="#members">Members</a></li> --->
+	    <li><a href="joinus.html">Join Us</a></li>
+	    <li><a href="contact.html">Contact</a></li>	
+	    <li><span style="color:rgba(84,112,153,1.00)"> <i class="material-icons text_b">language</i></span>
+	      <ul>
+		<li><a href="index-ja.html">Japanese</a></li>
+		<li><a href="index.html">English</a></li>
+	      </ul>
+	    </li>
+          </ul>
 	</div>
       </nav>
     </div>
+
+    <ul id="nav-mobile" class="sidenav">
+      <li><a href="#research">Research</a></li>
+      <li><a href="lablife.html">Lab. Life</a></li>
+      <!---<li><a href="#projects">Projects</a></li>--->
+      <li><a href="publications.html">Publications</a></li>
+      <!--- <li><a href="#members">Members</a></li> --->
+      <li><a href="joinus.html">Join Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><div> <i class="white material-icons text_b small">language</i></div>
+	<ul>
+	  <li><a href="index-ja.html">Japanese</a></li>
+	  <li><a href="index.html">English</a></li>
+	</ul>
+      </li>
+    </ul>
 
     <div class="container">
       <!--Hero-->
@@ -105,7 +110,7 @@
 	<div class="row">
           <div  class="col s12 m4 l4">
             <div class="center promo promo-example">
-	      <i class="mdi-hardware-desktop-mac"></i>
+	      <i class="material-icons">desktop_mac</i>
 	      <h5 class="promo-caption">Services computing</h5>
 	      <p class="light center">Research and develop new effective Web services</p>
             </div>
@@ -113,14 +118,14 @@
           <div class="col s12 m4 l4">
             <div class="center promo promo-example">
 	      <!-- <i class="mdi-av-my-library-books"></i> -->
-	      <i class="mdi-action-translate"></i>
+	      <i class="material-icons">translate</i>
 	      <h5 class="promo-caption">Language resources</h5>
 	      <p class="light center">Use technologies to create language resources, especially for endangered languages</p>
             </div>
           </div>
           <div class="col s12 m4 l4">
             <div class="center promo promo-example">
-	      <i class="mdi-social-group"></i>
+	      <i class="material-icons">group</i>
 	      <h5 class="promo-caption">Intercultural collaboration</h5>
 	      <p class="light center">Develop technologies to support intercultural and multilingual collaboration</p>
             </div>
@@ -263,7 +268,7 @@
 	<h4 class="header text_b">Our Members</h4>
 	<div class="row">
 	  <div class="col s6 m4 l3">
-	    <div class="card card-avatar" style="height: 310px">
+	    <div class="card card-avatar">
 	      <div class="waves-effect waves-block waves-light">
 		<a href="http://www.ritsumei.ac.jp/~yohei"><img class="activator" src="img/members/yohei.jpg"></a>
 	      </div>
@@ -297,7 +302,7 @@
 		<a href="http://www.ritsumei.ac.jp/~mond-p"><img class="activator" src="img/members/ampere-2020.jpg"></a>
 	      </div>
 	      <div class="card-content">
-		<span class="card-title activator grey-text text-darken-4">Mondheera PITUXCOOSUVARN<br/>
+		<span class="card-title activator grey-text text-darken-4"><small>Mondheera PITUXCOOSUVARN</small><br/>
 		  <small><em><a class="red-text text-darken-1" href="http://www.ritsumei.ac.jp/~mond-p">Assistant Professor</a></em></small></span>
 		<p>
 		  <a class="promo" href="https://www.researchgate.net/profile/Mondheera_Pituxcoosuvarn/">
@@ -524,10 +529,10 @@
 
 
     <!--  Scripts-->
-    <script src="min/plugin-min.js"></script>
-    <!-- <script src="min/custom-min.js"></script> -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/modernizr.js"></script>
     <script src="js/init.js"></script>
-    <script src="js/myjs.js"></script>
 
   </body>
 </html>

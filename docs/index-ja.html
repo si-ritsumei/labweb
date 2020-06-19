@@ -17,58 +17,63 @@
     <title>立命館大学 社会知能研究室</title>
     <script src="https://kit.fontawesome.com/67160f99e5.js" crossorigin="anonymous"></script>
 
-    <!-- CSS  -->
-    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import Noto Sans JP Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <!--Import Academicons Font-->
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-    <!-- Compressed -->
-    <!-- <link href="min/custom-min.css" type="text/css" rel="stylesheet" > -->
-    <link href="css/style.css" type="text/css" rel="stylesheet" >
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Import customized css-->
+    <link href="css/style.css" type="text/css" rel="stylesheet"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>    
   </head>
   <body id="top">
 
     <!--Navigation-->
     <div class="navbar-fixed">
       <nav id="nav_f" class="default_color" role="navigation">
-        <div class="container">
-          <div class="nav-wrapper">
-	    <a href="index-ja.html" id="logo-container" class="brand-logo">社会知能研究室</a>
-	    <!-- <a href="#" id="logo-container" class="brand-logo">社会知能研究室</a> -->
-            <ul class="right hide-on-med-and-down">
-	      <li><a href="#research">Research</a></li>
-	      <li><a href="lablife-ja.html">Lab. Life</a></li>
-	      <!---<li><a href="#projects">Projects</a></li>--->
-	      <li><a href="publications-ja.html">Publications</a></li>
-	      <!--- <li><a href="#members">Members</a></li> --->
-	      <li><a href="joinus-ja.html">Join Us</a></li>
-	      <li><a href="contact-ja.html">Contact</a></li>	
-	      <li><span style="color:rgba(84,112,153,1.00)"> <i class="fas fa-globe"></i></span>
-		<ul>
-		  <li ><a href="index-ja.html">Japanese</a></li>
-		  <li><a href="index.html">English</a></li>
-		</ul>
-	      </li>
-            </ul>
-            <ul id="nav-mobile" class="side-nav">
-	      <li><a href="#research">Research</a></li>
-              <li><a href="lablife-ja.html">Lab. Life</a></li>
-              <!---<li><a href="#projects">Projects</a></li>--->
-              <li><a href="publications-ja.html">Publications</a></li>
-	      <!--- <li><a href="#members">Members</a></li> --->
-	      <li><a href="joinus-ja.html">Join Us</a></li>
-              <li><a href="contact-ja.html">Contact</a></li>
-	      <li><span style="color:rgba(84,112,153,1.00)"> <i class="white fas fa-globe" style="padding:0 15px"></i></span>
-		<ul>
-		  <li ><a href="index-ja.html">Japanese</a></li>
-		  <li><a href="index.html">English</a></li>
-		</ul>
-	      </li>
-            </ul>
-	    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>	
-	  </div>
-        </div>
+        <div class="nav-wrapper container">
+	  <a href="index-ja.html" id="logo-container" class="brand-logo">社会知能研究室</a>
+	  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons text_b">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+	    <li><a href="#research">Research</a></li>
+	    <li><a href="lablife-ja.html">Lab. Life</a></li>
+	    <!---<li><a href="#projects">Projects</a></li>--->
+	    <li><a href="publications-ja.html">Publications</a></li>
+	    <!--- <li><a href="#members">Members</a></li> --->
+	    <li><a href="joinus-ja.html">Join Us</a></li>
+	    <li><a href="contact-ja.html">Contact</a></li>	
+	    <li><span style="color:rgba(84,112,153,1.00)"> <i class="material-icons text_b">language</i></span>
+	      <ul>
+		<li><a href="index-ja.html">Japanese</a></li>
+		<li><a href="index.html">English</a></li>
+	      </ul>
+	    </li>
+          </ul>
+	</div>
       </nav>
     </div>
+
+    <ul id="nav-mobile" class="sidenav">
+      <li><a href="#research">Research</a></li>
+      <li><a href="lablife-ja.html">Lab. Life</a></li>
+      <!---<li><a href="#projects">Projects</a></li>--->
+      <li><a href="publications-ja.html">Publications</a></li>
+      <!--- <li><a href="#members">Members</a></li> --->
+      <li><a href="joinus-ja.html">Join Us</a></li>
+      <li><a href="contact-ja.html">Contact</a></li>
+      <li><div> <i class="white material-icons text_b small">language</i></div>
+	<ul>
+	  <li><a href="index-ja.html">Japanese</a></li>
+	  <li><a href="index.html">English</a></li>
+	</ul>
+      </li>
+    </ul>
 
     <div class="container">
       <!--Hero-->
@@ -115,23 +120,22 @@
 	<div class="row">
           <div  class="col s12 m4 l4">
             <div class="center promo promo-example">
-              <i class="mdi-hardware-desktop-mac"></i>
-	      <h5 class="promo-caption">サービス<br>コンピューティング</h5>
+              <i class="material-icons">desktop_mac</i>
+	      <h5 class="promo-caption grey-text text-darken-1">サービス<br>コンピューティング</h5>
 	      <p class="light center">QoS (速度、頑健性等)や提供ポリシーを考慮したサービスの自動合成技術や、サービスの連携ネットワークに基づく推薦技術などに取り組みます。</p>
             </div>
 	  </div>
 	  <div class="col s12 m4 l4">
             <div class="center promo promo-example">
-              <!-- <i class="mdi-av-my-library-books"></i> -->
-	      <i class="mdi-action-translate"></i>
-	      <h5 class="promo-caption">言語資源</h5>
+	      <i class="material-icons">translate</i>
+	      <h5 class="promo-caption grey-text text-darken-1">言語資源</h5>
 	      <p class="light center">低資源言語の言語データを構築するためにクラウドソーシングと機械学習を組み合わせた人間-機械協働の社会技術アプローチや、ニューラル機械翻訳の社会適応に取り組みます。</p>
             </div>
 	  </div>
 	  <div class="col s12 m4 l4">
             <div class="center promo promo-example">
-              <i class="mdi-social-group"></i>
-	      <h5 class="promo-caption">異文化コラボレーション</h5>
+              <i class="material-icons">group</i>
+	      <h5 class="promo-caption grey-text text-darken-1">異文化コラボレーション</h5>
 	      <p class="light center">世界の子供たちの異文化交流や多文化共生社会を支援するために、文化差を考慮した異文化コラボレーションや多言語コミュニケーションの支援技術に取り組みます。</p>
             </div>
 	  </div>
@@ -175,22 +179,22 @@
 
 	    <div class="row">
 	      <div class="col s3"><img src="img/news/forNews.png" width="100%"/></div>
-	      <div class="col s9">M1の西村さんらの論文"Image-Based Detection Criteria for Cultural Differences in Translation"が <i>The 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)</i>に採択されました。</a></br><span class="d">2020年6月13日</div>
+	      <div class="col s9">M1の西村さんらの論文"Image-Based Detection Criteria for Cultural Differences in Translation"が <i>The 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)</i>に採択されました。</br><span class="d">2020年6月13日</div>
 	    </div>
 
 	    <div class="row">
 	      <div class="col s3"><img src="img/news/forNews.png" width="100%"/></div>
-	      <div class="col s9">ピタクスワン助教らの論文"Effect of Cultural Misunderstanding Warning in  MT-Mediated Communication"が <i>The 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)</i>に採択されました。</a></br><span class="d">2020年6月13日</div>
-	    </div>
-	    
-	    <div class="row">
-	      <div class="col s3"><img src="img/news/forNews.png" width="100%"/></div>
-	      <div class="col s9"><a class="news" href="https://link.springer.com/chapter/10.1007/978-981-15-2655-8_3">"Toward Formalization of Comprehensive Bilingual Dictionaries Creation Planning as Constraint Optimization Problem"が <i>Optimization Based Model Using Fuzzy and Other Statistical Techniques Towards Environmental Sustainability</i>に掲載されました。</a></br><span class="d">2020年2月</div>
+	      <div class="col s9">ピタクスワン助教らの論文"Effect of Cultural Misunderstanding Warning in  MT-Mediated Communication"が <i>The 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)</i>に採択されました。</br><span class="d">2020年6月13日</div>
 	    </div>
 
 	    <div class="row">
 	      <div class="col s3"><img src="img/news/forNews.png" width="100%"/></div>
-	      <div class="col s9"><a class="news" href="https://www.mdpi.com/2078-2489/11/2/67">"Towards Language Service Creation and Customization for Low-Resource Languages"が<i>Information</i>に掲載されました。</a></br><span class="d">2020年1月</div>
+	      <div class="col s9"><a class="news" href="https://link.springer.com/chapter/10.1007/978-981-15-2655-8_3">"Toward Formalization of Comprehensive Bilingual Dictionaries Creation Planning as Constraint Optimization Problem"が <i>Optimization Based Model Using Fuzzy and Other Statistical Techniques Towards Environmental Sustainability</i>に掲載されました。</br><span class="d">2020年2月</div>
+	    </div>
+
+	    <div class="row">
+	      <div class="col s3"><img src="img/news/forNews.png" width="100%"/></div>
+	      <div class="col s9"><a class="news" href="https://www.mdpi.com/2078-2489/11/2/67">"Towards Language Service Creation and Customization for Low-Resource Languages"が<i>Information</i>に掲載されました。</br><span class="d">2020年1月</div>
 	    </div>
 
 	    <div class="row">
@@ -200,7 +204,7 @@
 	  </div>
 	</div>
       </div>
-      
+
       <!--Project-->
       <div id="projects" class="section scrollspy">
 	<h4 class="header text_b">Projects</h4>
@@ -220,7 +224,7 @@
 	      <div class="linkdiv"><a href="http://langsphere.org"><i class="fas fa-link" color:rgba(84,112,153,1.00)></i></a></div>
 	    </div>	
 	  </div>
-	    
+	  
 	  <div class="col s12 m6 l3">
 	    <div class="card medium">
 	      <div class="card-image">
@@ -235,7 +239,7 @@
 	      <div class="linkdiv"><a href="https://langrid.org"><i class="fas fa-link" color:rgba(84,112,153,1.00)></i></a></div>
 	    </div>
 	  </div>
-	    
+	  
 	  <div class="col s12 m6 l3">
 	    <div class="card medium">
 	      <div class="card-image">
@@ -249,7 +253,7 @@
 	      </div>
 	    </div>
 	  </div>
-	    
+	  
 	  <div class="col s12 m6 l3">
 	    <div class="card medium">
 	      <div class="card-image">
@@ -264,7 +268,7 @@
 	      <div class="linkdiv"><a href="https://langrid.org/developer/"><i class="fas fa-link" color:rgba(84,112,153,1.00)></i></a></div>
 	    </div>
 	  </div>
-	    
+	  
 	</div>
       </div>
 
@@ -273,7 +277,7 @@
 	<h4 class="header text_b">Our Members</h4>
 	<div class="row">
 	  <div class="col s6 m4 l3">
-	    <div class="card card-avatar" style="height: 310px">
+	    <div class="card card-avatar">
               <div class="waves-effect waves-block waves-light">
 		<a href="http://www.ritsumei.ac.jp/~yohei"><img class="activator" src="img/members/yohei.jpg"></a>
               </div>
@@ -307,7 +311,7 @@
 		<a href="http://www.ritsumei.ac.jp/~mond-p"><img class="activator" src="img/members/ampere-2020.jpg"></a>
               </div>
               <div class="card-content">
-		<span class="card-title activator grey-text text-darken-4">ピタクスワン<br/>モンティーラー<br/>
+		<span class="card-title activator grey-text text-darken-4"><small>ピタクスワン<br/>モンティーラー</small><br/>
 		  <small><em><a class="red-text text-darken-1" href="http://www.ritsumei.ac.jp/~mond-p">助教</a></em></small></span>
 		<p>
 		  <a class="promo" href="https://www.researchgate.net/profile/Mondheera_Pituxcoosuvarn/">
@@ -333,7 +337,7 @@
 		<img class="activator" src="img/members/okubo.jpg">
               </div>
               <div class="card-content">
-		<span class="card-title activator grey-text text-darken-4">大久保　弘基<br/>
+		<span class="card-title activator grey-text text-darken-4">大久保 弘基<br/>
 		  <small><em><a class="red-text text-darken-1" href="#">M1</a></em></small></span>
               </div>
 	    </div>
@@ -393,7 +397,7 @@
 		<img class="activator" src="img/members/oi.jpg">
               </div>
               <div class="card-content">
-		<span class="card-title activator grey-text text-darken-4">大井　也史<br/>
+		<span class="card-title activator grey-text text-darken-4">大井 也史<br/>
 		  <small><em><a class="red-text text-darken-1" href="#">B4</a></em></small></span>
               </div>
 	    </div>
@@ -531,10 +535,10 @@
 
 
     <!--  Scripts-->
-    <script src="min/plugin-min.js"></script>
-    <!-- <script src="min/custom-min.js"></script> -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/modernizr.js"></script>
     <script src="js/init.js"></script>
-    <script src="js/myjs.js"></script>
 
   </body>
 </html>

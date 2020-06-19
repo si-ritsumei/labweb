@@ -87,8 +87,23 @@ nav .brand-logo{
     background-color: var(--main-color);
 }
 
-.sidenav a {
+.sidenav li{
+    padding: 0 15px;
+}
+
+.sidenav li a{
     color: var(--main-color);
+    background-color: #fff;
+    font-weight: 200
+}
+
+.sidenav li div{
+    background-color: #fff;
+    padding: 0 32px;
+}
+
+.sidenav li a:hover{
+    background:rgba(213,213,213,1.00)}
 }
 
 .button-collapse {
@@ -143,6 +158,15 @@ nav .brand-logo{
 .text_pink{color:#EF9A9A;}
 
 nav ul a {
+    font-size: 1rem;
+    color: #4E709D;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: 300;
+    padding: 0px 15px;
+}
+
+.sidenav a {
     font-size: 1rem;
     color: #4E709D;
     letter-spacing: 2px;
@@ -313,7 +337,8 @@ nav a.button-collapse {
 
 
 .card-avatar {
-	height: 310px;
+    height: 310px;
+    overflow: hidden;
 }
 
 .card-avatar img {
@@ -323,7 +348,8 @@ nav a.button-collapse {
 }
 
 .card-avatar .card-content {
-    text-align: center;
+    padding: 12px;
+    text-align: center;    
 }
 
 .card .card-content p {
@@ -337,6 +363,11 @@ nav a.button-collapse {
 
 .card-avatar .card-content .card-title {
     line-height: 0px !important;
+    display: inline;
+}
+
+.card-avatar .card-content .card-title small{
+    font-size: 85%
 }
 
 .parallax-container {
@@ -739,3 +770,9 @@ li:hover li a:hover
     max-width:80%;
     max-height:80%;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+body {
+    font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+    font-weight:200;
+    }

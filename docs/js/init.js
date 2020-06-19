@@ -1,7 +1,8 @@
 (function($){
   $(function(){
 
-    $('.button-collapse').sideNav();
+    $('.sidenav').sidenav();
+    // $('.button-collapse').sideNav();
 	$('.scrollspy').scrollSpy();
 
     /*** Animate word ***/
@@ -170,7 +171,8 @@
 	      }
 	}
       
-	$('.button-collapse').sideNav({
+	// $('.button-collapse').sideNav({
+	$('.sidenav').sidenav({
 		menuWidth: 240, // Default is 240
 		closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
 	});
