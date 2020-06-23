@@ -1,7 +1,10 @@
 (function($){
   $(function(){
 
-    $('.sidenav').sidenav();
+      $('.sidenav').sidenav();
+
+      $('.dropdown-trigger').dropdown({hover: true, constrain_width: false, coverTrigger: false});
+
     // $('.button-collapse').sideNav();
 	$('.scrollspy').scrollSpy();
 
@@ -282,6 +285,6 @@
 	// [].forEach.call(card, function(card) {
 	// 	card.addEventListener('click', scaleCard, false);
 	// });
-
+      
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
