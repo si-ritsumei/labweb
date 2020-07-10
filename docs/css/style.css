@@ -120,6 +120,12 @@ nav .brand-logo{
 /* .text_b{color: #2196F3;} */
 .text_b{color: var(--main-color);}
 
+.text_sub{color: var(--sub-color);}
+
+.text_sub2{color: var(--sub-color2);}
+
+.text_sub3{color: var(--sub-color3);}
+
 .in{font-weight: 400 !important; font-style: normal !important;}
 
 .promo i {
@@ -367,6 +373,10 @@ nav a.button-collapse {
 }
 
 .card-avatar .card-content .card-title small{
+    font-size: 70%
+}
+
+.card-avatar .card-content .card-title .long-name{
     font-size: 85%
 }
 
