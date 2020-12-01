@@ -27,6 +27,13 @@
 
 #intro, #work, #team {padding-top: 4rem;}
 
+.carousel{
+    height:400px;
+}
+
+.carousel .carousel-item {
+    height:400px;
+    width:600px}
 
 #index-banner {
     min-height: 400px;
@@ -355,7 +362,7 @@ nav a.button-collapse {
 
 .card-avatar .card-content {
     padding: 12px;
-    text-align: center;    
+    text-align: center;
 }
 
 .card .card-content p {
@@ -411,26 +418,26 @@ footer.page-footer {
   margin-right: 5px;
 	padding-left: 10 px;
 	top: 0;
-	
-	
-	
+
+
+
 }
 .newse {
 	color: black;
 	font-size: 18px;
 }
 .centa{
-	
+
 	margin: 0 auto;
 }
 .newsd{
-	position: absolute; 
-    bottom: 0; 
-    width: 100%; 
-               
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+
 }
 #banner{
-	
+
 }
 #blankdiv{
 	height: 200 px;
@@ -456,7 +463,7 @@ footer.page-footer {
 margin-top: 10px;
 	margin-bottom: 20px;
 }
-	
+
 .smallheader{
 		font-size: 150%;
 		color: #797979;
@@ -486,14 +493,14 @@ margin-top: 10px;
 
 .leftn {
 	width:　30%;
-	
+
 }
 
 .rightn {
 	width:70%;
 	left:30%;
 	top:0px;
-	
+
 }
 
 .rightc {
@@ -506,7 +513,7 @@ margin-top: 10px;
 }
 
 .normalimg{
-	
+
 	all: unset;
 }
 
@@ -539,12 +546,12 @@ newscol{
 
 .nleft{
 	width: 25%
-	
+
 }
 
 .nright{
 	width: 75%
-	
+
 }
 .
 .newsrow{
@@ -580,7 +587,7 @@ newscol{
 .linkdiv
 {
 
-	position:absolute; 
+	position:absolute;
 	bottom:10px;
 	right: 10px;
 }
@@ -599,7 +606,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-	
+
   border: 1px solid #777;
 }
 
@@ -657,7 +664,7 @@ a.news:active {
 
 ul
 {
-    
+
 }
 
 /* ul li */
@@ -677,7 +684,7 @@ ul li a
     display: block;
     text-decoration: none;
 	    background: white;
-    
+
 }
 
 ul li a:hover
@@ -697,12 +704,12 @@ li:hover li
 
 li:hover a
 {
-    
+
 }
 
 li:hover li a:hover
 {
-    
+
 }
 
 /* for alert added by yohei (2020.06.15)*/
