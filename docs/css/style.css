@@ -33,7 +33,13 @@
 
 .carousel .carousel-item {
     height:400px;
-    width:600px}
+    width:600px
+}
+
+.widthMax { /* 画面幅いっぱいにしたい要素にあてるクラス */
+    width: 100vw;
+    margin: 0 calc(50% - 50vw);
+}
 
 #index-banner {
     min-height: 400px;
