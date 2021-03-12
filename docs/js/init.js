@@ -1,12 +1,9 @@
 (function($){
   $(function(){
-
       $('.sidenav').sidenav();
-
       $('.dropdown-trigger').dropdown({hover: true, constrain_width: false, coverTrigger: false});
-
     // $('.button-collapse').sideNav();
-	$('.scrollspy').scrollSpy();
+	  $('.scrollspy').scrollSpy();
 
     /*** Animate word ***/
 
@@ -21,14 +18,14 @@
 		typeLettersDelay = 150,
 		selectionDuration = 500,
 		typeAnimationDelay = selectionDuration + 800,
-		//clip effect 
+		//clip effect
 		revealDuration = 600,
 		revealAnimationDelay = 1500;
 
 //      var backgroundImgs = ['DSC09051-highlight.jpg', 'DSC_9363-highlight2.jpg'];
 
         initHeadline();
-	
+
 
 	function initHeadline() {
 		singleLetters($('.cd-headline.letters').find('b'));
@@ -53,7 +50,7 @@
 		var duration = animationDelay;
 		$headlines.each(function(){
 			var headline = $(this);
-			
+
 			if(headline.hasClass('loading-bar')) {
 				duration = barAnimationDelay;
 				setTimeout(function(){ headline.find('.cd-words-wrapper').addClass('is-loading') }, barWaiting);
@@ -81,13 +78,13 @@
 		var nextWord = takeNext($word);
 		if($word.parents('.cd-headline').hasClass('type')) {
 			var parentSpan = $word.parent('.cd-words-wrapper');
-			parentSpan.addClass('selected').removeClass('waiting');	
-			setTimeout(function(){ 
-				parentSpan.removeClass('selected'); 
+			parentSpan.addClass('selected').removeClass('waiting');
+			setTimeout(function(){
+				parentSpan.removeClass('selected');
 				$word.removeClass('is-visible').addClass('is-hidden').children('i').removeClass('in').addClass('out');
 			}, selectionDuration);
 			setTimeout(function(){ showWord(nextWord, typeLettersDelay) }, typeAnimationDelay);
-		
+
 		} else if($word.parents('.cd-headline').hasClass('letters')) {
 			var bool = ($word.children('i').length >= nextWord.children('i').length) ? true : false;
 			hideLetter($word.find('i').eq(0), $word, bool, lettersDelay);
@@ -119,33 +116,33 @@
 			$word.addClass('is-visible').removeClass('is-hidden');
 
 		}  else if($word.parents('.cd-headline').hasClass('clip')) {
-			$word.parents('.cd-words-wrapper').animate({ 'width' : $word.width() + 10 }, revealDuration, function(){ 
-				setTimeout(function(){ hideWord($word) }, revealAnimationDelay); 
+			$word.parents('.cd-words-wrapper').animate({ 'width' : $word.width() + 10 }, revealDuration, function(){
+				setTimeout(function(){ hideWord($word) }, revealAnimationDelay);
 			});
 		}
 	}
 
 	function hideLetter($letter, $word, $bool, $duration) {
 		$letter.removeClass('in').addClass('out');
-		
+
 		if(!$letter.is(':last-child')) {
-		 	setTimeout(function(){ hideLetter($letter.next(), $word, $bool, $duration); }, $duration);  
-		} else if($bool) { 
+		 	setTimeout(function(){ hideLetter($letter.next(), $word, $bool, $duration); }, $duration);
+		} else if($bool) {
 		 	setTimeout(function(){ hideWord(takeNext($word)) }, animationDelay);
 		}
 
 		if($letter.is(':last-child') && $('html').hasClass('no-csstransitions')) {
 			var nextWord = takeNext($word);
 			switchWord($word, nextWord);
-		} 
+		}
 	}
 
 	function showLetter($letter, $word, $bool, $duration) {
 		$letter.addClass('in').removeClass('out');
-		
-		if(!$letter.is(':last-child')) { 
-			setTimeout(function(){ showLetter($letter.next(), $word, $bool, $duration); }, $duration); 
-		} else { 
+
+		if(!$letter.is(':last-child')) {
+			setTimeout(function(){ showLetter($letter.next(), $word, $bool, $duration); }, $duration);
+		} else {
 			if($word.parents('.cd-headline').hasClass('type')) { setTimeout(function(){ $word.parents('.cd-words-wrapper').addClass('waiting'); }, 200);}
 			if(!$bool) { setTimeout(function(){ hideWord($word) }, animationDelay) }
 		}
@@ -173,7 +170,7 @@
 		  $('#index-banner').css('background-image', 'url(img/bpel-client.jpg)');
 	      }
 	}
-      
+
 	// $('.button-collapse').sideNav({
 	$('.sidenav').sidenav({
 		menuWidth: 240, // Default is 240
@@ -250,7 +247,7 @@
 	   	target.style[Modernizr.prefixed('transitionTimingFunction')] = 'cubic-bezier(0.4, 0, 0.2, 1)';
 	   	target.style[Modernizr.prefixed('transitionProperty')] = addDashes(Modernizr.prefixed('transform'));
 	   	target.style['borderRadius'] = 0;
-	   
+
 	  	transformCard(target, size);
 	  	onAnimated(target, popup);
 	  	onPopupClick(target, popup);
@@ -268,10 +265,10 @@
 	function onPopupClick(card, popup) {
 		popup.addEventListener('click', function toggleVisibility(e) {
 		  	var size = getDifference(popup, card);
-		  
+
 		  	card.style['opacity'] = 1;
 		  	card.style['borderRadius'] = '6px';
-		  	hidePopup(e);       
+		  	hidePopup(e);
 		  	transformCard(card, size);
 		}, false);
 	}
@@ -285,6 +282,6 @@
 	// [].forEach.call(card, function(card) {
 	// 	card.addEventListener('click', scaleCard, false);
 	// });
-      
+
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
