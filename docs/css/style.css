@@ -131,7 +131,7 @@ nav .brand-logo{
 .span_h2 {font-weight: 300;color: var(--sub-color);}
 
 /* .text_b{color: #2196F3;} */
-.text_b{color: var(--main-color);}
+.text_b{color: var(--main-color) !important;}
 
 .text_sub{color: var(--sub-color);}
 

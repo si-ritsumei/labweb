@@ -1,9 +1,9 @@
 (function($){
   $(function(){
-
-    $('.sidenav').sidenav();
+      $('.sidenav').sidenav();
+      $('.dropdown-trigger').dropdown({hover: true, constrain_width: false, coverTrigger: false});
     // $('.button-collapse').sideNav();
-	$('.scrollspy').scrollSpy();
+	  $('.scrollspy').scrollSpy();
 
     $('.carousel').carousel({
        // fullWidth: true,
