@@ -21,9 +21,23 @@ function addActive(eventObject) {
           contents.eq(i).children().attr('href', items[lang][i]);
       }
 
+      var sidecontents = $('#nav-mobile').children();
       var i = 0;
+      for(i in sidecontents) {
+          // console.log(items[lang][i])
+          // console.log(i)
+          // console.log(contents.eq(i))
+          if(i == 5) break;
+          if(i == activeNum) {
+              sidecontents.eq(i).addClass('active');
+          }
+          sidecontents.eq(i).children().attr('href', items[lang][i]);
+      }
+
+      var i = 0;
+      console.log(languages)
       for(i in languages){
-          if(i/2 == 0){
+          if(i%2 == 0){
               languages.eq(i).children().attr('href', items['ja'][activeNum]);
           }else{
               languages.eq(i).children().attr('href', items['en'][activeNum]);
