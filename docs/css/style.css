@@ -185,6 +185,10 @@ nav ul a {
     padding: 0px 15px;
 }
 
+nav .active .item{
+    border-bottom: solid 2px var(--main-color) !important;
+}
+
 .sidenav a {
     font-size: 1rem;
     color: #4E709D;
