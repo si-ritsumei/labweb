@@ -141,6 +141,8 @@ nav .brand-logo{
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
+.footnote{font-size: 0.5em}
+
 .promo i {
     /* color: #2196F3; */
     color: var(--main-color);;
