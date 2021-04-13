@@ -1,5 +1,3 @@
-const labNews = document.getElementById('labNews')
-
 const resources = [{
     imgPath: 'n2020graduate.jpg',
     title: '2020年度学部4回生(2期生))が卒業しました！',
@@ -27,6 +25,8 @@ const resources = [{
     time: '2019年12月23日',
 },
 ]
+
+const labNews = document.getElementById('labNews')
 resources.map((data) => {
     const aPieceOfNews = document.createElement('div')
     aPieceOfNews.innerHTML = `                    
