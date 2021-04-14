@@ -1,6 +1,6 @@
 const resources = [{
     imgPath: 'n2020graduate.jpg',
-    title: '2020年度学部4回生(2期生))が卒業しました！',
+    title: '2020年度学部4回生(2期生)が卒業しました！',
     href: '',
     time: '2021年3月22日',
 }, {
@@ -10,7 +10,7 @@ const resources = [{
     time: '2020年10月1日',
 }, {
     imgPath: 'n2019graduate.jpeg',
-    title: '2019年度学部4回生(1期生))が卒業しました！',
+    title: '2019年度学部4回生(1期生)が卒業しました！',
     href: '',
     time: '2020年3月19日',
 }, {
@@ -29,7 +29,7 @@ const resources = [{
 const labNews = document.getElementById('labNews')
 resources.map((data) => {
     const aPieceOfNews = document.createElement('div')
-    aPieceOfNews.innerHTML = `                    
+    aPieceOfNews.innerHTML = `
                     <div class="row">
                         <div class="col s3">
                             <img src="img/news/${data.imgPath ? data.imgPath : 'forNews.png'}" width="100%"  alt=""/>
