@@ -39,18 +39,11 @@ function addActive(eventObject) {
               contents.eq(i).addClass('active');
           }
           // set a url of each item in menu and submenu
-<<<<<<< HEAD
-=======
           // for submenu of About
->>>>>>> 2021OpenlabVersion
           if(i == 0){
               var j = 0;
               for(j in about){
                   about.eq(j).children().attr('href', subitems[lang][j]);
-<<<<<<< HEAD
-              }
-          }else{
-=======
               }}
           // for submenu of Research
           else if(i == 1){
@@ -67,7 +60,6 @@ function addActive(eventObject) {
                   research.eq(j).children().attr('href', subitems3[lang][j]);
               }}
           else{
->>>>>>> 2021OpenlabVersion
               contents.eq(i).children().attr('href', items[lang][i]);
           }
       }
@@ -87,12 +79,7 @@ function addActive(eventObject) {
               for(j in about){
                   sideabout.eq(j).children().attr('href', subitems[lang][j]);
               }
-<<<<<<< HEAD
-          }else{
-=======
           }
-
-
           else if(i == 1){
               var j = 0;
               var sideresearch = $('#sidenav-research').children();
@@ -109,7 +96,6 @@ function addActive(eventObject) {
 
 
           else{
->>>>>>> 2021OpenlabVersion
               sidecontents.eq(i).children().attr('href', items[lang][i]);
           }
       }
