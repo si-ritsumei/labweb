@@ -3,13 +3,6 @@ $('#myFooter').load("../footer.html");
 
 function addActive(eventObject) {
       // items in main menu
-<<<<<<< HEAD
-      var items = {'ja':['index-ja.html', 'lablife-ja.html', 'publications-ja.html', 'joinus-ja.html', 'contact-ja.html'],
-                    'en':['index.html', 'lablife.html', 'publications.html', 'joinus.html', 'contact.html']}
-      // items in about
-      var subitems = {'ja':['index-ja.html#lab-mission', 'index-ja.html#projects', 'index-ja.html#members'],
-                      'en':['index.html#lab-mission', 'index.html#projects', 'index.html#members']}
-=======
       var items = {'ja':['index-ja.html', 'research-ja.html','lablife-ja.html', 'publications-ja.html', 'joinus-ja.html'],
                     'en':['index.html', 'research.html','lablife.html', 'publications.html', 'joinus.html']}
       // items in about
@@ -21,7 +14,6 @@ function addActive(eventObject) {
       // items in publication
       var subitems3 = {'ja':['publications-ja.html', 'thesis-ja.html'],
                       'en':['publications.html', 'thesis.html']}
->>>>>>> 2021OpenlabVersion
       var activeNum = $('#myNavbar').data("active");
       var lang = $('#myNavbar').data("language");
       var contents = $('#nav-pc').children();
