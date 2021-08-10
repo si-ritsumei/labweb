@@ -14,6 +14,9 @@ function addActive(eventObject) {
       // items in publication
       var subitems3 = {'ja':['publications-ja.html', 'thesis-ja.html'],
                       'en':['publications.html', 'thesis.html']}
+      // items in joinus
+      // var subitems4 = {'ja':['joinus-ja.html', 'openlab2021.html'],
+      //                 'en':['joinus.html', 'openlab2021.html']}
       var activeNum = $('#myNavbar').data("active");
       var lang = $('#myNavbar').data("language");
       var contents = $('#nav-pc').children();
@@ -51,6 +54,15 @@ function addActive(eventObject) {
               for(j in research){
                   research.eq(j).children().attr('href', subitems3[lang][j]);
               }}
+
+          // for submenu of joinus
+          // else if(i == 4){
+          //     var j = 0;
+          //     var research = $('#joinus').children();
+          //     for(j in research){
+          //         research.eq(j).children().attr('href', subitems4[lang][j]);
+          //     }}
+
           else{
               contents.eq(i).children().attr('href', items[lang][i]);
           }
@@ -86,6 +98,12 @@ function addActive(eventObject) {
                   research.eq(j).children().attr('href', subitems3[lang][j]);
               }}
 
+          // else if(i == 4){
+          //     var j = 0;
+          //     var research = $('#sidenav-joinus').children();
+          //     for(j in research){
+          //         research.eq(j).children().attr('href', subitems4[lang][j]);
+          //     }}
 
           else{
               sidecontents.eq(i).children().attr('href', items[lang][i]);
