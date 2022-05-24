@@ -14,6 +14,9 @@ function addActive(eventObject) {
       // items in publication
       var subitems3 = {'ja':['publications-ja.html', 'thesis-ja.html'],
                       'en':['publications.html', 'thesis.html']}
+      // items in lablife
+      var subitems4 = {'ja':['lablife-ja.html', 'activity-ja.html'],
+                      'en':['lablife.html', 'activity.html']}
       // items in joinus
       // var subitems4 = {'ja':['joinus-ja.html', 'openlab2021.html'],
       //                 'en':['joinus.html', 'openlab2021.html']}
@@ -46,6 +49,13 @@ function addActive(eventObject) {
               var research = $('#research').children();
               for(j in research){
                   research.eq(j).children().attr('href', subitems2[lang][j]);
+              }}
+          // for submenu of Lab. Life
+          else if(i == 2){
+              var j = 0;
+              var research = $('#lablife').children();
+              for(j in research){
+                  research.eq(j).children().attr('href', subitems4[lang][j]);
               }}
           // for submenu of Publication
           else if(i == 3){
@@ -89,7 +99,14 @@ function addActive(eventObject) {
               var sideresearch = $('#sidenav-research').children();
               for(j in sideresearch){
                   sideresearch.eq(j).children().attr('href', subitems2[lang][j]);
+              }
           }
+          else if(i == 2){
+              var j = 0;
+              var sideresearch = $('#sidenav-lablife').children();
+              for(j in sideresearch){
+                  sideresearch.eq(j).children().attr('href', subitems4[lang][j]);
+              }
           }
           else if(i == 3){
               var j = 0;
