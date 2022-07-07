@@ -1,0 +1,16 @@
+/* Custom Stylesheet */
+/**
+ *
+ * Made By Joash Pereira
+ * Thanks for MaterializeCSS.com
+ */
+
+/* Main color*/
+.card.small .card-content{
+  max-height: 90%
+}
+
+
+.card.small .card-image+.card-content{
+max-height: 90%;
+}

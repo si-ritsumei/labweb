@@ -804,6 +804,20 @@ li:hover li a:hover
     max-height:80%;
 }
 
+/* for alert added by motozawa (2022.07.07)*/
+.card.small .card-image+.card-content{
+max-height: 90%;
+}
+
+.card.large {
+height: 550px;
+}
+
+.card.small {
+height: 330px;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
 body {
     font-family: 'Roboto', 'Noto Sans JP', sans-serif;
