@@ -1,0 +1,50 @@
+body {
+  background: #efdec1;
+  font-size: 14px;
+  font-family: Verdana, sans-serif;
+}
+
+section {
+  margin: 8px auto;
+  background: #fff;
+  border-radius: 4px;
+  padding: 16px;
+  position: relative;
+  text-align: center;
+}
+
+button {
+  background: #efdec1;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  color: #000;
+}
+
+div {
+  justify-content: center;
+}
+
+#img0 {
+  width: 200px;
+  height: 50px;
+}
+
+#img1, #img2, #img3{
+  width:100px;
+  height:150px;
+}
+
+.hidden {
+  visibility: hidden;
+  margin-right:30px;
+  margin-left:30px;
+}
+
+.image_button{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
