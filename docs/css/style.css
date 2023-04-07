@@ -690,10 +690,12 @@ a.news:active {
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
-ul
+ul.responsive-img-small
 {
-
+    display: flex;
+    justify-content:space-between
 }
+
 
 /* ul li */
 /* { */
