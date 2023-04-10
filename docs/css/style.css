@@ -509,6 +509,10 @@ margin-top: 10px;
   width: 50%;
 }
 
+.center{
+    vertical-align: middle;
+}
+
 .leftn {
 	width: 28%;
 
@@ -841,3 +845,5 @@ body {
 .ref {
   font-size: 70%;
 }
+
+
