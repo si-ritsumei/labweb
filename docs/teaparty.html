@@ -32,10 +32,15 @@
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+
+
 </head>
 
 <body id="top" class="scrollspy">
-
     <!--Navigation-->
     <div id="myNavbar" data-active="2" data-language="ja">
     </div>
@@ -49,11 +54,46 @@
             <div class="row">
                 <div class="column leftc">
                     <p class="center">
-                        <img class="responsive-img" src="img/TeaParty2023/teaparty1-s.JPG" width=100% style="align-content: center"/>
-                        <ul class="responsive-img-small">
-                            <img src="img/TeaParty2023/teaparty2-s.JPG" width=49% style="align-content: center"/>
-                            <img src="img/TeaParty2023/teaparty3-s.JPG" width=49% style="align-content: center"/>
-                        </ul>
+                        <!-- Swiper1 START -->
+                        <div class="swiper-container swiper1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/TeaParty2023/teaparty1-s.JPG" width=100% style="align-content: center"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/TeaParty2023/teaparty4-s.JPG" width=100% style="align-content: center"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/TeaParty2023/teaparty2-s.JPG" width=100% style="align-content: center"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/TeaParty2023/teaparty3-s.JPG" width=100% style="align-content: center"/>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev prev1"></div>
+                            <div class="swiper-button-next next1"></div>
+                        </div>
+                        <!-- Swiper1 END -->
+                        <!-- Swiper2 START -->
+                        <div class="swiper-container swiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/TeaParty2023/teaparty1-s.JPG" width=100% style="align-content: center"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/TeaParty2023/teaparty4-s.JPG" width=100% style="align-content: center"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/TeaParty2023/teaparty2-s.JPG" width=100% style="align-content: center"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/TeaParty2023/teaparty3-s.JPG" width=100% style="align-content: center"/>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Swiper2 END -->
+
                     </p>
                 </div>
                 <div class="column rightc">
@@ -78,6 +118,7 @@
     <script src="js/modernizr.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/swiper.js"></script>
 
 </body>
 
