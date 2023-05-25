@@ -1,0 +1,27 @@
+span {
+	display: inline-block;
+ }
+
+.border-none{
+	border-right: none;
+}
+
+table{
+	border-top-style: solid;
+	border-top-width: 1px;
+    border-right-style: solid;
+	border-right-width: 1px;
+    border-bottom-style: solid;
+	border-bottom-width: 1px;
+    border-left-style: solid;
+	border-left-width: 1px;
+	border-color: rgb(224, 224, 224);
+}
+
+td{
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+	vertical-align: middle;
+}
