@@ -16,6 +16,7 @@ table{
     border-left-style: solid;
 	border-left-width: 1px;
 	border-color: rgb(224, 224, 224);
+	background-color: white;
 }
 
 td{
@@ -24,4 +25,16 @@ td{
     padding-bottom: 10px;
     padding-left: 20px;
 	vertical-align: middle;
+
 }
+
+body{
+	background-image:url("../img/haikei.png");
+}
+
+p.shadow {
+
+	text-shadow: -1px -1px 0 white, -1px 0 0 white, -1px 1px 0 white,
+					0 -1px 0 white,                  0 1px 0 white,
+				  1px -1px 0 white,  1px 0 0 white,  1px 1px 0 white;
+  }
