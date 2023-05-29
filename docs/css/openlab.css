@@ -32,9 +32,12 @@ body{
 	background-image:url("../img/haikei.png");
 }
 
-p.shadow {
-
-	text-shadow: -1px -1px 0 white, -1px 0 0 white, -1px 1px 0 white,
-					0 -1px 0 white,                  0 1px 0 white,
-				  1px -1px 0 white,  1px 0 0 white,  1px 1px 0 white;
-  }
+.shadow{
+-webkit-text-stroke:2px White;
+position: relative;
+}
+.shadow::before{
+    content: "上記日程以外にも、研究内容や進路など相談があれば個別に面談をしますので、以下のメールアドレス宛に氏名と希望日時(複数)を送ってください。";
+    -webkit-text-stroke: 0;
+    position: absolute;
+}
