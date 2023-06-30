@@ -3,23 +3,23 @@ $('#myFooter').load("../footer.html");
 
 function addActive(eventObject) {
       // items in main menu
-      var items = {'ja':['index-ja.html', 'research-ja.html','lablife-ja.html', 'publications-ja.html', 'joinus-ja.html'],
-                    'en':['index.html', 'research.html','lablife.html', 'publications.html', 'joinus.html']}
+      var items = {'ja':['/index-ja.html', '/research-ja.html','/lablife-ja.html', '/publications-ja.html', '/joinus-ja.html'],
+                    'en':['/index.html', '/research.html','/lablife.html', '/publications.html', '/joinus.html']}
       // items in about
-      var subitems = {'ja':['index-ja.html#lab-mission', 'index-ja.html#projects', 'index-ja.html#members','contact-ja.html'],
-                      'en':['index.html#lab-mission', 'index.html#projects', 'index.html#members','contact.html']}
+      var subitems = {'ja':['/index-ja.html#lab-mission', '/index-ja.html#projects', '/index-ja.html#members','/contact-ja.html'],
+                      'en':['/index.html#lab-mission', '/index.html#projects', '/index.html#members','/contact.html']}
       // items in research
-      var subitems2 = {'ja':['research-ja.html','research_service-ja.html','research_language-ja.html','research_collab-ja.html'],
-                      'en':['research.html', 'research_service.html','research_language.html','research_collab.html']}
+      var subitems2 = {'ja':['/research-ja.html','/research_service-ja.html','/research_language-ja.html','/research_collab-ja.html'],
+                      'en':['/research.html', '/research_service.html','/research_language.html','/research_collab.html']}
       // items in publication
-      var subitems3 = {'ja':['publications-ja.html', 'thesis-ja.html'],
-                      'en':['publications.html', 'thesis.html']}
+      var subitems3 = {'ja':['/publications-ja.html', '/thesis-ja.html'],
+                      'en':['/publications.html', '/thesis.html']}
       // items in lablife
-      var subitems4 = {'ja':['lablife-ja.html', 'activity-ja.html'],
-                      'en':['lablife.html', 'activity.html']}
+      var subitems4 = {'ja':['/lablife-ja.html', '/activity-ja.html'],
+                      'en':['/lablife.html', '/activity.html']}
       // items in joinus
-      // var subitems4 = {'ja':['joinus-ja.html', 'openlab2021.html'],
-      //                 'en':['joinus.html', 'openlab2021.html']}
+      // var subitems4 = {'ja':['/joinus-ja.html', '/openlab2021.html'],
+      //                 'en':['/joinus.html', '/openlab2021.html']}
       var activeNum = $('#myNavbar').data("active");
       var lang = $('#myNavbar').data("language");
       var contents = $('#nav-pc').children();
