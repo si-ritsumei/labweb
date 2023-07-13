@@ -1,7 +1,7 @@
 (function($){
   $(function(){
       $('.sidenav').sidenav();
-      // $('.dropdown-trigger').dropdown({hover: true, constrain_width: false, coverTrigger: false});
+      $('.dropdown-trigger').dropdown({hover: true, constrain_width: false, coverTrigger: false});
     // $('.button-collapse').sideNav();
 	  $('.scrollspy').scrollSpy();
 
