@@ -234,6 +234,19 @@
             },
             "image":"course_event2023/DSC00783-s.JPG",
             "note":""
+        },
+        {
+            "year":"2023", "month":"7", "date":"12",
+            "title":{
+                "ja":"3回生との顔合わせイベントを行いました！",
+                "en":"We held a face to face event with 3rd year students!"
+                },
+            "link_file":{
+                "ja":"3kaisei_2023-ja.html",
+                "en":"3kaisei_2023.html"
+            },
+            "image":"3kaisei_event2023/3kaisei_event2.JPG",
+            "note":""
         }
     ]
 }
