@@ -247,6 +247,19 @@
             },
             "image":"3kaisei_event2023/3kaisei_event2.JPG",
             "note":""
+        },
+        {
+            "year":"2023", "month":"9", "date":"25",
+            "title":{
+                "ja":"認知工学研究室と合同でバーベキュー大会をしました！",
+                "en":"We organised a joint barbeque with the Cognitive Engineering Laboratory!"
+                },
+            "link_file":{
+                "ja":"barbeque_2023-ja.html",
+                "en":"barbeque_2023.html"
+            },
+            "image":"barbeque2023/barbeque3.jpg",
+            "note":""
         }
     ]
 }
