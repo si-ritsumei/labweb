@@ -260,6 +260,19 @@
             },
             "image":"barbeque2023/barbeque3.jpg",
             "note":""
+        },
+        {
+            "year":"2023", "month":"10", "date":"11",
+            "title":{
+                "ja":"社会知能研究室で多文化お茶会を開催しました！",
+                "en":"A multicultural tea party was held at the Social Intelligence Lab!"
+                },
+            "link_file":{
+                "ja":"teaparty2023_10-ja.html",
+                "en":"teaparty2023_10.html"
+            },
+            "image":"TeaParty2023_10/TeaParty2023_10_1.jpg",
+                "note":""
         }
     ]
 }
