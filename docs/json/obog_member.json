@@ -45,6 +45,12 @@
             {"name":{"ja":"小松 大輝","en":"Daiki KOMATSU"},"image":"komatsu21.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
             {"name":{"ja":"増田 悠人","en":"Yuto MASUDA"},"image":"masuda21.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
             {"name":{"ja":"山田 慎之介","en":"Shinnosuke YAMADA"},"image":"yamada21.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
+            ],
+        "9":[
+            {"name":{"ja":"李 闖","en":"Chuang LI"},"image":"li.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"HU Leshui","en":"HU Leshui"},"image":"avatar1.png","grade":{"ja":"学部卒業","en":"Bachelor"}}
         ]
+
     }
+    
 }
