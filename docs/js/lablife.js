@@ -32,14 +32,16 @@ fetch("../json/lablife.json")
 
         //オブジェクトを出力する
         articles.sort(function(a, b) {
-            if (a.year == b.year){
-                if (a.month == b.month){
-                    return b.date.localeCompare(a.date);
+            console.log("a.date:", a.date, typeof a.date);
+            console.log("b.date:", b.date, typeof b.date);
+            if (parseInt(a.year) == parseInt(b.year)){
+                if (parseInt(a.month) == parseInt(b.month)){
+                    return parseInt(b.date)-parseInt(a.date);
                 }else{
-                    return b.month - a.month;
+                    return parseInt(b.month) - parseInt(a.month);
                 }  
             }else{
-                return b.year - a.year;
+                return parseInt(b.year) - parseInt(a.year);
             }
         });
         articles.forEach(function(article){
@@ -116,7 +118,8 @@ function create_date(lang, article){
     if (lang === "ja"){
         return article.year + "年" + article.month + "月" + article.date + "日"
     }else if (lang === "en"){
-        return article.month + " " + article.date + day_sign(article.date) + ", " + article.year;
+
+        return month_en(article.month) + " " + article.date + day_sign(article.date) + ", " + article.year;
     }
 }
 
@@ -126,5 +129,36 @@ function checkLangage(lang, data) {
         return data.ja
     }else if(lang === "en"){
         return data.en
+    }
+}
+
+function month_en(lang){
+    switch(parseInt(lang)) {
+        case 1:
+            return "January";
+        case 2:
+            return "February";
+        case 3:
+            return "March";
+        case 4:
+            return "April";
+        case 5:
+            return "May";
+        case 6:
+            return "June";
+        case 7:
+            return "July";
+        case 8:
+            return "August";
+        case 9:
+            return "September";
+        case 10:
+            return "October";
+        case 11:
+            return "November";
+        case 12:
+            return "December";
+        default:
+            return "Invalid month number";
     }
 }
