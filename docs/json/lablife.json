@@ -273,19 +273,6 @@
             },
             "image":"TeaParty2023_10/TeaParty2023_10_1.jpg",
                 "note":""
-        },
-        {
-            "year":"2023", "month":"9", "date":"8",
-            "title":{
-                "ja":"育英西中学校でプログラミング講座を行いました。",
-                "en":"A programming course was held at Ikueinishi Junior High School."
-                },
-            "link_file":{
-                "ja":"ikueinishiProgramming3-ja.html",
-                "en":"ikueinishiProgramming3.html"
-            },
-            "image":"IKNS_202309/DSC00828-s.JPG",
-                "note":""
         }
     ]
 }
