@@ -51,6 +51,16 @@
             {"name":{"ja":"HU Leshui","en":"HU Leshui"},"image":"avatar1.png","grade":{"ja":"学部卒業","en":"Bachelor"}}
         ]
 
+    },
+    "2024":{
+        "3":[
+            {"name":{"ja":"洪 欣宇","en":"Xinyu HONG"},"image":"22hong_s2.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"上野 颯人","en":"Hayato UENO"},"image":"avatar1.png","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"笠井 直晴","en":"Tadaharu KASAI"},"image":"kasai21.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"北川 大夢","en":"Hiromu KITAGAWA"},"image":"kitagawa21.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"黒山 晃輝","en":"Koki KUROYAMA"},"image":"22kuroyama_s.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"増田 憲都","en":"Kazuto MASUDA"},"image":"22masuda_s.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
+            ]
     }
     
 }
