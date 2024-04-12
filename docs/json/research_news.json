@@ -1,7 +1,6 @@
 
-//////////  作成途中
 {
-    "artiles":[
+    "articles":[
         {
             "year":"2019", "month":"12", "date":"5",
             "text":{
@@ -19,7 +18,7 @@
             "year":"2020", "month":"6", "date":"13",
             "text":{
                 "ja":"Pituxcoosuvarnさんらの論文「Effect of Cultural Misunderstanding Warning in MT-Mediated Communication」が<i>the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)</i>に採録されました。",
-                "en":"Pituxcoosuvarn's paper titled \"Effect of Cultural Misunderstanding Warning in MT-Mediated Communication\" has been accepted for <i>the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)</i>."
+                "en":"Pituxcoosuvarn's paper titled 'Effect of Cultural Misunderstanding Warning in MT-Mediated Communication' has been accepted for <i>the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)</i>."
                 },
             "link_file":{
                 "ja":"https://dl.acm.org/doi/abs/10.1007/978-3-030-58157-2_8",
@@ -32,7 +31,7 @@
             "year":"2020", "month":"6", "date":"13c",
             "text":{
                 "ja":"西村さんらの論文「Image-Based Detection Criteria for Cultural Differences in Translation」が<i>the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)</i>に採録されました。",
-                "en":"Nishimura's paper titled \"Image-Based Detection Criteria for Cultural Differences in Translation\" has been accepted for <i>the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)</i>."
+                "en":"Nishimura's paper titled 'Image-Based Detection Criteria for Cultural Differences in Translation' has been accepted for <i>the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)</i>."
                 },
             "link_file":{
                 "ja":"https://www.researchgate.net/publication/343984851_Image-Based_Detection_Criteria_for_Cultural_Differences_in_Translation",
@@ -45,7 +44,7 @@
             "year":"2020", "month":"8", "date":"4",
             "text":{
                 "ja":"村上さんらの論文「Plan Optimization to Bilingual Dictionary Induction for Low-Resource Language Families」が<i>ACM Transactions on Asian and Low-Resource Language Information Processing</i>に採録されました。",
-                "en":"Prof. Murakami's co-authored paper titled \"Plan Optimization to Bilingual Dictionary Induction for Low-Resource Language Families\" has been accepted for <i>ACM Transactions on Asian and Low-Resource Language Information Processing</i>."
+                "en":"Prof. Murakami's co-authored paper titled 'Plan Optimization to Bilingual Dictionary Induction for Low-Resource Language Families' has been accepted for <i>ACM Transactions on Asian and Low-Resource Language Information Processing</i>."
                 },
             "link_file":{
                 "ja":"https://dl.acm.org/doi/abs/10.1145/3448215",
@@ -58,7 +57,7 @@
             "year":"2021", "month":"3", "date":"12",
             "text":{
                 "ja":"西村さんらの論文「Cultural Differences Detection Based on Image Feature Vectors」が<i>The Transactions of Human Interface Society</i>に採録されました。<",
-                "en":"Nishimura's paper titled \"Cultural Differences Detection Based on Image Feature Vectors\" has been accepted for <i>The Transactions of Human Interface Society</i>."
+                "en":"Nishimura's paper titled 'Cultural Differences Detection Based on Image Feature Vectors' has been accepted for <i>The Transactions of Human Interface Society</i>."
                 },
             "link_file":{
                 "ja":"https://www.jstage.jst.go.jp/article/his/23/2/23_145/_article/-char/ja/",
@@ -71,7 +70,7 @@
             "year":"2022", "month":"4", "date":"29",
             "text":{
                 "ja":"元澤さんらの論文「Conversation Analysis for Facilitation in Children's Intercultural Collaboration」が<i>ACM Interaction Design and Children (IDC'21)</i>に採録されました。",
-                "en":"Motozawa's paper titled \"Conversation Analysis for Facilitation in Children's Intercultural Collaboration\" has been accepted for <i>ACM Interaction Design and Children (IDC'21)</i>."
+                "en":"Motozawa's paper titled 'Conversation Analysis for Facilitation in Children's Intercultural Collaboration' has been accepted for <i>ACM Interaction Design and Children (IDC'21)</i>."
                 },
             "link_file":{
                 "ja":"https://dl.acm.org/doi/10.1145/3459990.3460721",
@@ -84,7 +83,7 @@
             "year":"2022", "month":"4", "date":"8",
             "text":{
                 "ja":"元澤さんらの論文「Annotation References for Facilitation Analysis in Multilingual Communication」が<i>Human-Computer Interaction International (HCII 2022)</i>に採録されました。",
-                "en":"Motozawa's paper titled \"Annotation References for Facilitation Analysis in Multilingual Communication\" has been accepted for <i>Human-Computer Interaction International (HCII 2022)</i>."
+                "en":"Motozawa's paper titled 'Annotation References for Facilitation Analysis in Multilingual Communication' has been accepted for <i>Human-Computer Interaction International (HCII 2022)</i>."
                 },
             "link_file":{
                 "ja":"https://link.springer.com/chapter/10.1007/978-3-031-06050-2_12",
@@ -97,7 +96,7 @@
             "year":"2022", "month":"4", "date":"8",
             "text":{
                 "ja":"西村さんらの論文「Evaluation Dataset for Cultural Difference Detection Task」が<i>Human-Computer Interaction International (HCII 2022)</i>に採録されました。",
-                "en":"Nishimura's paper titled \"Evaluation Dataset for Cultural Difference Detection Task\" has been accepted for <i>Human-Computer Interaction International (HCII 2022)</i>."
+                "en":"Nishimura's paper titled 'Evaluation Dataset for Cultural Difference Detection Task' has been accepted for <i>Human-Computer Interaction International (HCII 2022)</i>."
                 },
             "link_file":{
                 "ja":"https://link.springer.com/chapter/10.1007/978-3-031-06050-2_13",
@@ -110,7 +109,7 @@
             "year":"2022", "month":"4", "date":"8",
             "text":{
                 "ja":"Pituxcoosuvarnさんらの論文「Confidence Value for Cultural-Based Misunderstanding Warning in Multilingual Chat」が<i>Human-Computer Interaction International (HCII 2022)</i>に採録されました。",
-                "en":"Pituxcoosuvarn's paper titled \"Confidence Value for Cultural-Based Misunderstanding Warning in Multilingual Chat\" has been accepted for <i>Human-Computer Interaction International (HCII 2022)</i>."
+                "en":"Pituxcoosuvarn's paper titled 'Confidence Value for Cultural-Based Misunderstanding Warning in Multilingual Chat' has been accepted for <i>Human-Computer Interaction International (HCII 2022)</i>."
                 },
             "link_file":{
                 "ja":"https://link.springer.com/chapter/10.1007/978-3-031-06038-0_26",
@@ -123,7 +122,7 @@
             "year":"2022", "month":"4", "date":"8",
             "text":{
                 "ja":"地田さんらの論文「Quality Control for Crowdsourced Bilingual Dictionary in Low-Resource Languages」が<i>The 13th Edition of its Language Resources and Evaluation Conference (LREC 2022)</i>に採録されました。",
-                "en":"Chida's paper titled \"Quality Control for Crowdsourced Bilingual Dictionary in Low-Resource Languages\" has been accepted for <i>The 13th Edition of its Language Resources and Evaluation Conference (LREC 2022)</i>."
+                "en":"Chida's paper titled 'Quality Control for Crowdsourced Bilingual Dictionary in Low-Resource Languages' has been accepted for <i>The 13th Edition of its Language Resources and Evaluation Conference (LREC 2022)</i>."
                 },
             "link_file":{
                 "ja":"https://aclanthology.org/2022.lrec-1.709/",
@@ -136,7 +135,7 @@
             "year":"2022", "month":"6", "date":"5",
             "text":{
                 "ja":"佐藤さんらの論文「Effects of Virtual Space in Soccer Tactical Instruction」が<i>Human-Computer Interaction International (HCII 2022)</i>に採録されました。",
-                "en":"Sato's paper titled \"Effects of Virtual Space in Soccer Tactical Instruction\" has been accepted for <i>Human-Computer Interaction International (HCII 2022)</i>."
+                "en":"Sato's paper titled 'Effects of Virtual Space in Soccer Tactical Instruction' has been accepted for <i>Human-Computer Interaction International (HCII 2022)</i>."
                 },
             "link_file":{
                 "ja":"https://2022.hci.international",
@@ -149,7 +148,7 @@
             "year":"2022", "month":"10", "date":"24",
             "text":{
                 "ja":"Resiandiさんらの論文「 Neural Network Approach to Create Minangkabau-Indonesia Bilingual Dictionary」が<i>The 13th Edition of its Language Resources and Evaluation Conference (LREC 2022)</i>に採録されました。",
-                "en":"Resiandi's paper titled \"Neural Network Approach to Create Minangkabau-Indonesia Bilingual Dictionary\" has been accepted for <i>The 13th Edition of its Language Resources and Evaluation Conference (LREC 2022)</i>."
+                "en":"Resiandi's paper titled 'Neural Network Approach to Create Minangkabau-Indonesia Bilingual Dictionary' has been accepted for <i>The 13th Edition of its Language Resources and Evaluation Conference (LREC 2022)</i>."
                 },
             "link_file":{
                 "ja":"https://aclanthology.org/2022.sigul-1.16/",
@@ -162,7 +161,7 @@
             "year":"2023", "month":"7", "date":"6",
             "text":{
                 "ja":"Pituxcoosuvarnさんらの論文「Facilitator Agent to Support Low-Resource Language Speakers in MT-Mediated Communication」が<i>The 28th International Conference on Collaboration Technologies and Social Computing (CollabTech 2022)</i>に採録されました。",
-                "en":"Pituxcoosuvarn's paper titled \"Facilitator Agent to Support Low-Resource Language Speakers in MT-Mediated Communication\" has been accepted for <i>The 13th Edition of its Language Resources and Evaluation Conference (LREC 2022)</i>."
+                "en":"Pituxcoosuvarn's paper titled 'Facilitator Agent to Support Low-Resource Language Speakers in MT-Mediated Communication' has been accepted for <i>The 13th Edition of its Language Resources and Evaluation Conference (LREC 2022)</i>."
                 },
             "link_file":{
                 "ja":"https://doi.org/10.1007/978-3-031-20218-6_16",
