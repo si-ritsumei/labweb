@@ -1,291 +1,350 @@
-
 {
     "articles":[
         {
-            "year":"2019", "month":"11", "date":"13",
-            "title":{
-                "ja":"ウィーン大学のBartholomaeus Wloka氏が講演を行いました。",
-                "en":"Dr.Bartholomäus Wloka, from the Centre for Translation Studies, University of Vienna, gave a lecture."
-                },
-            "link_file":{
-                "ja":"talkWloka-ja.html",
-                "en":"talkWloka.html"
+            "year": "2019",
+            "month": "11",
+            "date": "13",
+            "title": {
+                "ja": "ウィーン大学のBartholomaeus Wloka氏が講演を行いました。",
+                "en": "Dr.Bartholomäus Wloka, from the Centre for Translation Studies, University of Vienna, gave a lecture."
             },
-            "image":"talkWloka/DSC_0317.JPG",
-            "note":""
+            "link_file": {
+                "ja": "talkWloka-ja.html",
+                "en": "talkWloka.html"
+            },
+            "image": "talkWloka/DSC_0317.JPG",
+            "note": ""
         },
         {
-            "year":"2019", "month":"12", "date":"23",
-            "title":{
-                "ja":"ウィーン大学のMichelle Proyer先生が講演を行いました。",
-                "en":"Prof. Michelle Proyer, from the University of Vienna, gave a lecture."
-                },
-            "link_file":{
-                "ja":"talkProyer-ja.html",
-                "en":"talkProyer.html"
+            "year": "2019",
+            "month": "12",
+            "date": "23",
+            "title": {
+                "ja": "ウィーン大学のMichelle Proyer先生が講演を行いました。",
+                "en": "Prof. Michelle Proyer, from the University of Vienna, gave a lecture."
             },
-            "image":"talkProyer/DSC_0006.JPG",
-            "note":""
+            "link_file": {
+                "ja": "talkProyer-ja.html",
+                "en": "talkProyer.html"
+            },
+            "image": "talkProyer/DSC_0006.JPG",
+            "note": ""
         },
         {
-            "year":"2020", "month":"1", "date":"20",
-            "title":{
-                "ja":"みらい翻訳の鳥居大祐氏が講演を行いました。",
-                "en":"Dr. Daisuke Torii of Mirai Translation visited us and gave a lecture."
-                },
-            "link_file":{
-                "ja":"talkTorii-ja.html",
-                "en":"talkTorii.html"
+            "year": "2020",
+            "month": "1",
+            "date": "20",
+            "title": {
+                "ja": "みらい翻訳の鳥居大祐氏が講演を行いました。",
+                "en": "Dr. Daisuke Torii of Mirai Translation visited us and gave a lecture."
             },
-            "image":"talkTorii/DSC_0018.JPG",
-            "note":""
+            "link_file": {
+                "ja": "talkTorii-ja.html",
+                "en": "talkTorii.html"
+            },
+            "image": "talkTorii/DSC_0018.JPG",
+            "note": ""
         },
         {
-            "year":"2020", "month":"3", "date":"19",
-            "title":{
-                "ja":"2019年度の学部4回生が卒業しました。",
-                "en":"Congratuations to our graduates! Fourth year students, class of 2019."
-                },
-            "link_file":{
-                "ja":"",
-                "en":""
+            "year": "2020",
+            "month": "3",
+            "date": "19",
+            "title": {
+                "ja": "2019年度の学部4回生が卒業しました。",
+                "en": "Congratuations to our graduates! Fourth year students, class of 2019."
             },
-            "image":"graduation2019/DSC_0020.jpeg",
-            "note":""
+            "link_file": {
+                "ja": "",
+                "en": ""
+            },
+            "image": "graduation2019/DSC_0020.jpeg",
+            "note": ""
         },
         {
-            "year":"2020", "month":"6", "date":"17",
-            "title":{
-                "ja":"2020年度研究室公開が終了しました。",
-                "en":"Open Lab. 2020 has ended."
-                },
-            "link_file":{
-                "ja":"",
-                "en":""
+            "year": "2020",
+            "month": "6",
+            "date": "17",
+            "title": {
+                "ja": "2020年度研究室公開が終了しました。",
+                "en": "Open Lab. 2020 has ended."
             },
-            "image":"forEvent.png",
-            "note":""
+            "link_file": {
+                "ja": "",
+                "en": ""
+            },
+            "image": "forEvent.png",
+            "note": ""
         },
         {
-            "year":"2021", "month":"3", "date":"22",
-            "title":{
-                "ja":"2020年度の学部4回生が卒業しました。",
-                "en":"Congratuations to our graduates! Fourth year students, class of 2020."
-                },
-            "link_file":{
-                "ja":"",
-                "en":""
+            "year": "2021",
+            "month": "3",
+            "date": "22",
+            "title": {
+                "ja": "2020年度の学部4回生が卒業しました。",
+                "en": "Congratuations to our graduates! Fourth year students, class of 2020."
             },
-            "image":"graduation2020/ll2020graduate.JPG",
-            "note":""
+            "link_file": {
+                "ja": "",
+                "en": ""
+            },
+            "image": "graduation2020/ll2020graduate.JPG",
+            "note": ""
         },
         {
-            "year":"2021", "month":"12", "date":"11",
-            "title":{
-                "ja":"小中学生を対象にScratchを用いたAIプログラミングワークショップを実施しました。",
-                "en":"We conducted a AI programming workshop in Scratch."
-                },
-            "link_file":{
-                "ja":"scratchWS2021-ja.html",
-                "en":"scratchWS2021.html"
+            "year": "2021",
+            "month": "12",
+            "date": "11",
+            "title": {
+                "ja": "小中学生を対象にScratchを用いたAIプログラミングワークショップを実施しました。",
+                "en": "We conducted a AI programming workshop in Scratch."
             },
-            "image":"scratchWS/DSC_1154s.jpg",
-            "note":""
+            "link_file": {
+                "ja": "scratchWS2021-ja.html",
+                "en": "scratchWS2021.html"
+            },
+            "image": "scratchWS/DSC_1154s.jpg",
+            "note": ""
         },
         {
-            "year":"2022", "month":"3", "date":"22",
-            "title":{
-                "ja":"2021年度の学部4回生と修士2回生が卒業しました。",
-                "en":"Congratuations to our graduates!, class of 2021."
-                },
-            "link_file":{
-                "ja":"",
-                "en":""
+            "year": "2022",
+            "month": "3",
+            "date": "22",
+            "title": {
+                "ja": "2021年度の学部4回生と修士2回生が卒業しました。",
+                "en": "Congratuations to our graduates!, class of 2021."
             },
-            "image":"graduation2021/ll2021graduate.jpeg",
-            "note":""
+            "link_file": {
+                "ja": "",
+                "en": ""
+            },
+            "image": "graduation2021/ll2021graduate.jpeg",
+            "note": ""
         },
         {
-            "year":"2022", "month":"5", "date":"27",
-            "title":{
-                "ja":"2022年度研究室公開の日程が決定しました！",
-                "en":"The schedule for opening the laboratory to the public has been decided!"
-                },
-            "link_file":{
-                "ja":"openlab2022.html",
-                "en":"openlab2022.html"
+            "year": "2022",
+            "month": "5",
+            "date": "27",
+            "title": {
+                "ja": "2022年度研究室公開の日程が決定しました！",
+                "en": "The schedule for opening the laboratory to the public has been decided!"
             },
-            "image":"forEvent.png",
-            "note":""
+            "link_file": {
+                "ja": "openlab2022.html",
+                "en": "openlab2022.html"
+            },
+            "image": "forEvent.png",
+            "note": ""
         },
         {
-            "year":"2022", "month":"7", "date":"4",
-            "title":{
-                "ja":"2022年度1回生向けコース説明会を実施しました！",
-                "en":"Course briefing for first-year students in 2022!"
-                },
-            "link_file":{
-                "ja":"course_event2022_ja.html",
-                "en":"course_event2022_en.html"
+            "year": "2022",
+            "month": "7",
+            "date": "4",
+            "title": {
+                "ja": "2022年度1回生向けコース説明会を実施しました！",
+                "en": "Course briefing for first-year students in 2022!"
             },
-            "image":"course_event2022/course_event1.JPG",
-            "note":""
+            "link_file": {
+                "ja": "course_event2022_ja.html",
+                "en": "course_event2022_en.html"
+            },
+            "image": "course_event2022/course_event1.JPG",
+            "note": ""
         },
         {
-            "year":"2022", "month":"7", "date":"15",
-            "title":{
-                "ja":"3回生との顔合わせを行いました!",
-                "en":"Face-to-Face Meeting with Third-Year Students!"
-                },
-            "link_file":{
-                "ja":"3kaisei_2022_ja.html",
-                "en":"3kaisei_2022_en.html"
+            "year": "2022",
+            "month": "7",
+            "date": "15",
+            "title": {
+                "ja": "3回生との顔合わせを行いました!",
+                "en": "Face-to-Face Meeting with Third-Year Students!"
             },
-            "image":"3kaisei_event2022/2022_3kaisei_1.JPG",
-            "note":""
-        },
-        {        
-            "year":"2022", "month":"10", "date":"13",
-            "title":{
-                "ja":"3年生が滋賀県国際協会（SIA）を訪問しました。",
-                "en":"Third-year students visited Shiga Intercultural Association for Globalization(SIA) "
-                },
-            "link_file":{
-                "ja":"sia_2022_ja.html",
-                "en":"sia_2022_en.html"
+            "link_file": {
+                "ja": "3kaisei_2022_ja.html",
+                "en": "3kaisei_2022_en.html"
             },
-            "image":"SIA2022/2022_SIA_1.jpg",
-            "note":""
+            "image": "3kaisei_event2022/2022_3kaisei_1.JPG",
+            "note": ""
         },
         {
-            "year":"2022", "month":"12", "date":"1",
-            "title":{
-                "ja":"Hong-Linh Truong教授が講演を行いました。",
-                "en":"Prof. Hong-Linh Truong gave a talk."
-                },
-            "link_file":{
-                "ja":"talkLinh-ja.html",
-                "en":"talkLinh.html"
+            "year": "2022",
+            "month": "10",
+            "date": "13",
+            "title": {
+                "ja": "3年生が滋賀県国際協会（SIA）を訪問しました。",
+                "en": "Third-year students visited Shiga Intercultural Association for Globalization(SIA) "
             },
-            "image":"talkLinh/linh.jpg",
-            "note":""
+            "link_file": {
+                "ja": "sia_2022_ja.html",
+                "en": "sia_2022_en.html"
+            },
+            "image": "SIA2022/2022_SIA_1.jpg",
+            "note": ""
         },
         {
-            "year":"2023", "month":"3", "date":"22",
-            "title":{
-                "ja":"2022年度の学部4回生と修士2回生が卒業しました。",
-                "en":"Congratuations to our graduates!, class of 2022."
-                },
-            "link_file":{
-                "ja":"graduation2023-ja.html",
-                "en":"graduation2023.html"
+            "year": "2022",
+            "month": "12",
+            "date": "1",
+            "title": {
+                "ja": "Hong-Linh Truong教授が講演を行いました。",
+                "en": "Prof. Hong-Linh Truong gave a talk."
             },
-            "image":"graduation2023/graduate2023-1.JPG",
-            "note":""
+            "link_file": {
+                "ja": "talkLinh-ja.html",
+                "en": "talkLinh.html"
+            },
+            "image": "talkLinh/linh.jpg",
+            "note": ""
         },
         {
-            "year":"2023", "month":"3", "date":"24",
-            "title":{
-                "ja":"育英西中学校でプログラミング講座を実施しました。",
-                "en":"A programming course was held at Ikueinishi Junior High School."
-                },
-            "link_file":{
-                "ja":"ikueinishiProgramming2-ja.html",
-                "en":"ikueinishiProgramming2.html"
+            "year": "2023",
+            "month": "3",
+            "date": "22",
+            "title": {
+                "ja": "2022年度の学部4回生と修士2回生が卒業しました。",
+                "en": "Congratuations to our graduates!, class of 2022."
             },
-            "image":"programmingIkunishi2023/IKNS1-s.jpg",
-                "note":""
+            "link_file": {
+                "ja": "graduation2023-ja.html",
+                "en": "graduation2023.html"
+            },
+            "image": "graduation2023/graduate2023-1.JPG",
+            "note": ""
         },
         {
-            "year":"2023", "month":"4", "date":"26",
-            "title":{
-                "ja":"社会知能研究室で多文化お茶会を開催しました！",
-                "en":"A multicultural tea party was held at the Social Intelligence Lab!"
-                },
-            "link_file":{
-                "ja":"teaparty-ja.html",
-                "en":"teaparty.html"
+            "year": "2023",
+            "month": "3",
+            "date": "24",
+            "title": {
+                "ja": "育英西中学校でプログラミング講座を実施しました。",
+                "en": "A programming course was held at Ikueinishi Junior High School."
             },
-            "image":"TeaParty2023/teaparty1-s.JPG",
-                "note":""
+            "link_file": {
+                "ja": "ikueinishiProgramming2-ja.html",
+                "en": "ikueinishiProgramming2.html"
+            },
+            "image": "programmingIkunishi2023/IKNS1-s.jpg",
+            "note": ""
         },
         {
-            "year":"2023", "month":"3", "date":"26",
-            "title":{
-                "ja":"2023年度研究室公開の日程が決定しました！",
-                "en":"The schedule for opening the laboratory 2023 to the public has been decided!"
-                },
-            "link_file":{
-                "ja":"openlab2023.html",
-                "en":"openlab2023-en.html"
+            "year": "2023",
+            "month": "4",
+            "date": "26",
+            "title": {
+                "ja": "社会知能研究室で多文化お茶会を開催しました！",
+                "en": "A multicultural tea party was held at the Social Intelligence Lab!"
             },
-            "image":"forEvent.png",
-                "note":""
+            "link_file": {
+                "ja": "teaparty-ja.html",
+                "en": "teaparty.html"
+            },
+            "image": "TeaParty2023/teaparty1-s.JPG",
+            "note": ""
         },
         {
-            "year":"2023", "month":"6", "date":"29",
-            "title":{
-                "ja":"2023年度1回生向けコース説明会を実施しました！",
-                "en":"Course briefing for first-year students in 2023!"
-                },
-            "link_file":{
-                "ja":"course_event2023_ja.html",
-                "en":"course_event2023_en.html"
+            "year": "2023",
+            "month": "3",
+            "date": "26",
+            "title": {
+                "ja": "2023年度研究室公開の日程が決定しました！",
+                "en": "The schedule for opening the laboratory 2023 to the public has been decided!"
             },
-            "image":"course_event2023/DSC00783-s.JPG",
-            "note":""
+            "link_file": {
+                "ja": "openlab2023.html",
+                "en": "openlab2023-en.html"
+            },
+            "image": "forEvent.png",
+            "note": ""
         },
         {
-            "year":"2023", "month":"7", "date":"12",
-            "title":{
-                "ja":"3回生との顔合わせイベントを行いました！",
-                "en":"We held a face to face event with 3rd year students!"
-                },
-            "link_file":{
-                "ja":"3kaisei_2023-ja.html",
-                "en":"3kaisei_2023.html"
+            "year": "2023",
+            "month": "6",
+            "date": "29",
+            "title": {
+                "ja": "2023年度1回生向けコース説明会を実施しました！",
+                "en": "Course briefing for first-year students in 2023!"
             },
-            "image":"3kaisei_event2023/3kaisei_event2.JPG",
-            "note":""
+            "link_file": {
+                "ja": "course_event2023_ja.html",
+                "en": "course_event2023_en.html"
+            },
+            "image": "course_event2023/DSC00783-s.JPG",
+            "note": ""
         },
         {
-            "year":"2023", "month":"9", "date":"25",
-            "title":{
-                "ja":"認知工学研究室と合同でバーベキュー大会をしました！",
-                "en":"We organised a joint barbeque with the Cognitive Engineering Laboratory!"
-                },
-            "link_file":{
-                "ja":"barbeque_2023-ja.html",
-                "en":"barbeque_2023.html"
+            "year": "2023",
+            "month": "7",
+            "date": "12",
+            "title": {
+                "ja": "3回生との顔合わせイベントを行いました！",
+                "en": "We held a face to face event with 3rd year students!"
             },
-            "image":"barbeque2023/barbeque3.jpg",
-            "note":""
+            "link_file": {
+                "ja": "3kaisei_2023-ja.html",
+                "en": "3kaisei_2023.html"
+            },
+            "image": "3kaisei_event2023/3kaisei_event2.JPG",
+            "note": ""
         },
         {
-            "year":"2023", "month":"10", "date":"11",
-            "title":{
-                "ja":"社会知能研究室で多文化お茶会を開催しました！",
-                "en":"A multicultural tea party was held at the Social Intelligence Lab!"
-                },
-            "link_file":{
-                "ja":"teaparty2023_10-ja.html",
-                "en":"teaparty2023_10.html"
+            "year": "2023",
+            "month": "9",
+            "date": "25",
+            "title": {
+                "ja": "認知工学研究室と合同でバーベキュー大会をしました！",
+                "en": "We organised a joint barbeque with the Cognitive Engineering Laboratory!"
             },
-            "image":"TeaParty2023_10/TeaParty2023_10_1.jpg",
-                "note":""
+            "link_file": {
+                "ja": "barbeque_2023-ja.html",
+                "en": "barbeque_2023.html"
+            },
+            "image": "barbeque2023/barbeque3.jpg",
+            "note": ""
         },
         {
-            "year":"2023", "month":"9", "date":"8",
-            "title":{
-                "ja":"育英西中学校でプログラミング講座を行いました。",
-                "en":"A programming course was held at Ikueinishi Junior High School."
-                },
-            "link_file":{
-                "ja":"ikueinishiProgramming3-ja.html",
-                "en":"ikueinishiProgramming3.html"
+            "year": "2023",
+            "month": "10",
+            "date": "11",
+            "title": {
+                "ja": "社会知能研究室で多文化お茶会を開催しました！",
+                "en": "A multicultural tea party was held at the Social Intelligence Lab!"
             },
-            "image":"IKNS_202309/DSC00828-s.JPG",
-                "note":""
+            "link_file": {
+                "ja": "teaparty2023_10-ja.html",
+                "en": "teaparty2023_10.html"
+            },
+            "image": "TeaParty2023_10/TeaParty2023_10_1.jpg",
+            "note": ""
+        },
+        {
+            "year": "2023",
+            "month": "9",
+            "date": "8",
+            "title": {
+                "ja": "育英西中学校でプログラミング講座を行いました。",
+                "en": "A programming course was held at Ikueinishi Junior High School."
+            },
+            "link_file": {
+                "ja": "ikueinishiProgramming3-ja.html",
+                "en": "ikueinishiProgramming3.html"
+            },
+            "image": "IKNS_202309/DSC00828-s.JPG",
+            "note": ""
+        }
+        ,
+        {
+            "year": "2023",
+            "month": "3",
+            "date": "22",
+            "title": {
+                "ja": "2023年度の学部4回生と修士2回生が卒業しました。",
+                "en": "Congratuations to our graduates!, class of 2022."
+            },
+            "link_file": {
+                "ja": "graduation2024-ja.html",
+                "en": "graduation2024.html"
+            },
+            "image": "graduation2023/graduate2023-1.JPG",
+            "note": ""
         }
     ]
 }
