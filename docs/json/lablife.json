@@ -330,21 +330,22 @@
             "image": "IKNS_202309/DSC00828-s.JPG",
             "note": ""
         }
-        ,
-        {
-            "year": "2024",
-            "month": "3",
-            "date": "22",
-            "title": {
-                "ja": "2023年度の学部4回生と修士2回生が卒業しました。",
-                "en": "Congratuations to our graduates!, class of 2023."
-            },
-            "link_file": {
-                "ja": "graduation2024-ja.html",
-                "en": "graduation2024.html"
-            },
-            "image": "graduation2024/graduate2024-1.JPG",
-            "note": ""
-        }
+        // 作成途中
+        // ,
+        // {
+        //     "year": "2024",
+        //     "month": "3",
+        //     "date": "22",
+        //     "title": {
+        //         "ja": "2023年度の学部4回生と修士2回生が卒業しました。",
+        //         "en": "Congratuations to our graduates!, class of 2023."
+        //     },
+        //     "link_file": {
+        //         "ja": "graduation2024-ja.html",
+        //         "en": "graduation2024.html"
+        //     },
+        //     "image": "graduation2024/graduate2024-1.JPG",
+        //     "note": ""
+        // }
     ]
 }
