@@ -1,0 +1,44 @@
+
+{
+    "presentations":[
+        {
+            "year":"2019", "month":"12", "date":"5",
+            "text":{
+                "ja":"村上准教授がUNESCOで開催されたLT4Allにて、「Language Sphere: A Sociotechnical Approach to Bilingual Dictionary Creation for Indigenous Languages」の講演を行いました。",
+                "en":"Prof. Murakami gave an invited talk titled \"Language Sphere: A Sociotechnical Approach to Bilingual Dictionary Creation for Indigenous Languages\" in LT4All held at UNESCO."
+                },
+            "link_file":{
+                "ja":"",
+                "en":""
+            },
+            "image":"nLT4ALL.png",
+            "note":""
+        },
+        {
+            "year":"2023", "month":"3", "date":"4",
+            "text":{
+                "ja":"西村さんと佐藤さんが情報処理学会 第85回全国大会で研究発表を行いました. ",
+                "en":"Mr. Nishimura and Mr. Sato, gave a research presentation at The 85th National Convention of IPSJ."
+                },
+            "link_file":{
+                "ja":"ipsj_85thNC-ja.html",
+                "en":"ipsj_85thNC.html"
+            },
+            "image":"IPSJ_85thNC/IPSJ_85thNC1.jpg",
+            "note":""
+        },
+        {
+            "year":"2023", "month":"3", "date":"17",
+            "text":{
+                "ja":"大井さんが，サービスコンピューティング研究会で研究発表を行い，若手奨励賞を受賞しました．",
+                "en":"Mr. Oi gave a research presentation at the Services Computing Workshop and received the Young Scientist Incentive Award."
+                },
+            "link_file":{
+                "ja":"sc2023_03-ja.html",
+                "en":"sc2023_03.html"
+            },
+            "image":"SC2023_03/SC2022_L1.jpg",
+            "note":""
+        }
+    ]
+}

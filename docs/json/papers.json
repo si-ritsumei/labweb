@@ -1,0 +1,26 @@
+
+{
+    "papers":[
+        {
+            "year":"2020", "month":"6", "date":"13",
+            "lead_author":{
+                "ja": "Pituxcoosuvarn",
+                "en": "Pituxcoosuvarn"
+                },
+            "paper_title":{
+                "ja":"Effect of Cultural Misunderstanding Warning in MT-Mediated Communication」が<i>the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)</i>に採録されました。",
+                "en":"Pituxcoosuvarn's paper titled 'Effect of Cultural Misunderstanding Warning in MT-Mediated Communication' has been accepted for <i>the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)</i>."
+                },
+            "publication":{
+                "ja":"the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)",
+                "en":"the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)"
+            },
+            "link_file":{
+                "ja":"https://dl.acm.org/doi/abs/10.1007/978-3-030-58157-2_8",
+                "en":"https://dl.acm.org/doi/abs/10.1007/978-3-030-58157-2_8"
+            },
+            "image":"CollabTech.png",
+            "note":""
+        }
+    ]
+}
