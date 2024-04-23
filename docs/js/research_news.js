@@ -1,124 +1,141 @@
 
-Promise.all([
-    fetch("../json/presentation.json").then(response => response.json()),
-    fetch("../json/paper.json").then(response => response.json())
-]).then(([presentationData, paperData]) => {
-    articles = [];
-    var lablife_label = document.getElementById("output_field");
-    var lang = lablife_label.classList.value;
 
-    for (var label in presentationData) { //presentationDataの要素を取り出す
+fetch("../json/presentations.json")
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(jsonData) {
+
         articles = [];
-        for(var presentation of presentationData[label]){
-            var presentations_ofyear = {
-                type: "presentation",
-                year: presentation.year,
-                month: presentation.month,
-                date: presentation.date,
-                title: checkLangage(lang,presentation.title) ? checkLangage(lang,presentation.title): null,
-                link_file: checkLangage(lang,presentation.link_file) ? checkLangage(lang,presentation.link_file): null ,
-                image: presentation.image,
-                note: presentation.note
-            }
-            articles.push(presentations_ofyear);
-        }
-        for(var paper of paperData[label]){
-            var papers_ofyear = {
-                type: "paper",
-                year: paper.year,
-                month: paper.month,
-                date: paper.date,
-                lead_author: checkLangage(lang,paper.lead_author) ? checkLangage(lang,paper.lead_author): null,
-                paper_title: checkLangage(lang,paper.paper_title) ? checkLangage(lang,paper.paper_title): null,
-                publication: checkLangage(lang,paper.publication) ? checkLangage(lang,paper.publication): null,
-                link_file: checkLangage(lang,paper.link_file) ? checkLangage(lang,paper.link_file): null ,
-                image: paper.image,
-                note: paper.note
-            }
-            articles.push(papers_ofyear);
-        }
-    }
-    //日付順でソートする
-    articles.sort(function(a, b) {
-        console.log("a.date:", a.date, typeof a.date);
-        console.log("b.date:", b.date, typeof b.date);
-        if (parseInt(a.year) == parseInt(b.year)){
-            if (parseInt(a.month) == parseInt(b.month)){
-                return parseInt(b.date)-parseInt(a.date);
-            }else{
-                return parseInt(b.month) - parseInt(a.month);
-            }  
-        }else{
-            return parseInt(b.year) - parseInt(a.year);
-        }
-    });
-    //オブジェクトを出力する
-    articles.sort(function(a, b) {
-        console.log("a.date:", a.date, typeof a.date);
-        console.log("b.date:", b.date, typeof b.date);
-        if (parseInt(a.year) == parseInt(b.year)){
-            if (parseInt(a.month) == parseInt(b.month)){
-                return parseInt(b.date)-parseInt(a.date);
-            }else{
-                return parseInt(b.month) - parseInt(a.month);
-            }  
-        }else{
-            return parseInt(b.year) - parseInt(a.year);
-        }
-    });
-    //ここから修正
-    articles.forEach(function(article){
-        var div_col = document.createElement("div");
-        div_col.classList.add("col");
-        div_col.classList.add("s6");
-        div_col.classList.add("m4");
-        div_col.classList.add("l3");
-        lablife_label.appendChild(div_col);
+        var day, i_title,i_link;
 
-        var div_card = document.createElement("div");
-        div_card.classList.add("card");
-        div_card.classList.add("small");
-        div_col.appendChild(div_card);
+        var research_news_label = document.getElementById("output_field");
+        var lang = research_news_label.classList.value;
 
-        console.log("link:"+article.link_file)
-        var a_link = document.createElement("a");
-        if (article.link_file !== null){
-            a_link.href = "Lablife_articles/" +article.link_file;
+
+        for (var label in jsonData) { //jsonDataの要素を取り出す
+            articles = [];
+            for(var article of jsonData[label]){
+                var articles_ofyear = {
+                    year: article.year,
+                    month: article.month,
+                    date: article.date,
+                    text: checkLangage(lang,article.text) ? checkLangage(lang,article.text): null,
+                    link_file: checkLangage(lang,article.link_file) ? checkLangage(lang,article.link_file): null ,
+                    image: article.image,
+                    note: article.note
+                }
+                articles.push(articles_ofyear);
+            }
         }
-        div_card.appendChild(a_link);
+        articles_sorted = sortByDate(articles);
         
 
-        var card_image_div = document.createElement("div");
-        card_image_div.classList.add("card-image");
-        a_link.appendChild(card_image_div);
+        fetch("../json/presentations2.json")
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(jsonData2) {
+                // jsonData2には2つ目のJSONデータが含まれています
+                console.log(jsonData2);
 
-        var card_image = document.createElement("img");
-        card_image.src = "img/lablife/" + article.image;
-        card_image_div.appendChild(card_image);
+                // ここでjsonData1とjsonData2を使って必要な処理を行います
+                // for (var label in jsonData2) { //jsonDataの要素を取り出す
+                //     articles = [];
+                //     for(var article of jsonData[label]){
+                //         var articles_ofyear = {
+                //             year: article.year,
+                //             month: article.month,
+                //             date: article.date,
+                //             paper_title: checkLangage(lang,article.paper_title) ? checkLangage(lang,article.paper_title): null,
+                //             publication: checkLangage(lang,article.publication) ? checkLangage(lang,article.publication): null,
+                //             link_file: checkLangage(lang,article.link_file) ? checkLangage(lang,article.link_file): null ,
+                //             image: article.image,
+                //             note: article.note
+                //         }
+                //         articles.push(articles_ofyear);
+                //     }
+                // }   
+                //articles_sorted = sortByDate(article)
+                
+            })
 
-        var card_content = document.createElement("div");
-        card_content.classList.add("card-content");
-        a_link.appendChild(card_content)
+            //オブジェクトを出力する
+            articles_sorted.forEach(function(article){
+                var div_col = document.createElement("div");
+                div_col.classList.add("col");
+                div_col.classList.add("s6");
+                div_col.classList.add("m4");
+                div_col.classList.add("l3");
+                research_news_label.appendChild(div_col);
+        
+                var div_card = document.createElement("div");
+                div_card.classList.add("card");
+                div_card.classList.add("large");
+                div_col.appendChild(div_card);
+        
+                console.log("link:"+article.link_file)
+                var a_link = document.createElement("a");
+                if (article.link_file !== null){
+                    a_link.href = "ResearchNews_articles" +article.link_file;
+                }
+                div_card.appendChild(a_link);
+                
+        
+                var card_image_div = document.createElement("div");
+                card_image_div.classList.add("card-image");
+                a_link.appendChild(card_image_div);
+        
+                
+                var card_image = document.createElement("img");
+                card_image.src = "img/" + article.image;
+                card_image_div.appendChild(card_image);
+        
+                var card_content = document.createElement("div");
+                card_content.classList.add("card-content");
+                a_link.appendChild(card_content)
+        
+                var article_text = document.createElement("p");
+                article_text.classList.add("grey-text");
+                article_text.classList.add("text-darken-4");
+                article_text.textContent = article.text;
+                card_content.appendChild(article_text);
+        
+                article_text.appendChild(document.createElement("br"));
+        
+                var article_date = document.createElement("span");
+                article_date.classList.add("d");
+                article_date.textContent =  create_date(lang, article);
+                article_text.appendChild(article_date);
+        
+        
+            });
 
-        var article_title = document.createElement("p");
-        article_title.classList.add("grey-text");
-        article_title.classList.add("text-darken-4");
-        article_title.textContent = article.title;
-        card_content.appendChild(article_title);
 
-        article_title.appendChild(document.createElement("br"));
-
-        var article_date = document.createElement("span");
-        article_date.classList.add("d");
-        article_date.textContent =  create_date(lang, article);
-        article_title.appendChild(article_date);
+    })
+    .catch(function(error) {
+        console.log("エラーが発生しました: " + error);
     });
 
-}).catch(error => {
-    console.log("エラーが発生しました: " + error);
-});
-function day_sign(date){
 
+function sortByDate(articles) {
+    articles.sort(function(a, b) {
+        console.log("a.date:", a.date, typeof a.date);
+        console.log("b.date:", b.date, typeof b.date);
+        if (parseInt(a.year) === parseInt(b.year)){
+            if (parseInt(a.month) === parseInt(b.month)){
+                return parseInt(b.date) - parseInt(a.date);
+            } else {
+                return parseInt(b.month) - parseInt(a.month);
+            }  
+        } else {
+            return parseInt(b.year) - parseInt(a.year);
+        }
+    });
+    return articles;
+}
+
+function day_sign(date){
     if (date == 1){
         return "st";
     }else if (date == 2){
@@ -126,7 +143,6 @@ function day_sign(date){
     }else{
         return "th";
     }
-
 }
 
 function create_date(lang, article){
