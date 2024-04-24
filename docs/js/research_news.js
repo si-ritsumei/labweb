@@ -30,33 +30,6 @@ fetch("../json/presentations.json")
             }
         }
         
-
-        // fetch("../json/papers.json")
-        //     .then(function(response) {
-        //         return response.json();
-        //     })
-        //     .then(function(jsonData2) {
-        //         // jsonData2には2つ目のJSONデータが含まれています
-
-        //         // ここでjsonData1とjsonData2を使って必要な処理を行います
-        //         for (var label in jsonData2) { //jsonDataの要素を取り出す
-        //             for(var article of jsonData2[label]){
-        //                 var articles_ofyear = {
-        //                     type:"paper",
-        //                     year: article.year,
-        //                     month: article.month,
-        //                     date: article.date,
-        //                     lead_author:checkLangage(lang,article.lead_author) ? checkLangage(lang,article.lead_author): null,
-        //                     paper_title: checkLangage(lang,article.paper_title) ? checkLangage(lang,article.paper_title): null,
-        //                     publication: checkLangage(lang,article.publication) ? checkLangage(lang,article.publication): null,
-        //                     link_file: checkLangage(lang,article.link_file) ? checkLangage(lang,article.link_file): null ,
-        //                     image: article.image,
-        //                     note: article.note
-        //                 }
-        //                 articles.push(articles_ofyear);
-        //             }
-        //         }                   
-        //     })
         fetch("../json/papers.json")
             .then(function(response) {
                 return response.json();
@@ -96,22 +69,6 @@ fetch("../json/presentations.json")
                     };
                 });
             })
-            // console.log("articles:",articles);
-            // articles_sorted = sortByDate(articles);
-            // console.log("articles_sorted:",articles_sorted);
-            // console.log("sorted");
-
-            //オブジェクトを出力する
-            // articles_sorted.forEach(function(article){
-            //     console.log("type:",article.type);
-            //     if(article.type === "presentation"){
-            //         print_presentation(article,research_news_label,lang);
-            //     }else if(article.type === "paper"){
-            //         print_paper(article,research_news_label,lang);
-            //     };
-        
-        
-            // });
 
 
     })
@@ -287,11 +244,10 @@ function print_paper(article,research_news_label,lang){
     var italicElement = document.createElement("i");
     italicElement.textContent= article.publication;
     if (lang==="ja"){
-        article_text.textContent=article.lead_author+"らの論文「" + article.paper_title + "」が"
-        article_text.appendChild(italicElement);
-        article_text.textContent+="に採録されました。"
-    };
+        article_text.innerHTML=article.lead_author+"らの論文「" + article.paper_title + "」が<i>" + article.publication + "</i>に採録されました。"
+    }
     card_content.appendChild(article_text);
+    
 
     article_text.appendChild(document.createElement("br"));
 
