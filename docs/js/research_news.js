@@ -151,6 +151,18 @@ function month_en(lang){
     }
 }
 
+function check_new(article){
+    const today = new Date(Date.now());
+
+    var article_date = new Date(article.year, article.month - 1, article.date);
+    article_date.setDate(article_date.getDate() + 30);
+
+    if(article_date > today){
+        return "new"
+    }else{
+        return null
+    }
+}
 
 function print_presentation(article,research_news_label,lang){
     var div_col = document.createElement("div");
@@ -199,6 +211,15 @@ function print_presentation(article,research_news_label,lang){
     article_date.classList.add("d");
     article_date.textContent =  create_date(lang, article);
     article_text.appendChild(article_date);
+
+    if(check_new(article)==="new"){
+        console.log("new")
+        var new_badge = document.createElement("span");
+        new_badge.classList.add("new");
+        new_badge.classList.add("badge");
+        new_badge.classList.add("red");
+        article_text.appendChild(new_badge);
+    }
 }
 
 function print_paper(article,research_news_label,lang){
@@ -255,4 +276,13 @@ function print_paper(article,research_news_label,lang){
     article_date.classList.add("d");
     article_date.textContent =  create_date(lang, article);
     article_text.appendChild(article_date);
+
+    if(check_new(article)==="new"){
+        console.log("new")
+        var new_badge = document.createElement("span");
+        new_badge.classList.add("new");
+        new_badge.classList.add("badge");
+        new_badge.classList.add("red");
+        article_text.appendChild(new_badge);
+    }
 }
