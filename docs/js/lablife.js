@@ -85,11 +85,19 @@ fetch("../json/lablife.json")
 
             article_title.appendChild(document.createElement("br"));
 
+            if(check_new(article)==="new"){
+                console.log("new");
+                var new_badge = document.createElement("span");
+                new_badge.classList.add("new");
+                new_badge.classList.add("badge");
+                new_badge.classList.add("red");
+                article_title.appendChild(new_badge);
+            }
+
             var article_date = document.createElement("span");
             article_date.classList.add("d");
             article_date.textContent =  create_date(lang, article);
             article_title.appendChild(article_date);
-
 
         });
 
@@ -160,5 +168,14 @@ function month_en(lang){
             return "December";
         default:
             return "Invalid month number";
+    }
+}
+function check_new(article){
+    var today = new Date(Date.now());
+    var article_date = new Date(article.year,article.month,article.date);
+    if(article_date > today){
+        return "new";
+    }else{
+        return null;
     }
 }
