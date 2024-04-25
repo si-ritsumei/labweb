@@ -179,12 +179,13 @@ nav .brand-logo{
 .text_pink{color:#EF9A9A;}
 
 nav ul a {
-    font-size: 1rem;
+    font-size: 0.8em;
     color: #4E709D;
     letter-spacing: 2px;
     display: block;
     font-weight: 300;
-    padding: 0px 15px;
+    padding: 0px 10px;
+    text-align: right;
 }
 
 nav .active .item{
