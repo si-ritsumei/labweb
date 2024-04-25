@@ -135,6 +135,10 @@ nav .brand-logo{
 
 .text_sub{color: var(--sub-color);}
 
+.text_b.submenu{
+    text-align: left;
+}
+
 .text_sub2{color: var(--sub-color2);}
 
 .text_sub3{color: var(--sub-color3);}
