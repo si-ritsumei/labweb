@@ -168,7 +168,7 @@ function print_presentation(article,research_news_label,lang){
     console.log("link:"+article.link_file)
     var a_link = document.createElement("a");
     if (article.link_file !== null){
-        a_link.href = "ResearchNews_articles/" +article.link_file;
+        a_link.href = "ResearchNews_articles/" + article.link_file;
     }
     div_card.appendChild(a_link);
     
@@ -241,10 +241,10 @@ function print_paper(article,research_news_label,lang){
     var article_text = document.createElement("p");
     article_text.classList.add("grey-text");
     article_text.classList.add("text-darken-4");
-    var italicElement = document.createElement("i");
-    italicElement.textContent= article.publication;
     if (lang==="ja"){
         article_text.innerHTML=article.lead_author+"らの論文「" + article.paper_title + "」が<i>" + article.publication + "</i>に採録されました。"
+    }else if(lang==="en"){
+        article_text.innerHTML = article.lead_author + "'s paper titled \"" + article.paper_title + "\" has been accepted for<i>" + article.publication +"</i>."
     }
     card_content.appendChild(article_text);
     

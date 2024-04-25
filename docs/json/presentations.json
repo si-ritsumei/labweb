@@ -61,7 +61,7 @@
                 },
             "link_file":{
                 "ja":"jaws2023_09-ja.html",
-                "en":"jaws2-23_09.html"
+                "en":"jaws2023_09.html"
             },
             "image":"jaws2023_09/kitagawa2023_09.jpeg",
             "note":""
@@ -73,8 +73,8 @@
                 "en":"Mr. Kitagwa, Mr. Matsumoto, Ms. Mori and Mr. Yamamoto gave a research presentation at The General Conference of The Institute of Electronics, Information and Communication Engineers."
                 },
             "link_file":{
-                "ja":"ResearchNews_articles/ieice_GC2024-ja.html",
-                "en":"ResearchNews_articles/ieice_GC2024.html"
+                "ja":"ieice_GC2024-ja.html",
+                "en":"ieice_GC2024.html"
             },
             "image":"IEICE_GC2024/ieice2024.jpeg",
             "note":""
