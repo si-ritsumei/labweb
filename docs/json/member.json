@@ -1,0 +1,29 @@
+{
+    "Professor":[
+        {
+            "name":{"ja":"村上 陽平","en":"Yohei MURAKAMI"},
+            "image":"",
+            "links":[
+                {"class":"fab fa-researchgate","link":"https://www.researchgate.net/profile/Yohei_Murakami"},
+                {"class":"fab fa-linkedin-square","link":"https://www.linkedin.com/in/yohei-murakami-869a1a129/"},
+                {"class":"ai ai-google-scholar-square","link":"https://scholar.google.co.jp/citations?user=YrVN3CQAAAAJ&hl=ja&oi=ao"},
+                {"class":"ai ai-dblp-square","link":"https://dblp.org/pers/m/Murakami:Yohei.html"},
+                {"class":"fab fa-orcid","link":"https://orcid.org/0000-0002-8310-2007"},
+                {"class":"fa-solid fa-circle-user","link":"http://www.ritsumei.ac.jp/~yohei"}
+            ]
+        }
+    ],
+    "Assistant Professor":[
+        {
+            "name":{"ja":"Mondheera PITUXCOOSUVARN","en":"Mondheera PITUXCOOSUVARN"},
+            "links":[
+                {"class":"fab fa-researchgate","link":"https://www.researchgate.net/profile/Mondheera_Pituxcoosuvarn/"},
+                {"class":"fab fa-linkedin-square","link":"https://www.linkedin.com/in/mondheera-pituxcoosuvarn-775b5681/"},
+                {"class":"ai ai-dblp-square","link":"https://dblp.org/pers/hd/p/Pituxcoosuvarn:Mondheera"},
+                {"class":"fab fa-orcid","link":"https://orcid.org/0000-0002-4114-4049"},
+                {"class":"fa-solid fa-circle-user","link":"https://mondheera.website/"}
+            ]
+        }
+    ]
+    
+}

@@ -61,7 +61,7 @@ fetch("../json/presentations.json")
                         
                 //オブジェクトを出力する
                 articles_sorted.forEach(function(article){
-                    console.log("type:",article.type);
+                    //console.log("type:",article.type);
                     if(article.type === "presentation"){
                         print_presentation(article,research_news_label,lang);
                     }else if(article.type === "paper"){
@@ -79,7 +79,7 @@ fetch("../json/presentations.json")
 
 function sortByDate(articles) {
     articles.sort(function(a, b) {
-        console.log("a:", a.year,a.month,a.date, "b:", b.year,b.month,b.date);
+        //console.log("a:", a.year,a.month,a.date, "b:", b.year,b.month,b.date);
         if (parseInt(a.year) === parseInt(b.year)){
             if (parseInt(a.month) === parseInt(b.month)){
                 return parseInt(b.date) - parseInt(a.date);
@@ -213,7 +213,7 @@ function print_presentation(article,research_news_label,lang){
     article_text.appendChild(article_date);
 
     if(check_new(article)==="new"){
-        console.log("new")
+        //console.log("new")
         var new_badge = document.createElement("span");
         new_badge.classList.add("new");
         new_badge.classList.add("badge");
@@ -235,7 +235,7 @@ function print_paper(article,research_news_label,lang){
     div_card.classList.add("large");
     div_col.appendChild(div_card);
 
-    console.log("link:"+article.link_file)
+    //console.log("link:"+article.link_file)
     var a_link = document.createElement("a");
     a_link.classList.add("news")
     a_link.target="_blank";
@@ -273,7 +273,7 @@ function print_paper(article,research_news_label,lang){
     article_text.appendChild(document.createElement("br"));
     
     if(check_new(article)==="new"){
-        console.log("new")
+        //console.log("new")
         var new_badge = document.createElement("span");
         new_badge.classList.add("new");
         new_badge.classList.add("badge");

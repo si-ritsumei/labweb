@@ -38,8 +38,8 @@ fetch("../json/lablife.json")
 
         //オブジェクトを出力する
         articles.sort(function(a, b) {
-            console.log("a.date:", a.date, typeof a.date);
-            console.log("b.date:", b.date, typeof b.date);
+            //console.log("a.date:", a.date, typeof a.date);
+            //console.log("b.date:", b.date, typeof b.date);
             if (parseInt(a.year) == parseInt(b.year)){
                 if (parseInt(a.month) == parseInt(b.month)){
                     return parseInt(b.date)-parseInt(a.date);
@@ -108,7 +108,7 @@ fetch("../json/lablife.json")
             div_title.appendChild(span_date);
 
             if(check_new(article)==="new"){
-                console.log("new");
+                //console.log("new");
                 var new_badge = document.createElement("span");
                 new_badge.classList.add("new");
                 new_badge.classList.add("badge");
