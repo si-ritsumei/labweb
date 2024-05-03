@@ -1,29 +1,242 @@
 {
     "Professor":[
-        {
+        {   
             "name":{"ja":"村上 陽平","en":"Yohei MURAKAMI"},
-            "image":"",
+            "image":"yohei.jpg",
+            "main_link":"http://www.ritsumei.ac.jp/~yohei",
             "links":[
                 {"class":"fab fa-researchgate","link":"https://www.researchgate.net/profile/Yohei_Murakami"},
-                {"class":"fab fa-linkedin-square","link":"https://www.linkedin.com/in/yohei-murakami-869a1a129/"},
+                {"class":"fab fa-linkedin","link":"https://www.linkedin.com/in/yohei-murakami-869a1a129/"},
                 {"class":"ai ai-google-scholar-square","link":"https://scholar.google.co.jp/citations?user=YrVN3CQAAAAJ&hl=ja&oi=ao"},
                 {"class":"ai ai-dblp-square","link":"https://dblp.org/pers/m/Murakami:Yohei.html"},
                 {"class":"fab fa-orcid","link":"https://orcid.org/0000-0002-8310-2007"},
                 {"class":"fa-solid fa-circle-user","link":"http://www.ritsumei.ac.jp/~yohei"}
-            ]
+            ],
+            "note":""
         }
     ],
     "Assistant Professor":[
         {
-            "name":{"ja":"Mondheera PITUXCOOSUVARN","en":"Mondheera PITUXCOOSUVARN"},
+            "name":{"ja":"ピタクスワン<br>モンティーラー","en":"Mondheera PITUXCOOSUVARN"},
+            "image":"ampere-2020.jpg",
+            "main_link":"https://mondheera.website/",
             "links":[
                 {"class":"fab fa-researchgate","link":"https://www.researchgate.net/profile/Mondheera_Pituxcoosuvarn/"},
                 {"class":"fab fa-linkedin-square","link":"https://www.linkedin.com/in/mondheera-pituxcoosuvarn-775b5681/"},
                 {"class":"ai ai-dblp-square","link":"https://dblp.org/pers/hd/p/Pituxcoosuvarn:Mondheera"},
                 {"class":"fab fa-orcid","link":"https://orcid.org/0000-0002-4114-4049"},
                 {"class":"fa-solid fa-circle-user","link":"https://mondheera.website/"}
-            ]
+            ],
+            "note":"long-name"
         }
+    ],
+    "D3":[
+        {
+            "name":{"ja":"西村 一球","en":"Ikkyu NISHIMURA"},
+            "image":"nishimura.jpg",
+            "main_link":"https://ikkyu0714.github.io/homepage/",
+            "links":[
+                {"class":"fab fa-orcid","link":"https://orcid.org/0000-0002-4807-3300"},
+                {"class":"fa-solid fa-circle-user","link":"https://ikkyu0714.github.io/homepage/"}
+            ],
+            "note":""
+        },
+        {
+            "name":{"ja":"元澤 海月","en":"Mizuki MOTOZAWA"},
+            "image":"motozawa1.JPG",
+            "main_link":"https://motozawa.github.io/MyPage/",
+            "links":[
+                {"class":"fab fa-orcid","link":"https://orcid.org/0000-0001-9633-6876"},
+                {"class":"fa-solid fa-circle-user","link":"https://motozawa.github.io/MyPage/"}
+            ],
+            "note":""
+        }
+    ],
+    "M2":[
+        {
+            "name":{"ja":"ZHANG Yuxuan","en":"ZHANG Yuxuan"},
+            "image":"yx_zhang.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"HERLIANTO Abia Putrama","en":"HERLIANTO Abia Putrama"},
+            "image":"herlianto.png",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"SHELLA Eldwina Fitri","en":"SHELLA Eldwina Fitri"},
+            "image":"22shella_s.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"木本 真平","en":"Shimpei KIMOTO"},
+            "image":"kimoto21.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"砂田 界渡","en":"Kaito SUNADA"},
+            "image":"sunada.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        }
+    ],
+    "M1":[
+        {
+            "name":{"ja":"北川 勘太朗","en":"Kantaro KITAGAWA"},
+            "image":"22kitagawa_s.jpg",
+            "main_link":"https://kantaro1026.github.io/webpage/",
+            "links":[
+                {"class":"fa-solid fa-circle-user","link":"https://kantaro1026.github.io/webpage/"}
+            ],
+            "note":""
+        },
+        {
+            "name":{"ja":"松本 賢司","en":"Kenji MATSUMOTO"},
+            "image":"matsumoto.jpg",
+            "main_link":"https://kenjimatsumoto2001.github.io/kenjihp/",
+            "links":[
+                {"class":"fa-solid fa-circle-user","link":"https://kenjimatsumoto2001.github.io/kenjihp/"}
+            ],
+            "note":""
+        },
+        {
+            "name":{"ja":"森 叶葉","en":"Kanaha KANAHA"},
+            "image":"22kanaha_s2.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"山本 涼太郎","en":"Ryotaro YAMAMOTO"},
+            "image":"22ryotaro_s.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        }
+    ],
+    "B4":[
+        {
+            "name":{"ja":"JIANG Huixu","en":"JIANG Huixu"},
+            "image":"avatar1.png",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"WU Wenbo","en":"WU Wenbo"},
+            "image":"23wu.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"ZHANG Yilong","en":"ZHANG Yilong"},
+            "image":"22yilong_s.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"荒巻 光里","en":"Hikari ARAMAKI"},
+            "image":"aramaki.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"有田 隆太朗","en":"Ryutaro ARITA"},
+            "image":"23arita.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"石田 大智","en":"Daichi ISHIDA"},
+            "image":"avatar1.png",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"稲田 匠真","en":"Takuma INADA"},
+            "image":"23inada.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"岩野 智総","en":"Tomoaki IWANO"},
+            "image":"23iwano.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"加奥 咲江","en":"Sakie KAOKU"},
+            "image":"kaoku.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"木田 千尋","en":"Chihiro KIDA"},
+            "image":"avatar1.png",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"瀬田 明日將","en":"Asuma SETA"},
+            "image":"seta.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"富田 悠斗","en":"Yuuto TOMIDA"},
+            "image":"23tomida.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"中川 真一","en":"Shinnichi NAKAGAWA"},
+            "image":"23nakgawa.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"丸山 幸之助","en":"Konosuke MARUYAMA"},
+            "image":"23maruyama.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"森 由璃亜","en":"Yuria MORI"},
+            "image":"Mori_yuria.JPG",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"山本 孝晴","en":"Takaharu YAMAMOTO"},
+            "image":"22takaharu_s.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        }
+
     ]
     
 }

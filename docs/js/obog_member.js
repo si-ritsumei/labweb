@@ -27,7 +27,7 @@ fetch("../json/obog_member.json")
             }
             results.push(monthsObject);
         }
-        console.log("results:"+JSON.stringify(results))
+        //console.log("results:"+JSON.stringify(results))
 
         results.sort(function(a, b) {
             return b.year - a.year;
@@ -42,7 +42,7 @@ fetch("../json/obog_member.json")
             result.data.sort(function(a, b) {
                 return b.month - a.month;
                 });
-            console.log("result:"+JSON.stringify(result.data))
+            //console.log("result:"+JSON.stringify(result.data))
             result.data.forEach(function(datas) {
                 
                 var year_month = document.createElement("h5");
@@ -79,7 +79,7 @@ fetch("../json/obog_member.json")
                     div_waves.classList.add("waves-light");
                     div_card.appendChild(div_waves);
 
-                    console.log(JSON.stringify(item))
+                    //console.log(JSON.stringify(item))
                     var member_image = document.createElement("img");
                     member_image.src = "../img/members/"+item.image;
                     div_waves.appendChild(member_image);
@@ -89,7 +89,7 @@ fetch("../json/obog_member.json")
                     div_card.appendChild(card_content);
 
                     var name = document.createElement("span");
-                    console.log("OK");
+                    //console.log("OK");
                     name.classList.add("card-title");
                     name.classList.add("grey-text");
                     name.classList.add("text-darken-4");
@@ -103,7 +103,7 @@ fetch("../json/obog_member.json")
                     grade.classList.add("text-darken-1");
                     grade.textContent = item.grade[lang];
                     name.appendChild(grade);
-                    console.log("OK")
+                    //console.log("OK")
                 });
             });
         });
