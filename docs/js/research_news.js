@@ -186,7 +186,7 @@ function print_presentation(article,research_news_label,lang){
     
 
     var card_image_div = document.createElement("div");
-    card_image_div.classList.add("card-image");
+    card_image_div.classList.add("activity-card-image");
     a_link.appendChild(card_image_div);
 
     
@@ -245,7 +245,7 @@ function print_paper(article,research_news_label,lang){
     div_card.appendChild(a_link);
 
     var card_image_div = document.createElement("div");
-    card_image_div.classList.add("card-image");
+    card_image_div.classList.add("activity-card-image");
     a_link.appendChild(card_image_div);
 
     
