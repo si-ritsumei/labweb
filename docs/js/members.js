@@ -20,7 +20,8 @@ fetch("../json/member.json")
                     role: role_check(lang,pr)? role_check(lang,pr) : null,
                     name: checkLangage(lang,prof.name) ? checkLangage(lang,prof.name): null,
                     image: prof.image,
-                    main_link: prof.main_link,
+                    //main_link: prof.main_link,
+                    main_link: prof.main_link!=="" ? prof.main_link : null,
                     links: prof.links,
                     note:prof.note
                 }
@@ -39,7 +40,7 @@ fetch("../json/member.json")
                         name: checkLangage(lang,prof.name) ? checkLangage(lang,prof.name): null,
                         name_s: prof.name.en,
                         image: prof.image,
-                        main_link: prof.main_link,
+                        main_link: prof.main_link!=="" ? prof.main_link : null,
                         links: prof.links,
                         note:prof.note
                     }
@@ -48,7 +49,6 @@ fetch("../json/member.json")
                 prof_stus.sort(function(a, b) {
                     return a.name_s.localeCompare(b.name_s);
                     });
-                
                 for (var prof_stu of prof_stus){
                     output(prof_stu,lang,members_label);
                 }
@@ -88,7 +88,6 @@ function output(data,lang,members_label){
     div_wave.classList.add("waves-block");
     div_wave.classList.add("waves-light");
     div_card.appendChild(div_wave);
-
     if (data.main_link !== null){
         var a_hp = document.createElement("a");
         a_hp.href=data.main_link;
@@ -98,7 +97,7 @@ function output(data,lang,members_label){
 
     var img = document.createElement("img");
     img.src="img/members/"+ data.image;
-    a_hp.appendChild(img);
+    div_wave.appendChild(img);
 
     var div_con = document.createElement("div");
     div_con.classList.add("card-content");
@@ -124,7 +123,11 @@ function output(data,lang,members_label){
 
     }else{
         span.innerHTML = data.name +"</br>";
-        a_con.appendChild(span);
+        if (data.main_link !== null){
+            a_con.appendChild(span);
+        }else{
+            div_con.appendChild(span);
+        }
     }
 
     var small = document.createElement("small");
@@ -137,8 +140,10 @@ function output(data,lang,members_label){
     var p = document.createElement("p");
     div_con.appendChild(p);
 
-    for(var link of data.links){
-        output_link(p,link);
+    if (data.main_link !== null){
+        for(var link of data.links){
+            output_link(p,link);
+        }
     }
 }
 
