@@ -1,0 +1,83 @@
+
+{
+    "presentations":[
+        {
+            "year":"2019", "month":"12", "date":"5",
+            "text":{
+                "ja":"村上准教授がUNESCOで開催されたLT4Allにて、「Language Sphere: A Sociotechnical Approach to Bilingual Dictionary Creation for Indigenous Languages」の講演を行いました。",
+                "en":"Prof. Murakami gave an invited talk titled \"Language Sphere: A Sociotechnical Approach to Bilingual Dictionary Creation for Indigenous Languages\" in LT4All held at UNESCO."
+                },
+            "link_file":{
+                "ja":"",
+                "en":""
+            },
+            "image":"activity/nLT4ALL.png",
+            "note":""
+        },
+        {
+            "year":"2023", "month":"3", "date":"4",
+            "text":{
+                "ja":"西村さんと佐藤さんが情報処理学会 第85回全国大会で研究発表を行いました. ",
+                "en":"Mr. Nishimura and Mr. Sato, gave a research presentation at The 85th National Convention of IPSJ."
+                },
+            "link_file":{
+                "ja":"ipsj_85thNC-ja.html",
+                "en":"ipsj_85thNC.html"
+            },
+            "image":"IPSJ_85thNC/IPSJ_85thNC1.jpg",
+            "note":""
+        },
+        {
+            "year":"2023", "month":"3", "date":"17",
+            "text":{
+                "ja":"大井さんが，サービスコンピューティング研究会で研究発表を行い，若手奨励賞を受賞しました．",
+                "en":"Mr. Oi gave a research presentation at the Services Computing Workshop and received the Young Scientist Incentive Award."
+                },
+            "link_file":{
+                "ja":"sc2023_03-ja.html",
+                "en":"sc2023_03.html"
+            },
+            "image":"SC2023_03/SC2022_L1.jpg",
+            "note":""
+        },
+        {
+            "year":"2023", "month":"7", "date":"3",
+            "text":{
+                "ja":"元澤さんが，The 24th International Conference on Artificial Intelligence in Education(AIED 2023)　のワークショップで研究発表を行いました. ",
+                "en":"Ms. Motozawa, gave a research presentation at the workshop ofthe 24th International Conference on Artificial Intelligence in Education(AIED2023)"
+                },
+            "link_file":{
+                "ja":"https://doi.org/10.11184/his.26.1_77",
+                "en":"https://doi.org/10.11184/his.26.1_77"
+            },
+            "image":"AIED2023/IMG_1347.jpg",
+            "note":""
+        },
+        {
+            "year":"2023", "month":"10", "date":"23",
+            "text":{
+                "ja":"北川さんが，合同エージェントワークショップ＆シンポジウム2023で研究発表を行いました.",
+                "en":"Mr. Kitagawa gave a research presentation at Joint Agent Workshop & Symposium 2023 in Japan."
+                },
+            "link_file":{
+                "ja":"jaws2023_09-ja.html",
+                "en":"jaws2023_09.html"
+            },
+            "image":"jaws2023_09/kitagawa2023_09.jpeg",
+            "note":""
+        },
+        {
+            "year":"2024", "month":"3", "date":"8",
+            "text":{
+                "ja":"北川さん，松本さん，森さん，山本さんが，電子情報通信学会 総合大会で研究発表を行いました.",
+                "en":"Mr. Kitagwa, Mr. Matsumoto, Ms. Mori and Mr. Yamamoto gave a research presentation at The General Conference of The Institute of Electronics, Information and Communication Engineers."
+                },
+            "link_file":{
+                "ja":"ieice_GC2024-ja.html",
+                "en":"ieice_GC2024.html"
+            },
+            "image":"IEICE_GC2024/ieice2024.jpeg",
+            "note":""
+        }
+    ]
+}

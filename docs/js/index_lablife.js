@@ -10,8 +10,14 @@ fetch("../json/lablife.json")
         var day, i_title,i_link;
 
 
-        var lablife_label = document.getElementById("output_field");
-        var lang = lablife_label.classList.value;
+        var lablife_label = document.getElementById("output_lablife");
+        var classes = lablife_label.classList;
+        var lang;
+        if (classes.contains("ja")) {
+            lang = "ja";
+          } else if (classes.contains("en")){
+            lang = "en";
+          }
 
 
         for (var label in jsonData) { //jsonDataの要素を取り出す
@@ -30,10 +36,10 @@ fetch("../json/lablife.json")
             }
         }
 
-        //オブジェクトを出力する
+        //日付でソート
         articles.sort(function(a, b) {
-            console.log("a.date:", a.date, typeof a.date);
-            console.log("b.date:", b.date, typeof b.date);
+            //console.log("a.date:", a.date, typeof a.date);
+            //console.log("b.date:", b.date, typeof b.date);
             if (parseInt(a.year) == parseInt(b.year)){
                 if (parseInt(a.month) == parseInt(b.month)){
                     return parseInt(b.date)-parseInt(a.date);
@@ -44,60 +50,74 @@ fetch("../json/lablife.json")
                 return parseInt(b.year) - parseInt(a.year);
             }
         });
+
+        //オブジェクトを出力
+        var h5_col = document.createElement("h5");
+        h5_col.classList.add("header");
+        h5_col.classList.add("grey-text");
+        h5_col.classList.add("text-darken-1");
+        h5_col.textContent = "Lab News";
+        lablife_label.appendChild(h5_col);
+
+        var a_lablife_link = document.createElement("a");
+        if (lang==="ja"){
+            a_lablife_link.href = "lablife-ja.html"
+        }else if(lang==="en"){
+            a_lablife_link.href = "lablife.html"
+        }
+        h5_col.appendChild(a_lablife_link);
+
+        var font_view = document.createElement("font");
+        font_view.setAttribute("size", "2");
+        font_view.innerHTML="　>>> View more";
+        a_lablife_link.appendChild(font_view);
+
+
+        var count = 0;
         articles.forEach(function(article){
-            var div_col = document.createElement("div");
-            div_col.classList.add("col");
-            div_col.classList.add("s6");
-            div_col.classList.add("m4");
-            div_col.classList.add("l3");
-            lablife_label.appendChild(div_col);
-
-            var div_card = document.createElement("div");
-            div_card.classList.add("card");
-            div_card.classList.add("small");
-            div_col.appendChild(div_card);
-
-            console.log("link:"+article.link_file)
-            var a_link = document.createElement("a");
-            if (article.link_file !== null){
-                a_link.href = "Lablife_articles/" +article.link_file;
+            if (count >= 5){
+                return;
             }
-            div_card.appendChild(a_link);
+            var div_col = document.createElement("div");
+            div_col.classList.add("row");
+            lablife_label.appendChild(div_col);
             
+            var a_link = document.createElement("a")
+            a_link.href="Lablife_articles/" + article.link_file;
+            a_link.classList.add("news");
+            div_col.appendChild(a_link);
 
-            var card_image_div = document.createElement("div");
-            card_image_div.classList.add("card-image");
-            a_link.appendChild(card_image_div);
+            var div_img = document.createElement("div");
+            div_img.classList.add("col");
+            div_img.classList.add("s3");
+            a_link.appendChild(div_img);
 
-            var card_image = document.createElement("img");
-            card_image.src = "img/lablife/" + article.image;
-            card_image_div.appendChild(card_image);
+            var img = document.createElement("img");
+            img.src = "img/lablife/" + article.image;
+            img.style.width = "100%";
+            div_img.appendChild(img);
 
-            var card_content = document.createElement("div");
-            card_content.classList.add("card-content");
-            a_link.appendChild(card_content)
+            var div_title = document.createElement("div");
+            div_title.classList.add("col");
+            div_title.classList.add("s9");
+            div_title.innerHTML = article.title + "</br>";
+            a_link.appendChild(div_title);
 
-            var article_title = document.createElement("p");
-            article_title.classList.add("grey-text");
-            article_title.classList.add("text-darken-4");
-            article_title.textContent = article.title;
-            card_content.appendChild(article_title);
-
-            article_title.appendChild(document.createElement("br"));
+            var span_date = document.createElement("span");
+            span_date.classList.add("d")
+            span_date.innerHTML = create_date(lang, article);
+            div_title.appendChild(span_date);
 
             if(check_new(article)==="new"){
-                console.log("new");
+                //console.log("new");
                 var new_badge = document.createElement("span");
                 new_badge.classList.add("new");
                 new_badge.classList.add("badge");
                 new_badge.classList.add("red");
-                article_title.appendChild(new_badge);
+                div_title.appendChild(new_badge);
             }
 
-            var article_date = document.createElement("span");
-            article_date.classList.add("d");
-            article_date.textContent =  create_date(lang, article);
-            article_title.appendChild(article_date);
+            count += 1;
 
         });
 
@@ -110,6 +130,7 @@ fetch("../json/lablife.json")
         console.log("エラーが発生しました: " + error);
     });
 
+//日にちを英語表記にする
 function day_sign(date){
 
     if (date == 1){
@@ -122,6 +143,7 @@ function day_sign(date){
 
 }
 
+//日付を英語表記にする
 function create_date(lang, article){
     if (lang === "ja"){
         return article.year + "年" + article.month + "月" + article.date + "日"
@@ -131,7 +153,7 @@ function create_date(lang, article){
     }
 }
 
-
+//表示言語を確認する
 function checkLangage(lang, data) {
     if (lang === "ja"){
         return data.ja
@@ -140,6 +162,7 @@ function checkLangage(lang, data) {
     }
 }
 
+//月を英語表記にする
 function month_en(lang){
     switch(parseInt(lang)) {
         case 1:
@@ -170,6 +193,8 @@ function month_en(lang){
             return "Invalid month number";
     }
 }
+
+//新着の記事かどうかを確認(1ヶ月以内の記事)
 function check_new(article){
     var today = new Date(Date.now());
     var article_date = new Date(article.year,article.month,article.date);
