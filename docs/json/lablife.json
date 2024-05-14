@@ -360,6 +360,21 @@
             },
             "image": "ohanami2024/ohanami2024-1.jpg",
             "note": "" 
+        },
+        {
+            "year": "2024",
+            "month": "4",
+            "date": "17",
+            "title": {
+                "ja": "多文化お茶会を開催しました！",
+                "en": "A multicultural tea party was held at the Social Intelligence Lab!"
+            },
+            "link_file": {
+                "ja": "teaparty202404-ja.html",
+                "en": "teaparty202404.html"
+            },
+            "image": "teaparty202404/DSC01498.JPG",
+            "note": "" 
         }
     ]
 }
