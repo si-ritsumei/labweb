@@ -5,11 +5,11 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HMY8NC79JD"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      gtag('config', 'G-HMY8NC79JD');
+        gtag('config', 'G-HMY8NC79JD');
     </script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -29,6 +29,7 @@
 
     <!--Import customized css-->
     <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/pdf.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -37,67 +38,105 @@
 <body id="top" class="scrollspy">
 
     <!--Navigation-->
-    <div id="myNavbar" data-active="2" data-language="ja">
-    </div>
+    <div id="myNavbar" data-active="2" data-language="ja"></div>
 
     <div class="container">
         <h4 class="header text_b">Laboratory Life</h4>
         <div class="section scrollspy">
             <p class="normal"></br>
-            Date: March 4th - 8th, 2024</br>
-            Location: Hirochima University, Higashi-Hiroshima Campus</br></p>
+                Date: March 4th - 8th, 2024</br>
+                Location: Hiroshima University, Higashi-Hiroshima Campus</br></p>
 
             <p class="smallheader">Overview</p>
             <p class="normal">
-                Our laboratory's members, Mr. Kitagwa, Mr. Matsumoto, Ms. Mori and Mr. Yamamoto, gave a research presentation at The General Conference of The Institute of Electronics, Information and Communication Engineers of Japan.
-                <br>
-                <br>
+                Our laboratory's members, Mr. Kitagawa, Mr. Matsumoto, Ms. Mori and Mr. Yamamoto, gave a research presentation at The General Conference of The Institute of Electronics, Information and Communication Engineers of Japan.
+                <br><br>
+            </p>
 
             <div class="row">
-                <div class="column leftc">
-                    <p class="center">
-                        <img class="responsive-img" src="../img/IEICE_GC2024/ieice2024_kitagawa.jpg" width=100% style="align-content: center"/>
-                    </p>
-                </div>
-                <div class="column rightc">
-                        <b>&lt;Presentation Details&gt;</b><br>
-                        <b>Presenter:</b> Kantaro Kitagawa<br>
-                        <b>Title:</b> 「<a href="https://pub.confit.atlas.jp/en/event/general2024/presentation/D-23-02" target="_blank">Cooperative Neural Machine Translation with Multi-Agent Reinforcement Learning</a>」<br>
+                <div class="column">
+                    <b>Presenter:</b> Kantaro Kitagawa<br>
+                    <b>Title:</b> <a href="https://pub.confit.atlas.jp/ja/event/general2024/presentation/D-23-02" target="_blank">Cooperative Neural Machine Translation with Multi-Agent Reinforcement Learning</a><br>
+                    <div class="pdf-container" data-pdf-url="../theses/2024_kitagawa_hiroshima.pdf">
+                        <div class="slideshow-container">
+                            <div class="slide">
+                                <canvas class="pdf-render"></canvas>
+                            </div>
+                            <a class="prev">&#10094;</a>
+                            <a class="next">&#10095;</a>
+                        </div>
+                        <div class="controls">
+                            <span class="page-num"></span> / <span class="page-count"></span>
+                        </div>
+                    </div>
+                    <p><b>Abstract:</b> The advent of neural machine translation has significantly improved the accuracy of machine translation in recent years, garnering substantial attention from the public. To construct a highly accurate neural machine translation system, a large amount of high-quality bilingual data is necessary. However, collecting such bilingual data is extremely challenging. One method to solve this problem is to use federated learning, where multiple data owners collaborate to create a neural machine translation model. However, traditional methods do not adequately reflect the preferences of each data owner. Therefore, this study proposes a method that uses multi-agent reinforcement learning to reflect the preferences of each data owner.</p>
                 </div>
             </div>
+
             <div class="row">
-                <div class="column leftc">
-                    <img class="responsive-img" src="../img/IEICE_GC2024/ieice2024_matsumoto.jpg" width=100% style="align-content: center"/>
-                </div>
-                <div class="column rightc">
+                <div class="column">
                     <b>Presenter:</b> Kenji Matsumoto<br>
-                    <b>Title:</b> 「<a href="https://pub.confit.atlas.jp/en/event/general2024/presentation/D-23-03" target="_blank">Soft Clustering Based on Service Composition Relationships</a>」<br>
+                    <b>Title:</b> <a href="https://pub.confit.atlas.jp/ja/event/general2024/presentation/D-23-03" target="_blank">Soft Clustering Based on Service Composition Relationships</a><br>
+                    <div class="pdf-container" data-pdf-url="../theses/2024_matsumoto_hiroshima.pdf">
+                        <div class="slideshow-container">
+                            <div class="slide">
+                                <canvas class="pdf-render"></canvas>
+                            </div>
+                            <a class="prev">&#10094;</a>
+                            <a class="next">&#10095;</a>
+                        </div>
+                        <div class="controls">
+                            <span class="page-num"></span> / <span class="page-count"></span>
+                        </div>
+                    </div>
+                    <p><b>Abstract:</b> A composite service is a service created by integrating multiple web services. Currently, new composite services are being constructed by integrating a wide variety of web services. However, when building composite services, it is extremely difficult to discover the necessary services from the vast number of web services available online. Therefore, this study proposes a method for efficiently clustering web services based on their functionalities. This method enables users to discover the appropriate web services as needed.</p>
                 </div>
             </div>
+
             <div class="row">
-                <div class="column leftc">
-                    <img class="responsive-img" src="../img/IEICE_GC2024/ieice2024_mori.jpg" width=100% style="align-content: center"/>
-                </div>
-                <div class="column rightc">
+                <div class="column">
                     <b>Presenter:</b> Kanaha Mori<br>
-                    <b>Title:</b> 「<a href="https://pub.confit.atlas.jp/en/event/general2024/presentation/H-1-02" target="_blank">Emoji Embedding Based on Emotion Prediction Model</a>」<br>
+                    <b>Title:</b> <a href="https://pub.confit.atlas.jp/ja/event/general2024/presentation/H-1-02" target="_blank">Emoji Embedding Based on Emotion Prediction Model</a><br>
+                    <div class="pdf-container" data-pdf-url="../theses/2024_mori_hiroshima.pdf">
+                        <div class="slideshow-container">
+                            <div class="slide">
+                                <canvas class="pdf-render"></canvas>
+                            </div>
+                            <a class="prev">&#10094;</a>
+                            <a class="next">&#10095;</a>
+                        </div>
+                        <div class="controls">
+                            <span class="page-num"></span> / <span class="page-count"></span>
+                        </div>
+                    </div>
+                    <p><b>Abstract:</b> In multilingual communication through machine translation, emojis, which can convey the writer's emotions and intentions, play an important role. However, because emojis are inserted as is without being translated in machine translation, the different interpretations of emojis across cultural contexts can cause communication discrepancies. Therefore, this study calculates the emotion vectors expressed by emojis to detect cultural differences in emoji interpretation that lead to communication discrepancies between different languages. Specifically, an emotion prediction model is constructed to represent the emotions associated with emojis in a distributed representation. This method is called emoji embedding.</p>
                 </div>
             </div>
+
             <div class="row">
-                <div class="column leftc">
-                    <img class="responsive-img" src="../img/IEICE_GC2024/ieice2024_ryotaro.jpg" width=100% style="align-content: center"/>
-                </div>
-                <div class="column rightc">
+                <div class="column">
                     <b>Presenter:</b> Ryotaro Yamamoto<br>
-                    <b>Title:</b> 「<a href="https://pub.confit.atlas.jp/en/event/general2024/presentation/D-20-15" target="_blank">Performance Prediction for Translation Creation Tasks Using Deep Knowledge Tracing</a>」<br>
+                    <b>Title:</b> <a href="https://pub.confit.atlas.jp/ja/event/general2024/presentation/D-20-15" target="_blank">Performance Prediction for Translation Creation Tasks Using Deep Knowledge Tracing</a><br>
+                    <div class="pdf-container" data-pdf-url="../theses/2024_yamamoto_hiroshima.pdf">
+                        <div class="slideshow-container">
+                            <div class="slide">
+                                <canvas class="pdf-render"></canvas>
+                            </div>
+                            <a class="prev">&#10094;</a>
+                            <a class="next">&#10095;</a>
+                        </div>
+                        <div class="controls">
+                            <span class="page-num"></span> / <span class="page-count"></span>
+                        </div>
+                    </div>
+                    <p><b>Abstract:</b> In crowdsourcing aimed at creating language resources for low-resource languages, quality control is a critical issue due to the scarcity of highly skilled workers. Quality is ensured by combining not only the creation tasks but also the evaluation tasks of the created language resources. However, errors in bilingual creation due to mismatches between workers and tasks lead to frequent rework of creation and evaluation tasks, increasing costs. Therefore, this study predicts the probability of task success from work history to assign tasks in crowdsourcing while considering task difficulty. Specifically, using Deep Knowledge Tracing, a model is trained to predict the success probability of the next task based on the type of task and past accuracy data, and future task success predictions are made. This success prediction is used for task assignment in crowdsourcing to ensure the accuracy of the deliverables.</p>
                 </div>
             </div>
         </div>
     </div>
 
     <!--Footer-->
-    <div id="myFooter">
-    </div>
+    <div id="myFooter"></div>
 
     <!--  Scripts-->
     <script src="../js/jquery-2.1.1.min.js"></script>
@@ -105,6 +144,8 @@
     <script src="../js/modernizr.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="../js/powerpoint.js"></script>
 
 </body>
 
