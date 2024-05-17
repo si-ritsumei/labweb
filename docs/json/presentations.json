@@ -78,6 +78,32 @@
             },
             "image":"IEICE_GC2024/ieice2024.jpeg",
             "note":""
+        },
+        {
+            "year":"2024", "month":"5", "date":"7",
+            "text":{
+                "ja":"<i>村上教授</i>らが編集した書籍「<i>Human-Centered Services Computing for Smart Cities</i>」が<i>Springer</i>より出版されました.",
+                "en":"<i>Prof.Murakami</i>'s paper titled <i>Human-Centered Services Computing for Smart Cities</i> has been accepted for <i> Springer </i>."
+                },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-981-97-0779-9",
+                "en":"https://doi.org/10.1007/978-981-97-0779-9"
+            },
+            "image":"activity/Human-Centered Services Computing for Smart Cities.png",
+            "note":""
+        },
+        {
+            "year":"2024", "month":"5", "date":"7",
+            "text":{
+                "ja":"<i>村上教授</i>のモノグラフ論文「<i>Human–Machine Collaboration for a Multilingual Service Platform</i>」が<i>Springer</i>より出版されました.",
+                "en":"<i>Prof.Murakami</i>'s monograph paper titled <i>Human–Machine Collaboration for a Multilingual Service Platform</i> has been accepted for <i> Springer </i>."
+                },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-981-97-0779-9_3",
+                "en":"https://doi.org/10.1007/978-981-97-0779-9_3"
+            },
+            "image":"activity/Human-Centered Services Computing for Smart Cities.png",
+            "note":""
         }
     ]
 }
