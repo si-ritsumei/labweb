@@ -341,6 +341,46 @@
             },
             "image":"HIS.png",
             "note":""
+        },{
+            "year":"2024", "month":"5", "date":"7",
+            "lead_author":{
+                "ja": "村上教授",
+                "en": "Prof. Murakami"
+                },
+            "paper_title":{
+                "ja":"Human-Centered Services Computing for Smart Cities",
+                "en":"Human-Centered Services Computing for Smart Cities"
+                },
+            "publication":{
+                "ja":"Springer Singapore",
+                "en":"Springer Singapore"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-981-97-0779-9",
+                "en":"https://doi.org/10.1007/978-981-97-0779-9"
+            },
+            "image":"Human-Centered Services Computing for Smart Cities.png",
+            "note":""
+        },{
+            "year":"2024", "month":"5", "date":"7",
+            "lead_author":{
+                "ja": "村上教授",
+                "en": "Prof. Murakami"
+                },
+            "paper_title":{
+                "ja":"Human–Machine Collaboration for a Multilingual Service Platform",
+                "en":"Human–Machine Collaboration for a Multilingual Service Platform"
+                },
+            "publication":{
+                "ja":"Springer Singapore",
+                "en":"Springer Singapore"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-981-97-0779-9_3",
+                "en":"https://doi.org/10.1007/978-981-97-0779-9_3"
+            },
+            "image":"Human-Centered Services Computing for Smart Cities.png",
+            "note":""
         }
     ]
 }
