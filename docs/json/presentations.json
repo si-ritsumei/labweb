@@ -11,7 +11,7 @@
                 "ja":"",
                 "en":""
             },
-            "image":"activity/nLT4ALL.png",
+            "image":"nLT4ALL/nLT4ALL.png",
             "note":""
         },
         {
@@ -47,8 +47,8 @@
                 "en":"Ms. Motozawa, gave a research presentation at the workshop ofthe 24th International Conference on Artificial Intelligence in Education(AIED2023)"
                 },
             "link_file":{
-                "ja":"https://doi.org/10.11184/his.26.1_77",
-                "en":"https://doi.org/10.11184/his.26.1_77"
+                "ja":"aied2023-ja.html",
+                "en":"aied2023.html"
             },
             "image":"AIED2023/IMG_1347.jpg",
             "note":""
@@ -89,7 +89,7 @@
                 "ja":"https://doi.org/10.1007/978-981-97-0779-9",
                 "en":"https://doi.org/10.1007/978-981-97-0779-9"
             },
-            "image":"activity/Human-Centered Services Computing for Smart Cities.png",
+            "image":"HCSCSC/Human-Centered Services Computing for Smart Cities.png",
             "note":""
         },
         {
@@ -102,7 +102,7 @@
                 "ja":"https://doi.org/10.1007/978-981-97-0779-9_3",
                 "en":"https://doi.org/10.1007/978-981-97-0779-9_3"
             },
-            "image":"activity/Human-Centered Services Computing for Smart Cities.png",
+            "image":"HCSCSC/Human-Centered Services Computing for Smart Cities.png",
             "note":""
         }
     ]

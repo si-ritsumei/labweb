@@ -191,7 +191,7 @@ function print_presentation(article,research_news_label,lang){
 
     
     var card_image = document.createElement("img");
-    card_image.src = "img/" + article.image;
+    card_image.src = "img/research_news/presentation/" + article.year + "/" + article.image;
     card_image_div.appendChild(card_image);
 
     var card_content = document.createElement("div");
@@ -250,7 +250,7 @@ function print_paper(article,research_news_label,lang){
 
     
     var card_image = document.createElement("img");
-    card_image.src = "img/activity/" + article.image;
+    card_image.src = "img/research_news/paper/" + article.image;
     card_image_div.appendChild(card_image);
 
     var card_content = document.createElement("div");

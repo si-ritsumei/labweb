@@ -222,7 +222,7 @@ function print_presentation(article,research_news_label,lang){
 
     
     var img = document.createElement("img");
-    img.src = "img/" + article.image;
+    img.src = "img/research_news/presentation/" + article.year + "/" + article.image;
     img.style.width = "100%";
     a_link.appendChild(img);
 
@@ -275,7 +275,7 @@ function print_paper(article,research_news_label,lang){
 
     
     var img = document.createElement("img");
-    img.src = "img/activity/" + article.image;
+    img.src = "img/research_news/paper/" + article.image;
     img.style.width = "100%";
     a_link.appendChild(img);
 
