@@ -202,7 +202,7 @@ function print_presentation(article,research_news_label,lang){
     var article_text = document.createElement("p");
     article_text.classList.add("grey-text");
     article_text.classList.add("text-darken-4");
-    article_text.textContent = article.text;
+    article_text.innerHTML = article.text;
     card_content.appendChild(article_text);
 
     article_text.appendChild(document.createElement("br"));
