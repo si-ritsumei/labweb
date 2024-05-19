@@ -70,7 +70,11 @@ fetch("../json/lablife.json")
             a_link.appendChild(card_image_div);
 
             var card_image = document.createElement("img");
-            card_image.src = "img/lablife/" + article.image;
+            if (article.image !== ""){
+                card_image.src = "img/event_news/" + article.year + "/" + article.image;
+            }else{
+                card_image.src = "img/event_news/forActivity.png";
+            }
             card_image_div.appendChild(card_image);
 
             var card_content = document.createElement("div");

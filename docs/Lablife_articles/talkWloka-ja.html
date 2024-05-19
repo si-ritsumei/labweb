@@ -47,7 +47,7 @@
             <div class="row">
                 <div class="column leftc">
                     <div align="center">
-                        <img src="../img/talkWolka/2019Wolka.JPG" width=100% style="align-content: center" alt="" />
+                        <img id="img1" width=100% style="align-content: center" alt="" />
                     </div>
                 </div>
                 <div class="column rightc">
@@ -60,7 +60,7 @@
             <div class="row">
                 <div class="column leftc">
                     <div align="center">
-                        <img src="../img/talkWolka/2019Wolka2.JPG" width=100% style="align-content: center" alt="" />
+                        <img id="img2" width=100% style="align-content: center" alt="" />
                     </div>
                 </div>
                 <div class="column rightc">
@@ -72,12 +72,12 @@
             <div class="row">
                 <div class="column leftc">
                     <div align="center">
-                        <img src="../img/talkWolka/2019Wolka3.JPG" width=100% style="align-content: center" alt="" />
+                        <img id="img3" width=100% style="align-content: center" alt="" />
                     </div>
                 </div>
                 <div class="column rightc">
                     <div align="center">
-                        <img src="../img/talkWolka/2019Wolka4.JPG" width=100% style="align-content: center" alt="" />
+                        <img id="img4" width=100% style="align-content: center" alt="" />
                     </div>
                 </div>
             </div>
@@ -95,6 +95,18 @@
     <script src="../js/modernizr.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
+    <script>
+        const filePath = "../img/event_news/2019/talkWolka/"; // 画像ファイルがあるフォルダのパスを変数に格納
+        const fileNames = ["2019Wolka.JPG", "2019Wolka2.JPG", "2019Wolka3.JPG","2019Wolka4.JPG"];
+
+        const ids = ["img1", "img2", "img3","img4"];// 画像のIDを配列に格納
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+    </script>
 
 </body>
 

@@ -58,19 +58,19 @@
                         <div class="swiper-container swiper1">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/3kaisei_event2023/3kaisei_event1.JPG" width=100% style="align-content: center"/>
+                                    <img id="img1" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/3kaisei_event2023/3kaisei_event2.JPG" width=100% style="align-content: center"/>
+                                    <img id="img2" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/3kaisei_event2023/3kaisei_event3.JPG" width=100% style="align-content: center"/>
+                                    <img id="img3" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/3kaisei_event2023/3kaisei_event4.JPG" width=100% style="align-content: center"/>
+                                    <img id="img4" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/3kaisei_event2023/3kaisei_event5.JPG" width=100% style="align-content: center"/>
+                                    <img id="img5" width=100% style="align-content: center"/>
                                 </div>
                             </div>
                             <div class="swiper-button-prev prev1"></div>
@@ -81,19 +81,19 @@
                         <div class="swiper-container swiper2">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/3kaisei_event2023/3kaisei_event1.JPG" width=100% style="align-content: center"/>
+                                    <img id="img6" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/3kaisei_event2023/3kaisei_event2.JPG" width=100% style="align-content: center"/>
+                                    <img id="img7" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/3kaisei_event2023/3kaisei_event3.JPG" width=100% style="align-content: center"/>
+                                    <img id="img8" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/3kaisei_event2023/3kaisei_event4.JPG" width=100% style="align-content: center"/>
+                                    <img id="img9" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/3kaisei_event2023/3kaisei_event5.JPG" width=100% style="align-content: center"/>
+                                    <img id="img10" width=100% style="align-content: center"/>
                                 </div>
 
                             </div>
@@ -136,6 +136,18 @@
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
     <script src="../js/swiper.js"></script>
+    <script>
+        const filePath = "../img/event_news/2023/3kaisei_event2023/"; // 画像ファイルがあるフォルダのパスを変数に格納
+        const fileNames = ["3kaisei_event1.JPG", "3kaisei_event2.JPG", "3kaisei_event3.JPG", "3kaisei_event4.JPG","3kaisei_event5.JPG"];
+
+        const ids = ["img1", "img2", "img3", "img4","img5","img6","img7","img8","img9","img10"];// 画像のIDを配列に格納
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+    </script>
 
 </body>
 

@@ -32,7 +32,6 @@
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
 </head>
 
 <body id="top" class="scrollspy">
@@ -48,15 +47,15 @@
                 neural machine translation technologies and Mirai Translate Cloud services on January 20th, 2020. The lecture focused on domain adaptation of neural machine translation. He explained user dictionary and domain corpus training with
                 several cases.</br></p>
             <div class="row" align="center">
-                <img src="../img/talkTorii/2020Torii.jpg" width=70% style="align-content: center" alt="" />
+                <img id="img1" width=70% style="align-content: center" alt="" />
             </div>
 
             <div class="row" align="center">
-                <img src="../img/talkTorii/2020Torii2.jpg" width=70%% style="align-content: center" alt="" />
+                <img id="img2" width=70%% style="align-content: center" alt="" />
             </div>
 
             <div class="row" align="center">
-                <img src="../img/talkTorii/2020Torii3.jpg" width=70% style="align-content: center" alt="" />
+                <img id="img3" width=70% style="align-content: center" alt="" />
             </div>
 
         </div>
@@ -72,7 +71,18 @@
     <script src="../js/modernizr.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
+    <script>
+        const filePath = "../img/event_news/2020/talkTorii/"; // 画像ファイルがあるフォルダのパスを変数に格納
+        const fileNames = ["2020Torii.jpg", "22020Torii2.jpg", "2020Torii3.jpg"];
 
+        const ids = ["img1", "img2", "img3"];// 画像のIDを配列に格納
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+    </script>
 </body>
 
 </html>

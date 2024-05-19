@@ -50,11 +50,11 @@
             <div class="row">
                 <div class="column leftc">
                     <p class="center">
-                        <img class="responsive-img" src="../img/lablife/programmingIkunishi2023/IKNS6-s.jpg" width=100% style="align-content: center"/>
+                        <img id="img1" class="responsive-img" width=100% style="align-content: center"/>
                         
                         <ul class="responsive-img-small">
-                            <img src="../img/lablife/programmingIkunishi2023/IKNS3-s.jpg" width=49% style="align-content: center"/>
-                            <img src="../img/lablife/programmingIkunishi2023/IKNS7-s.jpg" width=49% style="align-content: center"/>
+                            <img id="img2" width=49% style="align-content: center"/>
+                            <img id="img3" width=49% style="align-content: center"/>
                         </ul>
                     </p>
                 </div>
@@ -72,8 +72,8 @@
                         嬉しいです！
                         <p>
                             <ul class="responsive-img-small">
-                                <img src="../img/lablife/programmingIkunishi2023/NailGame.png" width=45% style="justify-content: space-evenly;"/>
-                                <img src="../img/lablife/programmingIkunishi2023/AnimalSlot.png" width=45% style="justify-content: space-evenly;"/>
+                                <img id="img4" width=45% style="justify-content: space-evenly;"/>
+                                <img id="img5" width=45% style="justify-content: space-evenly;"/>
                             </ul>
                         </p>
                 </div>
@@ -91,6 +91,27 @@
     <script src="../js/modernizr.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
+    <script>
+        const filePath = "../img/event_news/2023/programmingIkunishi2023/"; // 画像ファイルがあるフォルダのパスを変数に格納
+        const fileNames = ["IKNS6-s.jpg", "IKNS3-s.jpg", "IKNS7-s.jpg","NailGame.png","AnimalSlot.png"];
+        const backgroundImage = "";  //背景画像を指定
+
+        // 画像のIDを自動生成して配列に格納
+        const numberOfImages = 5; //画像の数を指定
+        const ids = [];
+        for (let i = 1; i <= numberOfImages; i++) {
+            ids.push(`img${i}`);
+        }
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+
+        // body要素の背景画像を設定
+        document.body.style.backgroundImage = `url(${filePath}${backgroundImage})`;
+    </script>
 
 </body>
 
