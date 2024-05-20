@@ -90,7 +90,7 @@
                 "en":"https://link.springer.com/book/10.1007/978-981-97-0779-9"
             },
             "image":"HCSCSC/Human-Centered Services Computing for Smart Cities.png",
-            "note":"note"
+            "note":"book"
         },
         {
             "year":"2024", "month":"5", "date":"7",
@@ -103,7 +103,7 @@
                 "en":"https://link.springer.com/chapter/10.1007/978-981-97-0779-9_3"
             },
             "image":"HCSCSC/Human-Centered Services Computing for Smart Cities.png",
-            "note":"note"
+            "note":"book"
         }
     ]
 }

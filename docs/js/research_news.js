@@ -179,11 +179,11 @@ function print_presentation(article,research_news_label,lang){
 
     console.log("link:"+article.link_file)
     var a_link = document.createElement("a");
+    if (article.link_file !== null){
+        a_link.href = "ResearchNews_articles/" + article.link_file;
+    }
     if(article.note === "book"){
         a_link.href = article.link_file;
-    }
-    else if (article.link_file !== null){
-        a_link.href = "ResearchNews_articles/" + article.link_file;
     }
     div_card.appendChild(a_link);
     
