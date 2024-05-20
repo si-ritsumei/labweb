@@ -59,25 +59,25 @@
                         <div class="swiper-container swiper1">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque1.JPG" width=100% style="align-content: center"/>
+                                    <img id="img1" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque2.jpg" width=100% style="align-content: center"/>
+                                    <img id="img2" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque3.jpg" width=100% style="align-content: center"/>
+                                    <img id="img3" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque4.jpg" width=100% style="align-content: center"/>
+                                    <img id="img4" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque5.jpg" width=100% style="align-content: center"/>
+                                    <img id="img5" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque6.jpg" width=100% style="align-content: center"/>
+                                    <img id="img6" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque7.jpg" width=100% style="align-content: center"/>
+                                    <img id="img7" width=100% style="align-content: center"/>
                                 </div>
                             </div>
                             <div class="swiper-button-prev prev1"></div>
@@ -88,25 +88,25 @@
                         <div class="swiper-container swiper2">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque1.JPG" width=100% style="align-content: center"/>
+                                    <img id="img1" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque2.jpg" width=100% style="align-content: center"/>
+                                    <img id="img2" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque3.jpg" width=100% style="align-content: center"/>
+                                    <img id="img3" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque4.jpg" width=100% style="align-content: center"/>
+                                    <img id="img4" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque5.jpg" width=100% style="align-content: center"/>
+                                    <img id="img5" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque6.jpg" width=100% style="align-content: center"/>
+                                    <img id="img6" width=100% style="align-content: center"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="../img/lablife/barbeque2023/barbeque7.jpg" width=100% style="align-content: center"/>
+                                    <img id="img7" width=100% style="align-content: center"/>
                                 </div>
                             </div>
                         </div>
@@ -146,6 +146,23 @@
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
     <script src="../js/swiper.js"></script>
+    <script>
+        const filePath = "../img/event_news/2023/barbeque2023/"; // 画像ファイルがあるフォルダのパスを変数に格納
+        const fileNames = ["barbeque1.JPG", "barbeque2.JPG", "barbeque3.JPG", "barbeque4.JPG","barbeque5.JPG","barbeque6.JPG","barbeque7.JPG"];
+
+        // 画像のIDを自動生成して配列に格納
+        const numberOfImages = 14; //画像の数を指定
+        const ids = [];
+        for (let i = 1; i <= numberOfImages; i++) {
+            ids.push(`img${i}`);
+        }
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+    </script>
 
 </body>
 

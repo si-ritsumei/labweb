@@ -49,7 +49,7 @@
             <div class="row">
                 <div class="column leftc">
                     <div align="center">
-                        <img src="../img/lablife/scratchWS/DSC_1114s.jpg" width=100% style="align-content: center" alt="" />
+                        <img id="img1" width=100% style="align-content: center" alt="" />
                     </div>
                 </div>
                 <div class="column rightc">
@@ -59,10 +59,10 @@
             </div>
             <div class="row">
                 <div class="column leftc" style="margin-left: 0; margin-top: 0">
-                    <img src="../img/lablife/scratchWS/DSC_1152s.jpg" width=100% alt="" />
+                    <img id="img2" width=100% alt="" />
                 </div>
                 <div class="column rightc" style="margin-left: 0; margin-top: 0">
-                    <img src="../img/lablife/scratchWS/DSC_1167s.jpg" width=100% alt="" />
+                    <img id="img3" width=100% alt="" />
                 </div>
             </div>
         </div>
@@ -78,6 +78,27 @@
     <script src="../js/modernizr.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
+    <script>
+        const filePath = "../img/event_news/2021/scratchWS/"; // 画像ファイルがあるフォルダのパスを変数に格納
+        const fileNames = ["DSC_1114s.jpg","DSC_1152s.jpg","DSC_1167s.jpg"];
+        const backgroundImage = "";  //背景画像を指定
+
+        // 画像のIDを自動生成して配列に格納
+        const numberOfImages = 3; //画像の数を指定(swiperを使用する場合は2倍の数になる)
+        const ids = [];
+        for (let i = 1; i <= numberOfImages; i++) {
+            ids.push(`img${i}`);
+        }
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+
+        // body要素の背景画像を設定
+        document.body.style.backgroundImage = `url(${filePath}${backgroundImage})`;
+    </script>
 
 </body>
 

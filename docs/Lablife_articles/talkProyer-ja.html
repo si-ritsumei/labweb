@@ -48,7 +48,7 @@
             <div class="row">
                 <div class="column leftc">
                     <div align="center">
-                        <img src="../img/talkProyer/2019Proyer.JPG" width=100% style="align-content: center" alt="" />
+                        <img id="img1" width=100% style="align-content: center" alt="" />
                     </div>
                 </div>
                 <div class="column rightc">
@@ -58,10 +58,10 @@
             </div>
             <div class="row">
                 <div class="column leftc" style="margin-left: 0; margin-top: 0">
-                    <img src="../img/talkProyer/2019Proyer2.JPG" width=100% alt="" />
+                    <img id="img2" width=100% alt="" />
                 </div>
                 <div class="column rightc" style="margin-left: 0; margin-top: 0">
-                    <img src="../img/talkProyer/2019Proyer3.JPG" width=100% alt="" />
+                    <img id="img3" width=100% alt="" />
                 </div>
             </div>
         </div>
@@ -77,6 +77,24 @@
     <script src="../js/modernizr.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
+    <script>
+        // 要素を取得して画像を指定
+        document.getElementById("img1").src = filePath + "2019Proyer.JPG";
+        document.getElementById("img2").src = filePath + "2019Proyer2.JPG";
+        document.getElementById("img3").src = filePath + "2019Proyer3.JPG";
+    </script>
+    <script>
+        const filePath = "../img/event_news/2019/talkProyer/"; // 画像ファイルがあるフォルダのパスを変数に格納
+        const fileNames = ["2019Proyer.JPG", "2019Proyer2.JPG", "2019Proyer3.JPG"];
+
+        const ids = ["img1", "img2", "img3"];// 画像のIDを配列に格納
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+    </script>
 
 </body>
 

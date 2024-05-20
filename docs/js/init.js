@@ -176,11 +176,11 @@
 
       function changeBackgroundImg($word){
 	      if($word.text()=='Dive into the field'){
-		  $('#index-banner').css('background-image', 'url(img/fieldwork.jpg)');
+		  $('#index-banner').css('background-image', 'url(img/general/init/fieldwork.jpg)');
 	      } else if($word.text()=='Design solutions'){
-		  $('#index-banner').css('background-image', 'url(img/design.jpg)');
+		  $('#index-banner').css('background-image', 'url(img/general/init/design.jpg)');
 	      } else if ($word.text()=='Develop services'){
-		  $('#index-banner').css('background-image', 'url(img/bpel-client.jpg)');
+		  $('#index-banner').css('background-image', 'url(img/general/init/bpel-client.jpg)');
 	      }
 	}
 

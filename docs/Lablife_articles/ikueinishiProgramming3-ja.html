@@ -51,12 +51,12 @@
             <div class="row">
                 <div class="column leftc">
                     <p class="center">
-                        <img class="responsive-img" src="../img/lablife/IKNS_202309/DSC00828-s.JPG" width=100% style="align-content: center"/>
+                        <img id="img1" class="responsive-img" width=100% style="align-content: center"/>
                         
                         <ul class="responsive-img-small">
-                            <img src="../img/lablife/IKNS_202309/DSC00829-s.JPG" width=30% style="align-content: center"/>
-                            <img src="../img/lablife/IKNS_202309/DSC00830-s.JPG" width=30% style="align-content: center"/>
-                            <img src="../img/lablife/IKNS_202309/DSC00832-s.JPG" width=30% style="align-content: center"/>
+                            <img id="img2" width=30% style="align-content: center"/>
+                            <img id="img3" width=30% style="align-content: center"/>
+                            <img id="img4" width=30% style="align-content: center"/>
                         </ul>
                     </p>
                 </div>
@@ -97,6 +97,27 @@
     <script src="../js/modernizr.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
+    <script>
+        const filePath = "../img/event_news/2023/IKNS_202309/"; // 画像ファイルがあるフォルダのパスを変数に格納
+        const fileNames = ["DSC00828-s.JPG","DSC00829-s.JPG","DSC00830-s.JPG","DSC00832-s.JPG"];
+        const backgroundImage = "";  //背景画像を指定
+
+        // 画像のIDを自動生成して配列に格納
+        const numberOfImages = 4; //画像の数を指定
+        const ids = [];
+        for (let i = 1; i <= numberOfImages; i++) {
+            ids.push(`img${i}`);
+        }
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+
+        // body要素の背景画像を設定
+        document.body.style.backgroundImage = `url(${filePath}${backgroundImage})`;
+    </script>
 
 </body>
 

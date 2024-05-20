@@ -33,7 +33,7 @@
     "D3":[
         {
             "name":{"ja":"西村 一球","en":"Ikkyu NISHIMURA"},
-            "image":"nishimura.jpg",
+            "image":"2018/18nishimura.jpg",
             "main_link":"https://ikkyu0714.github.io/homepage/",
             "links":[
                 {"class":"fab fa-orcid","link":"https://orcid.org/0000-0002-4807-3300"},
@@ -43,7 +43,7 @@
         },
         {
             "name":{"ja":"元澤 海月","en":"Mizuki MOTOZAWA"},
-            "image":"motozawa1.JPG",
+            "image":"2018/18motozawa2.JPG",
             "main_link":"https://motozawa.github.io/MyPage/",
             "links":[
                 {"class":"fab fa-orcid","link":"https://orcid.org/0000-0001-9633-6876"},
@@ -55,35 +55,35 @@
     "M2":[
         {
             "name":{"ja":"ZHANG Yuxuan","en":"ZHANG Yuxuan"},
-            "image":"yx_zhang.jpg",
+            "image":"2022/22yx_zhang.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"HERLIANTO Abia Putrama","en":"HERLIANTO Abia Putrama"},
-            "image":"herlianto.png",
+            "image":"2022/22herlianto.png",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"SHELLA Eldwina Fitri","en":"SHELLA Eldwina Fitri"},
-            "image":"22shella_s.jpg",
+            "image":"2022/22shella_s.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"木本 真平","en":"Shimpei KIMOTO"},
-            "image":"kimoto21.jpg",
+            "image":"2021/21kimoto.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"砂田 界渡","en":"Kaito SUNADA"},
-            "image":"sunada.jpg",
+            "image":"2024/24sunada.jpg",
             "main_link":"",
             "links":[],
             "note":""
@@ -92,7 +92,7 @@
     "M1":[
         {
             "name":{"ja":"北川 勘太朗","en":"Kantaro KITAGAWA"},
-            "image":"22kitagawa_s.jpg",
+            "image":"2022/22kitagawa_s.jpg",
             "main_link":"https://kantaro1026.github.io/webpage/",
             "links":[
                 {"class":"fa-solid fa-circle-user","link":"https://kantaro1026.github.io/webpage/"}
@@ -101,7 +101,7 @@
         },
         {
             "name":{"ja":"松本 賢司","en":"Kenji MATSUMOTO"},
-            "image":"matsumoto.jpg",
+            "image":"2022/22matsumoto.jpg",
             "main_link":"https://kenjimatsumoto2001.github.io/kenjihp/",
             "links":[
                 {"class":"fa-solid fa-circle-user","link":"https://kenjimatsumoto2001.github.io/kenjihp/"}
@@ -110,14 +110,14 @@
         },
         {
             "name":{"ja":"森 叶葉","en":"Kanaha KANAHA"},
-            "image":"22kanaha_s2.jpg",
+            "image":"2022/22kanaha_s2.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"山本 涼太郎","en":"Ryotaro YAMAMOTO"},
-            "image":"22ryotaro_s.jpg",
+            "image":"2022/22ryotaro_s.jpg",
             "main_link":"",
             "links":[],
             "note":""
@@ -126,112 +126,112 @@
     "B4":[
         {
             "name":{"ja":"JIANG Huixu","en":"JIANG Huixu"},
-            "image":"avatar1.png",
+            "image":"avatar/avatar1.png",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"WU Wenbo","en":"WU Wenbo"},
-            "image":"23wu.jpg",
+            "image":"2023/23wu.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"ZHANG Yilong","en":"ZHANG Yilong"},
-            "image":"22yilong_s.jpg",
+            "image":"2022/22yilong_s.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"荒巻 光里","en":"Hikari ARAMAKI"},
-            "image":"aramaki.jpg",
+            "image":"2023/23aramaki.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"有田 隆太朗","en":"Ryutaro ARITA"},
-            "image":"23arita.jpg",
+            "image":"2023/23arita.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"石田 大智","en":"Daichi ISHIDA"},
-            "image":"23ishida.jpg",
+            "image":"2024/24ishida.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"稲田 匠真","en":"Takuma INADA"},
-            "image":"23inada.jpg",
+            "image":"2023/23inada.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"岩野 智総","en":"Tomoaki IWANO"},
-            "image":"23iwano.jpg",
+            "image":"2023/23iwano.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"加奥 咲江","en":"Sakie KAOKU"},
-            "image":"kaoku.jpg",
+            "image":"2023/23kaoku.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"木田 千尋","en":"Chihiro KIDA"},
-            "image":"23kida.jpg",
+            "image":"2024/24kida.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"瀬田 明日將","en":"Asuma SETA"},
-            "image":"seta.jpg",
+            "image":"2023/23seta.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"富田 悠斗","en":"Yuuto TOMIDA"},
-            "image":"23tomida.jpg",
+            "image":"2023/23tomida.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"中川 真一","en":"Shinnichi NAKAGAWA"},
-            "image":"23nakgawa.jpg",
+            "image":"2023/23nakgawa.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"丸山 幸之助","en":"Konosuke MARUYAMA"},
-            "image":"23maruyama.jpg",
+            "image":"2023/23maruyama.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"森 由璃亜","en":"Yuria MORI"},
-            "image":"Mori_yuria.JPG",
+            "image":"2023/23Mori_yuria.JPG",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
             "name":{"ja":"山本 孝晴","en":"Takaharu YAMAMOTO"},
-            "image":"22takaharu_s.jpg",
+            "image":"2022/22takaharu_s.jpg",
             "main_link":"",
             "links":[],
             "note":""

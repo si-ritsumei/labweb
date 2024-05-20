@@ -1,64 +1,64 @@
 {
     "2020":{
         "3":[
-            {"name":{"ja":"加藤聖貴","en":"Masaki KATO"},"image":"avatar1.png","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"玉置晴菜","en":"Haruna TAMAKI"},"image":"avatar2.png","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"津山陽紀","en":"Akinori TSUYAMA"},"image":"avatar3.png","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"村上智彦","en":"Tomohiko MURAKAMI"},"image":"avatar4.png","grade":{"ja":"学部卒業","en":"Bachelor"}}
+            {"name":{"ja":"加藤聖貴","en":"Masaki KATO"},"image":"avatar/avatar1.png","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"玉置晴菜","en":"Haruna TAMAKI"},"image":"avatar/avatar2.png","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"津山陽紀","en":"Akinori TSUYAMA"},"image":"avatar/avatar3.png","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"村上智彦","en":"Tomohiko MURAKAMI"},"image":"avatar/avatar4.png","grade":{"ja":"学部卒業","en":"Bachelor"}}
         ]
     },
     "2021":{
         "3":[
-            {"name":{"ja":"松原 駿樹","en":"Takaki MATSUBARA"},"image":"matsubara.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"叶 峰","en":"Feng YE"},"image":"ye.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"吉村 佑久","en":"Tasuku YOSHIMURA"},"image":"yoshimura2.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"高田 雅央","en":"Masahiro TAKADA"},"image":"takada.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
+            {"name":{"ja":"松原 駿樹","en":"Takaki MATSUBARA"},"image":"2019/19matsubara.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"叶 峰","en":"Feng YE"},"image":"2019/19ye.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"吉村 佑久","en":"Tasuku YOSHIMURA"},"image":"2019/19yoshimura.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"高田 雅央","en":"Masahiro TAKADA"},"image":"2018/18takada.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
             ],
         "9":[
-            {"name":{"ja":"舛田 晃一","en":"Koichi MASUDA"},"image":"masuda.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
+            {"name":{"ja":"舛田 晃一","en":"Koichi MASUDA"},"image":"2019/19masuda.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
         ]
     },
     "2022":{
         "3":[
-            {"name":{"ja":"大久保 弘基","en":"Koki OKUBO"},"image":"okubo.jpg","grade":{"ja":"修士修了","en":"Master"}},
-            {"name":{"ja":"地田 大樹","en":"Hiroki CHIDA"},"image":"chida.jpg","grade":{"ja":"修士修了","en":"Master"}},
-            {"name":{"ja":"三輪 花楓","en":"Kaede MIWA"},"image":"miwa.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"江口 美裕","en":"Miyu EGUCHI"},"image":"21eguchi.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"木田 晴斗","en":"Haruto KIDA"},"image":"21kida.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"横手 詩弓","en":"Shiyumi YOKOTE"},"image":"21yokote.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
+            {"name":{"ja":"大久保 弘基","en":"Koki OKUBO"},"image":"2018/18okubo.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"地田 大樹","en":"Hiroki CHIDA"},"image":"2018/18chida.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"三輪 花楓","en":"Kaede MIWA"},"image":"2019/19miwa.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"江口 美裕","en":"Miyu EGUCHI"},"image":"2020/20eguchi.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"木田 晴斗","en":"Haruto KIDA"},"image":"2020/20kida.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"横手 詩弓","en":"Shiyumi YOKOTE"},"image":"2020/20yokote.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
             ],
         "9":[
-            {"name":{"ja":"RESIANDI Kartika Findra","en":"RESIANDI Kartika Findra"},"image":"resiandi.jpg","grade":{"ja":"修士修了","en":"Master"}},
-            {"name":{"ja":"DING Hao","en":"DING Hao"},"image":"avatar2.png","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"ZHONG Ganghui","en":"ZHONG Ganghui"},"image":"21zhong.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
+            {"name":{"ja":"RESIANDI Kartika Findra","en":"RESIANDI Kartika Findra"},"image":"2020/20resiandi.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"DING Hao","en":"DING Hao"},"image":"avatar/avatar2.png","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"ZHONG Ganghui","en":"ZHONG Ganghui"},"image":"2020/20zhong.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
         ]
     },
     "2023":{
         "3":[
-            {"name":{"ja":"大井 也史","en":"Narifumi OI"},"image":"oi.jpg","grade":{"ja":"修士修了","en":"Master"}},
-            {"name":{"ja":"佐藤 旭","en":"Asahi SATO"},"image":"sato.jpg","grade":{"ja":"修士修了","en":"Master"}},
-            {"name":{"ja":"張 禹王","en":"Yuwang ZHANG"},"image":"zhang.jpg","grade":{"ja":"修士修了","en":"Master"}},
-            {"name":{"ja":"松岡 勇樹","en":"Yuki MATSUOKA"},"image":"matsuoka.jpg","grade":{"ja":"修士修了","en":"Master"}},
-            {"name":{"ja":"石間 幹二","en":"Kanji ISHIMA"},"image":"ishima21.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"梅本 遥己","en":"Haruki UMEMOTO"},"image":"umemoto21.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"小松 大輝","en":"Daiki KOMATSU"},"image":"komatsu21.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"増田 悠人","en":"Yuto MASUDA"},"image":"masuda21.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"山田 慎之介","en":"Shinnosuke YAMADA"},"image":"yamada21.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
+            {"name":{"ja":"大井 也史","en":"Narifumi OI"},"image":"2019/19oi.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"佐藤 旭","en":"Asahi SATO"},"image":"2019/19sato.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"張 禹王","en":"Yuwang ZHANG"},"image":"2019/19zhang.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"松岡 勇樹","en":"Yuki MATSUOKA"},"image":"2019/19matsuoka.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"石間 幹二","en":"Kanji ISHIMA"},"image":"2021/21ishima.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"梅本 遥己","en":"Haruki UMEMOTO"},"image":"2021/21umemoto.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"小松 大輝","en":"Daiki KOMATSU"},"image":"2021/21komatsu.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"増田 悠人","en":"Yuto MASUDA"},"image":"2021/21masuda.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"山田 慎之介","en":"Shinnosuke YAMADA"},"image":"2021/21yamada.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
             ],
         "9":[
-            {"name":{"ja":"李 闖","en":"Chuang LI"},"image":"li.jpg","grade":{"ja":"修士修了","en":"Master"}},
-            {"name":{"ja":"HU Leshui","en":"HU Leshui"},"image":"avatar1.png","grade":{"ja":"学部卒業","en":"Bachelor"}}
+            {"name":{"ja":"李 闖","en":"Chuang LI"},"image":"2021/21li.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"HU Leshui","en":"HU Leshui"},"image":"avatar/avatar1.png","grade":{"ja":"学部卒業","en":"Bachelor"}}
         ]
 
     },
     "2024":{
         "3":[
-            {"name":{"ja":"洪 欣宇","en":"Xinyu HONG"},"image":"22hong_s2.jpg","grade":{"ja":"修士修了","en":"Master"}},
-            {"name":{"ja":"上野 颯人","en":"Hayato UENO"},"image":"avatar1.png","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"笠井 直晴","en":"Tadaharu KASAI"},"image":"kasai21.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"北川 大夢","en":"Hiromu KITAGAWA"},"image":"kitagawa21.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"黒山 晃輝","en":"Koki KUROYAMA"},"image":"22kuroyama_s.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
-            {"name":{"ja":"増田 憲都","en":"Kazuto MASUDA"},"image":"22masuda_s.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
+            {"name":{"ja":"洪 欣宇","en":"Xinyu HONG"},"image":"2022/22hong_s2.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"上野 颯人","en":"Hayato UENO"},"image":"avatar/avatar1.png","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"笠井 直晴","en":"Tadaharu KASAI"},"image":"2021/21kasai.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"北川 大夢","en":"Hiromu KITAGAWA"},"image":"2021/21kitagawa.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"黒山 晃輝","en":"Koki KUROYAMA"},"image":"2022/22kuroyama_s.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"増田 憲都","en":"Kazuto MASUDA"},"image":"2022/22masuda_s.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
             ]
     }
     

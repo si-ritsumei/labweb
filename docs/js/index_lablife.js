@@ -93,7 +93,7 @@ fetch("../json/lablife.json")
             a_link.appendChild(div_img);
 
             var img = document.createElement("img");
-            img.src = "img/lablife/" + article.image;
+            img.src = "img/event_news/" + article.year + "/" + article.image;
             img.style.width = "100%";
             div_img.appendChild(img);
 

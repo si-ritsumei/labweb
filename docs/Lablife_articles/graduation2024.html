@@ -34,7 +34,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body id="top" class="scrollspy" background="../img/lablife/graduation2023/sakura_haikei.png">
+<body id="top" class="scrollspy">
 
     <!--Navigation-->
     <div id="myNavbar" data-active="2" data-language="ja">
@@ -49,10 +49,10 @@
             <div class="row">
                 <div class="column leftc">
                     <p class="center">
-                        <img class="responsive-img" src="../img/lablife/graduation2024/graduate2024-1.JPG" width=100% style="align-content: center"/>
+                        <img id="img1" width=100% style="align-content: center"/>
                         <ul class="responsive-img-small">
-                            <img src="../img/lablife/graduation2024/graduate2024-2.JPG" width=49% style="align-content: center"/>
-                            <img src="../img/lablife/graduation2024/graduate2024-3.JPG" width=49% style="align-content: center"/>
+                            <img id="img2" width=49% style="align-content: center"/>
+                            <img id="img3" width=49% style="align-content: center"/>
                         </ul>
                     </p>
                 </div>
@@ -78,6 +78,27 @@
     <script src="../js/modernizr.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
+    <script>
+        const filePath = "../img/event_news/2024/graduation2024/"; // 画像ファイルがあるフォルダのパスを変数に格納
+        const fileNames = ["graduate2024-1.JPG", "graduate2024-2.JPG", "graduate2024-3.JPG"];
+        const backgroundImage = "sakura_haikei.png";  //背景画像を指定
+
+        // 画像のIDを自動生成して配列に格納
+        const numberOfImages = 3; //画像の数を指定
+        const ids = [];
+        for (let i = 1; i <= numberOfImages; i++) {
+            ids.push(`img${i}`);
+        }
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+
+        // body要素の背景画像を設定
+        document.body.style.backgroundImage = `url(${filePath}${backgroundImage})`;
+    </script>
 
 </body>
 

@@ -64,7 +64,7 @@
             <div class="row">
                 <table>
                     <tr>
-                        <td class="collection-item" colspan=2"><span>Where: Social Intelligence Laboratory</span>　<span>, Creation Core 7th Floor</span><br><a href="contact.html">Map</a></td>
+                        <td class="collection-item" colspan=2"><span>Where: Social Intelligence Laboratory</span>　<span>, Creation Core 7th Floor</span><br><a href="../contact.html">Map</a></td>
                     </tr>
                     <tr>
                         <td><nobr>6/ 5(Mon)</nobr></td>
@@ -95,13 +95,13 @@
                 <div class="col s8">
                     <p class="shadow">In addition to the above dates, if you have any questions about your research or career path, please send your name and preferred date/time(s) to the following email address for an individual interview.</p>
                     <div class="row">
-                        <img width="30%" height="auto" src="../img/Mail.png">
+                        <img id="img1" width="30%" height="auto">
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <img width="100%" height="auto" src="../img/openlab2023.png">
+            <img id="img2" width="100%" height="auto">
         </div>
 
 
@@ -117,7 +117,27 @@
     <script src="../js/modernizr.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
+    <script>
+        const filePath = "../img/event_news/2023/openlab2023/"; // 画像ファイルがあるフォルダのパスを変数に格納
+        const fileNames = ["Mail.png","openlab2023.png"];
+        const backgroundImage = "haikei.png";  //背景画像を指定
 
+        // 画像のIDを自動生成して配列に格納
+        const numberOfImages = 2; //画像の数を指定(swiperを使用する場合は2倍の数になる)
+        const ids = [];
+        for (let i = 1; i <= numberOfImages; i++) {
+            ids.push(`img${i}`);
+        }
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+
+        // body要素の背景画像を設定
+        document.body.style.backgroundImage = `url(${filePath}${backgroundImage})`;
+    </script>
 </body>
 
 </html>

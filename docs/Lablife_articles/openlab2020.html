@@ -55,7 +55,7 @@
                 <li class="collection-item">17th June, 202017:00〜18:00</li>
             </ul>
             <div class="row">
-                <img width="100%" height="auto" src="../img/collage2020.jpg">
+                <img id="img1" width="100%" height="auto">
             </div>
         </div>
     </div>
@@ -70,6 +70,27 @@
     <script src="../js/modernizr.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
+    <script>
+        const filePath = "../img/event_news/2020/openlab2020/"; // 画像ファイルがあるフォルダのパスを変数に格納
+        const fileNames = ["collage2020.jpg"];
+        const backgroundImage = "";  //背景画像を指定
+
+        // 画像のIDを自動生成して配列に格納
+        const numberOfImages = 1; //画像の数を指定(swiperを使用する場合は2倍の数になる)
+        const ids = [];
+        for (let i = 1; i <= numberOfImages; i++) {
+            ids.push(`img${i}`);
+        }
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+
+        // body要素の背景画像を設定
+        document.body.style.backgroundImage = `url(${filePath}${backgroundImage})`;
+    </script>
 
 </body>
 

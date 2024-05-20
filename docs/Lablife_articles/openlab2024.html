@@ -64,10 +64,10 @@
 
             <div class="responsive-gallery">
                 <a href="lablife.html">
-                    <img src="../img/lablife.png" alt="button">
+                    <img id="img1" alt="button">
                 </a>
                 <a href="research_theme.html">
-                    <img src="../img/search _theme.png" alt="button">
+                    <img id="img2" alt="button">
                 </a>
             </div>
 
@@ -121,13 +121,13 @@
                 <div class="col s8">
                     <p class="shadow">上記日程以外にも、研究内容や進路など相談があれば個別に面談をしますので、以下のメールアドレス宛に氏名と希望日時(複数)を送ってください。</p>
                     <div class="row">
-                        <img width="30%" height="auto" src="../img/Mail.png">
+                        <img id="img3" width="30%" height="auto">
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <img width="100%" height="auto" src="../img/openlab2023.png">
+            <img id="img4" width="100%" height="auto">
         </div>
 
 
@@ -143,6 +143,27 @@
     <script src="../js/modernizr.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
+    <script>
+        const filePath = "../img/event_news/2024/openlab2024/"; // 画像ファイルがあるフォルダのパスを変数に格納
+        const fileNames = ["lablife.png","search _theme.png","Mail.png","openlab2023.png"];
+        const backgroundImage = "haikei.png";  //背景画像を指定
+
+        // 画像のIDを自動生成して配列に格納
+        const numberOfImages = 4; //画像の数を指定(swiperを使用する場合は2倍の数になる)
+        const ids = [];
+        for (let i = 1; i <= numberOfImages; i++) {
+            ids.push(`img${i}`);
+        }
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+
+        // body要素の背景画像を設定
+        document.body.style.backgroundImage = `url(${filePath}${backgroundImage})`;
+    </script>
 
 </body>
 
