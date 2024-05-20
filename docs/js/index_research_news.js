@@ -232,8 +232,11 @@ function print_presentation(article,research_news_label,lang){
     div_row.appendChild(div_text);
 
     var a_link2 = document.createElement("a")
-    if (article.link_file !== null){
-        a_link2.href="ResearchNews_articles/" + article.link_file;
+    if(article.note === "book"){
+        a_link.href = article.link_file;
+    }
+    else if (article.link_file !== null){
+        a_link.href = "ResearchNews_articles/" + article.link_file;
     }
     a_link2.target="_blank";
     a_link2.innerHTML = article.text + "</br>";
