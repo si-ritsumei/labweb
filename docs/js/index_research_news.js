@@ -215,11 +215,13 @@ function print_presentation(article,research_news_label,lang){
 
     var a_link = document.createElement("a")
     if (article.link_file !== null){
-        a_link.href="ResearchNews_articles/" + article.link_file;
+        a_link.href = "ResearchNews_articles/" + article.link_file;
+    }
+    if(article.note === "book"){
+        a_link.href = article.link_file;
     }
     a_link.classList.add("news");
     div_col.appendChild(a_link);
-
     
     var img = document.createElement("img");
     img.src = "img/research_news/presentation/" + article.year + "/" + article.image;
@@ -232,8 +234,11 @@ function print_presentation(article,research_news_label,lang){
     div_row.appendChild(div_text);
 
     var a_link2 = document.createElement("a")
-    if (article.link_file !== null){
-        a_link2.href="ResearchNews_articles/" + article.link_file;
+    if(article.note === "book"){
+        a_link2.href = article.link_file;
+    }
+    else if (article.link_file !== null){
+        a_link2.href = "ResearchNews_articles/" + article.link_file;
     }
     a_link2.target="_blank";
     a_link2.innerHTML = article.text + "</br>";

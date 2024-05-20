@@ -182,6 +182,9 @@ function print_presentation(article,research_news_label,lang){
     if (article.link_file !== null){
         a_link.href = "ResearchNews_articles/" + article.link_file;
     }
+    if(article.note === "book"){
+        a_link.href = article.link_file;
+    }
     div_card.appendChild(a_link);
     
 
