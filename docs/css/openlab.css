@@ -81,6 +81,9 @@ body{
     transform: scale(1.05);
 }
 
+.btn.labblue {
+    background-color: #4E709D;
+}
 
 @media (max-width: 600px) {
 	.responsive-gallery a {
