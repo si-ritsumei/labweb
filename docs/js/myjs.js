@@ -140,7 +140,12 @@ function addActive(eventObject) {
 function getPageInLanguage(targetLanguage){
     let currentPage = window.location.href
     let parts = currentPage.split("/")
-    let link = "/" + parts[parts.length - 1]
+    let link = ""
+    //URLをスラッシュで分けたら３バニ高
+    for (let i=3;i<parts.length;i++){
+        link += "/" + parts[i]
+    }
+
     if (targetLanguage == "ja"){
         if (link =="/"){
             return "/index-ja.html"
