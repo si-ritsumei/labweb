@@ -131,13 +131,37 @@ function addActive(eventObject) {
       var i = 0;
       for(i in languages){
           if(i%2 == 0){
-              languages.eq(i).children().attr('href', items['ja'][activeNum]);
+              languages.eq(i).children().attr('href', getPageInLanguage("ja"));
           }else{
-              languages.eq(i).children().attr('href', items['en'][activeNum]);
+              languages.eq(i).children().attr('href', getPageInLanguage("en"));
           }
       }
     }
+function getPageInLanguage(targetLanguage){
+    let currentPage = window.location.href
+    let parts = currentPage.split("/")
+    let link = "/" + parts[parts.length - 1]
+    if (targetLanguage == "ja"){
+        if (link =="/"){
+            return "/index-ja.html"
+        }
+        else if (link.includes("-ja")){
+            return link
+        }
+        else{
+            return link.replace(".html","-ja.html")
+        }
+    }
+    if (targetLanguage == "en"){
+        if (link.includes("-ja")){
+            return link.replace("-ja.html",".html")
+        }
+        else{
+            return link
+        }
+    }
 
+}
 window.onload = function() {
     $('.dropdown-trigger').dropdown({hover: true, constrain_width: false, coverTrigger: false});
 }
