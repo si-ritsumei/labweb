@@ -56,7 +56,7 @@ fetch("../json/lablife.json")
         h5_col.classList.add("header");
         h5_col.classList.add("grey-text");
         h5_col.classList.add("text-darken-1");
-        h5_col.textContent = "Lab News";
+        h5_col.textContent = "Event News";
         lablife_label.appendChild(h5_col);
 
         var a_lablife_link = document.createElement("a");
