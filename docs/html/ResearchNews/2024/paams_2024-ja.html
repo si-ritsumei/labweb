@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HMY8NC79JD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HMY8NC79JD');
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#2196F3">
+    <title>第22回 PAAMS｜立命館大学 社会知能研究室</title>
+    <script src="https://kit.fontawesome.com/67160f99e5.js" crossorigin="anonymous"></script>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import Noto Sans JP Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <!--Import Academicons Font-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+
+    <!--Import customized css-->
+    <link href="../css/pdf.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script>
+        // ファイルパスを変数に格納
+        const filePath = "../img/research_news/presentation/2024/IEICE_GC2024/";
+    </script>
+</head>
+
+<body id="top" class="scrollspy">
+
+    <!--Navigation-->
+    <div id="myNavbar" data-active="2" data-language="ja"></div>
+
+    <div class="container">
+        <h4 class="header text_b">Laboratory Life</h4>
+        <div class="section scrollspy">
+            <p class="normal"></br>
+                日時: 2024年6月26日(水)〜28日(金)</br>
+                場所: スペイン サラマンカ</br></p>
+
+            <p class="smallheader">概要</p>
+            <p class="normal">
+                当研究室の北川さんが、The 22nd International Conference on Practical applications of Agents and Multi-Agent Systems(PAAMS 2024)で研究発表を行いました!
+
+                <br>
+                <br>
+            </p>
+
+            <div class="row">
+                <div class="column">
+                    <b>発表者:</b> 北川 勘太朗<br>
+                    <b>タイトル:</b> <a href="https://pub.confit.atlas.jp/ja/event/general2024/presentation/D-23-02" target="_blank">マルチエージェント強化学習を用いたニューラル機械翻訳の連携</a><br>
+                    <div id="pdf-container1" class="pdf-container">
+                        <div class="slideshow-container">
+                            <div class="slide">
+                                <canvas class="pdf-render"></canvas>
+                            </div>
+                            <a class="prev">&#10094;</a>
+                            <a class="next">&#10095;</a>
+                        </div>
+                        <div class="controls">
+                            <span class="page-num"></span> / <span class="page-count"></span>
+                        </div>
+                    </div>
+                    <p><b>概要:</b> ニューラル機械翻訳の誕生により近年，機械翻訳の精度がより一層高くなり，世間から大きな注目を集めている．高精度のニューラル機械翻訳を構築するためには，高品質の対訳データが大量に必要となるが，このような対訳データを収集することは非常に困難である．このような問題を解決する方法として，連合学習を用いて複数のデータ所有者が協力してニューラル機械翻訳モデルを作成することができる．しかしながら，従来の方法では各データ所有者の選好をうまく反映できないので，本研究ではマルチエージェント強化学習を用いて，各データ所有者の選好を反映する手法を提案する．
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div id="myFooter"></div>
+
+    <!--  Scripts-->
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../js/myjs.js"></script>
+    <script src="../js/modernizr.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="../js/powerpoint.js"></script>
+    <script>
+        const pdfContainer1 = document.getElementById("pdf-container1"); // 要素を取得
+        pdfContainer1.setAttribute("data-pdf-url", filePath+"presentation_slides/2024_kitagawa_hiroshima.pdf"); // data-pdf-url属性に変数の値を設定
+
+        const pdfContainer2 = document.getElementById("pdf-container2");
+        pdfContainer2.setAttribute("data-pdf-url", filePath+"presentation_slides/2024_matsumoto_hiroshima.pdf");
+
+        const pdfContainer3 = document.getElementById("pdf-container3");
+        pdfContainer3.setAttribute("data-pdf-url", filePath+"presentation_slides/2024_mori_hiroshima.pdf");
+
+        const pdfContainer4 = document.getElementById("pdf-container4");
+        pdfContainer4.setAttribute("data-pdf-url", filePath+"presentation_slides/2024_yamamoto_hiroshima.pdf");
+    </script>
+
+</body>
+
+</html>

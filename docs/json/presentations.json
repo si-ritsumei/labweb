@@ -104,6 +104,19 @@
             },
             "image":"HCSCSC/Human-Centered Services Computing for Smart Cities.png",
             "note":"book"
+        },
+        {
+            "year":"2024", "month":"6", "date":"27",
+            "text":{
+                "ja":"北川さんがThe 22nd International Conference on Practical applications of Agents and Multi-Agent Systems(PAAMS 2024)で研究発表を行いました.",
+                "en":"Mr. Kitagwa, Mr. Matsumoto, Ms. Mori and Mr. Yamamoto gave a research presentation at The General Conference of The Institute of Electronics, Information and Communication Engineers."
+                },
+            "link_file":{
+                "ja":"paams_2024-ja.html",
+                "en":"paams_2024.html"
+            },
+            "image":"PAAMS/PAAMS_2024.jpeg",
+            "note":""
         }
     ]
 }
