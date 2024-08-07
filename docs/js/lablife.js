@@ -66,7 +66,7 @@ fetch("../json/lablife.json")
             
 
             var card_image_div = document.createElement("div");
-            card_image_div.classList.add("card-image");
+            card_image_div.classList.add("activity-card-image");
             a_link.appendChild(card_image_div);
 
             var card_image = document.createElement("img");
