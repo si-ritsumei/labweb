@@ -7,16 +7,15 @@ fetch("../json/presentations.json")
     .then(function(jsonData) {
 
         articles = [];
-        var day, i_title,i_link;
 
-        var research_news_label = document.getElementById("output_field");
-        var lang = research_news_label.classList.value;
+        const research_news_label = document.getElementById("output_field");
+        const lang = research_news_label.classList.value;
 
 
-        for (var label in jsonData) { //jsonDataの要素を取り出す
+        for (let label in jsonData) { //jsonDataの要素を取り出す
             articles = [];
-            for(var article of jsonData[label]){
-                var articles_ofyear = {
+            for(let article of jsonData[label]){
+                let articles_ofyear = {
                     type: "presentation",
                     year: article.year,
                     month: article.month,
@@ -38,9 +37,9 @@ fetch("../json/presentations.json")
                 // jsonData2には2つ目のJSONデータが含まれています
 
                 // ここでjsonData1とjsonData2を使って必要な処理を行います
-                for (var label in jsonData2) { //jsonDataの要素を取り出す
-                    for(var article of jsonData2[label]){
-                        var articles_ofyear = {
+                for (let label in jsonData2) { //jsonDataの要素を取り出す
+                    for(let article of jsonData2[label]){
+                        let articles_ofyear = {
                             type:"paper",
                             year: article.year,
                             month: article.month,
@@ -154,7 +153,7 @@ function month_en(lang){
 function check_new(article){
     const today = new Date(Date.now());
 
-    var article_date = new Date(article.year, article.month - 1, article.date);
+    let article_date = new Date(article.year, article.month - 1, article.date);
     article_date.setDate(article_date.getDate() + 30);
 
     if(article_date > today){
@@ -165,20 +164,20 @@ function check_new(article){
 }
 
 function print_presentation(article,research_news_label,lang){
-    var div_col = document.createElement("div");
+    let div_col = document.createElement("div");
     div_col.classList.add("col");
     div_col.classList.add("s6");
     div_col.classList.add("m4");
     div_col.classList.add("l3");
     research_news_label.appendChild(div_col);
 
-    var div_card = document.createElement("div");
+    let div_card = document.createElement("div");
     div_card.classList.add("card");
     div_card.classList.add("large");
     div_col.appendChild(div_card);
 
     console.log("link:"+article.link_file)
-    var a_link = document.createElement("a");
+    let a_link = document.createElement("a");
     if (article.link_file !== null){
         a_link.href = "ResearchNews_articles/" + article.link_file;
     }
@@ -188,21 +187,21 @@ function print_presentation(article,research_news_label,lang){
     div_card.appendChild(a_link);
     
 
-    var card_image_div = document.createElement("div");
+    let card_image_div = document.createElement("div");
     card_image_div.classList.add("activity-card-image");
     a_link.appendChild(card_image_div);
 
     
-    var card_image = document.createElement("img");
+    let card_image = document.createElement("img");
     card_image.src = "img/research_news/presentation/" + article.year + "/" + article.image;
     card_image_div.appendChild(card_image);
 
-    var card_content = document.createElement("div");
+    let card_content = document.createElement("div");
     card_content.classList.add("card-content");
     card_content.style.maxHeight = "70%";
     a_link.appendChild(card_content)
 
-    var article_text = document.createElement("p");
+    let article_text = document.createElement("p");
     article_text.classList.add("grey-text");
     article_text.classList.add("text-darken-4");
     article_text.innerHTML = article.text;
@@ -210,14 +209,14 @@ function print_presentation(article,research_news_label,lang){
 
     article_text.appendChild(document.createElement("br"));
 
-    var article_date = document.createElement("span");
+    let article_date = document.createElement("span");
     article_date.classList.add("d");
     article_date.textContent =  create_date(lang, article);
     article_text.appendChild(article_date);
 
     if(check_new(article)==="new"){
         console.log("new")
-        var new_badge = document.createElement("span");
+        let new_badge = document.createElement("span");
         new_badge.classList.add("new");
         new_badge.classList.add("badge");
         new_badge.classList.add("red");
@@ -226,20 +225,20 @@ function print_presentation(article,research_news_label,lang){
 }
 
 function print_paper(article,research_news_label,lang){
-    var div_col = document.createElement("div");
+    let div_col = document.createElement("div");
     div_col.classList.add("col");
     div_col.classList.add("s6");
     div_col.classList.add("m4");
     div_col.classList.add("l3");
     research_news_label.appendChild(div_col);
 
-    var div_card = document.createElement("div");
+    let div_card = document.createElement("div");
     div_card.classList.add("card");
     div_card.classList.add("large");
     div_col.appendChild(div_card);
 
     console.log("link:"+article.link_file)
-    var a_link = document.createElement("a");
+    let a_link = document.createElement("a");
     a_link.classList.add("news")
     a_link.target="_blank";
     if (article.link_file !== null){
@@ -247,22 +246,22 @@ function print_paper(article,research_news_label,lang){
     }
     div_card.appendChild(a_link);
 
-    var card_image_div = document.createElement("div");
+    let card_image_div = document.createElement("div");
     card_image_div.classList.add("activity-card-image");
     a_link.appendChild(card_image_div);
 
     
-    var card_image = document.createElement("img");
+    let card_image = document.createElement("img");
     card_image.src = "img/research_news/paper/" + article.image;
     card_image_div.appendChild(card_image);
 
-    var card_content = document.createElement("div");
+    let card_content = document.createElement("div");
     card_content.classList.add("card-content");
     card_content.style.maxHeight = "70%";
     a_link.appendChild(card_content)
 
     
-    var article_text = document.createElement("p");
+    let article_text = document.createElement("p");
     article_text.classList.add("grey-text");
     article_text.classList.add("text-darken-4");
     if (lang==="ja"){
@@ -277,14 +276,14 @@ function print_paper(article,research_news_label,lang){
     
     if(check_new(article)==="new"){
         console.log("new")
-        var new_badge = document.createElement("span");
+        let new_badge = document.createElement("span");
         new_badge.classList.add("new");
         new_badge.classList.add("badge");
         new_badge.classList.add("red");
         article_text.appendChild(new_badge);
     }
 
-    var article_date = document.createElement("span");
+    let article_date = document.createElement("span");
     article_date.classList.add("d");
     article_date.textContent =  create_date(lang, article);
     article_text.appendChild(article_date);
