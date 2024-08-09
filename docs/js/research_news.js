@@ -4,28 +4,28 @@ fetch("../json/presentations.json")
     .then(function(response) {
         return response.json();
     })
-    .then(function(jsonData) {
+    .then(function(rawPresentations) {
 
         articles = [];
 
-        const research_news_label = document.getElementById("output_field");
-        const lang = research_news_label.classList.value;
+        const outputField = document.getElementById("output_field");
+        const lang = outputField.classList.value;
 
 
-        for (let label in jsonData) { //jsonDataの要素を取り出す
+        for (let label in rawPresentations) { //jsonDataの要素を取り出す
             articles = [];
-            for(let article of jsonData[label]){
-                let articles_ofyear = {
+            for(let article of rawPresentations[label]){
+                let currentArticle = {
                     type: "presentation",
                     year: article.year,
                     month: article.month,
                     date: article.date,
                     text: checkLangage(lang,article.text) ? checkLangage(lang,article.text): null,
-                    link_file: checkLangage(lang,article.link_file) ? checkLangage(lang,article.link_file): null ,
+                    linkFile: checkLangage(lang,article.link_file) ? checkLangage(lang,article.link_file): null ,
                     image: article.image,
                     note: article.note
                 }
-                articles.push(articles_ofyear);
+                articles.push(currentArticle);
             }
         }
         
@@ -33,38 +33,38 @@ fetch("../json/presentations.json")
             .then(function(response) {
                 return response.json();
             })
-            .then(function(jsonData2) {
+            .then(function(rawPapers) {
                 // jsonData2には2つ目のJSONデータが含まれています
 
                 // ここでjsonData1とjsonData2を使って必要な処理を行います
-                for (let label in jsonData2) { //jsonDataの要素を取り出す
-                    for(let article of jsonData2[label]){
-                        let articles_ofyear = {
+                for (let label in rawPapers) { //jsonDataの要素を取り出す
+                    for(let article of rawPapers[label]){
+                        let currentArticle = {
                             type:"paper",
                             year: article.year,
                             month: article.month,
                             date: article.date,
-                            lead_author:checkLangage(lang,article.lead_author) ? checkLangage(lang,article.lead_author): null,
-                            paper_title: checkLangage(lang,article.paper_title) ? checkLangage(lang,article.paper_title): null,
+                            leadAuthor:checkLangage(lang,article.lead_author) ? checkLangage(lang,article.lead_author): null,
+                            paperTitle: checkLangage(lang,article.paper_title) ? checkLangage(lang,article.paper_title): null,
                             publication: checkLangage(lang,article.publication) ? checkLangage(lang,article.publication): null,
-                            link_file: checkLangage(lang,article.link_file) ? checkLangage(lang,article.link_file): null ,
+                            linkFile: checkLangage(lang,article.link_file) ? checkLangage(lang,article.link_file): null ,
                             image: article.image,
                             note: article.note
                         }
-                        articles.push(articles_ofyear);
+                        articles.push(currentArticle);
                     }
 
                 }
                 
-                articles_sorted = sortByDate(articles);
+                sortedArticles = sortByDate(articles);
                         
                 //オブジェクトを出力する
-                articles_sorted.forEach(function(article){
+                sortedArticles.forEach(function(article){
                     console.log("type:",article.type);
                     if(article.type === "presentation"){
-                        print_presentation(article,research_news_label,lang);
+                        print_presentation(article,outputField,lang);
                     }else if(article.type === "paper"){
-                        print_paper(article,research_news_label,lang);
+                        print_paper(article,outputField,lang);
                     };
                 });
             })
@@ -153,138 +153,138 @@ function month_en(lang){
 function check_new(article){
     const today = new Date(Date.now());
 
-    let article_date = new Date(article.year, article.month - 1, article.date);
-    article_date.setDate(article_date.getDate() + 30);
+    let articleDate = new Date(article.year, article.month - 1, article.date);
+    articleDate.setDate(articleDate.getDate() + 30);
 
-    if(article_date > today){
+    if(articleDate > today){
         return "new"
     }else{
         return null
     }
 }
 
-function print_presentation(article,research_news_label,lang){
-    let div_col = document.createElement("div");
-    div_col.classList.add("col");
-    div_col.classList.add("s6");
-    div_col.classList.add("m4");
-    div_col.classList.add("l3");
-    research_news_label.appendChild(div_col);
+function print_presentation(article,outputField,lang){
+    let container = document.createElement("div");
+    container.classList.add("col");
+    container.classList.add("s6");
+    container.classList.add("m4");
+    container.classList.add("l3");
+    outputField.appendChild(container);
 
-    let div_card = document.createElement("div");
-    div_card.classList.add("card");
-    div_card.classList.add("large");
-    div_col.appendChild(div_card);
+    let car]d = document.createElement("div");
+    card.classList.add("card");
+    card.classList.add("large");
+    container.appendChild(card);
 
-    console.log("link:"+article.link_file)
-    let a_link = document.createElement("a");
-    if (article.link_file !== null){
-        a_link.href = "ResearchNews_articles/" + article.link_file;
+    console.log("link:"+article.linkFile)
+    let content = document.createElement("a");
+    if (article.linkFile !== null){
+        content.href = "ResearchNews_articles/" + article.linkFile;
     }
     if(article.note === "book"){
-        a_link.href = article.link_file;
+        content.href = article.linkFile;
     }
-    div_card.appendChild(a_link);
+    card.appendChild(content);
     
 
-    let card_image_div = document.createElement("div");
-    card_image_div.classList.add("activity-card-image");
-    a_link.appendChild(card_image_div);
+    let imgContainer = document.createElement("div");
+    imgContainer.classList.add("activity-card-image");
+    content.appendChild(imgContainer);
 
     
-    let card_image = document.createElement("img");
-    card_image.src = "img/research_news/presentation/" + article.year + "/" + article.image;
-    card_image_div.appendChild(card_image);
+    let img = document.createElement("img");
+    img.src = "img/research_news/presentation/" + article.year + "/" + article.image;
+    imgContainer.appendChild(img);
 
-    let card_content = document.createElement("div");
-    card_content.classList.add("card-content");
-    card_content.style.maxHeight = "70%";
-    a_link.appendChild(card_content)
+    let textContainer = document.createElement("div");
+    textContainer.classList.add("card-content");
+    textContainer.style.maxHeight = "70%";
+    content.appendChild(textContainer)
 
-    let article_text = document.createElement("p");
-    article_text.classList.add("grey-text");
-    article_text.classList.add("text-darken-4");
-    article_text.innerHTML = article.text;
-    card_content.appendChild(article_text);
+    let articleText = document.createElement("p");
+    articleText.classList.add("grey-text");
+    articleText.classList.add("text-darken-4");
+    articleText.innerHTML = article.text;
+    textContainer.appendChild(articleText);
 
-    article_text.appendChild(document.createElement("br"));
+    articleText.appendChild(document.createElement("br"));
 
-    let article_date = document.createElement("span");
-    article_date.classList.add("d");
-    article_date.textContent =  create_date(lang, article);
-    article_text.appendChild(article_date);
+    let articleDate = document.createElement("span");
+    articleDate.classList.add("d");
+    articleDate.textContent =  create_date(lang, article);
+    articleText.appendChild(articleDate);
 
     if(check_new(article)==="new"){
         console.log("new")
-        let new_badge = document.createElement("span");
-        new_badge.classList.add("new");
-        new_badge.classList.add("badge");
-        new_badge.classList.add("red");
-        article_text.appendChild(new_badge);
+        let newBadge = document.createElement("span");
+        newBadge.classList.add("new");
+        newBadge.classList.add("badge");
+        newBadge.classList.add("red");
+        articleText.appendChild(newBadge);
     }
 }
 
-function print_paper(article,research_news_label,lang){
-    let div_col = document.createElement("div");
-    div_col.classList.add("col");
-    div_col.classList.add("s6");
-    div_col.classList.add("m4");
-    div_col.classList.add("l3");
-    research_news_label.appendChild(div_col);
+function print_paper(article,outputField,lang){
+    let container = document.createElement("div");
+    container.classList.add("col");
+    container.classList.add("s6");
+    container.classList.add("m4");
+    container.classList.add("l3");
+    outputField.appendChild(container);
 
-    let div_card = document.createElement("div");
-    div_card.classList.add("card");
-    div_card.classList.add("large");
-    div_col.appendChild(div_card);
+    let card = document.createElement("div");
+    card.classList.add("card");
+    card.classList.add("large");
+    container.appendChild(card);
 
-    console.log("link:"+article.link_file)
-    let a_link = document.createElement("a");
-    a_link.classList.add("news")
-    a_link.target="_blank";
-    if (article.link_file !== null){
-        a_link.href = article.link_file;
+    console.log("link:"+article.linkFile)
+    let content = document.createElement("a");
+    content.classList.add("news")
+    content.target="_blank";
+    if (article.linkFile !== null){
+        content.href = article.linkFile;
     }
-    div_card.appendChild(a_link);
+    card.appendChild(content);
 
-    let card_image_div = document.createElement("div");
-    card_image_div.classList.add("activity-card-image");
-    a_link.appendChild(card_image_div);
-
-    
-    let card_image = document.createElement("img");
-    card_image.src = "img/research_news/paper/" + article.image;
-    card_image_div.appendChild(card_image);
-
-    let card_content = document.createElement("div");
-    card_content.classList.add("card-content");
-    card_content.style.maxHeight = "70%";
-    a_link.appendChild(card_content)
+    let imgContainer = document.createElement("div");
+    imgContainer.classList.add("activity-card-image");
+    content.appendChild(imgContainer);
 
     
-    let article_text = document.createElement("p");
-    article_text.classList.add("grey-text");
-    article_text.classList.add("text-darken-4");
+    let img = document.createElement("img");
+    img.src = "img/research_news/paper/" + article.image;
+    imgContainer.appendChild(img);
+
+    let textContainer = document.createElement("div");
+    textContainer.classList.add("card-content");
+    textContainer.style.maxHeight = "70%";
+    content.appendChild(textContainer)
+
+    
+    let articleText = document.createElement("p");
+    articleText.classList.add("grey-text");
+    articleText.classList.add("text-darken-4");
     if (lang==="ja"){
-        article_text.innerHTML=article.lead_author+"らの論文「" + article.paper_title + "」が<i>" + article.publication + "</i>に採録されました。"
+        articleText.innerHTML=article.leadAuthor+"らの論文「" + article.paperTitle + "」が<i>" + article.publication + "</i>に採録されました。"
     }else if(lang==="en"){
-        article_text.innerHTML = article.lead_author + "'s paper titled \"" + article.paper_title + "\" has been accepted for<i>" + article.publication +"</i>."
+        articleText.innerHTML = article.leadAuthor + "'s paper titled \"" + article.paperTitle + "\" has been accepted for<i>" + article.publication +"</i>."
     }
-    card_content.appendChild(article_text);
+    textContainer.appendChild(articleText);
     
 
-    article_text.appendChild(document.createElement("br"));
+    articleText.appendChild(document.createElement("br"));
     
     if(check_new(article)==="new"){
         console.log("new")
-        let new_badge = document.createElement("span");
-        new_badge.classList.add("new");
-        new_badge.classList.add("badge");
-        new_badge.classList.add("red");
-        article_text.appendChild(new_badge);
+        let newBadge = document.createElement("span");
+        newBadge.classList.add("new");
+        newBadge.classList.add("badge");
+        newBadge.classList.add("red");
+        articleText.appendChild(newBadge);
     }
 
-    let article_date = document.createElement("span");
-    article_date.classList.add("d");
-    article_date.textContent =  create_date(lang, article);
-    article_text.appendChild(article_date);
+    let articleDate = document.createElement("span");
+    articleDate.classList.add("d");
+    articleDate.textContent =  create_date(lang, article);
+    articleText.appendChild(articleDate);
 }
