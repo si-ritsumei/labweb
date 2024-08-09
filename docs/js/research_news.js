@@ -20,8 +20,8 @@ fetch("../json/presentations.json")
                     year: article.year,
                     month: article.month,
                     date: article.date,
-                    text: checkLangage(lang,article.text) ? checkLangage(lang,article.text): null,
-                    linkFile: checkLangage(lang,article.link_file) ? checkLangage(lang,article.link_file): null ,
+                    text: getLanguageAppropriateData(lang,article.text) ? getLanguageAppropriateData(lang,article.text): null,
+                    linkFile: getLanguageAppropriateData(lang,article.link_file) ? getLanguageAppropriateData(lang,article.link_file): null ,
                     image: article.image,
                     note: article.note
                 }
@@ -44,10 +44,10 @@ fetch("../json/presentations.json")
                             year: article.year,
                             month: article.month,
                             date: article.date,
-                            leadAuthor:checkLangage(lang,article.lead_author) ? checkLangage(lang,article.lead_author): null,
-                            paperTitle: checkLangage(lang,article.paper_title) ? checkLangage(lang,article.paper_title): null,
-                            publication: checkLangage(lang,article.publication) ? checkLangage(lang,article.publication): null,
-                            linkFile: checkLangage(lang,article.link_file) ? checkLangage(lang,article.link_file): null ,
+                            leadAuthor:getLanguageAppropriateData(lang,article.lead_author) ? getLanguageAppropriateData(lang,article.lead_author): null,
+                            paperTitle: getLanguageAppropriateData(lang,article.paper_title) ? getLanguageAppropriateData(lang,article.paper_title): null,
+                            publication: getLanguageAppropriateData(lang,article.publication) ? getLanguageAppropriateData(lang,article.publication): null,
+                            linkFile: getLanguageAppropriateData(lang,article.link_file) ? getLanguageAppropriateData(lang,article.link_file): null ,
                             image: article.image,
                             note: article.note
                         }
@@ -62,9 +62,9 @@ fetch("../json/presentations.json")
                 sortedArticles.forEach(function(article){
                     console.log("type:",article.type);
                     if(article.type === "presentation"){
-                        print_presentation(article,outputField,lang);
+                        printPresentation(article,outputField,lang);
                     }else if(article.type === "paper"){
-                        print_paper(article,outputField,lang);
+                        printPaper(article,outputField,lang);
                     };
                 });
             })
@@ -92,7 +92,7 @@ function sortByDate(articles) {
     return articles;
 }
 
-function day_sign(date){
+function getDaySuffix(date){
     if (date == 1){
         return "st";
     }else if (date == 2){
@@ -102,16 +102,16 @@ function day_sign(date){
     }
 }
 
-function create_date(lang, article){
+function createDate(lang, article){
     if (lang === "ja"){
         return article.year + "年" + article.month + "月" + article.date + "日"
     }else if (lang === "en"){
-        return month_en(article.month) + " " + article.date + day_sign(article.date) + ", " + article.year;
+        return getEngMonth(article.month) + " " + article.date + getDaySuffix(article.date) + ", " + article.year;
     }
 }
 
 
-function checkLangage(lang, data) {
+function getLanguageAppropriateData(lang, data) {
     if (lang === "ja"){
         return data.ja
     }else if(lang === "en"){
@@ -119,7 +119,7 @@ function checkLangage(lang, data) {
     }
 }
 
-function month_en(lang){
+function getEngMonth(lang){
     switch(parseInt(lang)) {
         case 1:
             return "January";
@@ -150,7 +150,7 @@ function month_en(lang){
     }
 }
 
-function check_new(article){
+function checkIfNew(article){
     const today = new Date(Date.now());
 
     let articleDate = new Date(article.year, article.month - 1, article.date);
@@ -163,7 +163,7 @@ function check_new(article){
     }
 }
 
-function print_presentation(article,outputField,lang){
+function printPresentation(article,outputField,lang){
     let container = document.createElement("div");
     container.classList.add("col");
     container.classList.add("s6");
@@ -171,7 +171,7 @@ function print_presentation(article,outputField,lang){
     container.classList.add("l3");
     outputField.appendChild(container);
 
-    let car]d = document.createElement("div");
+    let card = document.createElement("div");
     card.classList.add("card");
     card.classList.add("large");
     container.appendChild(card);
@@ -211,10 +211,10 @@ function print_presentation(article,outputField,lang){
 
     let articleDate = document.createElement("span");
     articleDate.classList.add("d");
-    articleDate.textContent =  create_date(lang, article);
+    articleDate.textContent =  createDate(lang, article);
     articleText.appendChild(articleDate);
 
-    if(check_new(article)==="new"){
+    if(checkIfNew(article)==="new"){
         console.log("new")
         let newBadge = document.createElement("span");
         newBadge.classList.add("new");
@@ -224,7 +224,7 @@ function print_presentation(article,outputField,lang){
     }
 }
 
-function print_paper(article,outputField,lang){
+function printPaper(article,outputField,lang){
     let container = document.createElement("div");
     container.classList.add("col");
     container.classList.add("s6");
@@ -274,7 +274,7 @@ function print_paper(article,outputField,lang){
 
     articleText.appendChild(document.createElement("br"));
     
-    if(check_new(article)==="new"){
+    if(checkIfNew(article)==="new"){
         console.log("new")
         let newBadge = document.createElement("span");
         newBadge.classList.add("new");
@@ -285,6 +285,6 @@ function print_paper(article,outputField,lang){
 
     let articleDate = document.createElement("span");
     articleDate.classList.add("d");
-    articleDate.textContent =  create_date(lang, article);
+    articleDate.textContent =  createDate(lang, article);
     articleText.appendChild(articleDate);
 }
