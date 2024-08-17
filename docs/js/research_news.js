@@ -9,9 +9,8 @@ fetch("../json/presentations.json")
     const lang = outputField.classList.value;
 
     // jsonから要素を取り出す
-    for (let label in rawPresentations) {
-      articles = [];
-      for (let article of rawPresentations[label]) {
+    articles = [];
+      for (let article of rawPresentations["presentations"]) {
         let currentArticle = {
           type: "presentation",
           year: article.year,
@@ -28,37 +27,34 @@ fetch("../json/presentations.json")
         };
         articles.push(currentArticle);
       }
-    }
 
     fetch("../json/papers.json")
       .then(function (response) {
         return response.json();
       })
       .then(function (rawPapers) {
-        for (let label in rawPapers) {
-          for (let article of rawPapers[label]) {
-            let currentArticle = {
-              type: "paper",
-              year: article.year,
-              month: article.month,
-              date: article.date,
-              leadAuthor: getLanguageAppropriateData(lang, article.lead_author)
-                ? getLanguageAppropriateData(lang, article.lead_author)
-                : null,
-              paperTitle: getLanguageAppropriateData(lang, article.paper_title)
-                ? getLanguageAppropriateData(lang, article.paper_title)
-                : null,
-              publication: getLanguageAppropriateData(lang, article.publication)
-                ? getLanguageAppropriateData(lang, article.publication)
-                : null,
-              linkFile: getLanguageAppropriateData(lang, article.link_file)
-                ? getLanguageAppropriateData(lang, article.link_file)
-                : null,
-              image: article.image,
-              note: article.note,
-            };
-            articles.push(currentArticle);
-          }
+        for (let article of rawPapers["papers"]) {
+          let currentArticle = {
+            type: "paper",
+            year: article.year,
+            month: article.month,
+            date: article.date,
+            leadAuthor: getLanguageAppropriateData(lang, article.lead_author)
+              ? getLanguageAppropriateData(lang, article.lead_author)
+              : null,
+            paperTitle: getLanguageAppropriateData(lang, article.paper_title)
+              ? getLanguageAppropriateData(lang, article.paper_title)
+              : null,
+            publication: getLanguageAppropriateData(lang, article.publication)
+              ? getLanguageAppropriateData(lang, article.publication)
+              : null,
+            linkFile: getLanguageAppropriateData(lang, article.link_file)
+              ? getLanguageAppropriateData(lang, article.link_file)
+              : null,
+            image: article.image,
+            note: article.note,
+          };
+          articles.push(currentArticle);
         }
 
         sortedArticles = sortByDate(articles);
