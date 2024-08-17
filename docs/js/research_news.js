@@ -8,8 +8,8 @@ fetch("../json/presentations.json")
     const outputField = document.getElementById("output_field");
     const lang = outputField.classList.value;
 
+    // jsonから要素を取り出す
     for (let label in rawPresentations) {
-      //jsonDataの要素を取り出す
       articles = [];
       for (let article of rawPresentations[label]) {
         let currentArticle = {
@@ -35,11 +35,7 @@ fetch("../json/presentations.json")
         return response.json();
       })
       .then(function (rawPapers) {
-        // jsonData2には2つ目のJSONデータが含まれています
-
-        // ここでjsonData1とjsonData2を使って必要な処理を行います
         for (let label in rawPapers) {
-          //jsonDataの要素を取り出す
           for (let article of rawPapers[label]) {
             let currentArticle = {
               type: "paper",
@@ -67,7 +63,6 @@ fetch("../json/presentations.json")
 
         sortedArticles = sortByDate(articles);
 
-        //オブジェクトを出力する
         sortedArticles.forEach(function (article) {
           console.log("type:", article.type);
           if (article.type === "presentation") {
