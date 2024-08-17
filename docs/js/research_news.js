@@ -166,26 +166,26 @@ function checkIfNew(article) {
   }
 }
 
-function printPresentation(article, outputField, lang) {
+function createCard(article, outputField, lang, imagePath, isPresentation) {
   let container = document.createElement("div");
-  container.classList.add("col");
-  container.classList.add("s6");
-  container.classList.add("m4");
-  container.classList.add("l3");
+  container.classList.add("col", "s6", "m4", "l3");
   outputField.appendChild(container);
 
   let card = document.createElement("div");
-  card.classList.add("card");
-  card.classList.add("large");
+  card.classList.add("card", "large");
   container.appendChild(card);
 
   console.log("link:" + article.linkFile);
   let content = document.createElement("a");
   if (article.linkFile !== null) {
-    content.href = "ResearchNews_articles/" + article.linkFile;
+    content.href = isPresentation ? "ResearchNews_articles/" + article.linkFile : article.linkFile;
   }
-  if (article.note === "book") {
+  if (isPresentation && article.note === "book") {
     content.href = article.linkFile;
+  }
+  if (!isPresentation) {
+    content.classList.add("news");
+    content.target = "_blank";
   }
   card.appendChild(content);
 
@@ -194,8 +194,7 @@ function printPresentation(article, outputField, lang) {
   content.appendChild(imgContainer);
 
   let img = document.createElement("img");
-  img.src =
-    "img/research_news/presentation/" + article.year + "/" + article.image;
+  img.src = imagePath + article.image;
   imgContainer.appendChild(img);
 
   let textContainer = document.createElement("div");
@@ -204,9 +203,28 @@ function printPresentation(article, outputField, lang) {
   content.appendChild(textContainer);
 
   let articleText = document.createElement("p");
-  articleText.classList.add("grey-text");
-  articleText.classList.add("text-darken-4");
-  articleText.innerHTML = article.text;
+  articleText.classList.add("grey-text", "text-darken-4");
+  if (isPresentation) {
+    articleText.innerHTML = article.text;
+  } else {
+    if (lang === "ja") {
+      articleText.innerHTML =
+        article.leadAuthor +
+        "らの論文「" +
+        article.paperTitle +
+        "」が<i>" +
+        article.publication +
+        "</i>に採録されました。";
+    } else if (lang === "en") {
+      articleText.innerHTML =
+        article.leadAuthor +
+        "'s paper titled \"" +
+        article.paperTitle +
+        '" has been accepted for<i>' +
+        article.publication +
+        "</i>.";
+    }
+  }
   textContainer.appendChild(articleText);
 
   articleText.appendChild(document.createElement("br"));
@@ -219,83 +237,15 @@ function printPresentation(article, outputField, lang) {
   if (checkIfNew(article) === "new") {
     console.log("new");
     let newBadge = document.createElement("span");
-    newBadge.classList.add("new");
-    newBadge.classList.add("badge");
-    newBadge.classList.add("red");
+    newBadge.classList.add("new", "badge", "red");
     articleText.appendChild(newBadge);
   }
 }
 
+function printPresentation(article, outputField, lang) {
+  createCard(article, outputField, lang, "img/research_news/presentation/" + article.year + "/", true);
+}
+
 function printPaper(article, outputField, lang) {
-  let container = document.createElement("div");
-  container.classList.add("col");
-  container.classList.add("s6");
-  container.classList.add("m4");
-  container.classList.add("l3");
-  outputField.appendChild(container);
-
-  let card = document.createElement("div");
-  card.classList.add("card");
-  card.classList.add("large");
-  container.appendChild(card);
-
-  console.log("link:" + article.linkFile);
-  let content = document.createElement("a");
-  content.classList.add("news");
-  content.target = "_blank";
-  if (article.linkFile !== null) {
-    content.href = article.linkFile;
-  }
-  card.appendChild(content);
-
-  let imgContainer = document.createElement("div");
-  imgContainer.classList.add("activity-card-image");
-  content.appendChild(imgContainer);
-
-  let img = document.createElement("img");
-  img.src = "img/research_news/paper/" + article.image;
-  imgContainer.appendChild(img);
-
-  let textContainer = document.createElement("div");
-  textContainer.classList.add("card-content");
-  textContainer.style.maxHeight = "70%";
-  content.appendChild(textContainer);
-
-  let articleText = document.createElement("p");
-  articleText.classList.add("grey-text");
-  articleText.classList.add("text-darken-4");
-  if (lang === "ja") {
-    articleText.innerHTML =
-      article.leadAuthor +
-      "らの論文「" +
-      article.paperTitle +
-      "」が<i>" +
-      article.publication +
-      "</i>に採録されました。";
-  } else if (lang === "en") {
-    articleText.innerHTML =
-      article.leadAuthor +
-      "'s paper titled \"" +
-      article.paperTitle +
-      '" has been accepted for<i>' +
-      article.publication +
-      "</i>.";
-  }
-  textContainer.appendChild(articleText);
-
-  articleText.appendChild(document.createElement("br"));
-
-  if (checkIfNew(article) === "new") {
-    console.log("new");
-    let newBadge = document.createElement("span");
-    newBadge.classList.add("new");
-    newBadge.classList.add("badge");
-    newBadge.classList.add("red");
-    articleText.appendChild(newBadge);
-  }
-
-  let articleDate = document.createElement("span");
-  articleDate.classList.add("d");
-  articleDate.textContent = createDate(lang, article);
-  articleText.appendChild(articleDate);
+  createCard(article, outputField, lang, "img/research_news/paper/", false);
 }
