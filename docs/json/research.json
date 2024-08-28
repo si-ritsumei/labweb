@@ -460,6 +460,32 @@
             },
             "image":"PAAMS/PAAMS_2024.jpeg",
             "note":""
+        },
+        {
+            "year":"2024", "month":"8", "date":"19",
+            "text":{
+                "ja":"Pituxcoosuvarnさんらの論文The 22nd International Conference on Practical applications of Agents and Multi-Agent Systems(PAAMS 2024)に採録されました。",
+                "en":"Ms. Pituxcoosuvarn's paper was accepted at The 22nd International Conference on Practical Applications of Agents and Multi-Agent Systems (PAAMS 2024)."
+                },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-3-031-67998-8_22",
+                "en":"https://doi.org/10.1007/978-3-031-67998-8_22"
+            },
+            "image":"Collab/CollabTech.png",
+            "note":"book"
+        },
+        {
+            "year":"2024", "month":"8", "date":"19",
+            "text":{
+                "ja":"元澤さんらの論文The 22nd International Conference on Practical applications of Agents and Multi-Agent Systems(PAAMS 2024)に採録されました。",
+                "en":"Ms. Motozawa's paper was accepted at The 22nd International Conference on Practical Applications of Agents and Multi-Agent Systems (PAAMS 2024)."
+                },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-3-031-67998-8_7",
+                "en":"https://doi.org/10.1007/978-3-031-67998-8_7"
+            },
+            "image":"Collab/CollabTech.png",
+            "note":"book"
         }
     ]
 }

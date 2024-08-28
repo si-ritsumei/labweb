@@ -363,14 +363,13 @@
                 },
                 "image": "CollabTech.png",
                 "note": ""
-            },
-            {
+        },{
                 "year": "2024",
                 "month": "8",
                 "date": "19",
                 "lead_author": {
-                    "ja": "Pituxcoosuvarnさん",
-                    "en": "Ms. Pituxcoosuvarn"
+                    "ja": "元澤さん",
+                    "en": "Ms. Motozawa"
                 },
                 "paper_title": {
                     "ja": "Dialogue Act Analysis of Facilitator-Children Multilingual Communication",
@@ -386,6 +385,6 @@
                 },
                 "image": "CollabTech.png",
                 "note": ""
-            }
-        ]        
+        }
+    ]        
 }
