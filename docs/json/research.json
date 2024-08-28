@@ -1,0 +1,465 @@
+
+{
+    "papers":[
+        {
+            "year":"2020", "month":"6", "date":"13",
+            "lead_author":{
+                "ja": "Pituxcoosuvarn",
+                "en": "Pituxcoosuvarn"
+                },
+            "paper_title":{
+                "ja":"Effect of Cultural Misunderstanding Warning in MT-Mediated Communication",
+                "en":"Effect of Cultural Misunderstanding Warning in MT-Mediated Communication"
+                },
+            "publication":{
+                "ja":"the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)",
+                "en":"the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)"
+            },
+            "link_file":{
+                "ja":"https://dl.acm.org/doi/abs/10.1007/978-3-030-58157-2_8",
+                "en":"https://dl.acm.org/doi/abs/10.1007/978-3-030-58157-2_8"
+            },
+            "image":"CollabTech.png",
+            "note":""
+        },{
+            "year":"2020", "month":"6", "date":"13",
+            "lead_author":{
+                "ja": "西村さん",
+                "en": "Mr. Nishimura"
+                },
+            "paper_title":{
+                "ja":"Image-Based Detection Criteria for Cultural Differences in Translation",
+                "en":"Image-Based Detection Criteria for Cultural Differences in Translation"
+                },
+            "publication":{
+                "ja":"the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)",
+                "en":"the 26th International Conference on Collaboration Technologies and Social Computing (CollabTech 2020)"
+            },
+            "link_file":{
+                "ja":"https://dl.acm.org/doi/abs/10.1007/978-3-030-58157-2_6",
+                "en":"https://dl.acm.org/doi/abs/10.1007/978-3-030-58157-2_6"
+            },
+            "image":"CollabTech.png",
+            "note":""
+        },{
+            "year":"2020", "month":"8", "date":"4",
+            "lead_author":{
+                "ja": "村上教授",
+                "en": "Prof. Murakami"
+                },
+            "paper_title":{
+                "ja":"Plan Optimization to Bilingual Dictionary Induction for Low-Resource Language Families",
+                "en":"Plan Optimization to Bilingual Dictionary Induction for Low-Resource Language Families"
+                },
+            "publication":{
+                "ja":"ACM Transactions on Asian and Low-Resource Language Information Processing",
+                "en":"ACM Transactions on Asian and Low-Resource Language Information Processing"
+            },
+            "link_file":{
+                "ja":"https://dl.acm.org/doi/abs/10.1145/3448215",
+                "en":"https://dl.acm.org/doi/abs/10.1145/3448215"
+            },
+            "image":"TALLIP.png",
+            "note":""
+        },{
+            "year":"2021", "month":"3", "date":"12",
+            "lead_author":{
+                "ja": "西村さん",
+                "en": "Mr. Nishimura"
+                },
+            "paper_title":{
+                "ja":"画像特徴量に基づく文化差検出",
+                "en":"Cultural Differences Detection Based on Image Feature Vectors"
+                },
+            "publication":{
+                "ja":"ヒューマンインタフェース学会論文誌",
+                "en":"The Transactions of Human Interface Society"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.11184/his.23.2_145",
+                "en":"https://doi.org/10.11184/his.23.2_145"
+            },
+            "image":"HIS.png",
+            "note":""
+        },{
+            "year":"2022", "month":"4", "date":"29",
+            "lead_author":{
+                "ja": "元澤さん",
+                "en": "Ms. Motozawa"
+                },
+            "paper_title":{
+                "ja":"Conversation Analysis for Facilitation in Children's Intercultural Collaboration",
+                "en":"Conversation Analysis for Facilitation in Children's Intercultural Collaboration"
+                },
+            "publication":{
+                "ja":"ACM Interaction Design and Children (IDC'21)",
+                "en":"ACM Interaction Design and Children (IDC'21)"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.1145/3459990.3460721",
+                "en":"https://doi.org/10.1145/3459990.3460721"
+            },
+            "image":"IDC2021.png",
+            "note":""
+        },{
+            "year":"2022", "month":"4", "date":"8",
+            "lead_author":{
+                "ja": "元澤さん",
+                "en": "Ms. Motozawa"
+                },
+            "paper_title":{
+                "ja":"Annotation References for Facilitation Analysis in Multilingual Communication",
+                "en":"Annotation References for Facilitation Analysis in Multilingual Communication"
+                },
+            "publication":{
+                "ja":"Human-Computer Interaction International (HCII 2022)",
+                "en":"Human-Computer Interaction International (HCII 2022)"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-3-031-06050-2_12",
+                "en":"https://doi.org/10.1007/978-3-031-06050-2_12"
+            },
+            "image":"HCII2022.png",
+            "note":""
+        },{
+            "year":"2022", "month":"4", "date":"8",
+            "lead_author":{
+                "ja": "西村さん",
+                "en": "Mr. Nishimura"
+                },
+            "paper_title":{
+                "ja":"Evaluation Dataset for Cultural Difference Detection Task",
+                "en":"Evaluation Dataset for Cultural Difference Detection Task"
+                },
+            "publication":{
+                "ja":"Human-Computer Interaction International (HCII 2022)",
+                "en":"Human-Computer Interaction International (HCII 2022)"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-3-031-06038-0_26",
+                "en":"https://doi.org/10.1007/978-3-031-06038-0_26"
+            },
+            "image":"HCII2022.png",
+            "note":""
+        },{
+            "year":"2022", "month":"4", "date":"8",
+            "lead_author":{
+                "ja": "Pituxcoosuvarnさん",
+                "en": "Ms. Pituxcoosuvarn"
+                },
+            "paper_title":{
+                "ja":"Confidence Value for Cultural-Based Misunderstanding Warning in Multilingual Chat",
+                "en":"Confidence Value for Cultural-Based Misunderstanding Warning in Multilingual Chat"
+                },
+            "publication":{
+                "ja":"Human-Computer Interaction International (HCII 2022)",
+                "en":"Human-Computer Interaction International (HCII 2022)"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-3-031-06050-2_13",
+                "en":"https://doi.org/10.1007/978-3-031-06050-2_13"
+            },
+            "image":"HCII2022.png",
+            "note":""
+        },{
+            "year":"2022", "month":"4", "date":"8",
+            "lead_author":{
+                "ja": "地田さん",
+                "en": "Mr. Chida"
+                },
+            "paper_title":{
+                "ja":"Quality Control for Crowdsourced Bilingual Dictionary in Low-Resource Languages",
+                "en":"Quality Control for Crowdsourced Bilingual Dictionary in Low-Resource Languages"
+                },
+            "publication":{
+                "ja":"The 13th Edition of its Language Resources and Evaluation Conference (LREC 2022)",
+                "en":"The 13th Edition of its Language Resources and Evaluation Conference (LREC 2022)"
+            },
+            "link_file":{
+                "ja":"https://aclanthology.org/2022.lrec-1.709/",
+                "en":"https://aclanthology.org/2022.lrec-1.709/"
+            },
+            "image":"LREC2022.png",
+            "note":""
+        },{
+            "year":"2022", "month":"6", "date":"5",
+            "lead_author":{
+                "ja": "佐藤さん",
+                "en": "Mr. Sato"
+                },
+            "paper_title":{
+                "ja":"Effects of Virtual Space in Soccer Tactical Instruction",
+                "en":"Effects of Virtual Space in Soccer Tactical Instruction"
+                },
+            "publication":{
+                "ja":"Human-Computer Interaction International (HCII 2022)",
+                "en":"Human-Computer Interaction International (HCII 2022)"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-3-031-21707-4_13",
+                "en":"https://doi.org/10.1007/978-3-031-21707-4_13"
+            },
+            "image":"HCII2022.png",
+            "note":""
+        },{
+            "year":"2022", "month":"7", "date":"6",
+            "lead_author":{
+                "ja": "Resiandiさん",
+                "en": "Ms. Resiandi"
+                },
+            "paper_title":{
+                "ja":"A Neural Network Approach to Create Minangkabau-Indonesia Bilingual Dictionary",
+                "en":"A Neural Network Approach to Create Minangkabau-Indonesia Bilingual Dictionary"
+                },
+            "publication":{
+                "ja":"the 1st Annual Meeting of the ELRA/ISCA Special Interest Group on Under-Resourced Languages",
+                "en":"the 1st Annual Meeting of the ELRA/ISCA Special Interest Group on Under-Resourced Languages"
+            },
+            "link_file":{
+                "ja":"https://aclanthology.org/2022.sigul-1.16",
+                "en":"https://aclanthology.org/2022.sigul-1.16"
+            },
+            "image":"SIG-UL.png",
+            "note":""
+        },{
+            "year":"2022", "month":"10", "date":"24",
+            "lead_author":{
+                "ja": "Pituxcoosuvarnさん",
+                "en": "Ms. Pituxcoosuvarn"
+                },
+            "paper_title":{
+                "ja":"Facilitator Agent to Support Low-Resource Language Speakers in MT-Mediated Communication",
+                "en":"Facilitator Agent to Support Low-Resource Language Speakers in MT-Mediated Communication"
+                },
+            "publication":{
+                "ja":"The 28th International Conference on Collaboration Technologies and Social Computing (CollabTech 2022)",
+                "en":"The 28th International Conference on Collaboration Technologies and Social Computing (CollabTech 2022)"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-3-031-20218-6_16",
+                "en":"https://doi.org/10.1007/978-3-031-20218-6_16"
+            },
+            "image":"CollabTech.png",
+            "note":""
+        },{
+            "year":"2023", "month":"7", "date":"22",
+            "lead_author":{
+                "ja": "Pituxcoosuvarnさん",
+                "en": "Ms. Pituxcoosuvarn"
+                },
+            "paper_title":{
+                "ja":"Detection for Cultural Difference in Impression Using Masked Language Model",
+                "en":"Detection for Cultural Difference in Impression Using Masked Language Model"
+                },
+            "publication":{
+                "ja":"Human-Computer Interaction International (HCII 2023)",
+                "en":"Human-Computer Interaction International (HCII 2023)"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-3-031-34732-0_44",
+                "en":"https://doi.org/10.1007/978-3-031-34732-0_44"
+            },
+            "image":"HCII2023.png",
+            "note":""
+        },{
+            "year":"2023", "month":"7", "date":"27",
+            "lead_author":{
+                "ja": "Resiandiさん",
+                "en": "Ms. Resiandi"
+                },
+            "paper_title":{
+                "ja":"Neural Network-Based Bilingual Lexicon Induction for Indonesian Ethnic Languages",
+                "en":"Neural Network-Based Bilingual Lexicon Induction for Indonesian Ethnic Languages"
+                },
+            "publication":{
+                "ja":"Applied Sciences",
+                "en":"Applied Sciences"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.3390/app13158666",
+                "en":"https://doi.org/10.3390/app13158666"
+            },
+            "image":"applsci-logo.png",
+            "note":""
+        },{
+            "year":"2023", "month":"11", "date":"29",
+            "lead_author":{
+                "ja": "村上教授",
+                "en": "Prof. Murakami"
+                },
+            "paper_title":{
+                "ja":"Service Clustering with Graph Embedding of Heterogeneous Networks",
+                "en":"Service Clustering with Graph Embedding of Heterogeneous Networks"
+                },
+            "publication":{
+                "ja":"22nd IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT 2023)",
+                "en":"22nd IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT 2023)"
+            },
+            "link_file":{
+                "ja":"https://www.wi-iat.com/wi-iat2023/index.html",
+                "en":"https://www.wi-iat.com/wi-iat2023/index.html"
+            },
+            "image":"wi-iat-logo.png",
+            "note":""
+        },{
+            "year":"2023", "month":"11", "date":"29",
+            "lead_author":{
+                "ja": "Pituxcoosuvarnさん",
+                "en": "Ms. Pituxcoosuvarn"
+                },
+            "paper_title":{
+                "ja":"Code-Mixing Strategies for Computer Mediated Communication with Non-Native Speakers",
+                "en":"Code-Mixing Strategies for Computer Mediated Communication with Non-Native Speakers"
+                },
+            "publication":{
+                "ja":"13th International Conference on Advances in Information Technology",
+                "en":"13th International Conference on Advances in Information Technology"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.1145/3628454.3631155",
+                "en":"https://doi.org/10.1145/3628454.3631155"
+            },
+            "image":"IAIT-Logo.png",
+            "note":""
+        },{
+            "year":"2024", "month":"4", "date":"4",
+            "lead_author":{
+                "ja": "元澤さん",
+                "en": "Ms. Motozawa"
+                },
+            "paper_title":{
+                "ja":"児童の多言語コミュニケーションにおけるファシリテータの対話行為分析",
+                "en":"Analysis of Facilitators’Dialogue Acts in Multilingual Communication among Childre"
+                },
+            "publication":{
+                "ja":"ヒューマンインタフェース学会論文誌",
+                "en":"The Transactions of Human Interface Society"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.11184/his.26.1_77",
+                "en":"https://doi.org/10.11184/his.26.1_77"
+            },
+            "image":"HIS.png",
+            "note":""
+        }
+    ],
+    "presentations":[
+        {
+            "year":"2019", "month":"12", "date":"5",
+            "text":{
+                "ja":"村上准教授がUNESCOで開催されたLT4Allにて、「Language Sphere: A Sociotechnical Approach to Bilingual Dictionary Creation for Indigenous Languages」の講演を行いました。",
+                "en":"Prof. Murakami gave an invited talk titled \"Language Sphere: A Sociotechnical Approach to Bilingual Dictionary Creation for Indigenous Languages\" in LT4All held at UNESCO."
+                },
+            "link_file":{
+                "ja":"",
+                "en":""
+            },
+            "image":"nLT4ALL/nLT4ALL.png",
+            "note":""
+        },
+        {
+            "year":"2023", "month":"3", "date":"4",
+            "text":{
+                "ja":"西村さんと佐藤さんが情報処理学会 第85回全国大会で研究発表を行いました. ",
+                "en":"Mr. Nishimura and Mr. Sato, gave a research presentation at The 85th National Convention of IPSJ."
+                },
+            "link_file":{
+                "ja":"ipsj_85thNC-ja.html",
+                "en":"ipsj_85thNC.html"
+            },
+            "image":"IPSJ_85thNC/IPSJ_85thNC1.jpg",
+            "note":""
+        },
+        {
+            "year":"2023", "month":"3", "date":"17",
+            "text":{
+                "ja":"大井さんが，サービスコンピューティング研究会で研究発表を行い，若手奨励賞を受賞しました．",
+                "en":"Mr. Oi gave a research presentation at the Services Computing Workshop and received the Young Scientist Incentive Award."
+                },
+            "link_file":{
+                "ja":"sc2023_03-ja.html",
+                "en":"sc2023_03.html"
+            },
+            "image":"SC2023_03/SC2022_L1.jpg",
+            "note":""
+        },
+        {
+            "year":"2023", "month":"7", "date":"3",
+            "text":{
+                "ja":"元澤さんが，The 24th International Conference on Artificial Intelligence in Education(AIED 2023)　のワークショップで研究発表を行いました. ",
+                "en":"Ms. Motozawa, gave a research presentation at the workshop ofthe 24th International Conference on Artificial Intelligence in Education(AIED2023)"
+                },
+            "link_file":{
+                "ja":"aied2023-ja.html",
+                "en":"aied2023.html"
+            },
+            "image":"AIED2023/IMG_1347.jpg",
+            "note":""
+        },
+        {
+            "year":"2023", "month":"10", "date":"23",
+            "text":{
+                "ja":"北川さんが，合同エージェントワークショップ＆シンポジウム2023で研究発表を行いました.",
+                "en":"Mr. Kitagawa gave a research presentation at Joint Agent Workshop & Symposium 2023 in Japan."
+                },
+            "link_file":{
+                "ja":"jaws2023_09-ja.html",
+                "en":"jaws2023_09.html"
+            },
+            "image":"jaws2023_09/kitagawa2023_09.jpeg",
+            "note":""
+        },
+        {
+            "year":"2024", "month":"3", "date":"8",
+            "text":{
+                "ja":"北川さん，松本さん，森さん，山本さんが，電子情報通信学会 総合大会で研究発表を行いました.",
+                "en":"Mr. Kitagwa, Mr. Matsumoto, Ms. Mori and Mr. Yamamoto gave a research presentation at The General Conference of The Institute of Electronics, Information and Communication Engineers."
+                },
+            "link_file":{
+                "ja":"ieice_GC2024-ja.html",
+                "en":"ieice_GC2024.html"
+            },
+            "image":"IEICE_GC2024/ieice2024.jpeg",
+            "note":""
+        },
+        {
+            "year":"2024", "month":"5", "date":"7",
+            "text":{
+                "ja":"村上教授らが編集した書籍「<i>Human-Centered Services Computing for Smart Cities</i>」が<i>Springer</i>より出版されました.",
+                "en":"Prof. Murakami’s edited book <i>Human-Centered Services Computing for Smart Cities</i> has been published by <i> Springer </i>."
+                },
+            "link_file":{
+                "ja":"https://link.springer.com/book/10.1007/978-981-97-0779-9",
+                "en":"https://link.springer.com/book/10.1007/978-981-97-0779-9"
+            },
+            "image":"HCSCSC/Human-Centered Services Computing for Smart Cities.png",
+            "note":"book"
+        },
+        {
+            "year":"2024", "month":"5", "date":"7",
+            "text":{
+                "ja":"村上教授のモノグラフ論文「<i>Human–Machine Collaboration for a Multilingual Service Platform</i>」が<i>Springer</i>より出版されました.",
+                "en":"Prof. Murakami’s monograph paper <i>Human–Machine Collaboration for a Multilingual Service Platform</i> has been published by <i> Springer </i>."
+                },
+            "link_file":{
+                "ja":"https://link.springer.com/chapter/10.1007/978-981-97-0779-9_3",
+                "en":"https://link.springer.com/chapter/10.1007/978-981-97-0779-9_3"
+            },
+            "image":"HCSCSC/Human-Centered Services Computing for Smart Cities.png",
+            "note":"book"
+        },
+        {
+            "year":"2024", "month":"6", "date":"27",
+            "text":{
+                "ja":"北川さんがThe 22nd International Conference on Practical applications of Agents and Multi-Agent Systems(PAAMS 2024)で研究発表を行いました.",
+                "en":"Mr. Kitagawa from our lab gave a research presentation at the 22nd International Conference on Practical applications of Agents and Multi-Agent Systems (PAAMS 2024)"
+                },
+            "link_file":{
+                "ja":"paams_2024-ja.html",
+                "en":"paams_2024.html"
+            },
+            "image":"PAAMS/PAAMS_2024.jpeg",
+            "note":""
+        }
+    ]
+}
