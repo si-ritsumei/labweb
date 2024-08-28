@@ -1,73 +1,66 @@
-fetch("../json/presentations.json")
+fetch("../json/research.json")
   .then(function (response) {
     return response.json();
   })
-  .then(function (rawPresentations) {
+  .then(function (research) {
     articles = [];
 
     const outputField = document.getElementById("output_field");
     const lang = outputField.classList.value;
 
-    // jsonから要素を取り出す
     articles = [];
-      for (let article of rawPresentations["presentations"]) {
-        let currentArticle = {
-          type: "presentation",
-          year: article.year,
-          month: article.month,
-          date: article.date,
-          text: getLanguageAppropriateData(lang, article.text)
-            ? getLanguageAppropriateData(lang, article.text)
-            : null,
-          linkFile: getLanguageAppropriateData(lang, article.link_file)
-            ? getLanguageAppropriateData(lang, article.link_file)
-            : null,
-          image: article.image,
-          note: article.note,
-        };
-        articles.push(currentArticle);
+    for (let article of research["presentations"]) {
+      let currentArticle = {
+        type: "presentation",
+        year: article.year,
+        month: article.month,
+        date: article.date,
+        text: getLanguageAppropriateData(lang, article.text)
+          ? getLanguageAppropriateData(lang, article.text)
+          : null,
+        linkFile: getLanguageAppropriateData(lang, article.link_file)
+          ? getLanguageAppropriateData(lang, article.link_file)
+          : null,
+        image: article.image,
+        note: article.note,
+      };
+      articles.push(currentArticle);
+    }
+
+    for (let article of research["papers"]) {
+      let currentArticle = {
+        type: "paper",
+        year: article.year,
+        month: article.month,
+        date: article.date,
+        leadAuthor: getLanguageAppropriateData(lang, article.lead_author)
+          ? getLanguageAppropriateData(lang, article.lead_author)
+          : null,
+        paperTitle: getLanguageAppropriateData(lang, article.paper_title)
+          ? getLanguageAppropriateData(lang, article.paper_title)
+          : null,
+        publication: getLanguageAppropriateData(lang, article.publication)
+          ? getLanguageAppropriateData(lang, article.publication)
+          : null,
+        linkFile: getLanguageAppropriateData(lang, article.link_file)
+          ? getLanguageAppropriateData(lang, article.link_file)
+          : null,
+        image: article.image,
+        note: article.note,
+      };
+      articles.push(currentArticle);
+    }
+
+    sortedArticles = sortByDate(articles);
+
+    sortedArticles.forEach(function (article) {
+      console.log("type:", article.type);
+      if (article.type === "presentation") {
+        printPresentation(article, outputField, lang);
+      } else if (article.type === "paper") {
+        printPaper(article, outputField, lang);
       }
-
-    fetch("../json/papers.json")
-      .then(function (response) {
-        return response.json();
-      })
-      .then(function (rawPapers) {
-        for (let article of rawPapers["papers"]) {
-          let currentArticle = {
-            type: "paper",
-            year: article.year,
-            month: article.month,
-            date: article.date,
-            leadAuthor: getLanguageAppropriateData(lang, article.lead_author)
-              ? getLanguageAppropriateData(lang, article.lead_author)
-              : null,
-            paperTitle: getLanguageAppropriateData(lang, article.paper_title)
-              ? getLanguageAppropriateData(lang, article.paper_title)
-              : null,
-            publication: getLanguageAppropriateData(lang, article.publication)
-              ? getLanguageAppropriateData(lang, article.publication)
-              : null,
-            linkFile: getLanguageAppropriateData(lang, article.link_file)
-              ? getLanguageAppropriateData(lang, article.link_file)
-              : null,
-            image: article.image,
-            note: article.note,
-          };
-          articles.push(currentArticle);
-        }
-
-        sortedArticles = sortByDate(articles);
-
-        sortedArticles.forEach(function (article) {
-          console.log("type:", article.type);
-          if (article.type === "presentation") {
-            printPresentation(article, outputField, lang);
-          } else if (article.type === "paper") {
-            printPaper(article, outputField, lang);
-          }
-        });
-      });
+    });
   })
   .catch(function (error) {
     console.log("エラーが発生しました: " + error);
@@ -178,7 +171,9 @@ function createCard(article, outputField, lang, imagePath, isPresentation) {
   console.log("link:" + article.linkFile);
   let content = document.createElement("a");
   if (article.linkFile !== null) {
-    content.href = isPresentation ? "ResearchNews_articles/" + article.linkFile : article.linkFile;
+    content.href = isPresentation
+      ? "ResearchNews_articles/" + article.linkFile
+      : article.linkFile;
   }
   if (isPresentation && article.note === "book") {
     content.href = article.linkFile;
@@ -243,7 +238,13 @@ function createCard(article, outputField, lang, imagePath, isPresentation) {
 }
 
 function printPresentation(article, outputField, lang) {
-  createCard(article, outputField, lang, "img/research_news/presentation/" + article.year + "/", true);
+  createCard(
+    article,
+    outputField,
+    lang,
+    "img/research_news/presentation/" + article.year + "/",
+    true
+  );
 }
 
 function printPaper(article, outputField, lang) {
