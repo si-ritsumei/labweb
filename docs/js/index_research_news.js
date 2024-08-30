@@ -1,111 +1,104 @@
 
 
-fetch("../json/presentations.json")
+fetch("../json/research.json")
     .then(function(response) {
         return response.json();
     })
     .then(function(jsonData) {
+      var articles = [];
+      var day, i_title, i_link;
 
-        var articles = [];
-        var day, i_title,i_link;
+      var research_news_label = document.getElementById("output_research_news");
+      var classes = research_news_label.classList;
+      var lang;
+      if (classes.contains("ja")) {
+        lang = "ja";
+      } else if (classes.contains("en")) {
+        lang = "en";
+      }
 
-        var research_news_label = document.getElementById("output_research_news");
-        var classes = research_news_label.classList;
-        var lang;
-        if (classes.contains("ja")) {
-            lang = "ja";
-          } else if (classes.contains("en")){
-            lang = "en";
-          }
+      articles = [];
+      for (let article of jsonData["presentations"]) {
+        let articles_ofyear = {
+          type: "presentation",
+          year: article.year,
+          month: article.month,
+          date: article.date,
+          text: checkLangage(lang, article.text)
+            ? checkLangage(lang, article.text)
+            : null,
+          link_file: checkLangage(lang, article.link_file)
+            ? checkLangage(lang, article.link_file)
+            : null,
+          image: article.image,
+          note: article.note,
+        };
+        articles.push(articles_ofyear);
+      }
 
+      for (let article of jsonData["papers"]) {
+        let articles_ofyear = {
+          type: "paper",
+          year: article.year,
+          month: article.month,
+          date: article.date,
+          lead_author: checkLangage(lang, article.lead_author)
+            ? checkLangage(lang, article.lead_author)
+            : null,
+          paper_title: checkLangage(lang, article.paper_title)
+            ? checkLangage(lang, article.paper_title)
+            : null,
+          publication: checkLangage(lang, article.publication)
+            ? checkLangage(lang, article.publication)
+            : null,
+          link_file: checkLangage(lang, article.link_file)
+            ? checkLangage(lang, article.link_file)
+            : null,
+          image: article.image,
+          note: article.note,
+        };
+        articles.push(articles_ofyear);
+      }
 
-        for (var label in jsonData) { //jsonDataの要素を取り出す
-            articles = [];
-            for(var article of jsonData[label]){
-                var articles_ofyear = {
-                    type: "presentation",
-                    year: article.year,
-                    month: article.month,
-                    date: article.date,
-                    text: checkLangage(lang,article.text) ? checkLangage(lang,article.text): null,
-                    link_file: checkLangage(lang,article.link_file) ? checkLangage(lang,article.link_file): null ,
-                    image: article.image,
-                    note: article.note
-                }
-                articles.push(articles_ofyear);
-            }
+      articles_sorted = sortByDate(articles); //日にちでソートするメソッド
+
+      //オブジェクトを出力
+      var h5_col = document.createElement("h5");
+      h5_col.classList.add("header");
+      h5_col.classList.add("grey-text");
+      h5_col.classList.add("text-darken-1");
+      h5_col.textContent = "Research News";
+      research_news_label.appendChild(h5_col);
+
+      var a_research_news_link = document.createElement("a");
+      if (lang === "ja") {
+        a_research_news_link.href = "activity-ja.html";
+      } else if (lang === "en") {
+        a_research_news_link.href = "activity.html";
+      }
+      h5_col.appendChild(a_research_news_link);
+
+      var font_view = document.createElement("font");
+      font_view.setAttribute("size", "2");
+      font_view.innerHTML = "　>>> View more";
+      a_research_news_link.appendChild(font_view);
+
+      var count = 0;
+
+      //オブジェクトを出力する
+      articles_sorted.forEach(function (article) {
+        if (count >= 5) {
+          return;
         }
-        
-        //jsonファイルのデータを取得
-        fetch("../json/papers.json")
-            .then(function(response) {
-                return response.json();
-            })
-            .then(function(jsonData2) {
+        //console.log("type:",article.type);
+        if (article.type === "presentation") {
+          print_presentation(article, research_news_label, lang);
+        } else if (article.type === "paper") {
+          print_paper(article, research_news_label, lang);
+        }
 
-                // ここでjsonData1とjsonData2を使って必要な処理を行います
-                for (var label in jsonData2) { //jsonDataの要素を取り出す
-                    for(var article of jsonData2[label]){
-                        var articles_ofyear = {
-                            type:"paper",
-                            year: article.year,
-                            month: article.month,
-                            date: article.date,
-                            lead_author:checkLangage(lang,article.lead_author) ? checkLangage(lang,article.lead_author): null,
-                            paper_title: checkLangage(lang,article.paper_title) ? checkLangage(lang,article.paper_title): null,
-                            publication: checkLangage(lang,article.publication) ? checkLangage(lang,article.publication): null,
-                            link_file: checkLangage(lang,article.link_file) ? checkLangage(lang,article.link_file): null ,
-                            image: article.image,
-                            note: article.note
-                        }
-                        articles.push(articles_ofyear);
-                    }
-
-                }
-                
-                
-                articles_sorted = sortByDate(articles); //日にちでソートするメソッド
-                
-                //オブジェクトを出力
-                var h5_col = document.createElement("h5");
-                h5_col.classList.add("header");
-                h5_col.classList.add("grey-text");
-                h5_col.classList.add("text-darken-1");
-                h5_col.textContent = "Research News";
-                research_news_label.appendChild(h5_col);
-
-                var a_research_news_link = document.createElement("a");
-                if (lang==="ja"){
-                    a_research_news_link.href = "activity-ja.html"
-                }else if(lang==="en"){
-                    a_research_news_link.href = "activity.html"
-                }
-                h5_col.appendChild(a_research_news_link);
-
-                var font_view = document.createElement("font");
-                font_view.setAttribute("size", "2");
-                font_view.innerHTML="　>>> View more";
-                a_research_news_link.appendChild(font_view);
-
-                var count=0;
-
-                //オブジェクトを出力する
-                articles_sorted.forEach(function(article){
-                    if(count>=5){
-                        return;
-                    }
-                    //console.log("type:",article.type);
-                    if(article.type === "presentation"){
-                        print_presentation(article,research_news_label,lang);
-                    }else if(article.type === "paper"){
-                        print_paper(article,research_news_label,lang);
-                    };
-
-                    count+=1;
-                });
-            })
-
-
+        count += 1;
+      });
     })
     .catch(function(error) {
         console.log("エラーが発生しました: " + error);
