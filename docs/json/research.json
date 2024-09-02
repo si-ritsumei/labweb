@@ -341,6 +341,46 @@
             },
             "image":"HIS.png",
             "note":""
+        },{
+            "year":"2024", "month":"8", "date":"19",
+            "lead_author":{
+                "ja": "Pituxcoosuvarnさん",
+                "en": "Ms. Pituxcoosuvarn"
+                },
+            "paper_title":{
+                "ja":"Boosting Non-Native Speaker Engagement: Simplifying Text with Large Language Models",
+                "en":"Boosting Non-Native Speaker Engagement: Simplifying Text with Large Language Models"
+                },
+            "publication":{
+                "ja":"The 30th International Conference on Collaboration Technologies and Social Computing (CollabTech 2024)",
+                "en":"The 30th International Conference on Collaboration Technologies and Social Computing (CollabTech 2024)"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-3-031-67998-8_22",
+                "en":"https://doi.org/10.1007/978-3-031-67998-8_22"
+            },
+            "image":"CollabTech.png",
+            "note":""
+        },{
+            "year":"2024", "month":"8", "date":"19",
+            "lead_author":{
+                "ja": "元澤さん",
+                "en": "Ms. Motozawa"
+                },
+            "paper_title":{
+                "ja":"Dialogue Act Analysis of Facilitator-Children Multilingual Communication",
+                "en":"Dialogue Act Analysis of Facilitator-Children Multilingual Communication"
+                },
+            "publication":{
+                "ja":"The 30th International Conference on Collaboration Technologies and Social Computing (CollabTech 2024)",
+                "en":"The 30th International Conference on Collaboration Technologies and Social Computing (CollabTech 2024)"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.1007/978-3-031-67998-8_7",
+                "en":"https://doi.org/10.1007/978-3-031-67998-8_7"
+            },
+            "image":"CollabTech.png",
+            "note":""
         }
     ],
     "presentations":[
@@ -460,32 +500,6 @@
             },
             "image":"PAAMS/PAAMS_2024.jpeg",
             "note":""
-        },
-        {
-            "year":"2024", "month":"8", "date":"19",
-            "text":{
-                "ja":"Pituxcoosuvarnさんらの論文The 22nd International Conference on Practical applications of Agents and Multi-Agent Systems(PAAMS 2024)に採録されました。",
-                "en":"Ms. Pituxcoosuvarn's paper was accepted at The 22nd International Conference on Practical Applications of Agents and Multi-Agent Systems (PAAMS 2024)."
-                },
-            "link_file":{
-                "ja":"https://doi.org/10.1007/978-3-031-67998-8_22",
-                "en":"https://doi.org/10.1007/978-3-031-67998-8_22"
-            },
-            "image":"Collab/CollabTech.png",
-            "note":"book"
-        },
-        {
-            "year":"2024", "month":"8", "date":"19",
-            "text":{
-                "ja":"元澤さんらの論文The 22nd International Conference on Practical applications of Agents and Multi-Agent Systems(PAAMS 2024)に採録されました。",
-                "en":"Ms. Motozawa's paper was accepted at The 22nd International Conference on Practical Applications of Agents and Multi-Agent Systems (PAAMS 2024)."
-                },
-            "link_file":{
-                "ja":"https://doi.org/10.1007/978-3-031-67998-8_7",
-                "en":"https://doi.org/10.1007/978-3-031-67998-8_7"
-            },
-            "image":"Collab/CollabTech.png",
-            "note":"book"
         }
     ]
 }
