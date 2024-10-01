@@ -54,27 +54,6 @@
     ],
     "M2":[
         {
-            "name":{"ja":"ZHANG Yuxuan","en":"ZHANG Yuxuan"},
-            "image":"2022/22yx_zhang.jpg",
-            "main_link":"",
-            "links":[],
-            "note":""
-        },
-        {
-            "name":{"ja":"HERLIANTO Abia Putrama","en":"HERLIANTO Abia Putrama"},
-            "image":"2022/22herlianto.png",
-            "main_link":"",
-            "links":[],
-            "note":""
-        },
-        {
-            "name":{"ja":"SHELLA Eldwina Fitri","en":"SHELLA Eldwina Fitri"},
-            "image":"2022/22shella_s.jpg",
-            "main_link":"",
-            "links":[],
-            "note":""
-        },
-        {
             "name":{"ja":"木本 真平","en":"Shimpei KIMOTO"},
             "image":"2021/21kimoto.jpg",
             "main_link":"",
@@ -134,13 +113,6 @@
         {
             "name":{"ja":"WU Wenbo","en":"WU Wenbo"},
             "image":"2023/23wu.jpg",
-            "main_link":"",
-            "links":[],
-            "note":""
-        },
-        {
-            "name":{"ja":"ZHANG Yilong","en":"ZHANG Yilong"},
-            "image":"2022/22yilong_s.jpg",
             "main_link":"",
             "links":[],
             "note":""

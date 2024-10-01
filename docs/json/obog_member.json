@@ -59,7 +59,14 @@
             {"name":{"ja":"北川 大夢","en":"Hiromu KITAGAWA"},"image":"2021/21kitagawa.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
             {"name":{"ja":"黒山 晃輝","en":"Koki KUROYAMA"},"image":"2022/22kuroyama_s.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
             {"name":{"ja":"増田 憲都","en":"Kazuto MASUDA"},"image":"2022/22masuda_s.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
-            ]
+            ],
+        "9":[
+            {"name":{"ja":"ZHANG Yuxuan","en":"ZHANG Yuxuan"},"image":"2022/22yx_zhang.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"HERLIANTO Abia Putrama","en":"HERLIANTO Abia Putrama"},"image":"2022/22herlianto.png","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"SHELLA Eldwina Fitri","en":"SHELLA Eldwina Fitri"},"image":"2022/22shella_s.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"ZHANG Yilong","en":"ZHANG Yilong"},"image":"2022/22yilong_s.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
+            
+        ]
     }
     
 }
