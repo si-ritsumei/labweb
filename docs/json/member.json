@@ -322,8 +322,14 @@
             "main_link":"",
             "links":[],
             "note":""
+        },
+        {
+            "name":{"ja":"TANG Yuxuan","en":"TANG Yuxuan"},
+            "image":"avatar/avatar3.png",
+            "main_link":"",
+            "links":[],
+            "note":""
         }
-       
     ]
     
 }
