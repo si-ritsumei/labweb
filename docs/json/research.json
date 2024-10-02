@@ -500,6 +500,19 @@
             },
             "image":"PAAMS/PAAMS_2024.jpeg",
             "note":""
+        },
+        {
+            "year":"2024", "month":"10", "date":"1",
+            "text":{
+                "ja":"元澤さんがThe 30th International Conference on Collaboration Technologies and Social Computing(CollabTech 2024)で研究発表を行いました.",
+                "en":"Ms. Motozawa from our lab gave a research presentation at The 30th International Conference on Collaboration Technologies and Social Computing(CollabTech 2024)"
+                },
+            "link_file":{
+                "ja":"collabtech_2024-ja.html",
+                "en":"collabtech_2024.html"
+            },
+            "image":"Collab/presentation_collabtech.png",
+            "note":""
         }
     ]
 }
