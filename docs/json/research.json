@@ -513,6 +513,19 @@
             },
             "image":"Collab/presentation_collabtech.png",
             "note":""
+        },
+        {
+            "year":"2024", "month":"11", "date":"15",
+            "text":{
+                "ja":"元澤さんがThe 8th International Conference on Information Technology(InCIT 2024)で研究発表を行いました.",
+                "en":"Ms. Motozawa from our lab gave a research presentation at The 8th International Conference on Information Technology(InCIT 2024)"
+                },
+            "link_file":{
+                "ja":"InCIT2024-ja.html",
+                "en":"InCIT2024.html"
+            },
+            "image":"InCIT/InCIT2024.jpeg",
+            "note":""
         }
     ]
 }
