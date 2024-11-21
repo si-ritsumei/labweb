@@ -404,6 +404,21 @@
             },
             "image": "gohannkai_2024/gohannkai2024-1.jpg",
             "note": ""
+        },
+        {
+            "year": "2024",
+            "month": "9",
+            "date": "25",
+            "title": {
+                "ja": "2024年度秋季 学部4回生と修士2回生が卒業しました!",
+                "en": "In the Fall of 2024, undergraduate fourth-year students and second-year master's students graduated!"
+            },
+            "link_file": {
+                "ja": "graduation2024autumn-ja.html",
+                "en": "graduation2024autumn.html"
+            },
+            "image": "graduation2024/graduate2024-4.jpg",
+            "note": ""
         }
     ]
 }
