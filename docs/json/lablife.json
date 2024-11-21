@@ -374,6 +374,36 @@
             },
             "image": "teaparty202404/DSC01498.JPG",
             "note": "" 
+        },
+        {
+            "year": "2024",
+            "month": "7",
+            "date": "10",
+            "title": {
+                "ja": "3回生との顔合わせを行いました！",
+                "en": "We had a face-to-face meeting with our 3rd year students!"
+            },
+            "link_file": {
+                "ja": "3kaisei_2024-ja.html",
+                "en": "3kaisei_2024.html"
+            },
+            "image": "3kaisei_event2024/3kaisei_event2024.jpg",
+            "note": ""
+        },
+        {
+            "year": "2024",
+            "month": "8",
+            "date": "2",
+            "title": {
+                "ja": "3回生新歓&卒業生お別れ会を行いました！",
+                "en": "We held a welcome and farewell party for 3rd year students!"
+            },
+            "link_file": {
+                "ja": "gohannkai2024-ja.html",
+                "en": "gohannkai2024.html"
+            },
+            "image": "gohannkai_2024/gohannkai2024-1.jpg",
+            "note": ""
         }
     ]
 }
