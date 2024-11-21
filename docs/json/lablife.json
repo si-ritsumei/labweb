@@ -419,6 +419,21 @@
             },
             "image": "graduation2024/graduate2024-4.JPG",
             "note": ""
+        },
+        {
+            "year": "2024",
+            "month": "10",
+            "date": "18",
+            "title": {
+                "ja": "Subwayパーティーを開催しました！",
+                "en": "Subway Party!"
+            },
+            "link_file": {
+                "ja": "subway_2024-ja.html",
+                "en": "subway_2024-en.html"
+            },
+            "image": "subway_2024/DSC01680.JPG",
+            "note": ""
         }
     ]
 }
