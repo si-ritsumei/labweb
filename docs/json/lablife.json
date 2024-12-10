@@ -449,6 +449,21 @@
             },
             "image":"bbq_2024/bbq_2024-1.jpg",
             "note":""
+        },
+        {
+            "year":"2024",
+            "month":"12",
+            "date":"4",
+            "title": {
+                "ja":"村上先生のお誕生日をお祝いしました！",
+                "en":"We celebrated Prof. Murakami's birthday!"
+            },
+            "link_file": {
+                "ja":"prof_murakami_birthday_2024-ja.html",
+                "en":"prof_murakami_birthday_2024-en.html"
+            },
+            "image":"murakami_birthday_2024/sensei_with_message.png",
+            "note":""
         }
     ]
 }
