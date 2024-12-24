@@ -63,8 +63,10 @@
         {
             "name":{"ja":"砂田 界渡","en":"Kaito SUNADA"},
             "image":"2024/24sunada.jpg",
-            "main_link":"",
-            "links":[],
+            "main_link":"https://k-suna.github.io",
+            "links":[
+                {"class":"fa-solid fa-circle-user","link":"https://k-suna.github.io"}
+            ],
             "note":""
         }
     ],
