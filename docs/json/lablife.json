@@ -478,6 +478,20 @@
             },
             "image":"../forActivity.png",
             "note":""
+        },       {
+            "year":"2025",
+            "month":"1",
+            "date":"17",
+            "title": {
+                "ja":"卒業研究Ⅰの発表会を行いました！",
+                "en":"We held a presentation for the graduation research I!"
+            },
+            "link_file": {
+                "ja":"sotsuken1_2024-ja.html",
+                "en":"sotsuken1_2024.html"
+            },
+            "image":"../sotsuken1_2024/bbq_2024-3.jpg",
+            "note":""
         }
     ]
 }
