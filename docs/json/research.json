@@ -526,6 +526,19 @@
             },
             "image":"InCIT/InCIT2024.jpeg",
             "note":""
+        },
+        {
+            "year":"2024", "month":"12", "date":"9",
+            "text":{
+                "ja":"山本さんが、The 23rd IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technologyで研究発表を行いました.",
+                "en":"Mr. Yamamoto from our lab gave a research presentation at The 23rd IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology"
+                },
+            "link_file":{
+                "ja":"Wi-iat2024-ja.html",
+                "en":"Wi-iat2024.html"
+            },
+            "image":"WI-IAT/IMG_7586.jpg",
+            "note":""
         }
     ]
 }
