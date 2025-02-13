@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HMY8NC79JD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HMY8NC79JD');
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#2196F3">
+    <title>64rd SWO｜Social Intelligence Laboratory, Ritsumeikan University</title>
+    <script src="https://kit.fontawesome.com/67160f99e5.js" crossorigin="anonymous"></script>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import Noto Sans JP Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <!--Import Academicons Font-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+
+    <!--Import customized css-->
+    <link href="../css/pdf.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script>
+        // ファイルパスを変数に格納
+        const filePath = "../img/research_news/presentation/2024/SWO/";
+    </script>
+</head>
+
+<body id="top" class="scrollspy">
+
+    <!--Navigation-->
+    <div id="myNavbar" data-active="2" data-language="ja"></div>
+
+    <div class="container">
+        <h4 class="header text_b">Laboratory Life</h4>
+        <div class="section scrollspy">
+            <p class="normal"></br>
+                Date: December 20th, 2024</br>
+                Location: Keio University Hiyoshi Campus, Kanagawa</br></p>
+            
+                <div class="row">
+                    <div class="column leftc">
+                        <p class="center">
+                            <img id="img1" class="responsive-img" width=100% style="align-content: center"/>
+                            <ul class="responsive-img-small">
+                                <img id="img2" width=49% style="align-content: center"/>
+                                <img id="img3" width=49% style="align-content: center"/>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="column rightc">
+                        <p class="smallheader">Overview</p>
+                        <p class="normal">
+                            Mr. Sunada from our lab gave a research presentation at The Japanese Society for Artificial Intelligence Semantic Web and Ontology Study Group!
+                            <br><br>
+                            <b><Presentation Details></b><br>
+                            <b>Presenter:</b>Sunada Sunada<br>
+                            <b>Title:</b> 「<a href="https://doi.org/10.11517/jsaisigtwo.2024.SWO-064_03" target="_blank">Building an ontology and proposing a system to support the selection of inorganic
+                                material analysis methods</a><br>
+                            <b>Abstract:</b>The purpose of this research is to build an ontology that can be incorporated into a system that recommends the optimal analysis method based on the contents of an analysis request form when analyzing inorganic materials. A concept is defined to break down the analysis purpose stated in the analysis request form into partial acts and output an analysis method to achieve the partial acts. In addition, concepts are defined in conjunction with analytical conditions in order to determine whether the analytical equipment used for the analytical method is appropriate. By doing this, we aim to recommend the optimal analysis method by linking the analysis method and the conditions of the analysis device when an analysis purpose is given. <br>
+                            
+                            
+                        </p>
+                    </div>
+                </div>
+
+            <div class="row">
+                <div class="column">
+                    <h6>Presentation slides</h6> 
+                    <br>
+                    <div id="pdf-container1" class="pdf-container">
+                        <div class="slideshow-container">
+                            <div class="slide">
+                                <canvas class="pdf-render"></canvas>
+                            </div>
+                            <a class="prev">&#10094;</a>
+                            <a class="next">&#10095;</a>
+                        </div>
+                        <div class="controls">
+                            <span class="page-num"></span> / <span class="page-count"></span>
+                        </div>
+                    </div>
+                    <h6>Travel Diary</h6> 
+                    <p>
+                        A presentation by the SWO study group was held at Keio Hiyoshi Campus. It was my first time giving a presentation outside of an academic conference, and it was very refreshing.
+                        The day before the seminar, I had sushi with Professor Kimura as a celebration. There was a lot of high-quality sushi, and it was very delicious. 
+                        On the day of the presentation, I gave my presentation in front of many ontology experts. The question and answer session after the presentation was very meaningful, and I was able to highlight the issues of my research and its characteristics when viewed from various perspectives. 
+                        This presentation made me want to work even harder on my research and communicate my research to the world.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div id="myFooter"></div>
+
+    <!--  Scripts-->
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../js/myjs.js"></script>
+    <script src="../js/modernizr.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="../js/powerpoint.js"></script>
+    <script>
+        // 要素を取得して画像を指定
+        document.getElementById("img1").src = filePath + "presentation1.jpg";
+        document.getElementById("img2").src = filePath + "presentation2.jpg";
+        document.getElementById("img3").src = filePath + "with Prof_kitamura.jpg";
+
+        //　スライドショー
+        const pdfContainer1 = document.getElementById("pdf-container1"); // 要素を取得
+        pdfContainer1.setAttribute("data-pdf-url", filePath+"presentation_slide/SWO.pdf"); // data-pdf-url属性に変数の値を設定
+
+    </script>
+
+</body>
+
+</html>
