@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HMY8NC79JD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HMY8NC79JD');
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#2196F3">
+    <title>13th GWC｜Social Intelligence Laboratory, Ritsumeikan University</title>
+    <script src="https://kit.fontawesome.com/67160f99e5.js" crossorigin="anonymous"></script>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import Noto Sans JP Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <!--Import Academicons Font-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+
+    <!--Import customized css-->
+    <link href="../css/pdf.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script>
+        // ファイルパスを変数に格納
+        const filePath = "../img/research_news/presentation/2025/GWC/";
+    </script>
+</head>
+
+<body id="top" class="scrollspy">
+
+    <!--Navigation-->
+    <div id="myNavbar" data-active="2" data-language="ja"></div>
+
+    <div class="container">
+        <h4 class="header text_b">Laboratory Life</h4>
+        <div class="section scrollspy">
+            <p class="normal"></br>
+                Date: January 27th ~ 31th, 2025</br>
+                Location: Pavia, Italy</br></p>
+            
+                <div class="row">
+                    <div class="column leftc">
+                        <p class="center">
+                            <img id="img1" class="responsive-img" width=100% style="align-content: center"/>
+                            <ul class="responsive-img-small">
+                                <img id="img2" width=49% style="align-content: center"/>
+                                <img id="img3" width=49% style="align-content: center"/>
+                                <img id="img4" width=49% style="align-content: center"/>
+                                <img id="img5" width=49% style="align-content: center"/>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="column rightc">
+                        <p class="smallheader">概要</p>
+                        <p class="normal">
+                            Mr. Nishimura from our lab gave a research presentation at The 13th International Global Wordnet Conference (GWC2025)!
+                            <br><br>
+                            <b><発表内容></b><br>
+                            <b>Presenter:</b>Ikkyu Nishimura<br>
+                            <b>Title:</b> 「<a href="https://easychair.org/cfp/gwc2025" target="_blank">Extracting Conceptual Differences between Translation Pairs Using Multilingual WordNet</a><br>
+                            <b>Abstract:</b>The concepts expressed by words and their translations in different languages do not always align. Despite advancements in machine translation, such differences can still lead to misunderstandings. Therefore, we proposed a method to extract conceptual differences in translation pairs from WordNet and Open Multilingual WordNet. We applied the proposed method to Japanese, Chinese, and Indonesian WordNets to investigate how many translation pairs with conceptual differences they have. Furthermore, we validated the extracted conceptual differences using human evaluators.<br>
+                            
+                            
+                        </p>
+                    </div>
+                </div>
+
+            <div class="row">
+                <div class="column">
+                    <h6>Presentation slides</h6> 
+                    <br>
+                    <div id="pdf-container1" class="pdf-container">
+                        <div class="slideshow-container">
+                            <div class="slide">
+                                <canvas class="pdf-render"></canvas>
+                            </div>
+                            <a class="prev">&#10094;</a>
+                            <a class="next">&#10095;</a>
+                        </div>
+                        <div class="controls">
+                            <span class="page-num"></span> / <span class="page-count"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div id="myFooter"></div>
+
+    <!--  Scripts-->
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../js/myjs.js"></script>
+    <script src="../js/modernizr.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="../js/powerpoint.js"></script>
+    <script>
+        // 要素を取得して画像を指定
+        document.getElementById("img1").src = filePath + "IMG_7145.jpeg";
+        document.getElementById("img2").src = filePath + "IMG_7153.jpeg";
+        document.getElementById("img3").src = filePath + "IMG_7195.jpeg";
+        document.getElementById("img4").src = filePath + "IMG_7197.jpeg";
+        document.getElementById("img5").src = filePath + "IMG_7304.jpeg";
+
+        //　スライドショー
+        const pdfContainer1 = document.getElementById("pdf-container1"); // 要素を取得
+        pdfContainer1.setAttribute("data-pdf-url", filePath+"presentation_slide/C_ポスターデータ.pdf"); // data-pdf-url属性に変数の値を設定
+
+    </script>
+
+</body>
+
+</html>
