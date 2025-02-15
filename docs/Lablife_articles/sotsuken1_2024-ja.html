@@ -131,22 +131,13 @@
         const filePath = "../img/event_news/2024/sotsuken1_2024"; // 画像ファイルがあるフォルダのパスを変数に格納
         const fileNames = ["sotsuken1_2024-1.jpg","sotsuken1_2024-2.jpg", "sotsuken1_2024-3.jpg", "sotsuken1_2024-4.jpg"];
         
-
-        // 画像のIDを自動生成して配列に格納
-        const numberOfImages = 10; //画像の数を指定(swiperを使用する場合は2倍の数になる)
-        const ids = [];
-        for (let i = 1; i <= numberOfImages; i++) {
-            ids.push(`img${i}`);
-        }
+        const ids = ["img1", "img2", "img3", "img4", "img5", "img6", "img7", "img8"];// 画像のIDを配列に格納
 
         // for文を使用して画像のsrcを設定
         for (let i = 0; i < ids.length; i++) {
             const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
             document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
         }
-
-        // body要素の背景画像を設定
-        document.body.style.backgroundImage = `url(${filePath}${backgroundImage})`;
     </script>
 
 </body>
