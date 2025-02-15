@@ -552,6 +552,19 @@
             },
             "image":"SWO/presentation1.jpg",
             "note":""
+        },
+        {
+            "year":"2025", "month":"1", "date":"27",
+            "text":{
+                "ja":"西村さんが、The 13th International Global Wordnet Conference (GWC2025)で研究発表を行いました.",
+                "en":"Mr. Nishimura from our lab gave a research presentation at The 13th International Global Wordnet Conference (GWC2025)"
+                },
+            "link_file":{
+                "ja":"gwc2025-ja.html",
+                "en":"gwc2025.html"
+            },
+            "image":"GWC/IMG_7145.jpeg",
+            "note":""
         }
     ]
 }
