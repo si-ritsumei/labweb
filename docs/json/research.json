@@ -565,6 +565,19 @@
             },
             "image":"GWC/IMG_7145.jpeg",
             "note":""
+        },
+        {
+            "year":"2025", "month":"1", "date":"24",
+            "text":{
+                "ja":"西村さん、元澤さん、森さんがHCS研究会にて研究発表を行いました.",
+                "en":"Mr. Nishimura, Ms. Motozawa and Ms. Mori from our lab gave a research presentation at HCS Workshop."
+                },
+            "link_file":{
+                "ja":"HCS_2025.html",
+                "en":"HCS_2025-ja.html"
+            },
+            "image":"/HCS/DSC01968.JPG",
+            "note":""
         }
     ]
 }
