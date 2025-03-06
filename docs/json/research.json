@@ -578,6 +578,19 @@
             },
             "image":"/HCS/DSC01968.JPG",
             "note":""
+        },
+        {
+            "year":"2025", "month":"2", "date":"27",
+            "text":{
+                "ja":"西村さん，元澤さん，北川さん，山本さんの4名が研究科の研究奨励賞を受賞されました！おめでとうございます!",
+                "en":"Mr.Nishimura, Ms.Motozawa, Mr.Kitagawa, and Mr.Yamamoto have been awarded the Graduate School Research Encouragement Award! Congratulations!"
+                },
+            "link_file":{
+                "ja":"https://www.ritsumei.ac.jp/gsise/news/detail/?id=54",
+                "en":"https://www.ritsumei.ac.jp/gsise/news/detail/?id=54"
+            },
+            "image":"../../forActivity.png",
+            "note":"book"
         }
     ]
 }
