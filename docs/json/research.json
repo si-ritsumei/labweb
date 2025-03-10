@@ -604,6 +604,19 @@
             },
             "image":"../../forActivity.png",
             "note":"book"
+        },
+        {
+            "year":"2025", "month":"3", "date":"8",
+            "text":{
+                "ja":"松本さんと中川さんが，サービスコンピューティング研究会で研究発表を行い，松本さんが電子情報通信学会サービスコンピューティング研究専門委員会若手奨励賞を受賞しました！",
+                "en":"Mr.Matsumoto and Mr.Nakagawa gave a research presentation at the Services Computing Workshop and Mr.Matsumoto received the Young Scientist Incentive Award."
+                },
+            "link_file":{
+                "ja":"sc2025-ja.html",
+                "en":"sc2025.html"
+            },
+            "image":"/SC/sc2025.jpg",
+            "note":""
         }
     ]
 }
