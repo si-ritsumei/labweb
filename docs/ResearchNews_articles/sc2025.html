@@ -51,18 +51,35 @@
             <p class="normal"></br>
                 Date: March 17th, 2023</br>
                 Location: The Kyoto College of Graduate Studies for Informatics </br></p>
-
-            <p class="smallheader">Overview</p>
-            <p class="normal">
-                Mr.Matsumoto and Mr.Nakagawa gave a research presentation at the Services Computing Workshop and Mr.Matsumoto received the Young Scientist Incentive Award.
-                <br>
-                <br>
-            </p>
+            
+                <div class="row">
+                    <div class="column leftc">
+                        <p class="center">
+                            <img id="img1" class="responsive-img" width=100% style="align-content: center"/>
+                            <ul class="responsive-img-small">
+                                <img id="img2" width=49% style="align-content: center"/>
+                                <img id="img3" width=49% style="align-content: center"/>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="column rightc">
+                        <p class="smallheader">Overview</p>
+                        <p class="normal">
+                            Mr.Matsumoto and Mr.Nakagawa gave a research presentation at the Services Computing Workshop and Mr.Matsumoto received the Young Scientist Incentive Award.
+                            <br><br>
+                            <b>&lt;Content&gt;</b><br>
+                            <b>Presenter:</b> Kenji Matsumoto<br>
+                            <b>Title:</b> <a href="https://ken.ieice.org/ken/paper/20250308Dc9a/" target="_blank">API recommendation for service composition using large-scale language models</a><br>
+                            <b>Abstract:</b> A new service built by linking multiple APIs is called a composite service. Composite services make it possible to provide expanded functions and added value that would be difficult to achieve with a single service. However, when building a composite service, it is extremely difficult to find the necessary APIs from the vast number of APIs. In this study, we propose a method to find a combination of APIs that meets requirements from a user's requirements statement written in natural language using the LLM prompting method. Specifically, we apply and evaluate the Few-Shot CoT method, which sets up an inference procedure for a generative AI, presents examples, and allows it to make inferences based on these.                            <br>                            
+                        </p>
+                        <div class="award">The Young Scientist Incentive Award</div>
+                    </div>
+                </div>
 
             <div class="row">
                 <div class="column">
-                    <b>Presenter:</b> Kenji Matsumoto<br>
-                    <b>Title:</b> <a href="https://ken.ieice.org/ken/paper/20250308Dc9a/" target="_blank">API recommendation for service composition using large-scale language models</a><br>
+                    <h6>Slide:</h6> 
+                    <br>
                     <div id="pdf-container1" class="pdf-container">
                         <div class="slideshow-container">
                             <div class="slide">
@@ -75,16 +92,17 @@
                             <span class="page-num"></span> / <span class="page-count"></span>
                         </div>
                     </div>
-                    <p><b>Abstract:</b> A new service built by linking multiple APIs is called a composite service. Composite services make it possible to provide expanded functions and added value that would be difficult to achieve with a single service. However, when building a composite service, it is extremely difficult to find the necessary APIs from the vast number of APIs. In this study, we propose a method to find a combination of APIs that meets requirements from a user's requirements statement written in natural language using the LLM prompting method. Specifically, we apply and evaluate the Few-Shot CoT method, which sets up an inference procedure for a generative AI, presents examples, and allows it to make inferences based on these.
-                        <div class="award">The Young Scientist Incentive Award</div>
+                    <br>
+                    <p class="normal">
+                        <b>&lt;Content&gt;</b><br>
+                        <b>Presenter:</b>Shinichi Nakagawa<br>
+                        <b>Title:</b> <a href="https://ken.ieice.org/ken/paper/20250308Fc9B/" target="_blank">Composite service recommendation using multi-layer multi-label classification</a><br>
+                        <b>Abstract:</b> Composite service is a new service that combines multiple web services on the Internet. Service composition creates new services that users needs using existing web services. However, selecting the appropriate web services to construct a composite service that aligns with users needs is a challenging task.
+                        This study proposes a method that leverages a language model to determine appropriate service combinations based on user requirements expressed in natural language. The approach formulates the task as a multi-label classification problem and uses a pre-trained BERT model to solve it. Additionally, to improve selection accuracy, service categories are hierarchically structured, and a multi-layer multi-label classification model is applied.
+                        <br> 
                     </p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="column">
-                    <b>Presenter:</b>Shinichi Nakagawa<br>
-                    <b>Title:</b> <a href="https://ken.ieice.org/ken/paper/20250308Fc9B/" target="_blank">Composite service recommendation using multi-layer multi-label classification</a><br>
+                    <h6>Slide:</h6> 
+                    <br>
                     <div id="pdf-container2" class="pdf-container">
                         <div class="slideshow-container">
                             <div class="slide">
@@ -97,9 +115,6 @@
                             <span class="page-num"></span> / <span class="page-count"></span>
                         </div>
                     </div>
-                    <p><b>Abstract:</b> Composite service is a new service that combines multiple web services on the Internet. Service composition creates new services that users needs using existing web services. However, selecting the appropriate web services to construct a composite service that aligns with users needs is a challenging task.
-                        This study proposes a method that leverages a language model to determine appropriate service combinations based on user requirements expressed in natural language. The approach formulates the task as a multi-label classification problem and uses a pre-trained BERT model to solve it. Additionally, to improve selection accuracy, service categories are hierarchically structured, and a multi-layer multi-label classification model is applied.
-                    </p>
                 </div>
             </div>
         </div>
@@ -117,6 +132,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
     <script src="../js/powerpoint.js"></script>
     <script>
+        //画像
+        document.getElementById("img1").src = filePath + "matsumoto.jpg";
+        document.getElementById("img2").src = filePath + "nakagawa.JPG";
+        document.getElementById("img3").src = filePath + "matsumoto_award.jpg";
+
+        //　スライドショー
         const pdfContainer1 = document.getElementById("pdf-container1"); // 要素を取得
         pdfContainer1.setAttribute("data-pdf-url", filePath+"presentation_slide/sc2025_matsumoto.pdf"); // data-pdf-url属性に変数の値を設定
 
