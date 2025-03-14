@@ -34,6 +34,10 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+
     <script>
         // ファイルパスを変数に格納
         const filePath = "../img/research_news/presentation/2025/SC/";
@@ -55,11 +59,38 @@
                 <div class="row">
                     <div class="column leftc">
                         <p class="center">
-                            <img id="img1" class="responsive-img" width=100% style="align-content: center"/>
-                            <ul class="responsive-img-small">
-                                <img id="img2" width=49% style="align-content: center"/>
-                                <img id="img3" width=49% style="align-content: center"/>
-                            </ul>
+                            <!-- Swiper1 START -->
+                        <div class="swiper-container swiper1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img id="img1" width=100% style="align-content: center" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img id="img2" width=100% style="align-content: center" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img id="img3" width=100% style="align-content: center" />
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev prev1"></div>
+                            <div class="swiper-button-next next1"></div>
+                        </div>
+                        <!-- Swiper1 END -->
+                        <!-- Swiper2 START -->
+                        <div class="swiper-container swiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img id="img4" width=100% style="align-content: center" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img id="img5" width=100% style="align-content: center" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img id="img6" width=100% style="align-content: center" />
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Swiper2 END -->
                         </p>
                     </div>
                     <div class="column rightc">
@@ -70,7 +101,7 @@
                             <b>&lt;Content&gt;</b><br>
                             <b>Presenter:</b> Kenji Matsumoto<br>
                             <b>Title:</b> <a href="https://ken.ieice.org/ken/paper/20250308Dc9a/" target="_blank">API recommendation for service composition using large-scale language models</a><br>
-                            <b>Abstract:</b> A new service built by linking multiple APIs is called a composite service. Composite services make it possible to provide expanded functions and added value that would be difficult to achieve with a single service. However, when building a composite service, it is extremely difficult to find the necessary APIs from the vast number of APIs. In this study, we propose a method to find a combination of APIs that meets requirements from a user's requirements statement written in natural language using the LLM prompting method. Specifically, we apply and evaluate the Few-Shot CoT method, which sets up an inference procedure for a generative AI, presents examples, and allows it to make inferences based on these.                            <br>                            
+                            <b>Abstract:</b> A new service built by linking multiple APIs is called a composite service. Composite services make it possible to provide expanded functions and added value that would be difficult to achieve with a single service. However, when building a composite service, it is extremely difficult to find the necessary APIs from the vast number of APIs. In this study, we propose a method to find a combination of APIs that meets requirements from a user's requirements statement written in natural language using the LLM prompting method. Specifically, we apply and evaluate the Few-Shot CoT method, which sets up an inference procedure for a generative AI, presents examples, and allows it to make inferences based on these.<br>                            
                         </p>
                         <div class="award">The Young Scientist Incentive Award</div>
                     </div>
@@ -131,11 +162,8 @@
     <script src="../js/init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
     <script src="../js/powerpoint.js"></script>
+    <script src="../js/swiper.js"></script>
     <script>
-        //画像
-        document.getElementById("img1").src = filePath + "matsumoto_award.jpg";
-        document.getElementById("img2").src = filePath + "matsumoto.jpg";
-        document.getElementById("img3").src = filePath + "nakagawa.JPG";
 
         //　スライドショー
         const pdfContainer1 = document.getElementById("pdf-container1"); // 要素を取得
@@ -143,6 +171,16 @@
 
         const pdfContainer2 = document.getElementById("pdf-container2");
         pdfContainer2.setAttribute("data-pdf-url", filePath+"presentation_slide/sc2025_nakagawa.pdf");
+
+        //画像
+        const fileNames = ["matsumoto_award.jpg", "matsumoto.jpg", "nakagawa.JPG"];
+        const ids = ["img1", "img2", "img3", "img4", "img5", "img6"];// 画像のIDを配列に格納
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
     </script>
 
 </body>
