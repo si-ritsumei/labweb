@@ -617,6 +617,19 @@
             },
             "image":"/SC/sc2025.jpg",
             "note":""
+        },
+        {
+            "year":"2025", "month":"3", "date":"13",
+            "text":{
+                "ja":"砂田さん，北川さん，松本さん，森叶葉さん，山本さん，岩野さん，加奥さん，富田さん，中川さん，森由璃亜さんの計10名が，情報処理学会第87回全国大会で研究発表を行いました！",
+                "en":"Mr.Sunada, Mr.Kitagawa, Mr.Matsumoto, Ms.Kanaha Mori, Mr.Yamamoto, Mr.Iwano, Ms.Kaoku, Mr.Tomita, Mr.Nakagawa, and Ms.Yuria Mori, presented their research at The 87th National Convention of the Information Processing Society of Japan."
+                },
+            "link_file":{
+                "ja":"ipsj2025-ja.html",
+                "en":"ipsj2025.html"
+            },
+            "image":"/IPSJ/ipsj2025.jpg",
+            "note":""
         }
     ]
 }
