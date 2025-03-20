@@ -509,6 +509,21 @@
             },
             "image": "bounennkai_2024/bounennkai_2024-1.jpg",
             "note": ""
+        },
+        {
+            "year": "2025",
+            "month": "3",
+            "date": "20",
+            "title": {
+                "ja": "2024年度の学部4回生と修士2回生が卒業しました!",
+                "en": "Congratuations to our graduates! Fourth year students, class of 2024."
+            },
+            "link_file": {
+                "ja": "graduation2025spring-ja.html",
+                "en": "graduation2025spring.html"
+            },
+            "image": "graduation2025/graduate2025.JPG",
+            "note": ""
         }
     ]
 }
