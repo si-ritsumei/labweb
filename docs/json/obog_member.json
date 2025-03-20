@@ -67,6 +67,21 @@
             {"name":{"ja":"ZHANG Yilong","en":"ZHANG Yilong"},"image":"2022/22yilong_s.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
             
         ]
+    },
+    "2025":{
+        "3":[
+            {"name":{"ja":"西村 一球","en":"Ikkyu NISHIMURA"},"image":"2018/18nishimura.jpg","grade":{"ja":"博士修了","en":"Doctor"}},
+            {"name":{"ja":"元澤 海月","en":"Mizuki MOTOZAWA"},"image":"2018/18motozawa2.JPG","grade":{"ja":"博士修了","en":"Doctor"}},
+            {"name":{"ja":"木本 真平","en":"Shimpei KIMOTO"},"image":"2021/21kimoto.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"砂田 界渡","en":"Kaito SUNADA"},"image":"2024/24sunada.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"荒巻 光里","en":"Hikari ARAMAKI"},"image":"2023/23aramaki.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"有田 隆太朗","en":"Ryutaro ARITA"},"image":"2023/23arita.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"石田 大智","en":"Taichi ISHIDA"},"image":"2024/24ishida.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"稲田 匠真","en":"Takuma INADA"},"image":"2023/23inada.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"木田 千尋","en":"Chihiro KIDA"},"image":"2024/24kida.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"丸山 幸之助","en":"Konosuke MARUYAMA"},"image":"2023/23maruyama.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
+
+        ]
     }
     
 }
