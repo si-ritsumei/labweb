@@ -524,6 +524,21 @@
             },
             "image": "graduation2025/graduate2025.JPG",
             "note": ""
+        },
+        {
+            "year": "2025",
+            "month": "3",
+            "date": "23",
+            "title": {
+                "ja": "2024年度の博士3回生が卒業しました！",
+                "en": "Congratulations! The third-year doctoral students of the 2024 academic year have graduated!"
+            },
+            "link_file": {
+                "ja": "dgraduation2025spring-ja.html",
+                "en": "dgraduation2025spring.html"
+            },
+            "image": "dgraduation2025/IMG_5691.jpg",
+            "note": ""
         }
     ]
 }
