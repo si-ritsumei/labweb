@@ -539,6 +539,21 @@
             },
             "image": "dgraduation2025/IMG_5691.jpg",
             "note": ""
+        },
+        {
+            "year": "2025",
+            "month": "4",
+            "date": "8",
+            "title": {
+                "ja": "万博記念公園でお花見をしました！",
+                "en": "A cherry blossom viewing was held at the Expo Commemorative Park!"
+            },
+            "link_file": {
+                "ja": "ohanami2025-ja.html",
+                "en": "ohanami2025.html"
+            },
+            "image": "ohanami2025/ohanami2025-1.jpg",
+            "note": ""
         }
     ]
 }
