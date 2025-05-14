@@ -466,21 +466,6 @@
             "note": ""
         },
         {
-            "year": "2024",
-            "month": "12",
-            "date": "26",
-            "title": {
-                "ja": "育英西プログラミング講座資料はこちら",
-                "en": "育英西プログラミング講座資料はこちら"
-            },
-            "link_file": {
-                "ja": "ikueinishiProgramming-ja.html",
-                "en": "ikueinishiProgramming-ja.html"
-            },
-            "image": "../forActivity.png",
-            "note": ""
-        },
-        {
             "year": "2025",
             "month": "1",
             "date": "17",
@@ -556,19 +541,34 @@
             "note": ""
         },
         {
+            "year": "2024",
+            "month": "12",
+            "date": "26",
+            "title": {
+                "ja": "育英西中学校でプログラミング講座を行いました。",
+                "en": "A programming course was held at Ikueinishi Junior High School."
+            },
+            "link_file": {
+                "ja": "ikueinishiProgramming4-ja.html",
+                "en": "ikueinishiProgramming4.html"
+            },
+            "image": "IKNS_202412/IKNS202412-1.JPG",
+            "note": ""
+        },
+        {
             "year": "2025",
             "month": "5",
             "date": "13",
             "title": {
                 "ja": "スポーツ大会開催！！",
-                "en": "A cherry blossom viewing was held at the Expo Commemorative Park!"
+                "en": "Sports Festival!!"
             },
             "link_file": {
                 "ja": "sports2025-ja.html",
                 "en": "sports2025.html"
             },
             "image": "sports2025/sports1_2025.jpg",
-            "note": ""
+
         }
     ]
 }
