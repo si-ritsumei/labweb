@@ -554,6 +554,21 @@
             },
             "image": "ohanami2025/ohanami2025-1.jpg",
             "note": ""
+        },
+        {
+            "year": "2025",
+            "month": "5",
+            "date": "13",
+            "title": {
+                "ja": "スポーツ大会開催！！",
+                "en": "A cherry blossom viewing was held at the Expo Commemorative Park!"
+            },
+            "link_file": {
+                "ja": "sports2025-ja.html",
+                "en": "sports2025.html"
+            },
+            "image": "sports2025/sports1_2025.jpg",
+            "note": ""
         }
     ]
 }
