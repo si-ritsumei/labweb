@@ -149,8 +149,10 @@
         {
             "name":{"ja":"飛澤 佑季","en":"Yuuki TOBISAWA"},
             "image":"2024/24tobisawa.jpg",
-            "main_link":"",
-            "links":[],
+            "main_link":"https://yukitobiswa.github.io/portfolio/",
+            "links":[
+                {"class":"fa-solid fa-circle-user","link":"https://yukitobiswa.github.io/portfolio/"}
+            ],
             "note":""
         },
         {
