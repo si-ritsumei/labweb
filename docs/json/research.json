@@ -381,6 +381,26 @@
             },
             "image":"CollabTech.png",
             "note":""
+        },{
+            "year":"2025", "month":"5", "date":"23",
+            "lead_author":{
+                "ja": "Pituxcoosuvarnさん",
+                "en": "Ms.Pituxcoosuvarn"
+                },
+            "paper_title":{
+                "ja":"Enhancing EFL Speaking Skills with AI-Powered Word Guessing: A Comparison of Human and AI Partners",
+                "en":"Enhancing EFL Speaking Skills with AI-Powered Word Guessing: A Comparison of Human and AI Partners"
+                },
+            "publication":{
+                "ja":"Multidisciplinary Digital Publishing Institute",
+                "en":"Multidisciplinary Digital Publishing Institute"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.3390/info16060427",
+                "en":"https://doi.org/10.3390/info16060427"
+            },
+            "image":"mdpi-logo.png",
+            "note":""
         }
     ],
     "presentations":[
