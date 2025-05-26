@@ -401,6 +401,27 @@
             },
             "image":"mdpi-logo.png",
             "note":""
+        },
+        ,{
+            "year":"2025", "month":"5", "date":"25",
+            "lead_author":{
+                "ja": "西村さん",
+                "en": "Mr. Nishimura"
+                },
+            "paper_title":{
+                "ja":"対訳ペアにおける単語間の概念差の抽出",
+                "en":"Extracting Conceptual Differences of Transaction Pairs"
+                },
+            "publication":{
+                "ja":"ヒューマンインタフェース学会論文誌",
+                "en":"The Transactions of Human Interface Society"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.11184/his.27.2_125",
+                "en":"https://doi.org/10.11184/his.27.2_125"
+            },
+            "image":"HIS.png",
+            "note":""
         }
     ],
     "presentations":[
