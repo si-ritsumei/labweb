@@ -401,8 +401,7 @@
             },
             "image":"mdpi-logo.png",
             "note":""
-        },
-        ,{
+        },{
             "year":"2025", "month":"5", "date":"25",
             "lead_author":{
                 "ja": "西村さん",
