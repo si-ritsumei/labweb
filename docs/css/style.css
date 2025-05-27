@@ -861,6 +861,10 @@ height: 330px;
     max-width: 100%;
 }
 
+.award{
+    color: red;
+}
+
 /* ヘッダーは重ねないように */
 @media only screen and (max-width: 992px) {
     .hide-on-med-and-down {

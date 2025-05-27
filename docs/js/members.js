@@ -11,7 +11,7 @@ fetch("../json/member.json")
         var members_label = document.getElementById("output_members");
         var lang = members_label.classList.item(0);
         
-        var profs = ["Professor","Assistant Professor"]
+        var profs = ["Professor","Lecturer"]
 
         //村上先生を表示
         for(var pr of profs){
@@ -169,6 +169,7 @@ function role_check(lang,role){
     var role_ja = {
         "Professor":"教授",
         "Assistant Professor":"助教",
+        "Lecturer":"講師",
         "D3":"博士3回生",
         "D2":"博士2回生",
         "D1":"博士1回生",
