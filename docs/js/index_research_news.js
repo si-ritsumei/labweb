@@ -6,7 +6,7 @@ fetch("../json/presentations.json")
     })
     .then(function(jsonData) {
 
-        articles = [];
+        var articles = [];
         var day, i_title,i_link;
 
         var research_news_label = document.getElementById("output_research_news");
