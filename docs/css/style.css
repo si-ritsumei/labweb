@@ -47,7 +47,7 @@
     position: relative;
     /* background-color: #2196F3; */
     background-color: var(--main-color);
-    background-image: url("../img/fieldwork.jpg");
+    background-image: url("../img/general/init/fieldwork.jpg");
     background-size:cover;
     background-position: center;
     max-width: 1200px;
