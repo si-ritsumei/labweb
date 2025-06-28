@@ -91,8 +91,8 @@
         {
             "name":{"ja":"中川 真一","en":"Shinnichi NAKAGAWA"},
             "image":"2023/23nakgawa.jpg",
-            "main_link":"",
-            "links":[],
+            "main_link":"https://shinpochi2002.github.io/mypage/",
+            "links":[{"class":"fa-solid fa-circle-user","link":"https://shinpochi2002.github.io/mypage/"}],
             "note":""
         },
         {
