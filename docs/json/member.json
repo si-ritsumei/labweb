@@ -90,9 +90,9 @@
         },
         {
             "name":{"ja":"中川 真一","en":"Shinnichi NAKAGAWA"},
-            "image":"2023/23nakgawa.jpg",
-            "main_link":"",
-            "links":[],
+            "image":"2023/23nakagawa2.jpg",
+            "main_link":"https://shinpochi2002.github.io/mypage/",
+            "links":[{"class":"fa-solid fa-circle-user","link":"https://shinpochi2002.github.io/mypage/"}],
             "note":""
         },
         {
@@ -194,7 +194,7 @@
         },
         {
             "name":{"ja":"山内 瞭","en":"Ryo YAMAUCHI"},
-            "image":"2024/24yamauchi.jpg",
+            "image":"2024/24yamauchi.png",
             "main_link":"",
             "links":[],
             "note":""
@@ -229,7 +229,83 @@
             "main_link":"",
             "links":[],
             "note":""
+        },
+        {
+            "name": {"ja": "秋元 大地", "en": "Daichi AKIMOTO"},
+            "image": "2025/25akimoto.png",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "上原 康", "en": "Ko UEHARA"},
+            "image": "2025/25uehara.png",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "荻野 啓", "en": "Hiromu OGINO"},
+            "image": "2025/25ogino.png",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "奥山 俐岐", "en": "Riki OKUYAMA"},
+            "image": "2025/25okuyama.png",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "北野 安樹子", "en": "Akiko KITANO"},
+            "image": "2025/25kitano.png",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "牛造 亮太", "en": "Ryota GOZO"},
+            "image": "2025/25gozo.png",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "清水 拓海", "en": "Takumi SHIMIZU"},
+            "image": "2025/25shimizu.png",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "福永 凌馬", "en": "Ryoma FUKUNAGA"},
+            "image": "2025/25fukunaga.png",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "藤原 琉星", "en": "Ryuusei FUJIWARA"},
+            "image": "2025/25fujiwara.png",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "吉田 彩音", "en": "Ayane YOSHIDA"},
+            "image": "2025/25yoshida.png",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "MICHAEL BRIAN PRATAMA TJOA", "en": "MICHAEL BRIAN PRATAMA TJOA"},
+            "image": "2025/25michael.png",
+            "main_link": "",
+            "links": [],
+            "note": ""
         }
     ]
-    
 }

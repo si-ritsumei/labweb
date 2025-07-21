@@ -564,10 +564,40 @@
                 "en": "Sports Festival!!"
             },
             "link_file": {
-                "ja": "sports2025-ja.html",
-                "en": "sports2025.html"
+                "ja": "sports20250513-ja.html",
+                "en": "sports20250513.html"
             },
-            "image": "sports2025/sports1_2025.jpg",
+            "image": "sports2025/0513/sports1_2025.jpg",
+            "note": ""
+        },
+        {
+            "year": "2025",
+            "month": "6",
+            "date": "17",
+            "title": {
+                "ja": "第2回スポーツ大会開催！！",
+                "en": "The 2nd Sports Festival!!"
+            },
+            "link_file": {
+                "ja": "sports20250617-ja.html",
+                "en": "sports20250617.html"
+            },
+            "image": "sports2025/0617/sports1_2025.jpg",
+            "note": ""
+        } ,
+        {
+            "year": "2025",
+            "month": "7",
+            "date": "15",
+            "title": {
+                "ja": "3回生と顔合わせを行いました！",
+                "en": "We had a face-to-face meeting with our 3rd year students!"
+            },
+            "link_file": {
+                "ja": "3kaisei_2025-ja.html",
+                "en": "3kaisei_2025.html"
+            },
+            "image": "3kaisei2025/3kaisei_1.jpg",
             "note": ""
         }
     ]
