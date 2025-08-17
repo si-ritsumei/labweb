@@ -421,7 +421,29 @@
             },
             "image":"HIS.png",
             "note":""
+        },{
+            "year":"2025", "month":"8", "date":"18",
+            "lead_author":{
+                "ja": "元澤さん",
+                "en": "Ms.Motozawa"
+                },
+            "paper_title":{
+                "ja":"要約エージェントによる低資源言語話者の多言語議論の理解支援",
+                "en":" Summarization Agent for Supporting Low-resource Language Speakers in Multilingual Discussion Understanding"
+                },
+            "publication":{
+                "ja":"電子情報通信学会論文誌",
+                "en":"IEICE Transactions on Information and Systems"
+            },
+            "link_file":{
+                "ja":"",
+                "en":""
+            },
+            "image":"ieice.",
+            "note":""
+
         }
+
     ],
     "presentations":[
         {
