@@ -614,6 +614,21 @@
             },
             "image": "IKNS/forActivity.png",
             "note": ""
+        },
+        {
+            "year": "2025",
+            "month": "9",
+            "date": "1",
+            "title": {
+                "ja": "懇親会を兼ねてバーベキューを行いました！",
+                "en": "We had a barbecue that also served as a social gathering!"
+            },
+            "link_file": {
+                "ja": "bbq_2025-ja.html",
+                "en": "bbq_2025.html"
+            },
+            "image": "bbq2025/bbq2025_1.JPG",
+            "note": ""
         }
     ]
 }
