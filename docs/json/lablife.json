@@ -629,6 +629,21 @@
             },
             "image": "bbq2025/bbq2025_1.JPG",
             "note": ""
+        },
+        {
+            "year": "2025",
+            "month": "7",
+            "date": "11",
+            "title": {
+                "ja": "春学期お疲れ様会を行いました！",
+                "en": "We held a Spring Semester Appreciation Gathering."
+            },
+            "link_file": {
+                "ja": "2025_spring_otsukaresamakai-ja.html",
+                "en": "2025_spring_otsukaresamakai.html"
+            },
+            "image": "spring_otsukare/IMG_5767.jpg",
+            "note": ""
         }
     ]
 }
