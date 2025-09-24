@@ -80,7 +80,9 @@
             {"name":{"ja":"稲田 匠真","en":"Takuma INADA"},"image":"2023/23inada.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
             {"name":{"ja":"木田 千尋","en":"Chihiro KIDA"},"image":"2024/24kida.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
             {"name":{"ja":"丸山 幸之助","en":"Konosuke MARUYAMA"},"image":"2023/23maruyama.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
-
+        ],
+        "9":[
+            {"name":{"ja":"WU Wenbo","en":"WU Wenbo"},"image":"2023/23wu.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
         ]
     }
     

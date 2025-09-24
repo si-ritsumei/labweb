@@ -101,19 +101,26 @@
             "main_link":"",
             "links":[],
             "note":""
-        }
-    ],
-    "B4":[
+        },
         {
-            "name":{"ja":"JIANG Huixu","en":"JIANG Huixu"},
+            "name":{"ja":"BAHOO Muhammad Ehtesham","en":"BAHOO Muhammad Ehtesham"},
             "image":"avatar/avatar1.png",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
-            "name":{"ja":"WU Wenbo","en":"WU Wenbo"},
-            "image":"2023/23wu.jpg",
+            "name":{"ja":"JIANG Ailun","en":"JIANG Ailun"},
+            "image":"avatar/avatar1.png",
+            "main_link":"",
+            "links":[],
+            "note":""
+        }
+    ],
+    "B4":[
+        {
+            "name":{"ja":"JIANG Huixu","en":"JIANG Huixu"},
+            "image":"avatar/avatar1.png",
             "main_link":"",
             "links":[],
             "note":""
@@ -306,6 +313,13 @@
             "main_link": "",
             "links": [],
             "note": ""
+        },
+        {
+            "name":{"ja":"TIAN Jianian","en":"TIAN Jianian"},
+            "image":"avatar/avatar1.png",
+            "main_link":"",
+            "links":[],
+            "note":""
         }
     ]
 }
