@@ -104,14 +104,14 @@
         },
         {
             "name":{"ja":"BAHOO Muhammad Ehtesham","en":"BAHOO Muhammad Ehtesham"},
-            "image":"avatar/avatar1.png",
-            "main_link":"",
-            "links":[],
+            "image":"2025/25Ehtesham.png",
+            "main_link":"https://ehteshambahoo.github.io/Portfolio-Sham/",
+            "links":[{"class":"fa-solid fa-circle-user","link":"https://ehteshambahoo.github.io/Portfolio-Sham/"}],
             "note":""
         },
         {
             "name":{"ja":"JIANG Ailun","en":"JIANG Ailun"},
-            "image":"avatar/avatar1.png",
+            "image":"avatar/avatar2.png",
             "main_link":"",
             "links":[],
             "note":""
