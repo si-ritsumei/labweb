@@ -442,6 +442,26 @@
             "image":"ieice.png",
             "note":""
 
+        },{
+            "year":"2025", "month":"10", "date":"2",
+            "lead_author":{
+                "ja": "Pituxcoosuvarnさん",
+                "en": "Ms.Pituxcoosuvarn"
+                },
+            "paper_title":{
+                "ja":"Jokes or Gibberish? Humor Retention in Translation with Neural Machine Translation vs. Large Language Model",
+                "en":"Jokes or Gibberish? Humor Retention in Translation with Neural Machine Translation vs. Large Language Model"
+                },
+            "publication":{
+                "ja":"Digital",
+                "en":"Digital"
+            },
+            "link_file":{
+                "ja":"https://doi.org/10.3390/digital5040049",
+                "en":"https://doi.org/10.3390/digital5040049"
+            },
+            "image":"mdpi-logo.png",
+            "note":""
         }
 
     ],
