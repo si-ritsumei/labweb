@@ -712,6 +712,19 @@
             },
             "image":"/IPSJ/ipsj2025.jpg",
             "note":""
+        },
+        {
+            "year":"2025", "month":"9", "date":"4",
+            "text":{
+                "ja":"加奥さん，中川さんが，DUT-RU Joint Workshop on Information Science and Engineering 2025(JWISE2025)で研究発表を行いました！",
+                "en":"Ms.Kaoku and Mr.Nakagawa from our lab gave a research presentation at DUT-RU Joint Workshop on Information Science and Engineering 2025(JWISE2025)."
+                },
+            "link_file":{
+                "ja":"jwise2025-ja.html",
+                "en":"jwise2025.html"
+            },
+            "image":"/JWISE/jwise01.jpg",
+            "note":""
         }
     ]
 }
