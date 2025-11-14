@@ -644,6 +644,21 @@
             },
             "image": "spring_otsukare/IMG_5767.jpg",
             "note": ""
+        },
+        {
+            "year": "2025",
+            "month": "11",
+            "date": "14",
+            "title": {
+                "ja": "ネットワークシステム研究室(野口研究室)と合同でスポーツ大会を行いました！",
+                "en": "We held a joint sports tournament with the Network Systems Laboratory (Noguchi Laboratory)!"
+            },
+            "link_file": {
+                "ja": "sports20251114-ja.html",
+                "en": "sports20251114.html"
+            },
+            "image": "sports2025/1114/tournament01.jpg",
+            "note": ""
         }
     ]
 }
