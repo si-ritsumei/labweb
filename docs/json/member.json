@@ -193,9 +193,9 @@
         {
             "name":{"ja":"増尾 柚希","en":"Yuzuki MASUO"},
             "image":"2024/24masuo.jpg",
-            "main_link":"https://yuuzuukii.github.io/portfolio/",
+            "main_link":"https://yuuzuukii.github.io/Yuzuki-s-Portfolio/",
             "links":[
-                {"class":"fa-solid fa-circle-user","link":"https://yuuzuukii.github.io/portfolio/"}
+                {"class":"fa-solid fa-circle-user","link":"https://yuuzuukii.github.io/Yuzuki-s-Portfolio/"}
             ],
             "note":""
         },
