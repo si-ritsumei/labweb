@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const JSON_BASE_PATH = "../json/event_news/";
   const root = document.getElementById("event-root");
 
   if (!root) {
@@ -21,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // ④ JSON 読み込み
-  fetch(`../json/event_news/${jsonFile}`)
+  fetch(`${JSON_BASE_PATH}${jsonFile}`)
     .then((res) => {
       if (!res.ok) {
         throw new Error("Failed to load JSON: " + jsonFile);
