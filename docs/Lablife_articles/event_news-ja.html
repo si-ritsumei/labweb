@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HMY8NC79JD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-HMY8NC79JD');
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#2196F3">
+
+    <!-- title は JS で上書き -->
+    <title>loading...</title>
+
+    <script src="https://kit.fontawesome.com/67160f99e5.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts / CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+</head>
+
+<body id="top" class="scrollspy">
+
+<!-- Navigation -->
+<div id="myNavbar" data-active="2" data-language="ja"></div>
+
+<div id="event-root"></div>
+
+<div class="container">
+    <!-- Header -->
+    <h4 class="header text_b" id="page-header"></h4>
+
+    <div class="section scrollspy">
+
+        <!-- Summary -->
+        <p class="normal" id="page-summary"></p>
+
+        <div class="row">
+            <!-- Images -->
+            <div class="column leftc">
+                <p class="center">
+
+                    <!-- Swiper 1 -->
+                    <div class="swiper-container swiper1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img id="img1" width="100%"></div>
+                            <div class="swiper-slide"><img id="img2" width="100%"></div>
+                            <div class="swiper-slide"><img id="img3" width="100%"></div>
+                            <div class="swiper-slide"><img id="img4" width="100%"></div>
+                            <div class="swiper-slide"><img id="img5" width="100%"></div>
+                        </div>
+                        <div class="swiper-button-prev prev1"></div>
+                        <div class="swiper-button-next next1"></div>
+                    </div>
+
+                    <!-- Swiper 2 -->
+                    <div class="swiper-container swiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img id="img6" width="100%"></div>
+                            <div class="swiper-slide"><img id="img7" width="100%"></div>
+                            <div class="swiper-slide"><img id="img8" width="100%"></div>
+                            <div class="swiper-slide"><img id="img9" width="100%"></div>
+                            <div class="swiper-slide"><img id="img10" width="100%"></div>
+                        </div>
+                    </div>
+
+                </p>
+            </div>
+
+            <!-- Overview -->
+            <div class="column rightc">
+                <p class="smallheader">概要</p>
+                <p class="normal" id="page-overview"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div id="myFooter"></div>
+
+<!-- Scripts -->
+<script src="../js/jquery-2.1.1.min.js"></script>
+<script src="../js/myjs.js"></script>
+<script src="../js/modernizr.js"></script>
+<script src="../js/materialize.js"></script>
+<script src="../js/init.js"></script>
+<script src="../js/swiper.js"></script>
+<!-- JSON 読み込み -->
+<script src="../js/event_page.js"></script>
+
+</body>
+</html>
