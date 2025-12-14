@@ -584,7 +584,7 @@
             },
             "image": "sports2025/0617/sports1_2025.jpg",
             "note": ""
-        } ,
+        },
         {
             "year": "2025",
             "month": "7",
@@ -594,8 +594,8 @@
                 "en": "We had a face-to-face meeting with our 3rd year students!"
             },
             "link_file": {
-                "ja": "3kaisei_2025-ja.html",
-                "en": "3kaisei_2025.html"
+                "ja": "event_news-ja.html?json=3kaisei_20250715-ja.json",
+                "en": "event_news-ja.html?json=3kaisei_20250715-ja.json"
             },
             "image": "3kaisei2025/3kaisei_1.jpg",
             "note": ""
@@ -639,7 +639,7 @@
                 "en": "We held a Spring Semester Appreciation Gathering."
             },
             "link_file": {
-                "ja": "2025_spring_otsukaresamakai-ja.html",
+                "ja": "event_news-ja.html?json=wrap-up_party_20250711-ja.json",
                 "en": "2025_spring_otsukaresamakai.html"
             },
             "image": "spring_otsukare/IMG_5767.jpg",
@@ -654,7 +654,7 @@
                 "en": "We held a joint sports tournament with the Network Systems Laboratory (Noguchi Laboratory)!"
             },
             "link_file": {
-                "ja": "sports20251114-ja.html",
+                "ja": "event_news-ja.html?json=sports_20251114-ja.json",
                 "en": "sports20251114.html"
             },
             "image": "sports2025/1114/tournament01.jpg",
