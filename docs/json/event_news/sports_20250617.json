@@ -1,0 +1,16 @@
+{
+  "title": "The 2nd Sports tournament 2025｜Social Intelligence Laboratory, Ritsumeikan University",
+  "header": "Laboratory Life",
+  "summary": {
+    "lead": "The 2nd Sports tournament held!",
+    "place": "OIC Arena",
+    "date": "June 17th, 2025"
+  },
+  "overview": [
+    "Following the positive reception of the previous event, we held the second Sports Meet at the Ritsumeikan OIC Arena after the seminar. This time, we played badminton. Since it had been a while since many had used a racket, hitting the shuttlecock was a challenge at first. However, as the game went on, everyone gradually improved. It turned out to be a fun and lively event, filled with smiles and a relaxed atmosphere as we enjoyed moving our bodies."
+  ],
+  "images": {
+    "path": "../img/event_news/2025/sports2025/0617/",
+    "files": ["sports1_2025.jpg", "sports2_2025.jpg", "sports3_2025.jpg"]
+  }
+}

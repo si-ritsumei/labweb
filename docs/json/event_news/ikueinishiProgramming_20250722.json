@@ -1,0 +1,16 @@
+{
+  "title": "A programming course at Ikuei Nishi Junior High School｜Social Intelligence Laboratory, Ritsumeikan University",
+  "header": "Laboratory Life",
+  "summary": {
+    "lead": "A programming course for 1st and 2nd grade students was held at Ikuei Nishi Junior High School.",
+    "place": "OIC",
+    "date": "July 22, 2025 (Tuesday)"
+  },
+  "overview": [
+    "A programming course for 1st and 2nd grade students was held at Ikuei Nishi Junior High School. 1st-year students used a visual programming language called Scratch to develop a 'Nail Game'. While many of them were new to programming and initially struggled with the unfamiliar tasks, they showed persistence and worked through the challenges. It was great to see them naturally helping each other and staying motivated to complete their projects. As their nails took shape, cheers erupted from the students. After completing their projects, many expressed positive sentiments like, 'I want to add a little more here,' indicating a growing interest in programming. 2nd-year students developed an 'Animal Slot' game using HTML, CSS, and JavaScript. It was impressive to see them exploring which parts of the code affected the functionality and design, and after completing their projects, they showed expressions of accomplishment, saying things like, 'It worked just as I imagined!' and 'I'm so happy I could create it myself!' They seemed to enjoy the process of creating things while discussing with their friends. This year, many students experienced the fun of 'thinking and trying' through programming♪"
+  ],
+  "images": {
+    "path": "../img/event_news/2025/IKNS_20257/",
+    "files": ["IKNS20257-1.JPG", "IKNS20257-2.JPG", "IKNS20257-3.JPG"]
+  }
+}

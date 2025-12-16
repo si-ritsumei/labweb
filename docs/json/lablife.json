@@ -384,8 +384,8 @@
         "en": "We had a face-to-face meeting with our 3rd year students!"
       },
       "link_file": {
-        "ja": "3kaisei_2024-ja.html",
-        "en": "3kaisei_2024.html"
+        "ja": "event_news.html?json=3kaisei_20240710-ja.json",
+        "en": "event_news.html?json=3kaisei_20240710.json"
       },
       "image": "3kaisei_event2024/3kaisei_event2024.jpg",
       "note": ""
@@ -459,8 +459,8 @@
         "en": "We celebrated Prof. Murakami's birthday!"
       },
       "link_file": {
-        "ja": "prof_murakami_birthday_2024-ja.html",
-        "en": "prof_murakami_birthday_2024.html"
+        "ja": "event_news.html?json=prof_murakami_birthday_20241204-ja.json",
+        "en": "event_news.html?json=prof_murakami_birthday_20241204.json"
       },
       "image": "murakami_birthday_2024/sensei_with_message.png",
       "note": ""
@@ -474,8 +474,8 @@
         "en": "We held a presentation for the graduation research1!"
       },
       "link_file": {
-        "ja": "sotsuken1_2025-ja.html",
-        "en": "sotsuken1_2025.html"
+        "ja": "event_news.html?json=sotsuken1_20250117-ja.json",
+        "en": "event_news.html?json=sotsuken1_2025.json"
       },
       "image": "sotsuken1_2025/sotsuken1_2025-1.jpg",
       "note": ""
@@ -489,8 +489,8 @@
         "en": "We held a year-end party"
       },
       "link_file": {
-        "ja": "bounennkai_2024-ja.html",
-        "en": "bounennkai_2024.html"
+        "ja": "event_news.html?json=bounennkai_20241218-ja.json",
+        "en": "event_news.html?json=bounennkai_20241218.json"
       },
       "image": "bounennkai_2024/bounennkai_2024-1.jpg",
       "note": ""
@@ -504,8 +504,8 @@
         "en": "Congratuations to our graduates! Fourth year students, class of 2024."
       },
       "link_file": {
-        "ja": "graduation2025spring-ja.html",
-        "en": "graduation2025spring.html"
+        "ja": "event_news.html?json=graduation_20250320-ja.json",
+        "en": "event_news.html?json=graduation_20250320.json"
       },
       "image": "graduation2025/graduate2025.JPG",
       "note": ""
@@ -519,8 +519,8 @@
         "en": "Congratulations! The third-year doctoral students of the 2024 academic year have graduated!"
       },
       "link_file": {
-        "ja": "dgraduation2025spring-ja.html",
-        "en": "dgraduation2025spring.html"
+        "ja": "event_news.html?json=dgraduation_20250323-ja.json",
+        "en": "event_news.html?json=dgraduation_20250323.json"
       },
       "image": "dgraduation2025/IMG_5691.jpg",
       "note": ""
@@ -534,8 +534,8 @@
         "en": "A cherry blossom viewing was held at the Expo Commemorative Park!"
       },
       "link_file": {
-        "ja": "ohanami2025-ja.html",
-        "en": "ohanami2025.html"
+        "ja": "event_news.html?json=ohanami_20250408-ja.json",
+        "en": "event_news.html?json=ohanami_20250408.json"
       },
       "image": "ohanami2025/ohanami2025-1.jpg",
       "note": ""
@@ -549,8 +549,8 @@
         "en": "A programming course was held at Ikueinishi Junior High School."
       },
       "link_file": {
-        "ja": "ikueinishiProgramming4-ja.html",
-        "en": "ikueinishiProgramming4.html"
+        "ja": "event_news.html?json=ikueinishiProgramming_20241226-ja.json",
+        "en": "event_news.html?json=ikueinishiProgramming_20241226.json"
       },
       "image": "IKNS_202412/IKNS202412-1.JPG",
       "note": ""
@@ -564,8 +564,8 @@
         "en": "Sports Festival!!"
       },
       "link_file": {
-        "ja": "sports20250513-ja.html",
-        "en": "sports20250513.html"
+        "ja": "event_news.html?json=sports_20250513-ja.json",
+        "en": "event_news.html?json=sports_20250513.json"
       },
       "image": "sports2025/0513/sports1_2025.jpg",
       "note": ""
@@ -579,8 +579,8 @@
         "en": "The 2nd Sports Festival!!"
       },
       "link_file": {
-        "ja": "sports20250617-ja.html",
-        "en": "sports20250617.html"
+        "ja": "event_news.html?json=sports_20250617-ja.json",
+        "en": "event_news.html?json=sports_20250617.json"
       },
       "image": "sports2025/0617/sports1_2025.jpg",
       "note": ""
@@ -594,8 +594,8 @@
         "en": "We had a face-to-face meeting with our 3rd year students!"
       },
       "link_file": {
-        "ja": "event_news-ja.html?json=3kaisei_20250715-ja.json",
-        "en": "event_news-ja.html?json=3kaisei_20250715-ja.json"
+        "ja": "event_news.html?json=3kaisei_20250715-ja.json",
+        "en": "event_news.html?json=3kaisei_20250715.json"
       },
       "image": "3kaisei2025/3kaisei_1.jpg",
       "note": ""
@@ -609,8 +609,8 @@
         "en": "A programming course was held for Ikueinishi Junior High School students."
       },
       "link_file": {
-        "ja": "event_news-ja.html?json=ikueinishiProgramming_20250722-ja.json",
-        "en": "ikueinishiProgramming5.html"
+        "ja": "event_news.html?json=ikueinishiProgramming_20250722-ja.json",
+        "en": "event_news.html?json=ikueinishiProgramming_20250722.json"
       },
       "image": "IKNS_20257/IKNS20257-1.JPG",
       "note": ""
@@ -624,8 +624,8 @@
         "en": "We had a barbecue that also served as a social gathering!"
       },
       "link_file": {
-        "ja": "event_news-ja.html?json=bbq_20250911-ja.json",
-        "en": "bbq_2025.html"
+        "ja": "event_news.html?json=bbq_20250911-ja.json",
+        "en": "event_news.html?json=bbq_20250911.json"
       },
       "image": "bbq2025/bbq2025_1.JPG",
       "note": ""
@@ -639,8 +639,8 @@
         "en": "We held a Spring Semester Appreciation Gathering."
       },
       "link_file": {
-        "ja": "event_news-ja.html?json=wrap-up_party_20250711-ja.json",
-        "en": "2025_spring_otsukaresamakai.html"
+        "ja": "event_news.html?json=wrap-up_party_20250711-ja.json",
+        "en": "event_news.html?json=wrap-up_party_20250711.json"
       },
       "image": "spring_otsukare/IMG_5767.jpg",
       "note": ""
@@ -654,8 +654,8 @@
         "en": "We held a joint sports tournament with the Network Systems Laboratory (Noguchi Laboratory)!"
       },
       "link_file": {
-        "ja": "event_news-ja.html?json=sports_20251114-ja.json",
-        "en": "sports20251114.html"
+        "ja": "event_news.html?json=sports_20251114-ja.json",
+        "en": "event_news.html?json=sports_20251114.json"
       },
       "image": "sports2025/1114/tournament01.jpg",
       "note": ""
