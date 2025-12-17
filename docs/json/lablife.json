@@ -339,8 +339,8 @@
         "en": "Congratuations to our graduates!, class of 2023."
       },
       "link_file": {
-        "ja": "graduation2024-ja.html",
-        "en": "graduation2024.html"
+        "ja": "event_news.html?json=graduation20240322-ja.json",
+        "en": "event_news.html?json=graduation20240322.json"
       },
       "image": "graduation2024/graduate2024-1.JPG",
       "note": ""
@@ -354,8 +354,8 @@
         "en": "A cherry blossom viewing was held at the Expo Commemorative Park!"
       },
       "link_file": {
-        "ja": "ohanami2024-ja.html",
-        "en": "ohanami2024.html"
+        "ja": "event_news.html?json=ohanami20240410-ja.json",
+        "en": "event_news.html?json=ohanami20240410.json"
       },
       "image": "ohanami2024/ohanami2024-1.jpg",
       "note": ""
@@ -369,8 +369,8 @@
         "en": "A multicultural tea party was held at the Social Intelligence Lab!"
       },
       "link_file": {
-        "ja": "teaparty202404-ja.html",
-        "en": "teaparty202404.html"
+        "ja": "event_news.html?json=teaparty20240410-ja.json",
+        "en": "event_news.html?json=teaparty20240410.json"
       },
       "image": "teaparty202404/DSC01498.JPG",
       "note": ""
@@ -399,8 +399,8 @@
         "en": "We held a welcome and farewell party for 3rd year students!"
       },
       "link_file": {
-        "ja": "gohannkai2024-ja.html",
-        "en": "gohannkai2024.html"
+        "ja": "event_news.html?json=gohannkai20240802-ja.json",
+        "en": "event_news.html?json=gohannkai20240802.json"
       },
       "image": "gohannkai_2024/gohannkai2024-1.jpg",
       "note": ""
@@ -414,8 +414,8 @@
         "en": "In the Fall of 2024, undergraduate fourth-year students and second-year master's students graduated!"
       },
       "link_file": {
-        "ja": "graduation2024autumn-ja.html",
-        "en": "graduation2024autumn.html"
+        "ja": "event_news.html?json=graduation20240925-ja.html",
+        "en": "event_news.html?json=graduation20240925.html"
       },
       "image": "graduation2024/graduate2024-4.JPG",
       "note": ""
@@ -429,8 +429,8 @@
         "en": "Subway Party!"
       },
       "link_file": {
-        "ja": "subway_2024-ja.html",
-        "en": "subway_2024.html"
+        "ja": "event_news.html?json=subway_20241018-ja.json",
+        "en": "event_news.html?json=subway_20241018.json"
       },
       "image": "subway_2024/DSC01680.JPG",
       "note": ""
@@ -444,8 +444,8 @@
         "en": "We had a barbecue that also served as a social gathering!"
       },
       "link_file": {
-        "ja": "bbq_2024-ja.html",
-        "en": "bbq_2024.html"
+        "ja": "event_news.html?json=bbq_20240408-ja.json",
+        "en": "event_news.html?json=bbq_20240408.json"
       },
       "image": "bbq_2024/bbq_2024-1.jpg",
       "note": ""

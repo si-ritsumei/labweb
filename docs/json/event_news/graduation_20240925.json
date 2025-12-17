@@ -1,0 +1,16 @@
+{
+  "title": "Graduation Ceremony 2024 autmn｜Social Intelligence Laboratory, Ritsumeikan University",
+  "header": "Laboratory Life",
+  "summary": {
+    "lead": "The 4th year undergraduate students (4th class) and 2nd year master's students (2nd class) graduated.",
+    "place": "BKC",
+    "date": "September 25, 2024"
+  },
+  "overview": [
+    "Graduation and degree conferment ceremonies were held for the fourth-year undergraduate students and second-year master's students in the class of 2024! Congratulations to all graduates! We wish you great success on your new path, building on the knowledge and experiences you gained at Ritsumeikan☺"
+  ],
+  "images": {
+    "path": "../img/event_news/2024/graduation2024/",
+    "files": ["graduate2024-4.JPG", "graduate2024-5.JPG", "graduate2024-6.JPG"]
+  }
+}
