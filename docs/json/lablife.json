@@ -673,6 +673,19 @@
                 "en": "yearend_party_2025.html"
             },
             "image": "yearend_party/IMG_6893.jpg",
+            "month": "10",
+            "date": "30",
+        },
+        {    
+            "title": {
+                "ja": "OBの稲田さんによる企業紹介を開催しました",
+                "en": "A company introduction session was held by our laboratory alumnus, Mr.Inada."
+            },
+            "link_file": {
+                "ja": "inada_2025-ja.html",
+                "en": "inada_2025.html"
+            },
+            "image": "inada2025/DSC02186.JPG",
             "note": ""
         }
     ]
