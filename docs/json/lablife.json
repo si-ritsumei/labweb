@@ -665,7 +665,7 @@
             "month": "12",
             "date": "17",
             "title": {
-                "ja": "忘年会を行いまいた！",
+                "ja": "忘年会を行いました！",
                 "en": "We held a Year-End Party!"
             },
             "link_file": {
@@ -674,7 +674,7 @@
             },
             "image": "yearend_party/IMG_6893.jpg",
             "month": "10",
-            "date": "30",
+            "date": "30"
         },
         {    
             "title": {
