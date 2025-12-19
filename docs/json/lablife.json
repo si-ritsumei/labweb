@@ -659,6 +659,21 @@
             },
             "image": "sports2025/1114/tournament01.jpg",
             "note": ""
+        },
+        {
+            "year": "2025",
+            "month": "12",
+            "date": "17",
+            "title": {
+                "ja": "忘年会を行いまいた！",
+                "en": "We held a Year-End Party!"
+            },
+            "link_file": {
+                "ja": "yearend_party_2025-ja.html",
+                "en": "yearend_party_2025.html"
+            },
+            "image": "yearend_party/IMG_6893.jpg",
+            "note": ""
         }
     ]
 }
