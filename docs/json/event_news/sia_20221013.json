@@ -1,0 +1,16 @@
+{
+  "title": "Lab. Life | Social Intelligence Laboratory, Ritsumeikan University",
+  "header": "Laboratory Life",
+  "summary": {
+    "lead": "Our third-year students conducted a field study at Shiga Intercultural Association for Globalization",
+    "place": "滋賀県国際交流協会",
+    "date": "October 13th, 2022"
+  },
+  "overview": [
+    "On October 13th, 2022, our third-year students visited Shiga Intercultural Association for Globalization(SIA) to design an application to assist foreigners in Japan. In this field study, students listened to a presentation about foreigners in Shiga and the supports provided by SIA. The students also conducted an interview and discussed various issues that foreigners in Shiga prefecture face."
+  ],
+  "images": {
+    "path": "../img/event_news/2022/SIA2022/",
+    "files": ["2022_SIA_1.jpg", "2022_SIA_2.jpg", "2022_SIA_3.jpg"]
+  }
+}

@@ -99,8 +99,8 @@
         "en": "We conducted a AI programming workshop in Scratch."
       },
       "link_file": {
-        "ja": "scratchWS2021-ja.html",
-        "en": "scratchWS2021.html"
+        "ja": "eventNews.html?json=scratchWS_20211211-ja.json",
+        "en": "eventNews.html?json=scratchWS_20211211.json"
       },
       "image": "scratchWS/DSC_1154s.jpg",
       "note": ""
@@ -144,8 +144,8 @@
         "en": "Course briefing for first-year students in 2022!"
       },
       "link_file": {
-        "ja": "course_event2022_ja.html",
-        "en": "course_event2022_en.html"
+        "ja": "eventNews.html?json=courseEvent_20220704-ja.json",
+        "en": "eventNews.html?json=courseEvent_20220704.json"
       },
       "image": "course_event2022/course_event1.JPG",
       "note": ""
@@ -159,8 +159,8 @@
         "en": "Face-to-Face Meeting with Third-Year Students!"
       },
       "link_file": {
-        "ja": "3kaisei_2022_ja.html",
-        "en": "3kaisei_2022_en.html"
+        "ja": "eventNews.html?json=3kaisei_20220715-ja.json",
+        "en": "eventNews.html?json=3kaisei_20220715.json"
       },
       "image": "3kaisei_event2022/2022_3kaisei_1.JPG",
       "note": ""
@@ -174,8 +174,8 @@
         "en": "Third-year students visited Shiga Intercultural Association for Globalization(SIA) "
       },
       "link_file": {
-        "ja": "sia_2022_ja.html",
-        "en": "sia_2022_en.html"
+        "ja": "eventNews.html?json=sia_20221013-ja.json",
+        "en": "eventNews.html?json=sia_20221013.json"
       },
       "image": "SIA2022/2022_SIA_1.jpg",
       "note": ""
@@ -204,8 +204,8 @@
         "en": "Congratuations to our graduates!, class of 2022."
       },
       "link_file": {
-        "ja": "graduation2023-ja.html",
-        "en": "graduation2023.html"
+        "ja": "eventNews.html?json=graduation_20230322-ja.json",
+        "en": "eventNews.html?json=graduation_20230322.json"
       },
       "image": "graduation2023/graduate2023-1.JPG",
       "note": ""
@@ -219,8 +219,8 @@
         "en": "A programming course was held at Ikueinishi Junior High School."
       },
       "link_file": {
-        "ja": "ikueinishiProgramming2-ja.html",
-        "en": "ikueinishiProgramming2.html"
+        "ja": "eventNews.html?json=ikueinishiProgramming_20230324-ja.json",
+        "en": "eventNews.html?json=ikueinishiProgramming_20230324.json"
       },
       "image": "programmingIkunishi2023/IKNS1-s.jpg",
       "note": ""
@@ -234,8 +234,8 @@
         "en": "A multicultural tea party was held at the Social Intelligence Lab!"
       },
       "link_file": {
-        "ja": "teaparty-ja.html",
-        "en": "teaparty.html"
+        "ja": "eventNews.html?json=teaparty_20230326-ja.json",
+        "en": "eventNews.html?json=teaparty_20230326.json"
       },
       "image": "TeaParty2023/teaparty1-s.JPG",
       "note": ""
@@ -264,8 +264,8 @@
         "en": "Course briefing for first-year students in 2023!"
       },
       "link_file": {
-        "ja": "course_event2023_ja.html",
-        "en": "course_event2023_en.html"
+        "ja": "eventNews.html?json=courseEvent_20230629-ja.json",
+        "en": "eventNews.html?json=courseEvent_20230629.json"
       },
       "image": "course_event2023/DSC00783-s.JPG",
       "note": ""
@@ -279,8 +279,8 @@
         "en": "We held a face to face event with 3rd year students!"
       },
       "link_file": {
-        "ja": "3kaisei_2023-ja.html",
-        "en": "3kaisei_2023.html"
+        "ja": "eventNews.html?json=3kaisei_20230712-ja.json",
+        "en": "eventNews.html?json=3kaisei_20230712.json"
       },
       "image": "3kaisei_event2023/3kaisei_event2.JPG",
       "note": ""
@@ -294,8 +294,8 @@
         "en": "We organised a joint barbeque with the Cognitive Engineering Laboratory!"
       },
       "link_file": {
-        "ja": "barbeque_2023-ja.html",
-        "en": "barbeque_2023.html"
+        "ja": "eventNews.html?json=bbq_20230925-ja.json",
+        "en": "eventNews.html?json=bbq_20230925.json"
       },
       "image": "barbeque2023/barbeque3.jpg",
       "note": ""
@@ -309,8 +309,8 @@
         "en": "A multicultural tea party was held at the Social Intelligence Lab!"
       },
       "link_file": {
-        "ja": "teaparty2023_10-ja.html",
-        "en": "teaparty2023_10.html"
+        "ja": "eventNews.html?json=teaparty20231011-ja.json",
+        "en": "eventNews.html?json=teaparty20231011.json"
       },
       "image": "TeaParty2023_10/TeaParty2023_10_1.jpg",
       "note": ""
@@ -324,8 +324,8 @@
         "en": "A programming course was held at Ikueinishi Junior High School."
       },
       "link_file": {
-        "ja": "ikueinishiProgramming3-ja.html",
-        "en": "ikueinishiProgramming3.html"
+        "ja": "eventNews.html?json=ikueinishiProgramming_20230908-ja.json",
+        "en": "eventNews.html?json=ikueinishiProgramming_20230908.json"
       },
       "image": "IKNS_202309/DSC00828-s.JPG",
       "note": ""
@@ -339,8 +339,8 @@
         "en": "Congratuations to our graduates!, class of 2023."
       },
       "link_file": {
-        "ja": "event_news.html?json=graduation20240322-ja.json",
-        "en": "event_news.html?json=graduation20240322.json"
+        "ja": "eventNews.html?json=graduation20240322-ja.json",
+        "en": "eventNews.html?json=graduation20240322.json"
       },
       "image": "graduation2024/graduate2024-1.JPG",
       "note": ""
@@ -354,8 +354,8 @@
         "en": "A cherry blossom viewing was held at the Expo Commemorative Park!"
       },
       "link_file": {
-        "ja": "event_news.html?json=ohanami20240410-ja.json",
-        "en": "event_news.html?json=ohanami20240410.json"
+        "ja": "eventNews.html?json=ohanami20240410-ja.json",
+        "en": "eventNews.html?json=ohanami20240410.json"
       },
       "image": "ohanami2024/ohanami2024-1.jpg",
       "note": ""
@@ -369,8 +369,8 @@
         "en": "A multicultural tea party was held at the Social Intelligence Lab!"
       },
       "link_file": {
-        "ja": "event_news.html?json=teaparty20240410-ja.json",
-        "en": "event_news.html?json=teaparty20240410.json"
+        "ja": "eventNews.html?json=teaparty20240410-ja.json",
+        "en": "eventNews.html?json=teaparty20240410.json"
       },
       "image": "teaparty202404/DSC01498.JPG",
       "note": ""
@@ -384,8 +384,8 @@
         "en": "We had a face-to-face meeting with our 3rd year students!"
       },
       "link_file": {
-        "ja": "event_news.html?json=3kaisei_20240710-ja.json",
-        "en": "event_news.html?json=3kaisei_20240710.json"
+        "ja": "eventNews.html?json=3kaisei_20240710-ja.json",
+        "en": "eventNews.html?json=3kaisei_20240710.json"
       },
       "image": "3kaisei_event2024/3kaisei_event2024.jpg",
       "note": ""
@@ -399,8 +399,8 @@
         "en": "We held a welcome and farewell party for 3rd year students!"
       },
       "link_file": {
-        "ja": "event_news.html?json=gohannkai20240802-ja.json",
-        "en": "event_news.html?json=gohannkai20240802.json"
+        "ja": "eventNews.html?json=gohannkai20240802-ja.json",
+        "en": "eventNews.html?json=gohannkai20240802.json"
       },
       "image": "gohannkai_2024/gohannkai2024-1.jpg",
       "note": ""
@@ -414,8 +414,8 @@
         "en": "In the Fall of 2024, undergraduate fourth-year students and second-year master's students graduated!"
       },
       "link_file": {
-        "ja": "event_news.html?json=graduation20240925-ja.html",
-        "en": "event_news.html?json=graduation20240925.html"
+        "ja": "eventNews.html?json=graduation20240925-ja.html",
+        "en": "eventNews.html?json=graduation20240925.html"
       },
       "image": "graduation2024/graduate2024-4.JPG",
       "note": ""
@@ -429,8 +429,8 @@
         "en": "Subway Party!"
       },
       "link_file": {
-        "ja": "event_news.html?json=subway_20241018-ja.json",
-        "en": "event_news.html?json=subway_20241018.json"
+        "ja": "eventNews.html?json=subway_20241018-ja.json",
+        "en": "eventNews.html?json=subway_20241018.json"
       },
       "image": "subway_2024/DSC01680.JPG",
       "note": ""
@@ -444,8 +444,8 @@
         "en": "We had a barbecue that also served as a social gathering!"
       },
       "link_file": {
-        "ja": "event_news.html?json=bbq_20240408-ja.json",
-        "en": "event_news.html?json=bbq_20240408.json"
+        "ja": "eventNews.html?json=bbq_20240408-ja.json",
+        "en": "eventNews.html?json=bbq_20240408.json"
       },
       "image": "bbq_2024/bbq_2024-1.jpg",
       "note": ""
@@ -459,8 +459,8 @@
         "en": "We celebrated Prof. Murakami's birthday!"
       },
       "link_file": {
-        "ja": "event_news.html?json=prof_murakami_birthday_20241204-ja.json",
-        "en": "event_news.html?json=prof_murakami_birthday_20241204.json"
+        "ja": "eventNews.html?json=profMurakamiBirthday_20241204-ja.json",
+        "en": "eventNews.html?json=profMurakamiBirthday_20241204.json"
       },
       "image": "murakami_birthday_2024/sensei_with_message.png",
       "note": ""
@@ -474,8 +474,8 @@
         "en": "We held a presentation for the graduation research1!"
       },
       "link_file": {
-        "ja": "event_news.html?json=sotsuken1_20250117-ja.json",
-        "en": "event_news.html?json=sotsuken1_2025.json"
+        "ja": "eventNews.html?json=sotsuken1_20250117-ja.json",
+        "en": "eventNews.html?json=sotsuken1_2025.json"
       },
       "image": "sotsuken1_2025/sotsuken1_2025-1.jpg",
       "note": ""
@@ -489,8 +489,8 @@
         "en": "We held a year-end party"
       },
       "link_file": {
-        "ja": "event_news.html?json=bounennkai_20241218-ja.json",
-        "en": "event_news.html?json=bounennkai_20241218.json"
+        "ja": "eventNews.html?json=bounennkai_20241218-ja.json",
+        "en": "eventNews.html?json=bounennkai_20241218.json"
       },
       "image": "bounennkai_2024/bounennkai_2024-1.jpg",
       "note": ""
@@ -504,8 +504,8 @@
         "en": "Congratuations to our graduates! Fourth year students, class of 2024."
       },
       "link_file": {
-        "ja": "event_news.html?json=graduation_20250320-ja.json",
-        "en": "event_news.html?json=graduation_20250320.json"
+        "ja": "eventNews.html?json=graduation_20250320-ja.json",
+        "en": "eventNews.html?json=graduation_20250320.json"
       },
       "image": "graduation2025/graduate2025.JPG",
       "note": ""
@@ -519,8 +519,8 @@
         "en": "Congratulations! The third-year doctoral students of the 2024 academic year have graduated!"
       },
       "link_file": {
-        "ja": "event_news.html?json=dgraduation_20250323-ja.json",
-        "en": "event_news.html?json=dgraduation_20250323.json"
+        "ja": "eventNews.html?json=dgraduation_20250323-ja.json",
+        "en": "eventNews.html?json=dgraduation_20250323.json"
       },
       "image": "dgraduation2025/IMG_5691.jpg",
       "note": ""
@@ -534,8 +534,8 @@
         "en": "A cherry blossom viewing was held at the Expo Commemorative Park!"
       },
       "link_file": {
-        "ja": "event_news.html?json=ohanami_20250408-ja.json",
-        "en": "event_news.html?json=ohanami_20250408.json"
+        "ja": "eventNews.html?json=ohanami_20250408-ja.json",
+        "en": "eventNews.html?json=ohanami_20250408.json"
       },
       "image": "ohanami2025/ohanami2025-1.jpg",
       "note": ""
@@ -549,8 +549,8 @@
         "en": "A programming course was held at Ikueinishi Junior High School."
       },
       "link_file": {
-        "ja": "event_news.html?json=ikueinishiProgramming_20241226-ja.json",
-        "en": "event_news.html?json=ikueinishiProgramming_20241226.json"
+        "ja": "eventNews.html?json=ikueinishiProgramming_20241226-ja.json",
+        "en": "eventNews.html?json=ikueinishiProgramming_20241226.json"
       },
       "image": "IKNS_202412/IKNS202412-1.JPG",
       "note": ""
@@ -564,8 +564,8 @@
         "en": "Sports Festival!!"
       },
       "link_file": {
-        "ja": "event_news.html?json=sports_20250513-ja.json",
-        "en": "event_news.html?json=sports_20250513.json"
+        "ja": "eventNews.html?json=sports_20250513-ja.json",
+        "en": "eventNews.html?json=sports_20250513.json"
       },
       "image": "sports2025/0513/sports1_2025.jpg",
       "note": ""
@@ -579,8 +579,8 @@
         "en": "The 2nd Sports Festival!!"
       },
       "link_file": {
-        "ja": "event_news.html?json=sports_20250617-ja.json",
-        "en": "event_news.html?json=sports_20250617.json"
+        "ja": "eventNews.html?json=sports_20250617-ja.json",
+        "en": "eventNews.html?json=sports_20250617.json"
       },
       "image": "sports2025/0617/sports1_2025.jpg",
       "note": ""
@@ -594,8 +594,8 @@
         "en": "We had a face-to-face meeting with our 3rd year students!"
       },
       "link_file": {
-        "ja": "event_news.html?json=3kaisei_20250715-ja.json",
-        "en": "event_news.html?json=3kaisei_20250715.json"
+        "ja": "eventNews.html?json=3kaisei_20250715-ja.json",
+        "en": "eventNews.html?json=3kaisei_20250715.json"
       },
       "image": "3kaisei2025/3kaisei_1.jpg",
       "note": ""
@@ -609,8 +609,8 @@
         "en": "A programming course was held for Ikueinishi Junior High School students."
       },
       "link_file": {
-        "ja": "event_news.html?json=ikueinishiProgramming_20250722-ja.json",
-        "en": "event_news.html?json=ikueinishiProgramming_20250722.json"
+        "ja": "eventNews.html?json=ikueinishiProgramming_20250722-ja.json",
+        "en": "eventNews.html?json=ikueinishiProgramming_20250722.json"
       },
       "image": "IKNS_20257/IKNS20257-1.JPG",
       "note": ""
@@ -624,8 +624,8 @@
         "en": "We had a barbecue that also served as a social gathering!"
       },
       "link_file": {
-        "ja": "event_news.html?json=bbq_20250911-ja.json",
-        "en": "event_news.html?json=bbq_20250911.json"
+        "ja": "eventNews.html?json=bbq_20250911-ja.json",
+        "en": "eventNews.html?json=bbq_20250911.json"
       },
       "image": "bbq2025/bbq2025_1.JPG",
       "note": ""
@@ -639,10 +639,10 @@
         "en": "We held a Spring Semester Appreciation Gathering."
       },
       "link_file": {
-        "ja": "event_news.html?json=wrap-up_party_20250711-ja.json",
-        "en": "event_news.html?json=wrap-up_party_20250711.json"
+        "ja": "eventNews.html?json=wrapupParty_20250711-ja.json",
+        "en": "eventNews.html?json=wrapupParty_20250711.json"
       },
-      "image": "spring_otsukare/IMG_5767.jpg",
+      "image": "wrapupParty/IMG_5767.jpg",
       "note": ""
     },
     {
@@ -654,8 +654,8 @@
         "en": "We held a joint sports tournament with the Network Systems Laboratory (Noguchi Laboratory)!"
       },
       "link_file": {
-        "ja": "event_news.html?json=sports_20251114-ja.json",
-        "en": "event_news.html?json=sports_20251114.json"
+        "ja": "eventNews.html?json=sports_20251114-ja.json",
+        "en": "eventNews.html?json=sports_20251114.json"
       },
       "image": "sports2025/1114/tournament01.jpg",
       "note": ""
