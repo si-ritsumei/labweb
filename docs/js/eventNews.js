@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", () => {
       /* ---------- summary ---------- */
       document.getElementById("page-summary").innerHTML = `
         ${data.summary.lead}<br>
-        場所: ${data.summary.place}<br>
-        日時: ${data.summary.date}
+        ${data.summary.place}<br>
+        ${data.summary.date}
       `;
 
       /* ---------- overview ---------- */
