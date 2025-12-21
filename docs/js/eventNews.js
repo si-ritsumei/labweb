@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const JSON_BASE_PATH = "../json/event_news/";
+  const JSON_BASE_PATH = "../json/eventNews/";
   const root = document.getElementById("event-root");
 
   if (!root) {
