@@ -1,0 +1,22 @@
+{
+  "title": "お花見｜立命館大学 社会知能研究室",
+  "header": "Laboratory Life",
+  "summary": {
+    "lead": "A cherry blossom viewing was held at the Expo Commemorative Park!",
+    "place": "Place: Expo Commemorative Park",
+    "date": "Date: April 8th, 2025"
+  },
+  "overview": [
+    "We enjoyed cherry blossom viewing at Expo'70 Commemoration Park. This year, the cherry blossoms bloomed late, so we were able to enjoy cherry blossom viewing just when they were in full bloom! Under the cherry blossoms in full bloom, everyone gathered around a packed lunch and deepened their friendships across grade levels. Not only were there cherry blossoms, but there were also colorful flowers such as tulips and nemophila in full bloom, making it a very colorful scene. Being surrounded by nature refreshed everyone's minds, and I think it gave them a positive attitude and made them think, 'Let's do our best in the new semester!'"
+  ],
+  "images": {
+    "path": "../img/eventNews/2025/ohanami2025/",
+    "files": [
+      "ohanami2025-1.jpg",
+      "ohanami2025-2.jpg",
+      "ohanami2025-3.jpg",
+      "ohanami2025-4.jpg",
+      "ohanami2025-5.jpg"
+    ]
+  }
+}
