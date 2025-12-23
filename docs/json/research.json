@@ -725,6 +725,19 @@
             },
             "image":"/JWISE/jwise01.jpg",
             "note":""
+        },
+        {
+            "year":"2025", "month":"12", "date":"1",
+            "text":{
+                "ja":"松本さんが、The 3rd International Conference on Service-Oriented Computing 2025 (ICSOC 2025)で研究発表を行いました!",
+                "en":"Mr.Matsumoto gave a research presentation at The 3rd International Conference on Service-Oriented Computing 2025 (ICSOC 2025)."
+                },
+            "link_file":{
+                "ja":"ICSOC_2025-ja.html",
+                "en":"ICSOC_2025.html"
+            },
+            "image":"/ICSOC/ICSOC_matsumoto1.png",
+            "note":""
         }
     ]
 }
