@@ -52,9 +52,9 @@
         {
             "name":{"ja":"森 叶葉","en":"Kanaha MORI"},
             "image":"2022/22kanaha_s2.jpg",
-            "main_link":"https://kanahamori.github.io/mypage/",
+            "main_link":"https://ka78m.github.io/mypage/",
             "links":[
-                {"class":"fa-solid fa-circle-user","link":"https://kanahamori.github.io/mypage/"}
+                {"class":"fa-solid fa-circle-user","link":"https://ka78m.github.io/mypage/"}
             ],
             "note":""
         },
