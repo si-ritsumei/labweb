@@ -1,0 +1,44 @@
+[
+  {
+    "authors": [
+      "元澤 海月",
+      "村上 陽平",
+      "Mondheera PITUXCOOSUVARN",
+      "Amit PARIYAR",
+      "荒巻 光里"
+    ],
+    "title": "要約エージェントによる低資源言語話者の多言語議論の理解支援",
+    "venue": "電子情報通信学会論文誌",
+    "type": "journal",
+    "volume": "J109-D",
+    "number": "1",
+    "pages": "-",
+    "year": 2026,
+    "month": "Jan",
+    "note": "",
+    "link": "",
+    "icons": [],
+    "awards": []
+  },
+  {
+    "authors": [
+      "Arbi Haza Nasution",
+      "Aytug Onan",
+      "Yohei Murakami",
+      "Winda Monika",
+      "Anggi Hanafiah"
+    ],
+    "title": "Benchmarking Open-Source Large Language Models for Sentiment and Emotion Classification in Indonesian Tweets",
+    "venue": "IEEE Access",
+    "type": "journal",
+    "volume": "13",
+    "number": "",
+    "pages": "94009-94025",
+    "year": 2025,
+    "month": "",
+    "note": "",
+    "link": "https://doi.org/10.1109/ACCESS.2025.3574629",
+    "icons": ["ieee"],
+    "awards": []
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "情報理工学研究科 研究奨励賞",
+    "recipient": "Ikkyu Nishimura",
+    "work": "Extracting Conceptual Differences between Translation Pairs using Multilingual-WordNet",
+    "year": 2024,
+    "venue": "立命館大学",
+    "link": ""
+  },
+  {
+    "title": "Best Paper Award",
+    "recipient": "Yohei Murakami et al.",
+    "work": "Benchmarking Open-Source Large Language Models for Sentiment and Emotion Classification in Indonesian Tweets",
+    "year": 2023,
+    "venue": "Some Conference",
+    "link": "https://example.com"
+  }
+]

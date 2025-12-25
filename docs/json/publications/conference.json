@@ -1,0 +1,26 @@
+[
+  {
+    "authors": [
+      "Ikkyu Nishimura",
+      "Yohei Murakami",
+      "Mondheera Pituxcoosuvarn"
+    ],
+    "title": "Extracting Conceptual Differences between Translation Pairs using Multilingual-WordNet",
+    "venue": "The 13th International Global Wordnet Conference (GWC2025)",
+    "type": "conference",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": 2025,
+    "month": "",
+    "note": "to be published",
+    "link": "",
+    "icons": ["ieee"],
+    "awards": [
+      {
+        "name": "情報理工学研究科 研究奨励賞",
+        "year": 2024
+      }
+    ]
+  }
+]
