@@ -1,18 +1,32 @@
 [
   {
-    "title": "情報理工学研究科 研究奨励賞",
-    "recipient": "Ikkyu Nishimura",
-    "work": "Extracting Conceptual Differences between Translation Pairs using Multilingual-WordNet",
-    "year": 2024,
-    "venue": "立命館大学",
-    "link": ""
+    "text": "Our paper `Intercultural Communication Environment to Support Agriculture Mediated by Youths in Developing Countries,` has received the Best-Paper Award of the Human Interface Society in 2018.",
+    "year": 2018,
+    "link": "https://www.his.gr.jp/office/gakkaisyou.html#awardpaper2018",
+    "icon": "img/general/logo/his-logo-a.svg"
   },
   {
-    "title": "Best Paper Award",
-    "recipient": "Yohei Murakami et al.",
-    "work": "Benchmarking Open-Source Large Language Models for Sentiment and Emotion Classification in Indonesian Tweets",
+    "text": "Ms.Motozawa has been awarded the Graduate School Research Excellence Award in 2021.",
+    "year": 2021,
+    "link": "https://www.ritsumei.ac.jp/gsise/news/detail/?id=31",
+    "icon": "img/research_news/forActivity.png"
+  },
+  {
+    "text": "Mr.Oi's paper `Service Clustering with Heterogeneous Networks` has received The Young Scientist Incentive Award from the Technical Committee on Services Computing, The Institute of Electronics, Information and Communication Engineers in 2023.",
     "year": 2023,
-    "venue": "Some Conference",
-    "link": "https://example.com"
+    "link": "",
+    "icon": "img/general/logo/EiC-logo-a.svg"
+  },
+  {
+    "text": "Mr.Nishimura, Ms.Motozawa, Mr.Kitagawa, and Mr.Yamamoto have been awarded the Graduate School Research Encouragement Award in 2024.",
+    "year": 2025,
+    "link": "https://www.ritsumei.ac.jp/gsise/news/detail/?id=54",
+    "icon": "img/research_news/forActivity.png"
+  },
+  {
+    "text": "Mr.Matsumoto's paper `API recommendation for service composition using large-scale language models` has received The Young Scientist Incentive Award from the Technical Committee on Services Computing, The Institute of Electronics, Information and Communication Engineers in 2025.",
+    "year": 2025,
+    "link": "",
+    "icon": "img/general/logo/EiC-logo-a.svg"
   }
 ]

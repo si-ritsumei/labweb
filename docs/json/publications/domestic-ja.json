@@ -1,8 +1,8 @@
 [
   {
-    "authors": ["Yuria Mori", "Yohei Murakami", "Mondheera Pituxcoosuvarn"],
-    "title": "The Effect of Voice Changer on Speaker’s Behavior",
-    "venue": "The 87th National Convention of IPSJ",
+    "authors": ["森由璃亜", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "ボイスチェンジャーによる話者の振る舞いへの影響",
+    "venue": "第87回情報処理学会全国大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -15,9 +15,9 @@
     "awards": []
   },
   {
-    "authors": ["Shinichi Nakagawa", "Yohei Murakami"],
-    "title": "Composite service recommendation with BERT",
-    "venue": "The 87th National Convention of IPSJ",
+    "authors": ["中川真一", "村上陽平"],
+    "title": "BERTを用いた複合サービス推薦",
+    "venue": "第87回情報処理学会全国大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -30,9 +30,9 @@
     "awards": []
   },
   {
-    "authors": ["Yuto Tomida", "Yohei Murakami"],
-    "title": "Post-editing model to native English using BART",
-    "venue": "The 87th National Convention of IPSJ",
+    "authors": ["富田悠斗", "村上陽平"],
+    "title": "BARTを用いたネイティブ英語への事後編集モデル",
+    "venue": "第87回情報処理学会全国大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -45,9 +45,9 @@
     "awards": []
   },
   {
-    "authors": ["Sakie Kaoku", "Yohei Murakami", "Mondheera Pituxcoosuvarn"],
-    "title": "Prompt Notation for Translation Agents",
-    "venue": "The 87th National Convention of IPSJ",
+    "authors": ["加奥咲江", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "メタバースにおける発話言語の変換による話者の振る舞いの影響",
+    "venue": "第87回情報処理学会全国大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -60,9 +60,9 @@
     "awards": []
   },
   {
-    "authors": ["Tomoaki Iwano", "Yohei Murakami", "Mondheera Pituxcoosuvarn"],
-    "title": "Multilingual Speech Communication Support in the Metaverse",
-    "venue": "The 87th National Convention of IPSJ",
+    "authors": ["岩野智総", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "メタバースにおける発話言語の変換による話者の振る舞いの影響",
+    "venue": "第87回情報処理学会全国大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -75,9 +75,9 @@
     "awards": []
   },
   {
-    "authors": ["Ryotaro Yamamoto", "Yohei Murakami"],
-    "title": "The Impact of Knowledge Tagging Methods on Task Assignment in Crowdsourcing",
-    "venue": "The 87th National Convention of IPSJ",
+    "authors": ["山本涼太郎", "村上陽平"],
+    "title": "Deep Knowledge Tracingを用いた対訳評価タスクの割当て",
+    "venue": "第87回情報処理学会全国大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -90,9 +90,9 @@
     "awards": []
   },
   {
-    "authors": ["Kanaha Mori", "Yohei Murakami", "Mondheera Pituxcoosuvarn"],
-    "title": "Embedding-based Cultural Difference Analysis of Emoji between English and Japanese",
-    "venue": "The 87th National Convention of IPSJ",
+    "authors": ["森叶葉", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "埋め込みに基づく日英間の絵文字の文化差分析",
+    "venue": "第87回情報処理学会全国大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -105,9 +105,9 @@
     "awards": []
   },
   {
-    "authors": ["Kenji Matsumoto", "Yohei Murakami"],
-    "title": "API recommendation for service development using large-scale language models",
-    "venue": "The 87th National Convention of IPSJ",
+    "authors": ["松本賢司", "村上陽平"],
+    "title": "大規模言語モデルを用いたサービス開発におけるAPI推薦",
+    "venue": "第87回情報処理学会全国大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -120,9 +120,9 @@
     "awards": []
   },
   {
-    "authors": ["Kantaro Kitagawa", "Yohei Murakami"],
-    "title": "Self-Organizing Multi-Agent System for Federated Neural Translation",
-    "venue": "The 87th National Convention of IPSJ",
+    "authors": ["北川勘太朗", "村上陽平"],
+    "title": "連合ニューラル翻訳のためのマルチエージェントシステムの自己組織化",
+    "venue": "第87回情報処理学会全国大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -135,15 +135,9 @@
     "awards": []
   },
   {
-    "authors": [
-      "Kaito Sunada",
-      "Yoshinobu Kitamura",
-      " Shuichi Itakura",
-      "Ryoichi Sasamoto",
-      "Shizuka Hosoi"
-    ],
-    "title": "Building of an Ontology for Supporting the Selection of Analytical Methods for Inorganic Materials",
-    "venue": "The 87th National Convention of IPSJ",
+    "authors": ["砂田界渡", "來村徳信", "板倉 修一", "笹本 亮一", "細井 慎"],
+    "title": "無機材料分析手法の選択支援のためのオントロジーの構築",
+    "venue": "第87回情報処理学会全国大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -156,9 +150,9 @@
     "awards": []
   },
   {
-    "authors": ["Kenji Matsumoto", "Yohei Murakami"],
-    "title": "API recommendation for service composition using large-scale language models",
-    "venue": "SC, IEICE Technical Report",
+    "authors": ["松本賢司", "村上陽平"],
+    "title": "大規模言語モデルを用いたサービス合成のためのAPI推薦",
+    "venue": "サービスコンピューティング(SC), 電子情報通信学会技術研究報告",
     "type": "conference",
     "volume": "124",
     "number": "425, SC2024-49",
@@ -171,9 +165,9 @@
     "awards": []
   },
   {
-    "authors": ["Shinichi Nakagawa", "Yohei Murakami"],
-    "title": "Composite service recommendation using multi-layer multi-label classification",
-    "venue": "SC, IEICE Technical Report",
+    "authors": ["中川真一", "村上陽平"],
+    "title": "多層マルチラベル分類を用いた複合サービス推薦",
+    "venue": "サービスコンピューティング(SC), 電子情報通信学会技術研究報告",
     "type": "conference",
     "volume": "124",
     "number": "425, SC2024-50",
@@ -186,13 +180,9 @@
     "awards": []
   },
   {
-    "authors": [
-      "Ikkyu Nishimura",
-      "Yohei Murakami",
-      "Mondheera Pituxcoosuvarn"
-    ],
-    "title": "Multilingual Communication Support by Conceptual Difference Detection",
-    "venue": "HCS, IEICE Technical Report",
+    "authors": ["西村一球", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "概念差検出による多言語コミュニケーション支援",
+    "venue": "ヒューマンコミュニケーション基礎(HCS)",
     "type": "conference",
     "volume": "124",
     "number": "360, HCS2024-69",
@@ -206,14 +196,14 @@
   },
   {
     "authors": [
-      "Mizuki Motozawa",
-      "Yohei Murakami",
+      "元澤海月",
+      "村上陽平",
       "Mondheera Pituxcoosuvarn",
       "Amit Pariyar",
-      "Hikari Aramaki"
+      "荒巻光里"
     ],
-    "title": "Analysis of the Effectiveness of Summary Provision in Supporting Multilingual Discussion",
-    "venue": "HCS, IEICE Technical Report",
+    "title": "要約提示による多言語議論支援の効果分析",
+    "venue": "ヒューマンコミュニケーション基礎(HCS)",
     "type": "conference",
     "volume": "124",
     "number": "360, HCS2024-70",
@@ -226,9 +216,9 @@
     "awards": []
   },
   {
-    "authors": ["Kanaha Mori", "Yohei Murakami", "Mondheera Pituxcoosuvarn"],
-    "title": "Detecting Cultural Differences in Emoji Usage between Japanese and English",
-    "venue": "HCS, IEICE Technical Report",
+    "authors": ["森叶葉", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "日英間における絵文字利用の文化差の検出",
+    "venue": "ヒューマンコミュニケーション基礎(HCS)",
     "type": "conference",
     "volume": "124",
     "number": "360, HCS2024-71",
@@ -241,15 +231,9 @@
     "awards": []
   },
   {
-    "authors": [
-      "Kaito Sunada",
-      "Yoshinobu Kitamura",
-      " Shuichi Itakura",
-      "Ryoichi Sasamoto",
-      "Shizuka Hosoi"
-    ],
-    "title": "Building an ontology and proposing a system to support the selection of inorganic material analysis methods",
-    "venue": "SIG-SWO-064-03",
+    "authors": ["砂田界渡", "來村徳信", "板倉 修一", "笹本 亮一", "細井 慎"],
+    "title": "無機材料分析手法の選択支援のためのオントロジーの構築とシステムの提案",
+    "venue": "人工知能学会第二種研究会資料，セマンティックウェブとオントロジー研究会, SIG-SWO-064-03",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -262,9 +246,9 @@
     "awards": []
   },
   {
-    "authors": ["Kantaro Kitagawa", "Yuwang Zhang", "Yohei Murakami"],
-    "title": "Cooperative Neural Machine Translation with Multi-Agent Reinforcement Learning",
-    "venue": "National Convention of EIC",
+    "authors": ["北川勘太朗", "張禹王", "村上陽平"],
+    "title": "マルチエージェント強化学習を用いたニューラル機械翻訳の連携",
+    "venue": "電子情報通信学会総合大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -277,9 +261,9 @@
     "awards": []
   },
   {
-    "authors": ["Kenji Matsumoto", "Yohei Murakami"],
-    "title": "Soft Clustering Based on Service Composition Relationships",
-    "venue": "National Convention of EIC",
+    "authors": ["松本賢司", "村上陽平"],
+    "title": "サービス連携関係に基づくソフトクラスタリング",
+    "venue": "電子情報通信学会総合大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -292,9 +276,9 @@
     "awards": []
   },
   {
-    "authors": ["Kanaha Mori", "Yohei Murakami", "Mondheera Pituxcoosuvarn"],
-    "title": "Emoji Embedding Based on Emotion Prediction Model",
-    "venue": "National Convention of EIC",
+    "authors": ["森叶葉", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "感情予測モデルに基づく絵文字埋め込み",
+    "venue": "電子情報通信学会総合大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -307,9 +291,9 @@
     "awards": []
   },
   {
-    "authors": ["Ryotaro Yamamoto", "Yohei Murakami"],
-    "title": "Performance Prediction for Translation Creation Tasks Using Deep Knowledge Tracing",
-    "venue": "National Convention of EIC",
+    "authors": ["山本涼太郎", "村上陽平"],
+    "title": "Deep Knowledge Tracingを用いた対話作成タスクの予測",
+    "venue": "電子情報通信学会総合大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -322,9 +306,9 @@
     "awards": []
   },
   {
-    "authors": ["Kantaro Kitagawa", "Yuwang Zhang", "Yohei Murakami"],
-    "title": "Cooperative Agents for Federated Learning of Neural Machine Translation",
-    "venue": "IEICE Technical Report",
+    "authors": ["北川勘太朗", "張禹王", "村上陽平"],
+    "title": "ニューラル機械翻訳の連合学習のための協調エージェント",
+    "venue": "人工知能と知識処理(AI), 電子情報通信学会技術研究報告",
     "type": "conference",
     "volume": "123",
     "number": "190, AI2023-28",
@@ -337,9 +321,9 @@
     "awards": []
   },
   {
-    "authors": ["Narifumi Oi", "Yohei Murakami"],
-    "title": "service clustering by heterogeneous networks and graph embedding",
-    "venue": "SC, IEICE Technical Report",
+    "authors": ["大井也史", "村上陽平"],
+    "title": "異種ネットワークを用いたサービスクラスタリング",
+    "venue": "サービスコンピューティング(SC), 電子情報通信学会技術研究報告",
     "type": "conference",
     "volume": "122",
     "number": "448, SC2022-46",
@@ -352,9 +336,9 @@
     "awards": []
   },
   {
-    "authors": ["Asahi Sato", "Yohei Murakami", "Mondheera Pituxcoosuvarn"],
-    "title": "Comparison of Instructional Effects between Two Soccer Tactics with VR-based Parallel Coaching",
-    "venue": "HCS, IEICE Technical Report",
+    "authors": ["佐藤旭", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "異なるサッカー戦術の指導における仮想空間を用いた並列指導の効果分析",
+    "venue": "ヒューマンコミュニケーション基礎(HCS), 電子情報通信学会技術研究報告",
     "type": "conference",
     "volume": "122",
     "number": "413, HCS2022-95",
@@ -367,9 +351,9 @@
     "awards": []
   },
   {
-    "authors": ["Ikkyu Nishimura, Yohei Murakami", "Mondheera Pituxcoosuvarn"],
+    "authors": ["西村一球", "村上陽平", "Mondheera Pituxcoosuvarn"],
     "title": "異常値検出を用いた単語の想起イメージの文化差検出",
-    "venue": "The 85th National Convention of IPSJ",
+    "venue": "第85回情報処理学会全国大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -382,9 +366,9 @@
     "awards": []
   },
   {
-    "authors": ["Asahi Sato", "Yohei Murakami", "Mondheera Pituxcoosuvarn"],
+    "authors": ["佐藤旭", "村上陽平", "Mondheera Pituxcoosuvarn"],
     "title": "仮想空間を用いた同期型サッカー戦術指導の効果分析",
-    "venue": "The 85th National Convention of IPSJ",
+    "venue": "第85回情報処理学会全国大会",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -397,9 +381,9 @@
     "awards": []
   },
   {
-    "authors": ["Asahi Sato", "Yohei Murakami", "Mondheera Pituxcoosuvarn"],
-    "title": "Instructional Effects of First-Person View in Virtual Space for Soccer Tactics",
-    "venue": "HCGSYMPO2022",
+    "authors": ["佐藤旭", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "仮想空間上の一人称視点によるサッカー戦術の指導効果",
+    "venue": "HCGシンポジウム2022",
     "type": "conference",
     "volume": "",
     "number": "",
@@ -412,13 +396,9 @@
     "awards": []
   },
   {
-    "authors": [
-      "Motozawa Mizuki",
-      "Yohei Murakami",
-      "Mondheera Pituxcoosuvarn"
-    ],
-    "title": "Dialogue Act Analysis of Facilitators in Children's Intercultural Collaboration",
-    "venue": "HCS, IEICE Technical Report",
+    "authors": ["元澤海月", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "児童の異文化コラボレーションにおけるファシリテータの対話行為分析",
+    "venue": "ヒューマンコミュニケーション基礎(HCS)",
     "type": "conference",
     "volume": "121",
     "number": "438, HCS2021-72",
@@ -431,9 +411,9 @@
     "awards": []
   },
   {
-    "authors": ["Koki Okubo", "Yohei Murakami"],
+    "authors": ["大久保弘基", "村上陽平"],
     "title": "グラフ埋め込みを用いたサービスクラスタリング",
-    "venue": "SC, IEICE Technical Report",
+    "venue": "サービスコンピューティング(SC), 電子情報通信学会技術研究報告",
     "type": "conference",
     "volume": "121",
     "number": "229, SC2021-33",
@@ -446,9 +426,9 @@
     "awards": []
   },
   {
-    "authors": ["Yuki Matsuoka", "Yohei Murakami"],
-    "title": "Translation Agent Using Congnitive Services",
-    "venue": "SC, IEICE Technical Report",
+    "authors": ["松岡勇樹", "村上陽平"],
+    "title": "コグニティブサービスを用いた翻訳エージェント",
+    "venue": "サービスコンピューティング(SC), 電子情報通信学会技術研究報告",
     "type": "conference",
     "volume": "120",
     "number": "434, SC2020-36",
@@ -461,9 +441,9 @@
     "awards": []
   },
   {
-    "authors": ["Zhang Yuwang", "Yohei Murakami"],
-    "title": "Blockchain-based Decentralized Dictionary System for Low-Resourced Languages",
-    "venue": "SC, IEICE Technical Report",
+    "authors": ["張 禹王", "村上陽平"],
+    "title": "低資源言語ためのブロックチェーンに基づく非中央集権型辞書システム",
+    "venue": "サービスコンピューティング(SC), 電子情報通信学会技術研究報告",
     "type": "conference",
     "volume": "120",
     "number": "434, SC2020-37",
@@ -476,13 +456,9 @@
     "awards": []
   },
   {
-    "authors": [
-      "Mizuki Motozawa",
-      "Yohei Murakami",
-      "Mondheera Pituxcoosuvarn"
-    ],
-    "title": "Facilitation Analysis in Intercultural Collaboration of Children",
-    "venue": "HCS, IEICE Technical Report",
+    "authors": ["元澤海月", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "児童の異文化コラボレーションにおけるファシリテーションの分析",
+    "venue": "ヒューマンコミュニケーション基礎(HCS), 電子情報通信学会技術研究報告",
     "type": "conference",
     "volume": "120",
     "number": "136, HCS2020-25",
@@ -495,9 +471,9 @@
     "awards": []
   },
   {
-    "authors": ["Koki Okubo", "Yohei Murakami"],
-    "title": "Recommendation of Alternative Services Using Graph Embedding",
-    "venue": "SC, IEICE Technical Report",
+    "authors": ["大久保弘基", "村上陽平"],
+    "title": "グラフ埋め込みを用いた代替サービスの推薦",
+    "venue": "サービスコンピューティング(SC), 電子情報通信学会技術研究報告",
     "type": "conference",
     "volume": "119",
     "number": "482, SC2019-48",
@@ -510,9 +486,9 @@
     "awards": []
   },
   {
-    "authors": ["Hiroki Chida", "Yohei Murakami"],
-    "title": "Evaluating Trust-based Crowdsourcing for Bilingual Dictionary Creation",
-    "venue": "SC, IEICE Technical Report",
+    "authors": ["地田大樹", "村上陽平"],
+    "title": "対訳辞書作成のための信頼に基づくクラウドソーシングの評価",
+    "venue": "サービスコンピューティング(SC), 電子情報通信学会技術研究報告",
     "type": "conference",
     "volume": "119",
     "number": "482, SC2019-49",

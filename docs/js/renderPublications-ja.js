@@ -88,7 +88,7 @@ async function loadPublications(jsonPath, targetId) {
         const awardSpan = document.createElement("span");
         awardSpan.className = "award";
         awardSpan.textContent =
-          (award.year ? ` ${award.year} ` : "") + `${award.name}`;
+          (award.year ? ` ${award.year}年度` : "") + `${award.name}` + ` 受賞`;
         li.appendChild(awardSpan);
       });
     }
@@ -185,10 +185,13 @@ async function loadAwards(jsonPath, targetId) {
  * 呼び出し
  * =============================== */
 document.addEventListener("DOMContentLoaded", () => {
-  loadPublications("../json/publications/journal.json", "journal-list");
-  loadPublications("../json/publications/conference.json", "conference-list");
-  loadPublications("../json/publications/book.json", "book-list");
-  loadPublications("../json/publications/domestic.json", "domestic-list");
+  loadPublications("../json/publications/journal-ja.json", "journal-list");
+  loadPublications(
+    "../json/publications/conference-ja.json",
+    "conference-list"
+  );
+  loadPublications("../json/publications/book-ja.json", "book-list");
+  loadPublications("../json/publications/domestic-ja.json", "domestic-list");
 
-  loadAwards("../json/publications/award.json", "award-list");
+  loadAwards("../json/publications/award-ja.json", "award-list");
 });

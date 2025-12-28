@@ -1,18 +1,18 @@
 [
   {
     "authors": [
-      "Mizuki MOTOZAWA",
-      "Yohei MURAKAMI",
+      "元澤 海月",
+      "村上 陽平",
       "Mondheera PITUXCOOSUVARN",
       "Amit PARIYAR",
-      "Hikari ARAMAKI"
+      "荒巻 光里"
     ],
-    "title": "Summarization Agent for Supporting Low-resource Language Speakers in Multilingual Discussion Understanding",
-    "venue": "IEICE Transactions on Information and Systems",
+    "title": "要約エージェントによる低資源言語話者の多言語議論の理解支援",
+    "venue": "電子情報通信学会論文誌",
     "type": "journal",
     "volume": "J109-D",
     "number": "1",
-    "pages": "",
+    "pages": "-",
     "year": 2026,
     "month": "Jan",
     "note": "",
@@ -42,13 +42,9 @@
     "awards": []
   },
   {
-    "authors": [
-      "Ikkyu Nishimura",
-      "Yohei Murakami",
-      "Mondheera Pituxcoosuvarn"
-    ],
-    "title": "Extracting Conceptual Differences of Translation Pairs",
-    "venue": "The Transactions of Human Interface Society",
+    "authors": ["西村一球", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "対訳ペアにおける単語間の概念差の抽出",
+    "venue": "ヒューマンインタフェース学会論文誌",
     "type": "journal",
     "volume": "27",
     "number": "2",
@@ -119,13 +115,9 @@
     "awards": []
   },
   {
-    "authors": [
-      "Mizuki Motozawa",
-      "Yohei Murakami",
-      "Mondheera Pituxcoosuvarn"
-    ],
-    "title": "Analysis of Facilitators' Dialogue Acts in Multilingual Communication among Children",
-    "venue": "The Transactions of Human Interface Society",
+    "authors": ["元澤海月", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "児童の多言語コミュニケーションにおけるファシリテータの対話行為分析",
+    "venue": "ヒューマンインタフェース学会論文誌",
     "type": "journal",
     "volume": "26",
     "number": "1",
@@ -153,14 +145,9 @@
     "awards": []
   },
   {
-    "authors": [
-      "Nanto Okawa",
-      "Donghui Lin",
-      "Yohei Murakami",
-      "Takao Nakaguchi"
-    ],
-    "title": "IoT Service Infrastructure for Interoperability among Heterogeneous IoT Devices and Web Services",
-    "venue": "IEICE Transaction on Information and Systems",
+    "authors": ["大川楠人", "林 冬惠", "村上陽平", "中口孝雄"],
+    "title": "異種のIoTデバイスとWebサービスの相互運用のためのIoTサービス基盤",
+    "venue": "電子情報通信学会論文誌",
     "type": "journal",
     "volume": "J105-D",
     "number": "1",
@@ -173,13 +160,9 @@
     "awards": []
   },
   {
-    "authors": [
-      "Ikkyu Nishimura",
-      "Yohei Murakami",
-      "Mondheera Pituxcoosuvarn"
-    ],
-    "title": "Cultural Differences Detection Based on Image Feature Vectors",
-    "venue": "The Transactions of Human Interface Society",
+    "authors": ["西村一球", "村上陽平", "Mondheera Pituxcoosuvarn"],
+    "title": "画像特徴量に基づく文化差検出",
+    "venue": "ヒューマンインタフェース学会論文誌",
     "type": "journal",
     "volume": "23",
     "number": "2",
@@ -339,14 +322,9 @@
     "awards": []
   },
   {
-    "authors": [
-      "Takao Nakaguchi",
-      "Yohei Murakami",
-      "Donghui Lin",
-      "Toru Ishida"
-    ],
-    "title": "Information Sharing and Execution Control Architecture for the Federated Operation of Service Infrastructure",
-    "venue": "IEICE Transaction on Information and Systems",
+    "authors": ["中口孝雄", "村上陽平", "林冬惠", "石田亨"],
+    "title": "サービス基盤の連邦制運営のための情報共有・実行制御アーキテクチャ",
+    "venue": "電子情報通信学会論文誌",
     "type": "journal",
     "volume": "J101-D",
     "number": "1",

@@ -51,7 +51,7 @@ function addActive(eventObject) {
   };
   // items in publication
   var subitems3 = {
-    ja: ["/publicationsTemplate.html", "/thesis-ja.html"],
+    ja: ["/publicationsTemplate-ja.html", "/thesis-ja.html"],
     en: ["/publicationsTemplate.html", "/thesis.html"],
   };
   // items in lablife

@@ -7,7 +7,7 @@ function addActive(eventObject) {
     ja: [
       "index-ja.html",
       "lablife-ja.html",
-      "publicationsTemplate.html",
+      "publicationsTemplate-ja.html",
       "joinus-ja.html",
       "contact-ja.html",
     ],
