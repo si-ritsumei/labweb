@@ -102,8 +102,8 @@ async function loadPublications(jsonPath, targetId) {
 
 /* ===== 呼び出し ===== */
 document.addEventListener("DOMContentLoaded", () => {
-  loadPublications("data/journal.json", "journal-list");
-  loadPublications("data/conference.json", "conference-list");
-  loadPublications("data/book.json", "book-list");
-  loadPublications("data/domestic.json", "domestic-list");
+  loadPublications("../json/publications/journal.json", "journal-list");
+  loadPublications("../json/publications/conference.json", "conference-list");
+  loadPublications("../json/publications/book.json", "book-list");
+  loadPublications("../json/publications/domestic.json", "domestic-list");
 });
