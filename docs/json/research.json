@@ -738,6 +738,19 @@
             },
             "image":"/ICSOC/ICSOC_matsumoto1.png",
             "note":""
+        },
+        {
+            "year":"2026", "month":"1", "date":"23",
+            "text":{
+                "ja":"岩野さんと森さんが、ヒューマンコミュニケーション基礎研究会（HCS）で研究発表を行いました!",
+                "en":"Mr.Iwano and Ms.Mori gave a research presentation at The Human Communication Foundation Research Conference (HCS)."
+                },
+            "link_file":{
+                "ja":"HCS_2026-ja.html",
+                "en":"HCS_2026.html"
+            },
+            "image":"/HCS/HCS2026_1.png",
+            "note":""
         }
     ]
 }
