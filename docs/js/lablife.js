@@ -70,9 +70,9 @@ fetch("../json/lablife.json")
 
       var card_image = document.createElement("img");
       if (article.image !== "") {
-        card_image.src = "img/event_news/" + article.year + "/" + article.image;
+        card_image.src = "img/eventNews/" + article.year + "/" + article.image;
       } else {
-        card_image.src = "img/event_news/forActivity.png";
+        card_image.src = "img/eventNews/forActivity.png";
       }
       card_image_div.appendChild(card_image);
 
