@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HMY8NC79JD"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-HMY8NC79JD");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2196F3" />
+    <title>Loading...</title>
+    <script
+      src="https://kit.fontawesome.com/67160f99e5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import Noto Sans JP Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!--Import Academicons Font-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../css/materialize.min.css"
+      media="screen,projection"
+    />
+
+    <!--Import customized css-->
+    <link
+      href="../css/pdf.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="../css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+  </head>
+
+  <body id="top" class="scrollspy">
+    <!--Navigation-->
+    <div id="myNavbar" data-active="2" data-language="ja"></div>
+
+    <div id="event-root"></div>
+    <div class="container">
+      <h4 class="header text_b"></h4>
+      <div class="section scrollspy">
+        <p class="normal"></p>
+
+        <div class="row">
+          <div class="column leftc">
+            <p class="center">
+              <!-- Swiper1 START -->
+            </p>
+
+            <div class="swiper-container swiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img id="img1" width="100%" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img id="img2" width="100%" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img id="img3" width="100%" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img id="img4" width="100%" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img id="img5" width="100%" alt="" />
+                </div>
+              </div>
+              <div class="swiper-button-prev prev1"></div>
+              <div class="swiper-button-next next1"></div>
+            </div>
+            <!-- Swiper1 END -->
+            <!-- Swiper2 START -->
+            <div class="swiper-container swiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img id="img6" width="100%" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img id="img7" width="100%" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img id="img8" width="100%" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img id="img9" width="100%" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img id="img10" width="100%" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- Swiper2 END -->
+          </div>
+          <div class="column rightc">
+            <p class="smallheader"></p>
+            <div id="abstractContent"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <!-- presentation -->
+            <div id="presentations"></div>
+
+            <!-- presentation-template -->
+            <template id="presentation-template">
+              <div class="presentation">
+                <p class="normal">
+                  <b>発表内容</b>
+                  <br />
+                  <b>発表者:</b><span class="speaker"></span>
+                  <br />
+                  <b>タイトル:</b>
+                  <a class="title" target="_blank"></a>
+                  <br />
+                  <b>概要:</b><span class="abstract"></span><br />
+                </p>
+
+                <h6>発表スライド:</h6>
+                <br />
+
+                <div class="pdf-container">
+                  <div class="slideshow-container">
+                    <div class="slide">
+                      <canvas class="pdf-render"></canvas>
+                    </div>
+                    <a class="prev">&#10094;</a>
+                    <a class="next">&#10095;</a>
+                  </div>
+                  <div class="controls">
+                    <span class="page-num"></span> /
+                    <span class="page-count"></span>
+                  </div>
+                </div>
+                <br />
+              </div>
+            </template>
+            <!-- presentation-template -->
+            <br />
+            <h6 class="voyage"></h6>
+            <p class="voyageDiary"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <div id="myFooter"></div>
+
+    <!--  Scripts-->
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../js/myjs.js"></script>
+    <script src="../js/modernizr.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="../js/powerpoint.js"></script>
+    <script src="../js/swiper.js"></script>
+    <script src="../js/researchNews.js"></script>
+  </body>
+</html>

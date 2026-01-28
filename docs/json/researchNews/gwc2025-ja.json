@@ -1,0 +1,22 @@
+{
+  "title": "第13回 GWC｜立命館大学 社会知能研究室",
+  "laboratoryLife": "Laboratory Life",
+  "date": "日時: 2025年1月27日(月)〜31日(木)",
+  "place": "イ場所: イタリア　パビア",
+  "abstract": "概要",
+  "abstractContent": "当研究室の西村さんが、The 13th International Global Wordnet Conference (GWC2025)で研究発表を行いました!",
+  "path": "../img/research_news/presentation/2025/GWC/",
+  "images": ["IMG_7145.jpeg", "IMG_7153.jpeg", "IMG_7195.jpeg"],
+  "presentation": [
+    {
+      "speaker": "西村 一球",
+      "title": "Extracting Conceptual Differences between Translation Pairs Using Multilingual WordNet",
+      "link": "https://easychair.org/cfp/gwc2025",
+      "abstract": "The concepts expressed by words and their translations in different languages do not always align. Despite advancements in machine translation, such differences can still lead to misunderstandings. Therefore, we proposed a method to extract conceptual differences in translation pairs from WordNet and Open Multilingual WordNet. We applied the proposed method to Japanese, Chinese, and Indonesian WordNets to investigate how many translation pairs with conceptual differences they have. Furthermore, we validated the extracted conceptual differences using human evaluators.",
+      "id": "pdf-container1",
+      "path": "presentation_slide/C_ポスターデータ.pdf"
+    }
+  ],
+  "voyage": "旅日記",
+  "voyageDiary": "GWC2025のために、イタリアのパヴィアに行ってきました。パヴィアはミラノの近くにある街で、伝統的な雰囲気でした。街中は学生が多く、オシャレなカフェやジェラート専門店がたくさんありました。イタリアで食べるピザやパスタはとても美味しく、値段もお手頃でしたが、サイズが大きいので食べきれないこともありました。また、空いてる日にはミラノへ観光に行き、ドゥオーモやガッレリアを観光してきました。特に、ドゥオーモのテラス見学は、ヨーロッパの歴史的な一面と先進的なミラノの街並みを感じることができ、とても感動しました。"
+}
