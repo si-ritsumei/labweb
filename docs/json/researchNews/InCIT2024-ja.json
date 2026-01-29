@@ -1,0 +1,30 @@
+{
+  "title": "第8回 InCIT｜立命館大学 社会知能研究室",
+  "laboratoryLife": "Laboratory Life",
+  "date": "日時: 2024年11月14日(木)〜15日(金)",
+  "place": "場所: 金沢市文化ホール",
+  "abstract": "",
+  "abstractContent": "",
+  "path": "../img/research_news/presentation/2024/InCIT/",
+  "images": ["InCIT2024"],
+  "presentations": [
+    {
+      "speaker": "",
+      "title": "Building a Facilitator Agent to Promote Understanding in Multilingual Communication",
+      "link": "https://doi.org/10.1109/InCIT63192.2024.10810603",
+      "abstract": "In intercultural communication among children using machine translation, it has been reported that the number of utterances by speakers of low-resource languages is low. Low-resource languages are characterized by limited linguistic resources and lower translation accuracy. Therefore, it is difficult for these language speakers to participate in discussions. This study develops two types of facilitator agents: Summary Request and Summary Provision, which offer discussion summaries to enhance the engagement of speakers of low-resource languages in multilingual conversations. We conducted a communication experiment to verify whether the understanding and participation levels of low-resource language speakers improved. As a result, quantitative analysis using statistical methods did not reveal the effects of the agents. However, qualitative analysis examined the impact of the facilitator agents on ensuring the full participation of low-resource language speakers in the discussion.",
+      "pdfId": "pdf-container1",
+      "path": "presentation_slides/InCIT2024_Motozawa.pdf"
+    },
+    {
+      "speaker": "",
+      "title": "",
+      "link": "",
+      "abstract": "",
+      "pdfId": "pdf-container2",
+      "path": ""
+    }
+  ],
+  "voyage": "",
+  "voyageDiary": ""
+}

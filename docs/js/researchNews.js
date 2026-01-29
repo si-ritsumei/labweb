@@ -107,6 +107,7 @@ function makePresentation(data, path) {
   node.querySelector(".abstract").textContent = data.abstract;
 
   const pdfContainer = node.querySelector(".pdf-container");
+  if (!data.path) return;
   pdfContainer.id = data.pdfId;
   pdfContainer.dataset.pdfUrl = path + data.path;
   initPdfViewer(pdfContainer);

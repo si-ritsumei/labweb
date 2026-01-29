@@ -3,7 +3,8 @@
   "laboratoryLife": "Laboratory Life",
   "date": "日時: 2023年7月3日(月)",
   "place": "場所: 一橋大学 一橋講堂",
-  "abstract": "当研究室の元澤さんが、The 24th International Conference on Artificial Intelligence in Education (AIED 2023) のワークショップに参加し、研究発表を行いました。",
+  "abstract": "概要",
+  "abstractContent": "当研究室の元澤さんが、The 24th International Conference on Artificial Intelligence in Education (AIED 2023) のワークショップに参加し、研究発表を行いました。",
   "path": "../img/research_news/presentation/2023/AIED2023/",
   "images": ["IMG_1347.jpg"],
   "presentations": [
