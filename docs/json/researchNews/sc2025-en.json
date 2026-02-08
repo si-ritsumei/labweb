@@ -1,0 +1,30 @@
+{
+  "title": "Presentation at Technical Committee on Service Computing (SC)｜Social Intelligence Laboratory, Ritsumeikan University",
+  "laboratoryLife": "Laboratory Life",
+  "date": "Date: March 17th, 2025",
+  "place": "Location: The Kyoto College of Graduate Studies for Informatics",
+  "abstract": "Overview",
+  "abstractContent": "Mr.Matsumoto and Mr.Nakagawa gave a research presentation at the Services Computing Workshop and Mr.Matsumoto received the Young Scientist Incentive Award.",
+  "path": "../img/research_news/presentation/2025/SC/",
+  "images": ["matsumoto_award.jpg", "matsumoto.jpg", "nakagawa.JPG"],
+  "presentations": [
+    {
+      "speaker": "Kenji Matsumoto",
+      "title": "API recommendation for service composition using large-scale language models",
+      "link": "https://ken.ieice.org/ken/paper/20250308Dc9a/",
+      "abstract": "A new service built by linking multiple APIs is called a composite service. Composite services make it possible to provide expanded functions and added value that would be difficult to achieve with a single service. However, when building a composite service, it is extremely difficult to find the necessary APIs from the vast number of APIs. In this study, we propose a method to find a combination of APIs that meets requirements from a user's requirements statement written in natural language using the LLM prompting method. Specifically, we apply and evaluate the Few-Shot CoT method, which sets up an inference procedure for a generative AI, presents examples, and allows it to make inferences based on these.",
+      "pdfId": "pdf-container1",
+      "path": "presentation_slide/sc2025_matsumoto.pdf"
+    },
+    {
+      "speaker": "Shinichi Nakagawa",
+      "title": "Composite service recommendation using multi-layer multi-label classification",
+      "link": "https://ken.ieice.org/ken/paper/20250308Fc9B/",
+      "abstract": "Composite service is a new service that combines multiple web services on the Internet. Service composition creates new services that users needs using existing web services. However, selecting the appropriate web services to construct a composite service that aligns with users needs is a challenging task.This study proposes a method that leverages a language model to determine appropriate service combinations based on user requirements expressed in natural language. The approach formulates the task as a multi-label classification problem and uses a pre-trained BERT model to solve it. Additionally, to improve selection accuracy, service categories are hierarchically structured, and a multi-layer multi-label classification model is applied.",
+      "pdfId": "pdf-container2",
+      "path": "presentation_slide/sc2025_nakagawa.pdf"
+    }
+  ],
+  "voyage": "",
+  "voyageDiary": ""
+}

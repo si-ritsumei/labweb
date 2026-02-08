@@ -1,0 +1,30 @@
+{
+  "title": "22nd PAAMS｜Social Intelligence Laboratory, Ritsumeikan University",
+  "laboratoryLife": "Laboratory Life",
+  "date": "Date: June 26th ~ 28th, 2024",
+  "place": "Location: Salamanca, Spain",
+  "abstract": "Overview",
+  "abstractContent": "Mr. Kitagawa from our lab gave a research presentation at the 22nd International Conference on Practical applications of Agents and Multi-Agent Systems (PAAMS 2024)!",
+  "path": "../img/research_news/presentation/2024/PAAMS/",
+  "images": ["PAAMS_2024.jpeg", "PAAMS_2024_2.jpeg", "PAAMS_2024_3.jpeg"],
+  "presentations": [
+    {
+      "speaker": "Kantaro Kitagawa",
+      "title": "Federated Neural Machine Translation Using Multi-Agent Reinforcement Learning",
+      "link": "https://www.paams.net",
+      "abstract": "Neural machine translation (NMT) has greatly enhanced translation accuracy, driven by the availability of extensive high-quality bilingual corpora. However, sharing bilingual data among organizations is challenging due to copyright and confidentiality issues. Federated learning addresses this by enabling collaborative model improvement while preserving data privacy. Yet, the diverse data held by participants can reduce model accuracy. To tackle this, we propose a multi-agent system leveraging deep reinforcement learning to integrate translation models during federated learning. Our system dynamically selects partners for aggregation, with agents using reinforcement learning to identify optimal collaborators. Validated on Wikipedia data across three domains, our method outperforms traditional approaches, increasing translation accuracy by 33.9% for each client compared to existing federated learning methods.",
+      "pdfId": "pdf-container1",
+      "path": "presentation_slides/2024_kitagawa_paams.pdf"
+    },
+    {
+      "speaker": "",
+      "title": "",
+      "link": "",
+      "abstract": "",
+      "pdfId": "pdf-container2",
+      "path": ""
+    }
+  ],
+  "voyage": "Travel Diary",
+  "voyageDiary": "The moment I arrived in Salamanca, the first thing that caught my eye were the golden buildings. I was particularly overwhelmed by the grandeur of the Gothic cathedral (Catedral Nueva). It shines in the sunlight during the day, and is lit up at night, creating a fantastic atmosphere. The prosciutto I ate at a restaurant directly below the cathedral was exquisite, and it was a truly blissful moment to enjoy the local cuisine. Prosciutto is one of Salamanca's specialties, and its rich flavor and exquisite saltiness spread in my mouth, as if I was experiencing the majesty and beauty of the cathedral with my taste buds. Sitting on the restaurant's terrace and enjoying a leisurely meal while looking up at the cathedral was one of the special moments I spent in this city. On another day, I also tried paella, a typical Spanish dish. Served in a large paella pan, this dish was an exquisite blend of golden saffron-colored rice and fresh seafood, chicken, and vegetables. With each bite, the flavors of the different ingredients spread throughout my mouth, and I was captivated by the rich taste. After finishing my meal, I looked at the illuminated cathedral again and felt my heart fill with joy. The night in Salamanca is quiet, and walking along the cobblestone streets, the beautiful buildings shine even more. In that moment, I was able to strongly feel the charm of the city of Salamanca and the miracle woven by its history and culture. My trip to Salamanca was a wonderful experience, full of history, culture, and beautiful scenery. The days I spent in this city are deeply engraved in my heart and will be a lifelong treasure."
+}

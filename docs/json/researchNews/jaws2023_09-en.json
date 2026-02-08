@@ -1,0 +1,30 @@
+{
+  "title": "Presentation at Joint Agent Workshop & Symposium 2023｜Social Intelligence Laboratory, Ritsumeikan University",
+  "laboratoryLife": "Laboratory Life",
+  "date": "Date: September 12th - 13th , 2023",
+  "place": "Location: Noboribetsu Grand Hotel",
+  "abstract": "Overview",
+  "abstractContent": "Mr. Kitagawa, gave a research presentation at Joint Agent Workshop & Symposium 2023 of Japan.",
+  "path": "../img/research_news/presentation/2023/jaws2023_09/",
+  "images": ["kitagawa2023_09.jpeg"],
+  "presentations": [
+    {
+      "speaker": "Kitagawa Kantaro",
+      "title": "Cooperative Agents for Federated Learning of Neural Machine Translation",
+      "link": "https://ken.ieice.org/ken/paper/20230912mCw7/",
+      "abstract": "Accurate neural machine translation requires large amounts of high-quality bilingual data, however due to the copyright and confidentiality issues, it is difficult to share the bilingual data between different organizations. With federal learning, multiple clients can collaboratively build a neural machine translation model and share only the translation model while keeping their own data confidential. However, if the domain of bilingual data differs among clients, the translation accuracy is not necessarily improved by integrating all translation models. Therefore, we propose a cooperative agent that dynamically selects a cooperative partner and integrates translation models in each aggregation process in cooperative learning. Compared to conventional cooperative learning methods, our method can improve the translation accuracy of each client by 22.7% on average.",
+      "pdfId": "pdf-container1",
+      "path": ""
+    },
+    {
+      "speaker": "",
+      "title": "",
+      "link": "",
+      "abstract": "",
+      "pdfId": "pdf-container2",
+      "path": ""
+    }
+  ],
+  "voyage": "",
+  "voyageDiary": ""
+}

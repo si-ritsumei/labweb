@@ -1,0 +1,104 @@
+{
+  "title": "Presentation at The 87th National Convention of the Information Processing Society of Japan｜Social Intelligence Laboratory, Ritsumeikan University",
+  "laboratoryLife": "Laboratory Life",
+  "date": "Date: March 13th-15th, 2025",
+  "place": "Location: Ritsumeikan University",
+  "abstract": "Overview",
+  "abstractContent": "Mr.Sunada, Mr.Kitagawa, Mr.Matsumoto, Ms.Kanaha Mori, Mr.Yamamoto, Mr.Iwano, Ms.Kaoku, Mr.Tomita, Mr.Nakagawa, and Ms.Yuria Mori, presented their research at The 87th National Convention of the Information Processing Society of Japan.",
+  "path": "../img/research_news/presentation/2025/IPSJ/",
+  "images": [
+    "ipsj2025.jpg",
+    "sunada.jpg",
+    "kitagawa.jpg",
+    "yamamoto.jpg",
+    "iwano.jpg",
+    "kaoku.jpg",
+    "tomida.jpg",
+    "nakagawa.jpg",
+    "yuria.jpg"
+  ],
+  "presentations": [
+    {
+      "speaker": "Kaito Sunada",
+      "title": "Building of an Ontology for Supporting the Selection of Analytical Methods for Inorganic Materials",
+      "link": "https://www.ipsj.or.jp/event/taikai/87/WEB/data/pdf/1U-07.html",
+      "abstract": "In the manufacture of inorganic materials, material analysis is important to investigate the material properties and internal structure of materials, and it is necessary to select the most appropriate analytical method for the analytical purpose. Therefore, a system was proposed to analyze the text of an analysis request and recommend a method. However, the program was complicated and low-maintainability due to unclear vocabulary definitions and abstraction levels. The final goal of the joint research is to develop a system that recommends the most appropriate analytical method based on the contents of the analysis request form. In addition, we propose an example of the use of the ontology by using a recommendation system incorporating the built ontology.",
+      "pdfId": "pdf-container1",
+      "path": "presentation_slide/ipsj2025_sunada.pdf"
+    },
+    {
+      "speaker": "Kantato Kitagawa",
+      "title": "Self-Organizing Multi-Agent System for Federated Neural Translation",
+      "link": "https://www.ipsj.or.jp/event/taikai/87/WEB/data/pdf/6V-08.html",
+      "abstract": "Federated learning allows organizations to collaboratively train models while keeping their data private. However, when data distributions differ, the accuracy of the models can decrease, meaning that improvements in translation accuracy are not guaranteed for all models. To address this, we propose a multi-agent system that dynamically selects partners during each aggregation process using deep reinforcement learning. As internal models for the agents, we utilize selfish agents that aim to improve translation accuracy individually for each domain, and cooperative agents that strive to enhance translation accuracy across all domains. In validation tests using three different datasets, we confirmed that the selfish agents improved translation accuracy by 29.5% and the cooperative agents by 13.4% compared to conventional methods.",
+      "pdfId": "pdf-container2",
+      "path": "presentation_slide/ipsj2025_kitagawa.pdf"
+    },
+    {
+      "speaker": "Kenji Matsumoto",
+      "title": "API recommendation for service development using large-scale language models",
+      "link": "https://www.ipsj.or.jp/event/taikai/87/WEB/data/pdf/6W-01.html",
+      "abstract": "New services constructed by linking multiple APIs are called composite services. Composite services can provide extended functions and added value that are difficult to achieve with a single service. However, when building composite services, it is extremely difficult to discover the necessary APIs from a huge number of APIs. In this study, we propose a method for discovering combinations of APIs that satisfy requirements from user requirement sentences in natural language, using LLM's prompting method. Specifically, we apply and evaluate the Few-Shot CoT method, in which a generated AI is provided with inference procedures and presented with examples, which are then used as the basis for inference.",
+      "pdfId": "pdf-container3",
+      "path": "presentation_slide/ipsj2025_matsumoto.pdf"
+    },
+    {
+      "speaker": "Kanaha Mori",
+      "title": "Embedding-based Cultural Difference Analysis of Emoji between English and Japanese",
+      "link": "https://www.ipsj.or.jp/event/taikai/87/WEB/data/pdf/4ZG-05.html",
+      "abstract": "Emojis play a important role in conveying the writer's emotions and intentions in chat-based multilingual communication. However, since some emojis are interpreted differently across cultures, the current machine translation systems, which insert emojis as they are, can lead to communication mismatches. To address this issue, this study employs two types of emoji embedding methods to extract cultural differences in emoji usage between Japanese and English and compares the emojis identified as culturally distinct by each method. Specifically, we analyze and compare emoji cultural differences using an emotion-prediction-based embedding, which focuses on the emotions conveyed by emojis, and a subsequent-emoji-based embedding, which considers emojis that follow the text.",
+      "pdfId": "pdf-container4",
+      "path": "presentation_slide/ipsj2025_kanaha.pdf"
+    },
+    {
+      "speaker": "Ryotato Yamamoto",
+      "title": "The Impact of Knowledge Tagging Methods on Task Assignment in Crowdsourcing",
+      "link": "https://www.ipsj.or.jp/event/taikai/87/WEB/data/pdf/4U-01.html",
+      "abstract": "In the creation of bilingual dictionaries for low-resource languages using crowdsourcing, challenges arise from disparities in worker capabilities and the misalignment between tasks and workers. This study introduces a new method for generating knowledge tags, incorporating not only the conventional Word2Vec-based semantic classification but also a novel approach utilizing Levenshtein distance. Based on these knowledge tags, we predict task success probabilities using the Deep Knowledge Tracing (DKT) model and employ the Hungarian algorithm for optimal task assignment. To validate the effectiveness of our proposed method, we compare it with traditional methods, assessing their respective assignment accuracy and efficiency.",
+      "pdfId": "pdf-container5",
+      "path": "presentation_slide/ipsj2025_yamamoto.pdf"
+    },
+    {
+      "speaker": "Tomoaki Iwano",
+      "title": "Multilingual Speech Communication Support in the Metaverse",
+      "link": "https://www.ipsj.or.jp/event/taikai/87/WEB/data/pdf/4ZG-06.html",
+      "abstract": "It is known that activities through avatars in the metaverse affect users' self-perception and bring about changes in their behavior. This psychological effect is called the “Proteus effect. However, previous studies on the Proteus Effect have mainly focused on changes in appearance characteristics, and changes in speech language have not been examined. In order to realize smooth mutual understanding between different cultures in the metaverse, it is important to understand the effects of language transformation in the metaverse. Therefore, in this study, we constructed a multilingual speech communication environment in which one's own speech is converted into synthetic speech of the other language in the metaverse, and examined the Proteus effect caused by language conversion.",
+      "pdfId": "pdf-container6",
+      "path": "presentation_slide/ipsj2025_iwano.pdf"
+    },
+    {
+      "speaker": "Sakie Kaoku",
+      "title": "Prompt Notation for Translation Agents",
+      "link": "https://www.ipsj.or.jp/event/taikai/87/WEB/data/pdf/4ZF-02.html",
+      "abstract": "In natural language-based scenario descriptions, ambiguity, increased interactions, and elongated contexts often lead to deviations from the intended scenario. To address this issue, this study proposes a structured prompt notation for controlling agents. Specifically, the prompt is defined using three elements: “syntax,” “semantics,” and “scenario,” and is written in YAML format to reduce ambiguity. This notation eliminates ambiguities caused by polysemy and colloquial expressions, enabling flexible translations that adapt to the given context. An evaluation of the constructed agent’s performance in handling polysemous words and culturally dependent expressions showed that, through user interactions, the agent was able to provide more accurate and contextually appropriate translations.",
+      "pdfId": "pdf-container7",
+      "path": "presentation_slide/ipsj2025_kaoku.pdf"
+    },
+    {
+      "speaker": "Yuto Tomida",
+      "title": "Post-editing model to native English using BART",
+      "link": "https://www.ipsj.or.jp/event/taikai/87/WEB/data/pdf/2Q-09.html",
+      "abstract": "Machine translation output is sometimes unnatural for native speakers. One approach to making the output more natural is post-editing. In this study, we aim to automate this human-performed process. Specifically, we perform same-language transformation using a neural network with a pre-edited model. We build a native English classifier using BERT and use this classifier to create a parallel corpus. The parallel corpus is then fine-tuned using BART, and we evaluate whether the post-edited output is native-like English using the classifier. This approach demonstrates that automated post-editing is generally effective for converting text into a native English speaker style.",
+      "pdfId": "pdf-container8",
+      "path": "presentation_slide/ipsj2025_tomida.pdf"
+    },
+    {
+      "speaker": "Shinichi Nakagawa",
+      "title": "Composite service recommendation with BERT",
+      "link": "https://www.ipsj.or.jp/event/taikai/87/WEB/data/pdf/5ZG-01.html",
+      "abstract": "Composite service is a new service that combines multiple web services on the Internet. Service composition creates new services that users needs using existing web services. However, selecting the appropriate  web services to construct a composite service that aligns with users needs is a challenging task. This study proposes a method that leverages a language model to determine appropriate service combinations based on user requirements expressed in natural language. The approach formulates the task as a multi-label classification problem and uses a pre-trained BERT model to solve it. Additionally, to improve selection accuracy, service categories are hierarchically structured, and a multi-layer multi-label classification model is applied.",
+      "pdfId": "pdf-container9",
+      "path": "presentation_slide/ipsj2025_nakagawa.pdf"
+    },
+    {
+      "speaker": "Yuria Mori",
+      "title": "The Effect of Voice Changer on Speaker’s Behavior",
+      "link": "https://www.ipsj.or.jp/event/taikai/87/WEB/data/pdf/5ZE-06.html",
+      "abstract": "A virtual environment is an environment that is virtually constructed within hardware, allowing users to interact with others through avatars. Experiences in virtual environments that resemble the real world have demonstrated that changes in an avatar’s appearance can lead to behavioral changes in users due to the Proteus effect. This study focuses not on an avatar’s appearance but on voice, analyzing the impact of discrepancies between a user’s gender and voice when using a voice changer. Specifically, the study examines how variations in pitch and intonation influence self-disclosure levels and negotiation behavior. The experiment employs Two Truths and a Lie and the Ultimatum Game to evaluate self-disclosure and negotiation behavior. ",
+      "pdfId": "pdf-container10",
+      "path": "presentation_slide/ipsj2025_yuria.pdf"
+    }
+  ],
+  "voyage": "",
+  "voyageDiary": ""
+}

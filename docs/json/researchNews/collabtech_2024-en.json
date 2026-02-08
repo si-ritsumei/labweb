@@ -1,0 +1,22 @@
+{
+  "title": "30nd PAAMS｜Social Intelligence Laboratory, Ritsumeikan University",
+  "laboratoryLife": "Laboratory Life",
+  "date": "Date: September 11th ~ 14th, 2024",
+  "place": "Location: Barcelona, Spain",
+  "abstract": "Overview",
+  "abstractContent": "Ms. Motozawa from our lab gave a research presentation at The 30th International Conference on Collaboration Technologies and Social Computing (CollabTech 2024)!",
+  "path": "../img/research_news/presentation/2024/Collab/",
+  "images": ["presentation_collabtech.png", "collab2.png", "collab1.png"],
+  "presentations": [
+    {
+      "speaker": "Mizuki Motozawa",
+      "title": "Dialogue Act Analysis of Facilitator-Children Multilingual Communication",
+      "link": "http://www.collabtech.org",
+      "abstract": "Multilingual communication among children is beneficial for cultivating an attitude that respects cultural diversity at an early age. Improvements in translation accuracy by neural machine translation can enhance children’s mutual understanding. However, a significant chal- lenge remains in involving children who speak low-resource languages (with limited language resources) in multilingual communication due to poor translation quality in those languages, resulting in a low number of utterances from the children. Meanwhile, facilitators play an important role in encouraging children’s dialogue. Therefore, we have analyzed the facilitator’s dialogue acts in a children’s intercultural workshop to clarify which acts can promote their utterances. Specifically, we annotated all facilitator utterances with a dialogue act corresponding to each instance of children’s language use in the actual multilingual dialogue log. Subse- quently, we tallied the number of responses to each dialogue act. With this data, we compared the number of children’s responses for each dia- logue act across languages, analyzed the number of children’s responses in each language for each dialogue act, and examined the patterns of change in dialogue acts for language pairs where translation was involved. The analysis finds that although no act has significant differences in the num- ber of responses across different languages, the facilitator’s utterance act changes caused by machine translation can result in a difference in the number of children's responses.",
+      "pdfId": "pdf-container1",
+      "path": "presentation_slide/CollabTech2024_Motozawa.pdf"
+    }
+  ],
+  "voyage": "Travel Diary",
+  "voyageDiary": "During the breaks in the conference program, I visited the Sagrada Familia. \nSeeing it in person, I was overwhelmed by its size and presence. \nUnfortunately, I wasn't able to go inside, but even just the exterior, with its many decorations and sculptures, was captivating and incredibly beautiful, leaving me deeply moved.\nAdditionally, the food I had there was absolutely exquisite. During my stay, I indulged in authentic Spanish cuisine such as paella, tapas, and cannelloni, thoroughly enjoying my time in Barcelona!"
+}
