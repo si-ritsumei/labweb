@@ -202,8 +202,10 @@
         {
             "name":{"ja":"山内 瞭","en":"Ryo YAMAUCHI"},
             "image":"2024/24yamauchi.png",
-            "main_link":"",
-            "links":[],
+            "main_link":"https://yamauchiryo.github.io/portfolio/",
+            "links":[
+                {"class":"fa-solid fa-circle-user","link":"https://yamauchiryo.github.io/portfolio/"}
+            ],
             "note":""
         },
         {
