@@ -1,0 +1,30 @@
+{
+  "title": "23rd WI-IAT｜Social Intelligence Laboratory, Ritsumeikan University",
+  "laboratoryLife": "Laboratory Life",
+  "date": "Date: December 9th ~ 12th, 2024",
+  "place": "Location: Bangkok, Thailand",
+  "abstract": "Overview",
+  "abstractContent": "Mr. Yamamoto from our lab gave a research presentation at The 23rd IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology!",
+  "path": "../img/research_news/presentation/2024/WI-IAT/",
+  "images": ["IMG_7586.jpg", "IMG_7591.jpg", "IMG_7081.jpg"],
+  "presentations": [
+    {
+      "speaker": "Ryotaro Yamamoto",
+      "title": "Task Assignment in Crowdsourcing Using Deep Knowledge Tracing",
+      "link": "https://www.wi-iat.com/wi-iat2024/index.html",
+      "abstract": "Crowdsourcing is used to create language resources for low-resource languages. In such crowdsourcing endeavors, the variability in workers' abilities makes quality control a critical issue. Specifically, mismatches between workers and creation tasks can lead to the creation of incorrect language resources, resulting in frequent rework of creation and evaluation tasks and increased costs. Therefore, this study proposes a task assignment method that considers task difficulty, using a Deep Knowledge Tracing model trained on workers' work history to assign tasks that workers are likely to complete successfully. Specifically, Word2Vec is used to automatically assign knowledge tags to tasks based on word semantics, and a Deep Knowledge Tracing model is constructed. The constructed Deep Knowledge Tracing model calculates the success probabilities for tasks for each knowledge tag and worker. These probabilities are used as costs in an extended many-to many Hungarian method for optimal assignment. To verify the effectiveness of the proposed method, an experiment was conducted in which 500 bilingual evaluation tasks between Indonesian and Minangkabau were assigned to 20 workers. The experimental results showed that the proposed method improved the accuracy rates by 2.4% - 5.6% compared to random assignment and assignment based on past accuracy rates.",
+      "pdfId": "pdf-container1",
+      "path": "presentation_slide/WI328.pdf"
+    },
+    {
+      "speaker": "",
+      "title": "",
+      "link": "",
+      "abstract": "",
+      "pdfId": "pdf-container2",
+      "path": ""
+    }
+  ],
+  "voyage": "Travel Diary",
+  "voyageDiary": "The moment I arrived in Bangkok, I was immediately struck by the vibrant and colorful cityscape. Among the many stunning sights, Wat Arun stood out as a true symbol of Thai architecture, leaving me in awe of its grandeur. During the day, it glistens under the sunlight, while at night, its illumination creates a mystical atmosphere. Near Wat Arun, I had the chance to enjoy a plate of Pad Thai from a street stall—an absolutely delicious experience that allowed me to savor the authentic flavors of the city. Pad Thai is one of Bangkok’s signature dishes, featuring stir-fried rice noodles harmonized with the sweet and tangy taste of tamarind sauce. The plump shrimp and crunchy bean sprouts added a delightful contrast in texture, making each bite a reflection of Thailand’s lively spirit and rich culture. Sitting at a street-side stall overlooking the Chao Phraya River, enjoying my meal while admiring the beautiful silhouette of Wat Arun, was truly one of the most special moments of my time in Bangkok. On another day, I took on a uniquely Thai culinary challenge—trying scorpions and larvae. At a night market stall, I was initially taken aback by their appearance, but to my surprise, I found their distinct flavors and textures quite enjoyable. The scorpion was crispy on the outside and juicy on the inside, with a fragrant, spicy seasoning. The larvae, on the other hand, had a creamy texture and a subtle sweetness that left a lasting impression. After my meal, I gazed once again at the illuminated Wat Arun, feeling a deep sense of fulfillment. Bangkok’s nightlife was bustling, and as I strolled through the lively night markets, the colorful stalls and tantalizing aromas filled my senses, immersing me in the city’s boundless energy. My journey in Bangkok was a wonderful experience filled with vibrancy, culture, and breathtaking scenery. The days I spent there have left a deep mark on my heart, becoming cherished memories that I will treasure for a lifetime."
+}

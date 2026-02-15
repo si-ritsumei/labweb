@@ -1,0 +1,46 @@
+{
+  "title": "Presentation at The General Conference of IEICE｜Social Intelligence Laboratory, Ritsumeikan University",
+  "laboratoryLife": "Laboratory Life",
+  "date": "Date: March 4th - 8th, 2024",
+  "place": "Location: Hiroshima University, Higashi-Hiroshima Campus",
+  "abstract": "Overview",
+  "abstractContent": "Our laboratory's members, Mr. Kitagawa, Mr. Matsumoto, Ms. Mori and Mr. Yamamoto, gave a research presentation at The General Conference of The Institute of Electronics, Information and Communication Engineers of Japan.",
+  "path": "../img/research_news/presentation/2024/IEICE_GC2024/",
+  "images": [],
+  "presentations": [
+    {
+      "speaker": "Kantaro Kitagawa",
+      "title": "Cooperative Neural Machine Translation with Multi-Agent Reinforcement Learning",
+      "link": "https://pub.confit.atlas.jp/ja/event/general2024/presentation/D-23-02",
+      "abstract": "The advent of neural machine translation has significantly improved the accuracy of machine translation in recent years, garnering substantial attention from the public. To construct a highly accurate neural machine translation system, a large amount of high-quality bilingual data is necessary. However, collecting such bilingual data is extremely challenging. One method to solve this problem is to use federated learning, where multiple data owners collaborate to create a neural machine translation model. However, traditional methods do not adequately reflect the preferences of each data owner. Therefore, this study proposes a method that uses multi-agent reinforcement learning to reflect the preferences of each data owner.",
+      "pdfId": "pdf-container1",
+      "path": "presentation_slides/2024_kitagawa_hiroshima.pdf"
+    },
+    {
+      "speaker": "Kenji Matsumoto",
+      "title": "Soft Clustering Based on Service Composition Relationships",
+      "link": "https://pub.confit.atlas.jp/ja/event/general2024/presentation/D-23-03",
+      "abstract": "A composite service is a service created by integrating multiple web services. Currently, new composite services are being constructed by integrating a wide variety of web services. However, when building composite services, it is extremely difficult to discover the necessary services from the vast number of web services available online. Therefore, this study proposes a method for efficiently clustering web services based on their functionalities. This method enables users to discover the appropriate web services as needed.",
+      "pdfId": "pdf-container2",
+      "path": "presentation_slides/2024_matsumoto_hiroshima.pdf"
+    },
+    {
+      "speaker": "Kanaha Mori",
+      "title": "Emoji Embedding Based on Emotion Prediction Model",
+      "link": "https://pub.confit.atlas.jp/ja/event/general2024/presentation/H-1-02",
+      "abstract": "In multilingual communication through machine translation, emojis, which can convey the writer's emotions and intentions, play an important role. However, because emojis are inserted as is without being translated in machine translation, the different interpretations of emojis across cultural contexts can cause communication discrepancies. Therefore, this study calculates the emotion vectors expressed by emojis to detect cultural differences in emoji interpretation that lead to communication discrepancies between different languages. Specifically, an emotion prediction model is constructed to represent the emotions associated with emojis in a distributed representation. This method is called emoji embedding.",
+      "pdfId": "pdf-container3",
+      "path": "presentation_slides/2024_mori_hiroshima.pdf"
+    },
+    {
+      "speaker": "Ryotaro Yamamoto",
+      "title": "Performance Prediction for Translation Creation Tasks Using Deep Knowledge Tracing",
+      "link": "https://pub.confit.atlas.jp/ja/event/general2024/presentation/D-20-15",
+      "abstract": "In crowdsourcing aimed at creating language resources for low-resource languages, quality control is a critical issue due to the scarcity of highly skilled workers. Quality is ensured by combining not only the creation tasks but also the evaluation tasks of the created language resources. However, errors in bilingual creation due to mismatches between workers and tasks lead to frequent rework of creation and evaluation tasks, increasing costs. Therefore, this study predicts the probability of task success from work history to assign tasks in crowdsourcing while considering task difficulty. Specifically, using Deep Knowledge Tracing, a model is trained to predict the success probability of the next task based on the type of task and past accuracy data, and future task success predictions are made. This success prediction is used for task assignment in crowdsourcing to ensure the accuracy of the deliverables.",
+      "pdfId": "pdf-container4",
+      "path": "presentation_slides/2024_yamamoto_hiroshima.pdf"
+    }
+  ],
+  "voyage": "",
+  "voyageDiary": ""
+}

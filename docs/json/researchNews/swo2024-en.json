@@ -1,0 +1,34 @@
+{
+  "title": "64rd SWO｜Social Intelligence Laboratory, Ritsumeikan University",
+  "laboratoryLife": "Laboratory Life",
+  "date": "Date: December 20th, 2024",
+  "place": "Location: Keio University Hiyoshi Campus, Kanagawa",
+  "abstract": "Overview",
+  "abstractContent": "Mr. Sunada from our lab gave a research presentation at The Japanese Society for Artificial Intelligence Semantic Web and Ontology Study Group!",
+  "path": "../img/research_news/presentation/2024/SWO/",
+  "images": [
+    "presentation1.jpg",
+    "presentation2.jpg",
+    "with Prof_kitamura.jpg"
+  ],
+  "presentations": [
+    {
+      "speaker": "Sunada Sunada",
+      "title": "Building an ontology and proposing a system to support the selection of inorganic material analysis methods",
+      "link": "https://doi.org/10.11517/jsaisigtwo.2024.SWO-064_03",
+      "abstract": "The purpose of this research is to build an ontology that can be incorporated into a system that recommends the optimal analysis method based on the contents of an analysis request form when analyzing inorganic materials. A concept is defined to break down the analysis purpose stated in the analysis request form into partial acts and output an analysis method to achieve the partial acts. In addition, concepts are defined in conjunction with analytical conditions in order to determine whether the analytical equipment used for the analytical method is appropriate. By doing this, we aim to recommend the optimal analysis method by linking the analysis method and the conditions of the analysis device when an analysis purpose is given.",
+      "pdfId": "pdf-container1",
+      "path": "presentation_slide/SWO.pdf"
+    },
+    {
+      "speaker": "",
+      "title": "",
+      "link": "",
+      "abstract": "",
+      "pdfId": "pdf-container2",
+      "path": ""
+    }
+  ],
+  "voyage": "Travel Diary",
+  "voyageDiary": "A presentation by the SWO study group was held at Keio Hiyoshi Campus. It was my first time giving a presentation outside of an academic conference, and it was very refreshing. The day before the seminar, I had sushi with Professor Kitamura as a celebration. There was a lot of high-quality sushi, and it was very delicious. On the day of the presentation, I gave my presentation in front of many ontology experts. The question and answer session after the presentation was very meaningful, and I was able to highlight the issues of my research and its characteristics when viewed from various perspectives. This presentation made me want to work even harder on my research and communicate my research to the world."
+}

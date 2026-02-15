@@ -1,0 +1,36 @@
+{
+  "title": "DUT-RU Joint Workshop on Information Science and Engineering 2025　(JWISE2025)｜Social Intelligence Laboratory, Ritsumeikan University",
+  "laboratoryLife": "Laboratory Life",
+  "date": "Date: September 5th ~ 6th, 2025",
+  "place": "Location: Dalian, China",
+  "abstract": "Overview",
+  "abstractContent": "Ms.Kaoku and Mr.Nakagawa from our lab gave a research presentation at DUT-RU Joint Workshop on Information Science and Engineering 2025(JWISE2025)!",
+  "path": "../img/research_news/presentation/2025/jwise2025/",
+  "images": [
+    "jwise01.jpg",
+    "jwise02.jpg",
+    "jwise03.jpg",
+    "jwise04.jpg",
+    "jwise05.jpg"
+  ],
+  "presentations": [
+    {
+      "speaker": "Sakie Kaoku",
+      "title": "Structured Prompt Design for Translation Agents",
+      "link": "https://easychair.org/cfp/JWISE2025",
+      "abstract": "Recent globalization has increased the demand for accurate machine translation to support multilingual communication. Although neural machine translations have made significant progress, they still face challenges in word sense disambiguation. To address this limitation, translation agents, analogous to human interpreters who clarify ambiguous or complex texts through user interaction, have emerged as a promising approach. Large language models (LLMs), with their interactive capabilities and context awareness, enable translation agents by supporting dialogue-based disambiguation and translations that capture user intent more accurately. However, instructing LLMs with natural language prompts results in ambiguity and prompt bloat as interactions progress, undermining consistent control over agent behavior. Therefore, we propose a structured prompt format using YAML, where both syntax and semantics are explicitly defined to ensure stable and generalizable control of translation agents. Our prompt format models agent behavior through state transitions, events, and action rules, achieving consistent behavior across different LLMs. We conduct a comparative evaluation using GPT-3.5-turbo, GPT-4o-mini, and GPT-4o, measuring ambiguity detection accuracy, translation accuracy, and behavior stability. Experimental results show that our structured YAML prompt outperforms natural language prompts by 7% in both translation accuracy and ambiguity detection with GPT-4o. Additionally, the YAML format significantly improves the stability. This work presents a generalizable and structured prompt for translation agents, supporting improved consistency and accuracy in multilingual interactive systems powered by LLMs.",
+      "pdfId": "pdf-container1",
+      "path": "presentation_slide/JWISE_2025_kaoku.pdf"
+    },
+    {
+      "speaker": "Shinnichi Nakagawa",
+      "title": "Hierarchical BERT-Based Multi-Label Models for Mashup API Recommendation Paper",
+      "link": "https://easychair.org/cfp/JWISE2025",
+      "abstract": "The rapid increase in the number of available Web APIs has made it challenging for users to select and compose APIs that fulfill their requirements. Existing approaches to mashup API recommendation are broadly categorized as horizontal or vertical. Horizontal methods select optimal API combinations for predefined workflows, while vertical methods employ classical AI planning to generate API sequences that achieve specified goal states, requiring users to represent goals as logical formulas. This paper proposes a novel approach that formulates mashup API recommendations as a multi-label classification problem, employing fine-tuned BERT models to infer suitable API combinations from user requirements expressed in natural language. To constrain the extensive label space, we introduce a hierarchical architecture that organizes multiple BERT-based classifiers, each responsible for a subset of categories. We evaluate the proposed method on real-world mashup data from ProgrammableWeb.Experimental results demonstrate that the proposed method outperforms a single BERT-based classifier.",
+      "pdfId": "pdf-container2",
+      "path": "presentation_slide/JWISE_2025_nakagawa.pdf"
+    }
+  ],
+  "voyage": "Travel Diary",
+  "voyageDiary": "As part of the JWISE2025 program, we visited Dalian University of Technology in Dalian, China. Both of us gave research presentations during the poster session, and we had the opportunity to exchange ideas with students from Dalian University of Technology as well as Ritsumeikan University. Through these discussions, we were inspired by each other’s research and gained valuable insights. In the evening, we joined a barbecue exchange event, where we enjoyed talking and deepened our friendships while sharing delicious food. It was a memorable experience to interact with others outside of an academic setting as well. The local Chinese cuisine was also excellent, with authentic flavors. The dumplings and seafood dishes were particularly memorable.It was a truly meaningful experience where we learned a lot both academically and culturally."
+}

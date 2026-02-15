@@ -1,0 +1,38 @@
+{
+  "title": "Presentation at IEICE Technical Committee on Human Communication Science (HCS)｜Social Intelligence Laboratory, Ritsumeikan University",
+  "laboratoryLife": "Laboratory Life",
+  "date": "Date: January 24th - 25th, 2025",
+  "place": "Location: Ritsumeikan University, Osaka Ibaraki Campus H Building, H802",
+  "abstract": "Overview",
+  "abstractContent": "Our laboratory's members, Mr. Nishimura, Ms. Matsumoto, and Ms. Mori, gave a research presentation at IEICE Technical Committee on Human Communication Science.",
+  "path": "../img/research_news/presentation/2025/HCS/",
+  "images": [],
+  "presentations": [
+    {
+      "speaker": "Ikkyu Nishimura",
+      "title": "Supporting multilingual communication by detecting conceptual differences",
+      "link": "https://ken.ieice.org/ken/paper/20250124rcHj/",
+      "abstract": "As the accuracy of machine translation improves, multilingual communication is becoming possible. However, there can be conceptual differences even between words that have a bilingual relationship, which can lead to discrepancies in communication. We therefore propose a support method that uses a concept dictionary to detect conceptual differences between words in different languages ​​and alerts the speaker. To verify the effectiveness of this method, we conducted a controlled experiment with Japanese and Indonesian speakers using a multilingual chat tool. Analysis of the experimental results showed that when speakers were supported using the proposed method, they behaved more in a way that took conceptual differences into account.",
+      "pdfId": "pdf-container1",
+      "path": "presentation_slide/HCS2025_NISHIMURA.pdf"
+    },
+    {
+      "speaker": "Mizuki Motozawa",
+      "title": "Analysis of the effectiveness of summaries in supporting multilingual discussions",
+      "link": "https://ken.ieice.org/ken/paper/202501243cHM/",
+      "abstract": "In today's society, where globalization is progressing, intercultural collaboration is being carried out using machine translation. Machine accuracy has improved dramatically in recent years, facilitating multilingual communication. However, the translation accuracy of low-resource languages, which have few linguistic resources, is significantly lower than that of other languages. As a result, speakers of these languages ​​have difficulty understanding dialogue. In this study, we focused on dialogue summarization and constructed two types of facilitator agents to promote dialogue understanding for speakers of low-resource languages. One agent requests summaries from speakers of high-resource languages, and the other provides summaries. We also verified the effectiveness of these agents through communication experiments.",
+      "pdfId": "pdf-container2",
+      "path": "presentation_slide/HCS2025_Motozawa.pdf"
+    },
+    {
+      "speaker": "Kanaha Mori",
+      "title": "Detecting cultural differences in emoji usage between Japan and the UK",
+      "link": "https://ken.ieice.org/ken/paper/20250124kcHL/",
+      "abstract": "Emojis play an important role in chat-based multilingual communication, conveying the writer's emotions and intentions. However, because some emojis are interpreted differently depending on the culture, current machine translation, in which emojis are inserted as is, can lead to miscommunication. In this study, we focus on the emotions conveyed in emojis and propose a method to extract cultural differences between Japanese and English emojis by embedding emoji emotions.",
+      "pdfId": "pdf-container2",
+      "path": "presentation_slide/HCS2025_mori.pdf"
+    }
+  ],
+  "voyage": "",
+  "voyageDiary": ""
+}
