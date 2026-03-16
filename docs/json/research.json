@@ -751,6 +751,19 @@
             },
             "image":"/HCS/HCS2026_1.png",
             "note":""
+        },
+        {
+            "year":"2026", "month":"3", "date":"10",
+            "text":{
+                "ja":"中川さん，森由璃亜さん，加奥さん，飛澤さん，本多さん，増尾さん，山内さんの計7名が，電子情報通信学会 総合大会で研究発表を行いました！",
+                "en":"Mr.Nakagawa, Ms.Mori Yuria, Ms.Kaoku, Mr.Tobisawa, Mr.Honda, Mr.Masuo, and Mr.Yamauchi gave a research presentation at the IEICE General Conference 2026."
+                },
+            "link_file":{
+                "ja":"ieice_GC2026-ja.html",
+                "en":"ieice_GC2026.html"
+            },
+            "image":"/IEICE/IMG_1048.jpg",
+            "note":""
         }
     ]
 }
