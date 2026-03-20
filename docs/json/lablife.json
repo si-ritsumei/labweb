@@ -689,6 +689,21 @@
             },
             "image": "inada2025/DSC02186.JPG",
             "note": ""
+        },
+        {
+            "year": "2026",
+            "month": "3",
+            "date": "20",
+            "title": {
+                "ja": "2025年度の学部4回生と修士2回生が卒業しました!",
+                "en": "Congratuations to our graduates! Fourth year students, class of 2025."
+            },
+            "link_file": {
+                "ja": "graduation2026spring-ja.html",
+                "en": "graduation2026spring.html"
+            },
+            "image": "graduation2026/DSC02477.JPG",
+            "note": ""
         }
     ]
 }
