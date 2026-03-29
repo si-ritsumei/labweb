@@ -740,6 +740,19 @@
             "note":""
         },
         {
+            "year":"2025", "month":"12", "date":"11",
+            "text":{
+                "ja":"西村さんが電子情報通信学会において2025年度ヒューマンコミュニケーション賞を受賞しました！",
+                "en":"Mr.Nishimura was awarded the 2025 Human Communication Award by the Institute of Electronics, Information and Communication Engineers (IEICE)!"
+                },
+            "link_file":{
+                "ja":"https://www.hcg-ieice.org/2026/02/16/2025年度-令和7年度-ヒューマンコミュニケーション賞/",
+                "en":"https://www.hcg-ieice.org/2026/02/16/2025年度-令和7年度-ヒューマンコミュニケーション賞/"
+            },
+            "image":"/Award/Human_Communication.jpg",
+            "note":"book"
+        },
+        {
             "year":"2026", "month":"1", "date":"23",
             "text":{
                 "ja":"岩野さんと森さんが、ヒューマンコミュニケーション基礎研究会（HCS）で研究発表を行いました!",
