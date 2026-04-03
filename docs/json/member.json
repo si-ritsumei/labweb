@@ -32,42 +32,6 @@
     ],
     "M2":[
         {
-            "name":{"ja":"北川 勘太朗","en":"Kantaro KITAGAWA"},
-            "image":"2022/22kitagawa_s.jpg",
-            "main_link":"https://kantaro1026.github.io/webpage/",
-            "links":[
-                {"class":"fa-solid fa-circle-user","link":"https://kantaro1026.github.io/webpage/"}
-            ],
-            "note":""
-        },
-        {
-            "name":{"ja":"松本 賢司","en":"Kenji MATSUMOTO"},
-            "image":"2022/22matsumoto.jpg",
-            "main_link":"https://kenjimatsumoto2001.github.io/kenjihp/",
-            "links":[
-                {"class":"fa-solid fa-circle-user","link":"https://kenjimatsumoto2001.github.io/kenjihp/"}
-            ],
-            "note":""
-        },
-        {
-            "name":{"ja":"森 叶葉","en":"Kanaha MORI"},
-            "image":"2022/22kanaha_s2.jpg",
-            "main_link":"https://ka78m.github.io/mypage/",
-            "links":[
-                {"class":"fa-solid fa-circle-user","link":"https://ka78m.github.io/mypage/"}
-            ],
-            "note":""
-        },
-        {
-            "name":{"ja":"山本 涼太郎","en":"Ryotaro YAMAMOTO"},
-            "image":"2022/22ryotaro_s.jpg",
-            "main_link":"",
-            "links":[],
-            "note":""
-        }
-    ],
-    "M1":[
-        {
             "name":{"ja":"岩野 智総","en":"Tomoaki IWANO"},
             "image":"2023/23iwano.jpg",
             "main_link":"",
@@ -101,7 +65,9 @@
             "main_link":"",
             "links":[],
             "note":""
-        },
+        }
+    ],
+    "M1":[
         {
             "name":{"ja":"BAHOO Muhammad Ehtesham","en":"BAHOO Muhammad Ehtesham"},
             "image":"2025/25Ehtesham.png",
@@ -115,40 +81,10 @@
             "main_link":"",
             "links":[],
             "note":""
-        }
-    ],
-    "B4":[
-        {
-            "name":{"ja":"JIANG Huixu","en":"JIANG Huixu"},
-            "image":"avatar/avatar1.png",
-            "main_link":"",
-            "links":[],
-            "note":""
         },
         {
-            "name":{"ja":"瀬田 明日將","en":"Asuma SETA"},
-            "image":"2023/23seta.jpg",
-            "main_link":"",
-            "links":[],
-            "note":""
-        },
-        {
-            "name":{"ja":"山本 孝晴","en":"Takaharu YAMAMOTO"},
-            "image":"2022/22takaharu_s.jpg",
-            "main_link":"",
-            "links":[],
-            "note":""
-        },
-        {
-            "name":{"ja":"崎谷 瑠愛","en":"Runa SAKIYA"},
-            "image":"2024/24sakiya.jpg",
-            "main_link":"",
-            "links":[],
-            "note":""
-        },
-        {
-            "name":{"ja":"谷川 舞桜","en":"Mao TANIGAWA"},
-            "image":"2024/24tanigawa.jpg",
+            "name":{"ja":"WU Wenbo","en":"WU Wenbo"},
+            "image":"2023/23wu.jpg",
             "main_link":"",
             "links":[],
             "note":""
@@ -160,27 +96,6 @@
             "links":[
                 {"class":"fa-solid fa-circle-user","link":"https://yukitobiswa.github.io/portfolio/"}
             ],
-            "note":""
-        },
-        {
-            "name":{"ja":"西森 将太","en":"Syota NISHIMORI"},
-            "image":"avatar/avatar1.png",
-            "main_link":"",
-            "links":[],
-            "note":""
-        },
-        {
-            "name":{"ja":"橋村 陸矢","en":"Rikuya HASHIMURA"},
-            "image":"2024/24hashimura.jpg",
-            "main_link":"",
-            "links":[],
-            "note":""
-        },
-        {
-            "name":{"ja":"細見 涼乃","en":"Suzuno HOSOMI"},
-            "image":"2024/24hosomi.jpg",
-            "main_link":"",
-            "links":[],
             "note":""
         },
         {
@@ -207,17 +122,33 @@
                 {"class":"fa-solid fa-circle-user","link":"https://yamauchiryo.github.io/portfolio/"}
             ],
             "note":""
-        },
+        }
+    ],
+    "B4":[
         {
-            "name":{"ja":"葭田 桃花","en":"Momoka YOSHIDA"},
-            "image":"2024/24yoshida.jpg",
+            "name":{"ja":"山本 孝晴","en":"Takaharu YAMAMOTO"},
+            "image":"2022/22takaharu_s.jpg",
             "main_link":"",
             "links":[],
             "note":""
         },
         {
-            "name":{"ja":"渡邉 怜","en":"Rei WATANABE"},
-            "image":"2024/24watanabe.jpg",
+            "name":{"ja":"JIANG Huixu","en":"JIANG Huixu"},
+            "image":"avatar/avatar1.png",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"瀬田 明日將","en":"Asuma SETA"},
+            "image":"2023/23seta.jpg",
+            "main_link":"",
+            "links":[],
+            "note":""
+        },
+        {
+            "name":{"ja":"西森 将太","en":"Syota NISHIMORI"},
+            "image":"avatar/avatar1.png",
             "main_link":"",
             "links":[],
             "note":""
@@ -228,10 +159,7 @@
             "main_link":"",
             "links":[],
             "note":""
-        }
-
-    ],
-    "B3":[
+        },
         {
             "name":{"ja":"蘆田 文香","en":"Fumika ASHIDA"},
             "image":"2024/24ashida.jpg",
@@ -315,7 +243,9 @@
             "main_link": "",
             "links": [],
             "note": ""
-        },
+        }
+    ],
+    "B3":[
         {
             "name":{"ja":"TIAN Jianian","en":"TIAN Jianian"},
             "image":"avatar/avatar1.png",

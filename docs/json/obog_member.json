@@ -84,6 +84,20 @@
         "9":[
             {"name":{"ja":"WU Wenbo","en":"WU Wenbo"},"image":"2023/23wu.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}}
         ]
+    },
+    "2026":{
+        "3":[
+            {"name":{"ja":"北川 勘太朗","en":"Kantaro KITAGAWA"},"image":"2022/22kitagawa_s.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"松本 賢司","en":"Kenji MATSUMOTO"},"image":"2022/22matsumoto.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"森 叶葉","en":"Kanaha MORI"},"image":"2022/22kanaha_s2.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"山本 涼太郎","en":"Ryotaro YAMAMOTO"},"image":"2022/22ryotaro_s.jpg","grade":{"ja":"修士修了","en":"Master"}},
+            {"name":{"ja":"崎谷 瑠愛","en":"Runa SAKIYA"},"image":"2024/24sakiya.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"谷川 舞桜","en":"Mao TANIGAWA"},"image":"2024/24tanigawa.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"細見 涼乃","en":"Suzuno HOSOMI"},"image":"2024/24hosomi.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"葭田 桃花","en":"Momoka YOSHIDA"},"image":"2024/24yoshida.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"渡邉 怜","en":"Rei WATANABE"},"image":"2024/24watanabe.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+            {"name":{"ja":"橋村 陸矢","en":"Rikuya HASHIMURA"},"image":"2024/24hashimura.jpg","grade":{"ja":"学部卒業","en":"Bachelor"}},
+        ]
     }
     
 }
