@@ -133,13 +133,6 @@
             "note":""
         },
         {
-            "name":{"ja":"JIANG Huixu","en":"JIANG Huixu"},
-            "image":"avatar/avatar1.png",
-            "main_link":"",
-            "links":[],
-            "note":""
-        },
-        {
             "name":{"ja":"瀬田 明日將","en":"Asuma SETA"},
             "image":"2023/23seta.jpg",
             "main_link":"",
@@ -217,13 +210,6 @@
             "note": ""
         },
         {
-            "name": {"ja": "福永 凌馬", "en": "Ryoma FUKUNAGA"},
-            "image": "2025/25fukunaga.png",
-            "main_link": "",
-            "links": [],
-            "note": ""
-        },
-        {
             "name": {"ja": "藤原 琉星", "en": "Ryuusei FUJIWARA"},
             "image": "2025/25fujiwara.png",
             "main_link": "",
@@ -246,6 +232,13 @@
         }
     ],
     "B3":[
+        {
+            "name": {"ja": "福永 凌馬", "en": "Ryoma FUKUNAGA"},
+            "image": "2025/25fukunaga.png",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
         {
             "name":{"ja":"TIAN Jianian","en":"TIAN Jianian"},
             "image":"avatar/avatar1.png",
