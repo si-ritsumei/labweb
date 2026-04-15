@@ -704,6 +704,21 @@
             },
             "image": "graduation2026/DSC02477.JPG",
             "note": ""
+        },
+        {
+            "year": "2026",
+            "month": "4",
+            "date": "8",
+            "title": {
+                "ja": "万博記念公園でお花見を行いました",
+                "en": "We enjoyed cherry blossom viewing at Expo'70 Commemoration Park."
+            },
+            "link_file": {
+                "ja": "ohanami2026-ja.html",
+                "en": "ohanami2026.html"
+            },
+            "image": "ohanami2026/IMG_8864.jpg",
+            "note": ""
         }
     ]
 }
