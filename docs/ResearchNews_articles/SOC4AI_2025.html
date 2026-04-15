@@ -40,7 +40,7 @@
 
     <script>
         // ファイルパスを変数に格納
-        const filePath = "../img/research_news/presentation/2025/ICSOC/";
+        const filePath = "../img/research_news/presentation/2025/SOC4AI/";
     </script>
 </head>
 
@@ -89,7 +89,7 @@
                 </div>
                 <div class="column rightc">
                     <p class="smallheader">Overview</p>
-                    > Mr. Matsumoto gave a research presentation at the 3rd International Conference on Service-Oriented Computing 2025 (ICSOC 2025).
+                    > Mr. Matsumoto gave a research presentation at the 2nd International Workshop on Service Oriented Computing for AI Applications (SOC4AI 2025).
                 </div>
             </div>
             
@@ -99,7 +99,7 @@
                         <br><br>
                         <b><Presentation Details></b><br>
                         <b>Presenter:</b> Mr. Matsumoto<br>
-                        <b>Title:</b> <a href="https://icsoc2025.hit.edu.cn/" target="_blank">Guided Reasoning Chains for API Recommendation</a><br>
+                        <b>Title:</b> <a href="https://soc4ai.onrender.com/" target="_blank">Guided Reasoning Chains for API Recommendation</a><br>
                         <b>Abstract:</b>The rapid growth in the number of available APIs has made it increasingly challenging for users to discover and compose APIs that fulfill their requirements. Recent studies have applied large language models (LLMs) with multi-step reasoning prompts, such as Chain-of-Thought (CoT) prompting, to API recommendation. However, existing prompt techniques often emphasize generality and domain independence, which can result in incorrect reasoning steps and inappropriate API selection. Therefore, we propose Guided Reasoning Chains (GRC), a novel method that explicitly incorporates hierarchical decomposition based on top-down design principles into the reasoning process. Specifically, our approach uses a top-down decomposition to guide reasoning. It divides the process into four steps: core function extraction, API category selection, candidate listing, and final recommendation. We evaluate our method on real mashup data from ProgrammableWeb using three LLMs: GPT-4.1-mini, LLaMA3:70B, and DeepSeek-R1:70B. Experimental results show that the proposed method consistently outperforms existing baselines on all models, achieving up to 5.3% improvement in F1 score for category reasoning and up to 18.3% improvement in API recommendation.<br>
 
                     </p>
@@ -138,10 +138,10 @@
 
         //　スライドショー
         const pdfContainer1 = document.getElementById("pdf-container1"); // 要素を取得
-        pdfContainer1.setAttribute("data-pdf-url", filePath+"presentation_slide/ICSOC_2025_matsumoto.pdf"); // data-pdf-url属性に変数の値を設定
+        pdfContainer1.setAttribute("data-pdf-url", filePath+"presentation_slide/SOC4AI_2025_matsumoto.pdf"); // data-pdf-url属性に変数の値を設定
 
         //画像
-        const fileNames = ["ICSOC_matsumoto1.png", "ICSOC_matsumoto2.png"];
+        const fileNames = ["SOC4AI_matsumoto1.png", "SOC4AI_matsumoto2.png"];
         const ids = ["img1", "img2", "img3", "img4"];// 画像のIDを配列に格納
 
         // for文を使用して画像のsrcを設定
