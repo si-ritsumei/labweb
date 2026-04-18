@@ -110,7 +110,8 @@
             "image":"2024/24masuo.jpg",
             "main_link":"https://yuuzuukii.github.io/Yuzuki-s-Portfolio/",
             "links":[
-                {"class":"fa-solid fa-circle-user","link":"https://yuuzuukii.github.io/Yuzuki-s-Portfolio/"}
+                {"class":"fa-solid fa-circle-user","link":"https://yuuzuukii.github.io/Yuzuki-s-Portfolio/"},
+                {"class":"fab fa-linkedin","link":"https://www.linkedin.com/in/yuzuki/"}
             ],
             "note":""
         },
