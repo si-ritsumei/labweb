@@ -719,6 +719,21 @@
             },
             "image": "ohanami2026/IMG_8864.jpg",
             "note": ""
+        },
+        {
+            "year": "2026",
+            "month": "5",
+            "date": "27",
+            "title": {
+                "ja": "2026年度研究室公開の日程が決定しました！",
+                "en": "The schedule for Open Lab 2026 has been decided!"
+            },
+            "link_file": {
+                "ja": "openlab2026-ja.html",
+                "en": "openlab2026.html"
+            },
+            "image": "",
+            "note": ""
         }
     ]
 }
