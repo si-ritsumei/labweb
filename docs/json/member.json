@@ -253,6 +253,58 @@
             "main_link":"",
             "links":[],
             "note":""
-        }
+        },
+        {
+            "name": {"ja": "畝原 司", "en": "Tsukasa UNEHARA"},
+            "image": "",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "片桐 謙信", "en": "Kenshin KATAGIRI"},
+            "image": "",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "加藤 亜由夢", "en": "Ayumu KATO"},
+            "image": "",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "島本 優衣", "en": "Yui SHIMAMOTO"},
+            "image": "",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "高畠 佐英", "en": "Sae TAKABATAKE"},
+            "image": "",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "永本 彰", "en": "Sho NAGAMOTO"},
+            "image": "",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        {
+            "name": {"ja": "藤尾 梨乃", "en": "Rino FUJIO"},
+            "image": "",
+            "main_link": "",
+            "links": [],
+            "note": ""
+        },
+        
+
+
     ]
 }
