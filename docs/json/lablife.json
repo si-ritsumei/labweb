@@ -719,6 +719,21 @@
             },
             "image": "ohanami2026/IMG_8864.jpg",
             "note": ""
+        },
+        {
+            "year": "2026",
+            "month": "7",
+            "date": "8",
+            "title": {
+                "ja": "3回生と顔合わせを行いました！",
+                "en": "We had a face-to-face meeting with our 3rd year students!"
+            },
+            "link_file": {
+                "ja": "3kaisei_2026-ja.html",
+                "en": "3kaisei_2026.html"
+            },
+            "image": "3kaisei2026/3kaisei_1.jpg",
+            "note": ""
         }
     ]
 }
