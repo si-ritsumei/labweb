@@ -734,6 +734,21 @@
             },
             "image": "3kaisei2026/3kaisei_1.jpg",
             "note": ""
+        },
+        {
+            "year": "2026",
+            "month": "7",
+            "date": "22",
+            "title": {
+                "ja": "育英西プログラミング講座資料はこちら！",
+                "en": "Ikueinishi Programming Course Materials."
+            },
+            "link_file": {
+                "ja": "ikueinishiProgramming-ja.html",
+                "en": "ikueinishiProgramming.html"
+            },
+            "image": "IKNS/forActivity.png",
+            "note": ""
         }
     ]
 }
