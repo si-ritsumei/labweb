@@ -1,0 +1,96 @@
+社会知能研究室　ホームページ　
+https://www.si-lab.org/index-ja.html
+
+VS code
+https://vscode.dev/
+
+
+
+↓各スライドのコードがコピーできなかった場合にここからコピーしてね↓
+--------------------------------------------------------------------------------------------
+・スライド16枚目:index.html
+
+/追加/
+
+<section>
+		<img id="header" src="header.png"/><br>
+		<div class="images">
+			<img id="img0" src="start.png"/>
+			<img id="img1" src="start.png"/>
+			<img id="img2" src="start.png"/>
+		</div>
+		<button id="start_button" onclick="startSlot();">スロットを回す</button><br>
+	</section>
+
+--------------------------------------------------------------------------------------------
+・スライド19枚目:slot.js
+
+/追加/
+
+var timer;
+var img;
+
+function showSlot() {
+	img = document.getElementById("img0");
+	img.src = "animals/animal0.png";
+}
+
+function startSlot() {
+	timer = setInterval(showSlot,500);
+}
+
+-------------------------------------------------------------------------------------
+・スライド27枚目：slot.js
+
+/追加１/
+
+var count = 0;
+
+
+/追加2/
+
+img.src = "animals/animal" + (count % 5) + ".png"; 
+	count = count + 1; 
+
+-------------------------------------------------------------------------------------
+・スライド29枚目：slot.js
+
+/追加１/
+
+var i = 0;
+var number;
+
+
+/変更/
+
+(count+number)
+
+/追加2/
+
+number = Math.floor(Math.random()*5);
+
+-------------------------------------------------------------------------------------
+・スライド33枚目：slot.js
+
+/追加/
+
+if(count == 5) {
+		clearInterval(timer);
+	}
+
+-------------------------------------------------------------------------------------
+・スライド36枚目：slot.js
+
+/変更1/
+
+"img"+String(i)
+
+/追加/
+
+if (i<2){
+            i= i+1;
+            count = 0;
+	        startSlot();
+        }
+
+-------------------------------------------------------------------------------------
