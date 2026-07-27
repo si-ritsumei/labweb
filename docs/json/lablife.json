@@ -738,6 +738,21 @@
         {
             "year": "2026",
             "month": "7",
+            "date": "15",
+            "title": {
+                "ja": "研究室メンバーの親睦を深めるため、ビアガーデンを行いました！",
+                "en": "We held a beer garden gathering to strengthen the relationships among the members of our laboratory!"
+            },
+            "link_file": {
+                "ja": "beergarden_2026-ja.html",
+                "en": "beergarden_2026.html"
+            },
+            "image": "beergarden2026/IMG_6180.jpg",
+            "note": ""
+        },
+        {
+            "year": "2026",
+            "month": "7",
             "date": "22",
             "title": {
                 "ja": "育英西中学生へプログラミング講座を行いました。",
