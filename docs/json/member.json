@@ -123,6 +123,15 @@
                 {"class":"fa-solid fa-circle-user","link":"https://yamauchiryo.github.io/portfolio/"}
             ],
             "note":""
+        },
+        {
+            "name":{"ja":"橋村 陸矢","en":"Rikuya HASHIMURA"},
+            "image":"2024/24hashimura.jpg",
+            "main_link":"",
+            "links":[
+                {"class":"fa-solid fa-circle-user","link":""}
+            ],
+            "note":""
         }
     ],
     "B4":[
