@@ -764,6 +764,21 @@
             },
             "image": "IKNS_20267/IKNS20267-1.JPG",
             "note": ""
+        },
+        {
+            "year": "2026",
+            "month": "9",
+            "date": "3",
+            "title": {
+                "ja": "コラボレーションデザイン研究室と合同BBQパーティーを行いました。",
+                "en": "We held a joint BBQ party with collaboration design lab!"
+            },
+            "link_file": {
+                "ja": "jointbbq2026-ja.html",
+                "en": "jointbbq2026.html"
+            },
+            "image": "jointbbq2026/pict1.jpg",
+            "note": ""
         }
     ]
 }
