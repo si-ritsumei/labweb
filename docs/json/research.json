@@ -777,6 +777,32 @@
             },
             "image":"/IEICE/photo/IMG_1148.jpg",
             "note":""
+        },
+        {
+            "year":"2026", "month":"10", "date":"1",
+            "text":{
+                "ja":"The 25th IEEE/WIC WI-IATに中川さんと飛澤さんの論文が採択されました。",
+                "en":"Mr. Nakagawa’s and Mr. Tobisawa’s papers have been accepted for the 25th IEEE/WIC WI-IAT"
+                },
+            "link_file":{
+                "ja":"wiiat2026-ja.html",
+                "en":"wiiat2026.html"
+            },
+            "image":"WIIAT/ieee.png",
+            "note":""
+        },
+        {
+            "year":"2026", "month":"10", "date":"1",
+            "text":{
+                "ja":"PRIMA 2026に山内さんの論文が採択されました。",
+                "en":"Mr. Yamauchi’s papers have been accepted for PRIMA 2026"
+                },
+            "link_file":{
+                "ja":"prima2026-ja.html",
+                "en":"prima2026.html"
+            },
+            "image":"PRIMA/prima2026.png",
+            "note":""
         }
     ]
 }

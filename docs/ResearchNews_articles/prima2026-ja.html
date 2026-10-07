@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HMY8NC79JD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HMY8NC79JD');
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#2196F3">
+    <title>PRIMA 2026に山内さんの論文が採択されました｜立命館大学 社会知能研究室</title>
+    <script src="https://kit.fontawesome.com/67160f99e5.js" crossorigin="anonymous"></script>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import Noto Sans JP Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <!--Import Academicons Font-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+
+    <!--Import customized css-->
+    <link href="../css/pdf.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+
+</head>
+
+<body id="top" class="scrollspy">
+
+    <!--Navigation-->
+    <div id="myNavbar" data-active="2" data-language="ja"></div>
+
+    <div class="container">
+        <h4 class="header text_b">Laboratory Life</h4>
+        <div class="section scrollspy">
+            <p class="normal"></br>
+                日時: 2026年10月1日(木)</br>
+                場所: 立命館大学大阪いばらきキャンパス</br></p>
+
+                <div class="column">
+                    <p class="smallheader">概要</p>
+                    山内さんの論文が、「The 27th International Conference on Principles and Practice of Multi-Agent Systems」に採択されました。
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <p class="normal">
+                        <b>著者:</b>Ryo Yamauchi, Yohei Murakami<br>
+                        <b>タイトル:</b> A SharedPlans-Based Open Collaboration Protocol for LLM Multi-Agent Systems<br>
+                        <b>概要:</b>LLM multi-agent systems, in which multiple agents are assigned roles and solve problems by dividing the work, have attracted growing attention. However, most existing studies have not made explicit to what degree agents must share and align their goals, subtasks, responsibilities, capabilities, and expectations of one another before collaborative action can begin. We therefore focus on SharedPlans, a formal theory of collaborative action, and externalize the shared plan state it defines, namely the SP state, as a PlanDoc schema that LLM agents can reference and update. We further propose SharedPlans-Based Open Collaboration Protocol, in which specialist agents collaboratively construct a plan through consensus formation based on their statements of acceptance, expectations, and feasibility on the PlanDoc, and then execute their assigned actions while maintaining the established PlanDoc. To evaluate the proposed method, we use cross-domain QA from MuSiQue as a collaborative task and compare four conditions along two axes: whether agents participate in plan construction and whether the plan is shared during execution. The four conditions are Centralized Planner, Manager-Router, Distributed Planner, and the proposed method. The results show that the proposed method is the only distributed condition that simultaneously establishes the SP-state components—agreement, owned responsibility, mutual belief, and ability belief—and it attains the highest sub-action relevance (alignment between subactions and execution results) and the highest accuracy among the four conditions. Its plan quality is slightly below the Centralized Planner but above the Distributed Planner, and its no-answer rate is the lowest of the four conditions. The contribution of this paper is to operationalize a theoretically defined shared plan state as a PlanDoc schema and SharedPlans-Based Open Collaboration Protocol, and to empirically demonstrate how the degree of SP-state establishment relates to the quality of collaborative behavior.</b>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div id="myFooter"></div>
+
+    <!--  Scripts-->
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../js/myjs.js"></script>
+    <script src="../js/modernizr.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="../js/powerpoint.js"></script>
+    <script src="../js/swiper.js"></script>
+    <!-- <script>
+
+        //　スライドショー
+        const pdfContainer1 = document.getElementById("pdf-container1"); // 要素を取得
+        pdfContainer1.setAttribute("data-pdf-url", filePath+"presentation_slide/HCS2026_iwano.pdf"); // data-pdf-url属性に変数の値を設定
+        const pdfContainer2 = document.getElementById("pdf-container2"); // 要素を取得
+        pdfContainer2.setAttribute("data-pdf-url", filePath+"presentation_slide/HCS2026_yuria.pdf"); // data-pdf-url属性に変数の値を設定
+
+        //画像
+        const fileNames = ["HCS2026_1.png", "HCS2026_2.png"];
+        const ids = ["img1", "img2", "img3", "img4"];// 画像のIDを配列に格納
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+    </script> -->
+
+</body>
+
+</html>

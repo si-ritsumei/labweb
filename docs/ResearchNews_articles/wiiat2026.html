@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HMY8NC79JD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HMY8NC79JD');
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#2196F3">
+    <title>Mr. Nakagawa’s and Mr. Tobisawa’s papers have been accepted for the 25th IEEE/WIC WI-IAT.｜Social Intelligence Laboratory, Ritsumeikan University</title>
+    <script src="https://kit.fontawesome.com/67160f99e5.js" crossorigin="anonymous"></script>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import Noto Sans JP Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <!--Import Academicons Font-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+
+    <!--Import customized css-->
+    <link href="../css/pdf.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+
+    
+</head>
+
+<body id="top" class="scrollspy">
+
+    <!--Navigation-->
+    <div id="myNavbar" data-active="2" data-language="ja"></div>
+
+    <div class="container">
+        <h4 class="header text_b">Laboratory Life</h4>
+        <div class="section scrollspy">
+            <p class="normal"></br>
+                Date: October 1th, 2026</br>
+                Location: Ritsumeikan University, Osaka Ibaraki Campus, H Building</br></p>
+
+            <div class="row">
+                <div class="column">
+                    <p class="smallheader">Overview</p>
+                    Mr. Nakagawa’s and Mr. Tobisawa’s papers have been accepted for "The 25th IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology".
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <p class="normal">
+                        <b>Author:</b>Shinichi Nakagawa, Yohei Murakami<br>
+                        <b>Title:</b> Hierarchical API Selection for Requirements-Driven Service Composition<br>
+                        <b>Abstract:</b> Selecting appropriate Web services (APIs) from natural-language user requirements is an important problem in automated service composition. This paper formulates this problem as a multi-label classification task and proposes an API recommendation method based on a pretrained BERT model. However, single-stage multi-label classification loses accuracy as the number of APIs increases. To address this issue, we decompose API selection into multiple layers and construct a multi-layer multi-label classification architecture that progressively refines functional requirements from natural-language descriptions to final API recommendations. We further conduct a design space analysis using the Early Commitment Score, a structural descriptor that projects the high-dimensional discrete design space of hierarchical architectures onto a common one-dimensional axis, enabling systematic comparison of hierarchical configurations and their performance. Experiments on the ProgrammableWeb dataset show that an appropriate multi-layer configuration substantially improves API recommendation performance compared with single-stage classification. The design space analysis further reveals that both excessively early and excessively late candidate-space reduction lead to degraded performance, while intermediate early commitment provides the best balance between progressive candidate reduction and reliable API selection.</b>
+                    </p>
+                <div class="row">
+                <div class="column">
+                    <p class="normal">
+                        <b>Author:</b>Yuki Tobisawa, Yohei Murakami<br>
+                        <b>Title:</b> CNP-Based LLM Multi-Agent Systems for Composite Service Recommendation<br>
+                        <b>Abstract:</b>Selecting Web APIs for a composite service from
+                            natural-language requirements is challenging when the candidate
+                            set is large. A direct single-agent design that places every API
+                            specification in one prompt incurs an increasing long-context
+                            burden. We propose a CNP-based LLM multi-agent method
+                            in which each contractor holds one API specification and bids
+                            on manager-announced tasks. We divide recommendation into
+                            core-function decomposition, category mapping, API matching,
+                            and API selection, and compare manager-led, contractor-led,
+                            and collaborative task-allocation schemes. Experiments with 909
+                            ProgrammableWeb APIs show that manager aggregation outperformed
+                            mechanical Top-K selection under the manager-led and
+                            contractor-led schemes. Contractor-led was effective for small
+                            candidate sets, whereas manager-led degraded more gradually
+                            and achieved the highest F1 at 909 APIs. Manager-led achieved
+                            F1=0.225 versus 0.130 for single-agent and accounted for 79,129
+                            versus 93,161 tokens per mashup in a post-hoc estimate, although
+                            it required at least 111.56 rather than one LLM call; the other
+                            distributed schemes accounted for substantially more tokens.
+                            Thus, distributing API specifications limits each contractor’s
+                            local context, but system-wide accuracy and efficiency depend
+                            on reasoning-task allocation and aggregation.</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div id="myFooter"></div>
+
+    <!--  Scripts-->
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../js/myjs.js"></script>
+    <script src="../js/modernizr.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="../js/powerpoint.js"></script>
+    <script src="../js/swiper.js"></script>
+    <!-- <script>
+
+        //　スライドショー
+        const pdfContainer1 = document.getElementById("pdf-container1"); // 要素を取得
+        pdfContainer1.setAttribute("data-pdf-url", filePath+"presentation_slide/HCS2026_iwano.pdf"); // data-pdf-url属性に変数の値を設定
+        const pdfContainer2 = document.getElementById("pdf-container2"); // 要素を取得
+        pdfContainer2.setAttribute("data-pdf-url", filePath+"presentation_slide/HCS2026_yuria.pdf"); // data-pdf-url属性に変数の値を設定
+
+        //画像
+        const fileNames = ["HCS2026_1.png", "HCS2026_2.png"];
+        const ids = ["img1", "img2", "img3", "img4"];// 画像のIDを配列に格納
+
+        // for文を使用して画像のsrcを設定
+        for (let i = 0; i < ids.length; i++) {
+            const imgIndex = i % fileNames.length; // ファイル名のインデックスを計算
+            document.getElementById(ids[i]).src = filePath + fileNames[imgIndex];
+        }
+    </script> -->
+
+</body>
+
+</html>
