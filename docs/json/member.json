@@ -65,11 +65,9 @@
             "main_link":"",
             "links":[],
             "note":""
-        }
-    ],
-    "M1":[
-        {
-            "name":{"ja":"BAHOO Muhammad Ehtesham","en":"BAHOO Muhammad Ehtesham"},
+        },
+                {
+            "name":{"ja":"BAHOO Ehtesham","en":"BAHOO Ehtesham"},
             "image":"2025/25Ehtesham.png",
             "main_link":"https://ehteshambahoo.github.io/Portfolio-Sham/",
             "links":[{"class":"fa-solid fa-circle-user","link":"https://ehteshambahoo.github.io/Portfolio-Sham/"}],
@@ -81,7 +79,9 @@
             "main_link":"",
             "links":[],
             "note":""
-        },
+        }
+    ],
+    "M1":[
         {
             "name":{"ja":"WU Wenbo","en":"WU Wenbo"},
             "image":"2023/23wu.jpg",
