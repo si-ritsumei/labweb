@@ -779,6 +779,21 @@
             },
             "image": "jointbbq2026/pict1.jpg",
             "note": ""
+        },
+        {
+            "year": "2026",
+            "month": "10",
+            "date": "14",
+            "title": {
+                "ja": "3回生の新歓を行いました！",
+                "en": "We held a welcome party for the 3rd year students!"
+            },
+            "link_file": {
+                "ja": "welcome_2026-ja.html",
+                "en": "welcome_2026.html"
+            },
+            "image": "welcome2026/welcome_2026-1.jpg",
+            "note": ""
         }
     ]
 }

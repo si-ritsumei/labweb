@@ -318,8 +318,13 @@
             "main_link": "",
             "links": [],
             "note": ""
+        },
+        {
+            "name": {"ja": "SUI Dongyang", "en": "SUI Dongyang"},
+            "image": "avatar/avatar1.png",
+            "main_link": "",
+            "links": [],
+            "note": ""
         }
-
-
     ]
 }
