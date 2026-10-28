@@ -62,8 +62,8 @@
         {
             "name":{"ja":"森 由璃亜","en":"Yuria MORI"},
             "image":"2023/23Mori_yuria.JPG",
-            "main_link":"",
-            "links":[],
+            "main_link":"https://yuri-fsd.github.io/portfolio/",
+            "links":[{"class":"fa-solid fa-circle-user","link":"https://yuri-fsd.github.io/portfolio/"}],
             "note":""
         },
                 {
